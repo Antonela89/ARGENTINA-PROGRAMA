@@ -1,0 +1,3521 @@
+From: <Saved by Blink>
+Snapshot-Content-Location: https://www.w3.org/wiki/CSS_/_Selectores_CSS#Lista_de_selectores_css
+Subject: CSS / Selectores CSS - W3C Wiki
+Date: Wed, 23 Mar 2022 23:17:28 -0000
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----MultipartBoundary--ipjOoWcWZYvoG1NpqYozbHS6loTPlqt7nDDRoSbxJh----"
+
+
+------MultipartBoundary--ipjOoWcWZYvoG1NpqYozbHS6loTPlqt7nDDRoSbxJh----
+Content-Type: text/html
+Content-ID: <frame-22CD3D246A683F58F2129E3D095C2521@mhtml.blink>
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.w3.org/wiki/CSS_/_Selectores_CSS#Lista_de_selectores_css
+
+<!DOCTYPE html><html lang=3D"en" dir=3D"ltr" class=3D"client-js"><head><met=
+a http-equiv=3D"Content-Type" content=3D"text/html; charset=3DUTF-8"><link =
+rel=3D"stylesheet" type=3D"text/css" href=3D"cid:css-3f94b2d8-3481-4263-9fe=
+1-6bdb6650f2d5@mhtml.blink" /><link rel=3D"stylesheet" type=3D"text/css" hr=
+ef=3D"cid:css-bcc5d149-06bf-421b-af9c-ca1992c88713@mhtml.blink" /><link rel=
+=3D"stylesheet" type=3D"text/css" href=3D"cid:css-6560f945-650e-4986-aa40-f=
+d8b3ba238cc@mhtml.blink" />
+
+<title>CSS / Selectores CSS - W3C Wiki</title>
+
+
+<link rel=3D"stylesheet" href=3D"https://www.w3.org/wiki/load.php?debug=3Df=
+alse&amp;lang=3Den&amp;modules=3Dext.smw.style%7Cext.smw.tooltip.styles&amp=
+;only=3Dstyles&amp;skin=3Dvector">
+<link rel=3D"stylesheet" href=3D"https://www.w3.org/wiki/load.php?debug=3Df=
+alse&amp;lang=3Den&amp;modules=3Dmediawiki.legacy.commonPrint%2Cshared%7Cme=
+diawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles&=
+amp;only=3Dstyles&amp;skin=3Dvector">
+<meta name=3D"ResourceLoaderDynamicStyles" content=3D"">
+<link rel=3D"stylesheet" href=3D"https://www.w3.org/wiki/load.php?debug=3Df=
+alse&amp;lang=3Den&amp;modules=3Dsite&amp;only=3Dstyles&amp;skin=3Dvector">
+
+<meta name=3D"generator" content=3D"MediaWiki 1.27.4">
+<link rel=3D"ExportRDF" type=3D"application/rdf+xml" title=3D"CSS / Selecto=
+res CSS" href=3D"https://www.w3.org/wiki/index.php?title=3DSpecial:ExportRD=
+F/CSS_/_Selectores_CSS&amp;xmlmime=3Drdf">
+<link rel=3D"shortcut icon" href=3D"https://www.w3.org/favicon.ico">
+<link rel=3D"search" type=3D"application/opensearchdescription+xml" href=3D=
+"https://www.w3.org/wiki/opensearch_desc.php" title=3D"W3C Wiki (en)">
+<link rel=3D"EditURI" type=3D"application/rsd+xml" href=3D"https://www.w3.o=
+rg/wiki/api.php?action=3Drsd">
+</head>
+<body class=3D"mediawiki ltr sitedir-ltr ns-0 ns-subject page-CSS_Selectore=
+s_CSS rootpage-CSS skin-vector action-view">
+		<div id=3D"mw-page-base" class=3D"noprint"></div>
+		<div id=3D"mw-head-base" class=3D"noprint"></div>
+		<div id=3D"content" class=3D"mw-body" role=3D"main">
+			<a id=3D"top"></a>
+
+						<div class=3D"mw-indicators">
+</div>
+			<h1 id=3D"firstHeading" class=3D"firstHeading" lang=3D"en">CSS / Selecto=
+res CSS</h1>
+									<div id=3D"bodyContent" class=3D"mw-body-content">
+									<div id=3D"siteSub">From W3C Wiki</div>
+								<div id=3D"contentSub"><span class=3D"subpages">&lt; <a href=3D"htt=
+ps://www.w3.org/wiki/CSS" title=3D"CSS">CSS </a></span></div>
+												<div id=3D"jump-to-nav" class=3D"mw-jump">
+					Jump to:					<a href=3D"https://www.w3.org/wiki/CSS_/_Selectores_CSS#m=
+w-head">navigation</a>, 					<a href=3D"https://www.w3.org/wiki/CSS_/_Selec=
+tores_CSS#p-search">search</a>
+				</div>
+				<div id=3D"mw-content-text" lang=3D"en" dir=3D"ltr" class=3D"mw-content=
+-ltr"><div id=3D"toc" class=3D"toc"><div id=3D"toctitle"><h2>Contents</h2><=
+span class=3D"toctoggle">&nbsp;[<a href=3D"https://www.w3.org/wiki/CSS_/_Se=
+lectores_CSS#" id=3D"togglelink">hide</a>]&nbsp;</span></div>
+<ul>
+<li class=3D"toclevel-1 tocsection-1"><a href=3D"https://www.w3.org/wiki/CS=
+S_/_Selectores_CSS#Selectores_CSS"><span class=3D"tocnumber">1</span> <span=
+ class=3D"toctext">Selectores CSS</span></a></li>
+<li class=3D"toclevel-1 tocsection-2"><a href=3D"https://www.w3.org/wiki/CS=
+S_/_Selectores_CSS#Tipos_de_selectores_Css_por_su_composici.C3.B3n"><span c=
+lass=3D"tocnumber">2</span> <span class=3D"toctext">Tipos de selectores Css=
+ por su composici=C3=B3n</span></a>
+<ul>
+<li class=3D"toclevel-2 tocsection-3"><a href=3D"https://www.w3.org/wiki/CS=
+S_/_Selectores_CSS#Selector_css_simple"><span class=3D"tocnumber">2.1</span=
+> <span class=3D"toctext">Selector css simple</span></a></li>
+<li class=3D"toclevel-2 tocsection-4"><a href=3D"https://www.w3.org/wiki/CS=
+S_/_Selectores_CSS#Selector_css_compuesto"><span class=3D"tocnumber">2.2</s=
+pan> <span class=3D"toctext">Selector css compuesto</span></a></li>
+<li class=3D"toclevel-2 tocsection-5"><a href=3D"https://www.w3.org/wiki/CS=
+S_/_Selectores_CSS#Selector_css_complejo"><span class=3D"tocnumber">2.3</sp=
+an> <span class=3D"toctext">Selector css complejo</span></a></li>
+<li class=3D"toclevel-2 tocsection-6"><a href=3D"https://www.w3.org/wiki/CS=
+S_/_Selectores_CSS#Lista_de_selectores_css"><span class=3D"tocnumber">2.4</=
+span> <span class=3D"toctext">Lista de selectores css</span></a></li>
+</ul>
+</li>
+<li class=3D"toclevel-1 tocsection-7"><a href=3D"https://www.w3.org/wiki/CS=
+S_/_Selectores_CSS#Combinadores_de_selectores_Css"><span class=3D"tocnumber=
+">3</span> <span class=3D"toctext">Combinadores de selectores Css</span></a=
+>
+<ul>
+<li class=3D"toclevel-2 tocsection-8"><a href=3D"https://www.w3.org/wiki/CS=
+S_/_Selectores_CSS#Combinador_Css_de_descendiente:_.27_.27_.28espacio_en_bl=
+anco.29_o_.27.3E.3E.27"><span class=3D"tocnumber">3.1</span> <span class=3D=
+"toctext">Combinador Css de descendiente: ' ' (espacio en blanco) o '&gt;&g=
+t;'</span></a></li>
+<li class=3D"toclevel-2 tocsection-9"><a href=3D"https://www.w3.org/wiki/CS=
+S_/_Selectores_CSS#Combinador_css_de_hijo_directo_.27.3E.27"><span class=3D=
+"tocnumber">3.2</span> <span class=3D"toctext">Combinador css de hijo direc=
+to '&gt;'</span></a></li>
+<li class=3D"toclevel-2 tocsection-10"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#Combinador_css_de_hermano_posterior_.27.7E.27"><span cl=
+ass=3D"tocnumber">3.3</span> <span class=3D"toctext">Combinador css de herm=
+ano posterior '~'</span></a></li>
+<li class=3D"toclevel-2 tocsection-11"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#Combinador_de_hermano_posterior_adyacente_.27.2B.27"><s=
+pan class=3D"tocnumber">3.4</span> <span class=3D"toctext">Combinador de he=
+rmano posterior adyacente '+'</span></a></li>
+<li class=3D"toclevel-2 tocsection-12"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#Combinador_css_de_namespace_.27.7C.27_y_qualified_names=
+"><span class=3D"tocnumber">3.5</span> <span class=3D"toctext">Combinador c=
+ss de namespace '|' y qualified names</span></a></li>
+<li class=3D"toclevel-2 tocsection-13"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#Combinador_css_de_referencia_.27.2Fref.2F.27"><span cla=
+ss=3D"tocnumber">3.6</span> <span class=3D"toctext">Combinador css de refer=
+encia '/ref/'</span></a></li>
+<li class=3D"toclevel-2 tocsection-14"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#Combinador_css_.2Fdeep.2F_para_iluminar_las_sombras"><s=
+pan class=3D"tocnumber">3.7</span> <span class=3D"toctext">Combinador css /=
+deep/ para iluminar las sombras</span></a></li>
+<li class=3D"toclevel-2 tocsection-15"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#Combinador_de_columnna_.7C.7C"><span class=3D"tocnumber=
+">3.8</span> <span class=3D"toctext">Combinador de columnna ||</span></a></=
+li>
+</ul>
+</li>
+<li class=3D"toclevel-1 tocsection-16"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#Identificando_al_sujeto_del_selector_css"><span class=
+=3D"tocnumber">4</span> <span class=3D"toctext">Identificando al sujeto del=
+ selector css</span></a></li>
+<li class=3D"toclevel-1 tocsection-17"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#Conformando_el_nombre_del_selector_Css"><span class=3D"=
+tocnumber">5</span> <span class=3D"toctext">Conformando el nombre del selec=
+tor Css</span></a></li>
+<li class=3D"toclevel-1 tocsection-18"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#Alcance_del_selector_css._La_pseudoclase_.27:scoped.27"=
+><span class=3D"tocnumber">6</span> <span class=3D"toctext">Alcance del sel=
+ector css. La pseudoclase ':scoped'</span></a></li>
+<li class=3D"toclevel-1 tocsection-19"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#Combinaciones_l.C3.B3gicas_y_agrupaci.C3.B3n_de_selecto=
+res_css"><span class=3D"tocnumber">7</span> <span class=3D"toctext">Combina=
+ciones l=C3=B3gicas y agrupaci=C3=B3n de selectores css</span></a>
+<ul>
+<li class=3D"toclevel-2 tocsection-20"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#Listas_de_selectores_Css"><span class=3D"tocnumber">7.1=
+</span> <span class=3D"toctext">Listas de selectores Css</span></a></li>
+<li class=3D"toclevel-2 tocsection-21"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#El_selector_css_por_pseudoclase_:matches.28.29"><span c=
+lass=3D"tocnumber">7.2</span> <span class=3D"toctext">El selector css por p=
+seudoclase&nbsp;:matches()</span></a></li>
+<li class=3D"toclevel-2 tocsection-22"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#El_selector_css_por_pseudoclase_:not.28.29"><span class=
+=3D"tocnumber">7.3</span> <span class=3D"toctext">El selector css por pseud=
+oclase&nbsp;:not()</span></a></li>
+<li class=3D"toclevel-2 tocsection-23"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#El_selector_css_por_pseudoclase_:has.28.29"><span class=
+=3D"tocnumber">7.4</span> <span class=3D"toctext">El selector css por pseud=
+oclase&nbsp;:has()</span></a></li>
+</ul>
+</li>
+<li class=3D"toclevel-1 tocsection-24"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#Selectores_Css_elementales"><span class=3D"tocnumber">8=
+</span> <span class=3D"toctext">Selectores Css elementales</span></a>
+<ul>
+<li class=3D"toclevel-2 tocsection-25"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#Selector_universal_.27.2A.27"><span class=3D"tocnumber"=
+>8.1</span> <span class=3D"toctext">Selector universal '*'</span></a></li>
+<li class=3D"toclevel-2 tocsection-26"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#Selector_Css_por_tipo_de_elemento_.28nombre_de_etiqueta=
+_o_tag.29"><span class=3D"tocnumber">8.2</span> <span class=3D"toctext">Sel=
+ector Css por tipo de elemento (nombre de etiqueta o tag)</span></a></li>
+</ul>
+</li>
+<li class=3D"toclevel-1 tocsection-27"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#Selector_css_por_valor_de_atributo"><span class=3D"tocn=
+umber">9</span> <span class=3D"toctext">Selector css por valor de atributo<=
+/span></a>
+<ul>
+<li class=3D"toclevel-2 tocsection-28"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#Selector_css_de_Identificador_.C3.BAnico_o_id_.27.23.27=
+"><span class=3D"tocnumber">9.1</span> <span class=3D"toctext">Selector css=
+ de Identificador =C3=BAnico o id '#'</span></a></li>
+<li class=3D"toclevel-2 tocsection-29"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#Selector_css_de_clase_.27..27"><span class=3D"tocnumber=
+">9.2</span> <span class=3D"toctext">Selector css de clase '.'</span></a></=
+li>
+<li class=3D"toclevel-2 tocsection-30"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#Selector_css_por_nombre_y_valor_de_atributo"><span clas=
+s=3D"tocnumber">9.3</span> <span class=3D"toctext">Selector css por nombre =
+y valor de atributo</span></a>
+<ul>
+<li class=3D"toclevel-3 tocsection-31"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#.5Batt.5D"><span class=3D"tocnumber">9.3.1</span> <span=
+ class=3D"toctext">[att]</span></a></li>
+<li class=3D"toclevel-3 tocsection-32"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#.5Batt.3Dalgo.5D"><span class=3D"tocnumber">9.3.2</span=
+> <span class=3D"toctext">[att=3Dalgo]</span></a></li>
+<li class=3D"toclevel-3 tocsection-33"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#.5Batt.7E.3Dalgo.5D"><span class=3D"tocnumber">9.3.3</s=
+pan> <span class=3D"toctext">[att~=3Dalgo]</span></a></li>
+<li class=3D"toclevel-3 tocsection-34"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#.5Batt.7C.3Dalgo.5D"><span class=3D"tocnumber">9.3.4</s=
+pan> <span class=3D"toctext">[att|=3Dalgo]</span></a></li>
+</ul>
+</li>
+<li class=3D"toclevel-2 tocsection-35"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#Selector_Css_por_subcadena_coincidente_en_el_valor_del_=
+atributo"><span class=3D"tocnumber">9.4</span> <span class=3D"toctext">Sele=
+ctor Css por subcadena coincidente en el valor del atributo</span></a>
+<ul>
+<li class=3D"toclevel-3 tocsection-36"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#.5Batt.5E.3Dalgo.5D"><span class=3D"tocnumber">9.4.1</s=
+pan> <span class=3D"toctext">[att^=3Dalgo]</span></a></li>
+<li class=3D"toclevel-3 tocsection-37"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#.5Batt.24.3Dalgo.5D"><span class=3D"tocnumber">9.4.2</s=
+pan> <span class=3D"toctext">[att$=3Dalgo]</span></a></li>
+<li class=3D"toclevel-3 tocsection-38"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#.5Batt.2A.3Dalgo.5D"><span class=3D"tocnumber">9.4.3</s=
+pan> <span class=3D"toctext">[att*=3Dalgo]</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class=3D"toclevel-1 tocsection-39"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#Pseudoclases_y_Pseudoelementos"><span class=3D"tocnumbe=
+r">10</span> <span class=3D"toctext">Pseudoclases y Pseudoelementos</span><=
+/a>
+<ul>
+<li class=3D"toclevel-2 tocsection-40"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#Pseudoelementos_y_sus_selectores"><span class=3D"tocnum=
+ber">10.1</span> <span class=3D"toctext">Pseudoelementos y sus selectores</=
+span></a>
+<ul>
+<li class=3D"toclevel-3 tocsection-41"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#Graf.C3.ADa_del_selector_css_de_pseudoelemento"><span c=
+lass=3D"tocnumber">10.1.1</span> <span class=3D"toctext">Graf=C3=ADa del se=
+lector css de pseudoelemento</span></a></li>
+<li class=3D"toclevel-3 tocsection-42"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#Todos_los_selectores_Css_de_pseudoelemento"><span class=
+=3D"tocnumber">10.1.2</span> <span class=3D"toctext">Todos los selectores C=
+ss de pseudoelemento</span></a></li>
+</ul>
+</li>
+<li class=3D"toclevel-2 tocsection-43"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#Pseudoclases_y_sus_selectores"><span class=3D"tocnumber=
+">10.2</span> <span class=3D"toctext">Pseudoclases y sus selectores</span><=
+/a>
+<ul>
+<li class=3D"toclevel-3 tocsection-44"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#Todos_los_selectores_Css_de_pseudoclases"><span class=
+=3D"tocnumber">10.2.1</span> <span class=3D"toctext">Todos los selectores C=
+ss de pseudoclases</span></a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class=3D"toclevel-1 tocsection-45"><a href=3D"https://www.w3.org/wiki/C=
+SS_/_Selectores_CSS#Origen_de_la_informaci.C3.B3n"><span class=3D"tocnumber=
+">11</span> <span class=3D"toctext">Origen de la informaci=C3=B3n</span></a=
+></li>
+</ul>
+</div>
+
+<h2><span class=3D"mw-headline" id=3D"Selectores_CSS">Selectores CSS</span>=
+</h2>
+<p>El selector Css es el nexo de uni=C3=B3n entre la hoja de estilos y los =
+documentos a los que se aplique dicha hoja. Ya sean (x)HTML, XLM, SVG... y =
+con independencia del medio en que que se muestre (media type).
+</p><p>Del conocimiento y buen manejo que se haga del selector Css depender=
+=C3=A1 la eficiencia de la hoja de estilos y en muchos casos el poder logra=
+r lo deseado sin necesidad de recurrir a otros lenguajes.
+</p><p>Un detalle m=C3=A1s que significativo de su importancia del selector=
+ en Css lo da el hecho de que hemos pasado de tener unos 20 selectores en C=
+ss2 a m=C3=A1s de 70 en el =C3=BAltimo documento en discusi=C3=B3n (<a rel=
+=3D"nofollow" class=3D"external text" href=3D"http://dev.w3.org/csswg/selec=
+tors4/">selectores Css level 4</a>).
+</p><p>El selector Css es el identificador en la hoja de estilos del elemen=
+to o elementos del DOM a los que se aplicar=C3=A1n las declaraciones conten=
+idas en la regla de la que forma parte dicho selector.
+</p><p>Como curiosidad, en algunas partes, al elemento del DOM al que aplic=
+a el selector Css se le llama <i>sujeto del selector</i>.
+</p><p>El t=C3=A9rmino <i>selector css</i> puede referirse por igual a cual=
+quiera de los cuatro tipo de selectores Css que existen clasificados por la=
+ composici=C3=B3n de su nombre:
+</p>
+<ol><li> a un selector css simple</li>
+<li> a un selector css compuesto</li>
+<li> a un selector css complejo</li>
+<li> a una lista de selectores css</li></ol>
+<h2><span class=3D"mw-headline" id=3D"Tipos_de_selectores_Css_por_su_compos=
+ici.C3.B3n">Tipos de selectores Css por su composici=C3=B3n</span></h2>
+<h3><span class=3D"mw-headline" id=3D"Selector_css_simple">Selector css sim=
+ple</span></h3>
+<p>Un <i>selector simple</i> es aquel que est=C3=A1 formado s=C3=B3lo por u=
+na =C3=BAnica cadena textual, sin ning=C3=BAn combinador. Son selectores si=
+mples el selector universal <code>*</code>, el selector por tipo de element=
+o del DOM <code>div</code> | <code>p</code> | <code>article</code>..., el s=
+elector de ID <code>#</code> y de clase <code>.</code>, el de atributo, el =
+de pseudoclase <code>:</code> y el de pseudoelemento <code>::</code> (notac=
+i=C3=B3n actual). En la notaci=C3=B3n antigua o cl=C3=A1sica de Css2 los ps=
+eudoelementos tambi=C3=A9n se representan como las pseudoclases <code>:</co=
+de>.
+</p><p>Los combinadores son signos intercalados entre selectores simples pa=
+ra acotar o hacer m=C3=A1s preciso el alcance del selector. Estos combinado=
+res son el espacio en blanco, los signos <code>+</code> | <code>~</code> | =
+<code>&gt;</code> entre otros.
+</p>
+<h3><span class=3D"mw-headline" id=3D"Selector_css_compuesto">Selector css =
+compuesto</span></h3>
+<p>El <q>Selector compuesto</q> es una cadena de selectores simples sin com=
+binadores (el espacio en blanco tambi=C3=A9n queda excluido porque es un co=
+mbinador):</p>
+<pre>section.noticias {}
+.una_clase.otra_clase {}
+</pre>
+<p>Entre los selectores css compuestos tambi=C3=A9n est=C3=A1n incluidos lo=
+s que tienen un selector de pseudoclase Css en su nombre:</p>
+<pre data-lenguaje=3D"Css">a:hover {}
+input:checked {}
+.mi_clase:last-child {}
+</pre>
+<h3><span class=3D"mw-headline" id=3D"Selector_css_complejo">Selector css c=
+omplejo</span></h3>
+<p>El <q>Selector complejo</q> es una secuencia o cadena de selectores sepa=
+rados por <q>combinadores</q>.</p>
+<pre data-lenguaje=3D"Css">p span {}
+nav &gt; a {}
+main:hover &gt; h1 ~ p {}
+</pre>
+<h3><span class=3D"mw-headline" id=3D"Lista_de_selectores_css">Lista de sel=
+ectores css</span></h3>
+<p>Una <q>lista de selectores</q> la conforman dos o m=C3=A1s selectores de=
+ cualquier tipo separados por una coma <code>,</code></p>
+<pre data-lenguaje=3D"Css"> #unico,
+ main:hover &gt; h1,
+ ol &gt; li:only-child {}
+</pre>
+<h2><span class=3D"mw-headline" id=3D"Combinadores_de_selectores_Css">Combi=
+nadores de selectores Css</span></h2>
+<p>Los combinadores Css son signos gr=C3=A1ficos, o caracteres especiales, =
+o palabras o expresiones reservadas utilizados en el nombre del selector pa=
+ra formar los selectores css complejos. Estos selectores css aumentan preci=
+si=C3=B3n del selector al relacionar varios de ellos en funci=C3=B3n de que=
+ cumplan alguna condici=C3=B3n (que es la definida por el combinador)</p>
+<h3><span class=3D"mw-headline" id=3D"Combinador_Css_de_descendiente:_.27_.=
+27_.28espacio_en_blanco.29_o_.27.3E.3E.27">Combinador Css de descendiente: =
+' ' (espacio en blanco) o '&gt;&gt;'</span></h3>
+<p>En el documento sobre los selectores de nivel 4 se introduce el nuevo co=
+mbinador <code>&gt;&gt;</code> equivalente al espacio en blanco.</p>
+<p>El espacio en blanco o el doble <code>&gt;&gt;</code> separando el nombr=
+e de dos selectores Css se utiliza para apuntar a elementos contenidos dent=
+ro de otro en el DOM del documento. <code>a b {}</code> o <code>a &gt;&gt; =
+b {}</code> selecciona a todos los elementos <code>b</code> contenidos (den=
+tro) de <code>a</code> sin importar la profundidad o los descendientes inte=
+rpuestos entre 'a' y 'b'.</p>
+<h3><span class=3D"mw-headline" id=3D"Combinador_css_de_hijo_directo_.27.3E=
+.27">Combinador css de hijo directo '&gt;'</span></h3>
+<p><code>a &gt; b {}</code> S=C3=B3lo aplica a los elementos 'b' contenidos=
+ dir=C3=A9ctamente en 'a' ('b' es hijo directo de 'a')</p>
+<h3><span class=3D"mw-headline" id=3D"Combinador_css_de_hermano_posterior_.=
+27.7E.27">Combinador css de hermano posterior '~'</span></h3>
+<p><code>a ~ b {}</code> El signo '~' en el selector obliga a que 'b' sea h=
+ermano de 'a' (est=C3=A9n ambos contenidos dir=C3=A9ctamente en el mismo el=
+emento). No importa que en el html entre ambos haya otros elementos hermano=
+s interpuestos.</p>
+<pre data-lenguaje=3D"Css &amp; html">h2 ~ p {}
+
+&lt;article&gt;
+  &lt;h2&gt;t=C3=ADtulo&lt;/h2&gt;
+  &lt;p&gt;texto del primer p=C3=A1rrafo&amp;lt/p&gt;
+  &lt;img src=3D'... /&gt;
+  &lt;p&gt;texto de otro p=C3=A1rrafo&amp;lt/p&gt;
+&lt;/article&gt;
+</pre>
+<p>El selector css del c=C3=B3digo previo <code>h2 ~ p {}</code> afecta por=
+ igual a los dos p=C3=A1rrafos ya que ambos son hermanos posteriores del t=
+=C3=ADtulo (h2): est=C3=A1n contenidos dir=C3=A9ctamente en el mismo elemen=
+to html, ambos (el t=C3=ADtulo y los p=C3=A1rrafos) tienen al <code>article=
+</code> como padre.</p>
+<h3><span class=3D"mw-headline" id=3D"Combinador_de_hermano_posterior_adyac=
+ente_.27.2B.27">Combinador de hermano posterior adyacente '+'</span></h3>
+<p></p><pre>a + b {}</pre> Representado por el signo '+' selecciona, al igu=
+al que el anterior, cada elemento 'b' que sea hermano de un 'a' y adem=C3=
+=A1s est=C3=A9n adyacentes: 'b' tiene que aparecer en el DOM inmediatamente=
+ despu=C3=A9s de cerrar 'a', no puede haber ning=C3=BAn otro hermano que lo=
+s separe o se interponga entre ellos.<p></p>
+<p>En el bloque de c=C3=B3digo anterior si el combinador css en vez de ser =
+el de hermano posterior <code>~</code> es el de hermano posterior adyacente=
+ <code>h2 + p {}</code> s=C3=B3lo el primer p=C3=A1rrafo (el que sigue al h=
+2) se ver=C3=ADa afectado por la regla css.</p>
+<p>Observa que al referirme a los combinadores Css de hermanos incluyo la e=
+xpresi=C3=B3n <q>hermano posterior</q> ya que Css no puede (de momento) rem=
+ontar el DOM. Esto es, siempre ser=C3=A1n elementos 'contenidos en' o 'post=
+eriores a'. Nunca al "contenedor de" o al "precedente de".</p>
+<h3><span class=3D"mw-headline" id=3D"Combinador_css_de_namespace_.27.7C.27=
+_y_qualified_names">Combinador css de namespace '|' y qualified names</span=
+></h3>
+<p>La barra vertical '|' se emplea para acotar el sujeto del selector al <a=
+ rel=3D"nofollow" class=3D"external text" href=3D"http://es.wikipedia.org/w=
+iki/Espacio_de_nombres">"namespace"</a> (espacio de nombre) indicado. La es=
+pecificaci=C3=B3n tiene su documento (status W3c Recomendation) espec=C3=AD=
+fico para este tema: <a rel=3D"nofollow" class=3D"external text" href=3D"ht=
+tp://www.w3.org/TR/css3-namespace/">"CSS Namespaces Module"</a> y los "nomb=
+res Css calificados".</p>
+<pre data-lenguaje=3D"Css">@namespace misitio "http://misitio.dominio.ext";
+
+misitio|A
+ &lt;span&gt;representa el nombre A en el namespace http://misitio.dominio.=
+ext&lt;/span&gt;
+</pre>
+<p>Nota: La especificaci=C3=B3n no incluye en este apartado de los combinad=
+ores al de namespace.</p>
+<h3><span class=3D"mw-headline" id=3D"Combinador_css_de_referencia_.27.2Fre=
+f.2F.27">Combinador css de referencia '/ref/'</span></h3>
+<p>A t=C3=ADtulo informativo. El documento sobre los selectores de nivel 4 =
+introduce este selector.</p>
+<pre data-lenguaje=3D"Css">label:matches(:hover,&nbsp;:focus) /for/ input {=
+}
+</pre>
+<p><a rel=3D"nofollow" class=3D"external text" href=3D"http://dev.w3.org/cs=
+swg/selectors4/#idref-combinators">"El combinador /ref/"</a> en el c=C3=B3d=
+igo anterior apunta al imput al hacer&nbsp;:hover o&nbsp;:focus en su etiqu=
+eta (label). Lo vincula por el atributo 'for'.</p>
+<h3><span class=3D"mw-headline" id=3D"Combinador_css_.2Fdeep.2F_para_ilumin=
+ar_las_sombras">Combinador css /deep/ para iluminar las sombras</span></h3>
+<p><a rel=3D"nofollow" class=3D"external text" href=3D"https://escss.blogsp=
+ot.com/2014/10/deep-selector-css.html">"El combinador /deep/"</a> es de rec=
+iente formulaci=C3=B3n. Concebido para poder apuntar a los elementos creado=
+s o incluidos en el "Shadow DOM".</p>
+<p><b>Nota:</b> Chrome retir=C3=B3 recientemente el soporte a este combinad=
+or.</p>
+<h3><span class=3D"mw-headline" id=3D"Combinador_de_columnna_.7C.7C">Combin=
+ador de columnna ||</span></h3>
+<p>El combinador de columnas <code>||</code> (representado por dos barras v=
+erticales), nuevo en el doc Selectores de nivel 4, selecciona las celdas pe=
+rtenecientes a una columna dada. En caso de que una celda ocupase 2 o m=C3=
+=A1s columnas diferentes se ver=C3=A1 afectado por cualquiera de =C3=A9stas=
+.</p>
+<pre data-lenguaje=3D"Html &amp; Css">col.selected || td {
+  background: gray;
+  color: white;
+  font-weight: bold;
+}
+
+&lt;table&gt;
+  &lt;col span=3D"2"&gt;
+  &lt;col class=3D"selected"&gt;
+  &lt;tr&gt;&lt;td&gt;A &lt;td&gt;B &lt;td&gt;C
+  &lt;tr&gt;&lt;td colspan=3D"2"&gt;D &lt;td&gt;E
+  &lt;tr&gt;&lt;td&gt;F &lt;td colspan=3D"2"&gt;G
+&lt;/table&gt;
+</pre>=20
+<p>El selector <code>col.selected || td</code> afecta a las celdas C, E, y =
+G</p>
+<h2><span class=3D"mw-headline" id=3D"Identificando_al_sujeto_del_selector_=
+css">Identificando al sujeto del selector css</span></h2>
+<p>De forma general, se puede decir que el sujeto del selector (o elementos=
+ del DOM a los que apunta) es el =C3=BAltimo selector simple que aparece, e=
+n la cadena que lo conforma, antes del corchete de apertura del bloque de d=
+eclaraciones y de cada coma ',' si es una lista de selectores.</p>
+<p>Puntualizo lo "de forma general" debido a que de nuevo ha sido recogido =
+en el documento de trabajo el selector de ancestro o padre que no aplica al=
+ elemento sino a su contenedor.</p>
+<p>Puedes ampliar este aspecto con el art=C3=ADculo <a rel=3D"nofollow" cla=
+ss=3D"external text" href=3D"https://ksesocss.blogspot.com/2012/05/como-se-=
+leen-los-selectores-css-para.html">"C=C3=B3mo se leen los selectores"</a>.<=
+/p>
+<h2><span class=3D"mw-headline" id=3D"Conformando_el_nombre_del_selector_Cs=
+s">Conformando el nombre del selector Css</span></h2>
+<p>A la hora de dar nombre a los selectores Css hay una serie de requisitos=
+ a tener en cuenta:</p>
+<ul>
+<li>Por conveniencia (acuerdo no formal) se utilizan min=C3=BAsculas aunque=
+ Css no es "case sensitive". Esto es, no diferencia entre may=C3=BAsculas y=
+ min=C3=BAsculas. Por lo tanto para Css es lo mismo el selector 'div' que '=
+DIV'. Sin embargo hay lenguajes a los que aplica Css que s=C3=AD lo son com=
+o el XLM tanto en el nombre de los elementos como en el valor de sus atribu=
+tos.</li>
+<li>Los nombres de los selectores pueden contener s=C3=B3lo caracteres de l=
+a 'A' a la 'Z' y del '0' al '9' y contener guiones medios '-' o bajos '_' d=
+entro de =C3=A9l.</li>
+<li>El nombre del selector no puede comenzar por un d=C3=ADgito (n=C3=BAmer=
+o), ni por un gui=C3=B3n ni por alguno de los caracteres reservados. Es con=
+veniente evitar el uso de s=C3=ADmbolos "extra=C3=B1os".</li>
+<li>En caso de que necesites utilizar inexcusablemente alguno de los no per=
+mitidos utiliza "codificaci=C3=B3n Css" y esc=C3=A1palos usando la barra in=
+vertida '\'. As=C3=AD '.2clase' ser=C3=ADa inv=C3=A1lido pero '.\2clase' fu=
+ncionar=C3=ADa. El selector '#foo&gt;a' apuntar=C3=A1 a un enlace hijo dire=
+cto del elemento con id 'foo' pero '#foo\&gt;a' al que tenga en el html el =
+atributo de id igual a 'foo&gt;a'.</li>
+<li>En Css la barra invertida '\' se asocia con <a rel=3D"nofollow" class=
+=3D"external text" href=3D"http://www.sidar.org/recur/desdi/traduc/es/css/s=
+yndata.html#q4">"tres tipos de caracteres de escape"</a>.</li>
+</ul>
+<p>Estas restricciones de caracteres s=C3=B3lo aplican en el =C3=A1mbito de=
+ la hoja de estilos. Hago esta puntualizaci=C3=B3n porque el documento Html=
+ y el Css son dos campos totalmente distintos. Y el no tenerlo claro conduc=
+e a falsas pol=C3=A9micas e ideas como negar que <a rel=3D"nofollow" class=
+=3D"external text" href=3D"https://escss.blogspot.com/2014/01/selectores-CS=
+S-no-pueden-comenzar-con-numero.html">"los selectores CSS de ids y class <s=
+trong>s=C3=AD</strong> pueden comenzar por un n=C3=BAmero"</a>.</p>
+<h2><span class=3D"mw-headline" id=3D"Alcance_del_selector_css._La_pseudocl=
+ase_.27:scoped.27">Alcance del selector css. La pseudoclase ':scoped'</span=
+></h2>
+<p>En proceso de formulaci=C3=B3n y desarrollo. Se incluye a t=C3=ADtulo in=
+formativo.</p>
+<p>Algunas aplicaciones pueden acotar el =C3=A1mbito de aplicaci=C3=B3n de =
+los selectores CSS a un un fragmento del documento o sub=C3=A1rbol del DOM.=
+ Esta delimitaci=C3=B3n de alcance se puede hacer por dos m=C3=A9todos: 'sc=
+ope-contained selectors' y 'scope-filtered selectors'.</p>
+<p>Es el equivalente en las hojas de estilos a lo que supone emplear en el =
+html el atributo 'scoped' dentro del elemento &lt;style&gt; usado dentro de=
+l <code>body</code>.</p>
+<p>Puedes ampliar este aspecto en el art=C3=ADculo <a rel=3D"nofollow" clas=
+s=3D"external text" href=3D"http://escss.blogspot.com/2012/03/estilos-acota=
+dos-en-el-body-scoped.html">"Estilos acotados: <q>style scoped</q>"</a>.</p=
+>
+<p><strong>Nota:</strong> Recientemente Chrome retir=C3=B3 su soporte a &lt=
+;quote&gt;scoped&lt;/quote&gt; tras hab=C3=A9rselo dado durante alg=C3=BAn =
+tiempo.</p>
+<h2><span class=3D"mw-headline" id=3D"Combinaciones_l.C3.B3gicas_y_agrupaci=
+.C3.B3n_de_selectores_css">Combinaciones l=C3=B3gicas y agrupaci=C3=B3n de =
+selectores css</span></h2>
+<p>Los selectores se pueden agrupar para simplificar las hojas de estilo cu=
+ando varios elementos comparten una serie de declaraciones iguales. As=C3=
+=AD, en vez de crear varias reglas iguales en las que s=C3=B3lo cambia el s=
+elector, se crea una =C3=BAnica regla con todos los selectores necesarios p=
+ara apuntar a los distintos elementos.</p>
+<p>Las combinaciones y agrupaciones de selectores Css recogidas en la espec=
+ificaci=C3=B3n son:</p>
+<h3><span class=3D"mw-headline" id=3D"Listas_de_selectores_Css">Listas de s=
+electores Css</span></h3>
+<p>la conforman dos o m=C3=A1s selectores de cualquier tipo separados por u=
+na coma ',' a los que aplica el mismo bloque de declaraciones que comparten=
+. Visto en detalle un poco m=C3=A1s arriba en este art=C3=ADculo.</p>
+<h3><span class=3D"mw-headline" id=3D"El_selector_css_por_pseudoclase_:matc=
+hes.28.29">El selector css por pseudoclase <code>:matches()</code></span></=
+h3>
+<p>La pseudoclase <code>:matches()</code> es del tipo funcional. Admite com=
+o argumento una lista de selecci=C3=B3n. Esto es, se indica dentro del par=
+=C3=A9ntesis y separados por comas los casos en los que aplicar=C3=A1 el bl=
+oque de declaraciones.</p>
+<pre data-lenguaje=3D"Css">input:matches(:invalid,&nbsp;:out-of-range) {}
+</pre>
+<p>Aplicar=C3=ADa a los 'inputs' que cumplan con alguna de las condiciones =
+indicadas: que su valor no sea v=C3=A1lido o est=C3=A9 fuera del rango perm=
+itido en =C3=A9l.</p>
+<h3><span class=3D"mw-headline" id=3D"El_selector_css_por_pseudoclase_:not.=
+28.29">El selector css por pseudoclase&nbsp;:not()</span></h3>
+<p>La pseudoclase de negaci=C3=B3n <code>:not()</code>, al contrario que la=
+ anterior, apunta a los que no cumplen con los argumentos indicados.</p>
+<pre data-lenguaje=3D"Css">a:not(:focus,&nbsp;:visited) {}
+</pre>
+<h3><span class=3D"mw-headline" id=3D"El_selector_css_por_pseudoclase_:has.=
+28.29">El selector css por pseudoclase&nbsp;:has()</span></h3>
+<p>La pseudoclase <code>:has()</code> es la formulaci=C3=B3n actual de un v=
+iejo conocido: el selector de precedente o padre.</p>
+<p>Utilizada para apuntar a los elementos que contengan lo indicado en el a=
+rgumento (valor dentro del par=C3=A9ntesis). As=C3=AD el selector <code>a:h=
+as(img) {}</code> s=C3=B3lo aplicar=C3=A1 a los enlaces que contengan una i=
+magen dentro de =C3=A9l.</p>
+<p>El valor del argumento puede ser uno s=C3=B3lo o una lista separadas por=
+ comas:</p>
+<pre data-lenguaje=3D"Css">section:has(h1,h2,h3,h4,h5,h6) {
+  /*bloque declaraciones*/
+ }
+</pre>
+<p>El bloque de declaraciones se aplicar=C3=A1 a todo 'section' y s=C3=B3lo=
+ a aquellos que contengan como m=C3=ADnimo un encabezado (hn=C2=BA) dentro =
+de =C3=A9l.</p>=20
+<p>Al utilizar estos selectores css con estas pseudoclases hay que tener pr=
+esente que:</p>
+<ol>
+<li>No se puede anidar la misma: colocar como argumento de la funci=C3=B3n =
+(dentro del par=C3=A9ntesis) la misma pseudoclase anula el selector. Es err=
+=C3=B3neo hacer <code>:not(:not())</code> o <code>:matches(:matches()</code=
+> o <code>:has(:has())</code></li>
+<li>S=C3=AD es l=C3=ADcito encadenarlas, ya sea la misma o distintas: <code=
+>:not(:checked):not(:required)</code></li>
+<li>El documento "selectors level 3" s=C3=B3lo permit=C3=ADa incluir en el =
+argumento de <code>:not()</code> selectores simples. El =C3=BAltimo en desa=
+rrollo permite anidar estas pseudoclases: <code>el:not(:has(h1))</code> o <=
+code>el:has(:not(img))</code></li>
+</ol>
+<p>Al momento de conformar el nombre del selector css, o lo que es lo mismo=
+, buscar c=C3=B3mo apuntar a los elementos del Html a los que queremos afec=
+tar, podemos hacerlo tomando alg=C3=BAn tipo de informaci=C3=B3n de dicho e=
+lemento, y en funci=C3=B3n de ese dato usado tambi=C3=A9n se pueden clasifi=
+car los selectores css:</p> =20
+<h2><span class=3D"mw-headline" id=3D"Selectores_Css_elementales">Selectore=
+s Css elementales</span></h2>
+<h3><span class=3D"mw-headline" id=3D"Selector_universal_.27.2A.27">Selecto=
+r universal '*'</span></h3>
+<p>El asterisco '*' representa a cualquier elemento del DOM. Al ser utiliza=
+do como selector CSS aplicar=C3=A1 a cualquier elemento contenido en el doc=
+umento.</p>
+<h3><span class=3D"mw-headline" id=3D"Selector_Css_por_tipo_de_elemento_.28=
+nombre_de_etiqueta_o_tag.29">Selector Css por tipo de elemento (nombre de e=
+tiqueta o tag)</span></h3>
+<p>Selecciona al "sujeto del selector" por el nombre de la etiqueta (tag) d=
+el elemento que lo identifica en el html. Ejemplo de estos son <code>div, a=
+, ul {}</code></p>
+<h2><span class=3D"mw-headline" id=3D"Selector_css_por_valor_de_atributo">S=
+elector css por valor de atributo</span></h2>
+<p>Un atributo es un metadato incluido dentro de la etiqueta de apertura de=
+l elemento en el HTML (o XML). Est=C3=A1 formado por una expresi=C3=B3n cla=
+ve que indica qu=C3=A9 tipo de metadato es (el nombre del atributo), seguid=
+o del signo =3D y el valor del atributo entre comillas o no seg=C3=BAn leng=
+uaje y doctype del documento. En las hojas de estilos podemos utilizar tant=
+o el nombre del atributo como todo su valor o una parte de =C3=A9l para uti=
+lizarlo como selector CSS.</p>
+<h3><span class=3D"mw-headline" id=3D"Selector_css_de_Identificador_.C3.BAn=
+ico_o_id_.27.23.27">Selector css de Identificador =C3=BAnico o id '#'</span=
+></h3>
+<p>Conformado anteponiendo la almohadilla '#' al valor del atributo 'id' de=
+l elemento.</p>
+<p>La especificaci=C3=B3n expl=C3=ADcitamente indica que no pueden existir =
+espacios en blanco en el valor del atributo 'id'. Por lo tanto el atributo =
+'id' s=C3=B3lo admite un =C3=BAnico valor y adem=C3=A1s este valor debe ser=
+ =C3=BAnico (no compartido) por otros elementos en el mismo documento o "na=
+mespace".</p>
+<p>Por ello no pueden existir selectores compuestos de dos identificadores =
+=C3=BAnicos: <code>#id1#id2 {}</code>. Pero si por cualquier motivo te encu=
+entras que en el html hay un elemento con "dos id=C2=B4s" en el mismo atrib=
+uto (<code>id=3D'un dos'</code>) y no puedes subsanar ese error (en el html=
+) a=C3=BAn es posible utilizar dicho valor como selector Css:</p>
+<ol>
+<li>Con el uso del selector por valor de atributo en cualquiera de sus vari=
+antes: <code>[id=3D'un dos']</code> <code>[id~=3D'dos']</code></li>
+<li>Escapando el espacio en blanco <code>#un\ dos {}</code>. <a rel=3D"nofo=
+llow" class=3D"external text" href=3D"http://codepen.io/Kseso/pen/xGpJex">"=
+Ver demo"</a>.</li>
+</ol>
+<h3><span class=3D"mw-headline" id=3D"Selector_css_de_clase_.27..27">Select=
+or css de clase '.'</span></h3>
+<p>El <q>Selector de clase</q> se conforma en Css anteponiendo un punto '.'=
+ al valor que tenga el atributo 'class' del elemento en el html.</p>
+<p>As=C3=AD, el selector <code>.miclase</code> apuntar=C3=A1 a todos los el=
+ementos del documento al que afecte la hoja de estilos que tengan declarado=
+ <code>class=3D"miclase"</code>.</p>
+<p>El atributo 'class' admite valores m=C3=BAltiples separados por un espac=
+io en blanco. As=C3=AD que se puede conformar un selector de clase con un s=
+olo valor de clase o m=C3=BAltiples.</p>
+<p>Si queremos seleccionar un elemento que tiene dos clases en su atributo =
+<code>class=3D"una_clase otra_clase"</code> el selector se conforma con amb=
+os valores (precedidos de su punto '.') sin espacio en blanco de separaci=
+=C3=B3n entre ambos:</p>
+<pre data-lenguaje=3D"Css">&lt;!-- En el html --&gt;
+&lt;p class=3D"una_clase"&gt;...&lt;/p&gt;
+&lt;p class=3D"una_clase otra_clase"&gt;...&lt;/p&gt;
+
+/* En el Css */
+.una_clase {} /* Aplica por igual a los 2 'p' anteriores */
+.una_clase.otra_clase {} /* S=C3=B3lo aplica al segundo 'p' */
+</pre>
+<p>En este =C3=BAltimo c=C3=B3digo de ejemplo en caso de colisi=C3=B3n de e=
+stilos prevalece la segunda regla con independencia del orden por ser m=C3=
+=A1s espec=C3=ADfica</p>
+<h3><span class=3D"mw-headline" id=3D"Selector_css_por_nombre_y_valor_de_at=
+ributo">Selector css por nombre y valor de atributo</span></h3>
+<p>Adem=C3=A1s de la forma anterior para conformar los selectores Css por e=
+l valor del atributo de clase o de id, se pueden construir utilizando expre=
+siones Css encerradas entre corchetes rectos '[algo]' que contengan el nomb=
+re del atributo y (opcionalmente) su valor o parte de =C3=A9l.&lt;p&gt;
+
+</p><h4><span class=3D"mw-headline" id=3D".5Batt.5D">[att]</span></h4>
+&lt;p&gt;Representa a cualquier elemento que tenga el atributo con nombre i=
+gaula a 'att' cualquiera que sea su valor, incluso con valor vac=C3=ADo.<p>=
+</p>
+<pre data-lenguaje=3D"Css">p:not([class]) {}
+</pre>
+<p>Este selector CSS selecciona a todos los p=C3=A1rrafos que no tengan el =
+atributo 'class' en su etiqueta de apertura. <code>&lt;p&gt;...&lt;/p&gt;</=
+code> s=C3=AD se ver=C3=ADa afectado pero no el elemento <code>&lt;p class&=
+gt;...&lt;/p&gt;</code> aunque el valor de su clase est=C3=A9 vac=C3=ADo.</=
+p>=20
+<h4><span class=3D"mw-headline" id=3D".5Batt.3Dalgo.5D">[att=3Dalgo]</span>=
+</h4>
+<p>Representa cualquier elemento en el que el valor de su atributo 'att' es=
+ ex=C3=A1ctamente la cadena de texto 'algo'. Ni m=C3=A1s ni menos.</p>
+<h4><span class=3D"mw-headline" id=3D".5Batt.7E.3Dalgo.5D">[att~=3Dalgo]</s=
+pan></h4>
+<p>Representa un elemento cuyo valor del atributo 'att' est=C3=A1 formado p=
+or una lista de cadenas textuales separadas por espacios en blanco y una de=
+ ellas es ex=C3=A1ctamente 'algo'</p>
+<h4><span class=3D"mw-headline" id=3D".5Batt.7C.3Dalgo.5D">[att|=3Dalgo]</s=
+pan></h4>
+<p>En este caso el valor del atributo 'att' es ex=C3=A1ctamente 'algo' o co=
+mienza por la cadena 'algo' seguida de un gui=C3=B3n medio '-'. Pensado ori=
+ginalmente para identificar los atributos de tipo de lenguaje que comparten=
+ el mismo idioma:</p>
+<p><code>p[lang|=3Des] {color: red;}</code> dibujar=C3=ADa en color rojo to=
+dos los p=C3=A1rrafos cuyo atributo 'lang' tenga el valor 'es' y ademas los=
+ 'es-*' como "es-arg', 'es-pe'...</p>=20
+<p>En estas expresiones y las siguientes 'att' significa cualquier nombre d=
+e atributo, como puede ser 'id', 'class', 'longdesc'. 'title', =C3=A9tc (in=
+cluidos los llamados atributos de autor <code>data-*</code>)</p>
+<h3><span class=3D"mw-headline" id=3D"Selector_Css_por_subcadena_coincident=
+e_en_el_valor_del_atributo">Selector Css por subcadena coincidente en el va=
+lor del atributo</span></h3>
+<p>El selector css de atributo adem=C3=A1s de conformase con un valor del a=
+tributo, tambi=C3=A9n puede hacerlo utilizando una parte de dicho valor.</p=
+>
+<h4><span class=3D"mw-headline" id=3D".5Batt.5E.3Dalgo.5D">[att^=3Dalgo]</s=
+pan></h4>
+<p>El selector css <code>[att^=3Dalgo]</code> apunta al elemento con el atr=
+ibuto de nombre 'att' cuyo valor comienza ex=C3=A1ctamente por la cadena de=
+ texto 'algo'.</p>
+<h4><span class=3D"mw-headline" id=3D".5Batt.24.3Dalgo.5D">[att$=3Dalgo]</s=
+pan></h4>
+<p>En este caso el valor del atributo 'att' finaliza con la cadena de texto=
+ 'algo'.</p>
+<h4><span class=3D"mw-headline" id=3D".5Batt.2A.3Dalgo.5D">[att*=3Dalgo]</s=
+pan></h4>
+<p>Representa un elemento con el atributo 'att' cuyo valor contiene en =C3=
+=A9l al menos una vez la subcadena 'algo'.</p>
+<p>En estos casos si 'algo' es una cadena vac=C3=ADa el selector es nulo, n=
+o apunta a nada code&gt;[att=3D]</p>
+<p>Tradicionalmente el valor del atributo se escrib=C3=ADa entre comillas s=
+imples o dobles. Actualmente puede aparecer entre ellas o sin ellas. Ambas =
+graf=C3=ADas aparecen el la documentaci=C3=B3n del consorcio y el validador=
+ las admite sin marcar error.</p>
+<p>Puedes ampliar este apartado en el art=C3=ADculo <a rel=3D"nofollow" cla=
+ss=3D"external text" href=3D"https://escss.blogspot.com/2014/09/Selector-Cs=
+s-de-Atributo.html">"Selector Css por valor de Atributo"</a></p>
+<h2><span class=3D"mw-headline" id=3D"Pseudoclases_y_Pseudoelementos">Pseud=
+oclases y Pseudoelementos</span></h2>
+<p>El grupo de selectores css conformado por alguna pseudoclase o pseudoele=
+mento es el que mayor crecimiento ha experimentado en el desarrollo de Css3=
+ (documentos nacidos tras el cierre del nivel 2 de Css o Css2.1</p>
+<p>En algunos casos la diferencia entre una u otro es difusa y poco intuiti=
+va y su clasificaci=C3=B3n entre unas u otros no se alcanza a ver. En la ac=
+tualidad (selectores level 4) se clasifican y agrupan atendiendo a particul=
+aridades de lo m=C3=A1s variado.</p>
+<p>Para ver c=C3=B3mo defin=C3=ADa Css2.1 a unas y otros tienes <a rel=3D"n=
+ofollow" class=3D"external text" href=3D"http://www.sidar.org/recur/desdi/t=
+raduc/es/css/selector.html#pseudo-elements">"la traducci=C3=B3n de sidar.or=
+g"</a>. Resumiendo y para diferenciar unas de otras:</p>
+<p>Tradicionalmente el n=C3=BAmero de pseudoelementos y pseudoclases era mu=
+y reducido. Si visitas el enlace anterior a la traducci=C3=B3n del SIDAR lo=
+ podr=C3=A1s comprobar.</p>
+<p>Sin embargo con el paso del tiempo han ido surgiendo necesidades nuevas =
+en este apartado de los selectores Css y su respuesta y resultado ha sido u=
+na larga lista de ellos (de ambos tipos de estos selectores css).</p>
+<p>En la actualidad, casi todas las diferentes pseudoclases est=C3=A1n cont=
+enidas y explicadas en el documento que desarrolla los selectores. Casi tod=
+as.</p>
+<p>Pero los pseudoelementos incluidos en dicho documento son minor=C3=ADa. =
+Tanto algunas pseudoclases como muchos de los pseudoelementos actuales se e=
+ncuentran repartidos por los distintos documentos del W3c que los desarroll=
+an.</p>
+<h3><span class=3D"mw-headline" id=3D"Pseudoelementos_y_sus_selectores">Pse=
+udoelementos y sus selectores</span></h3>
+<p>Podr=C3=ADa decirse que los pseudoelementos son parte del documento que =
+no tienen la entidad de elemento o que s=C3=ADmplemente no existen en =C3=
+=A9l. Esto es, no est=C3=A1n 'contenidos en' o 'marcados con' una etiqueta =
+(tag) que lo identifique y "separe" del resto. Son abstracciones.</p>
+<p>Si echas un vistazo al c=C3=B3digo fuente del documento no los encontrar=
+=C3=A1s en =C3=A9l escritos y marcados.</p>
+<p>El selector css de pseudoelemento es una herramienta para poder apuntar =
+desde la hoja de estilos a una parte del documento que no tiene entidad pro=
+pia (categor=C3=ADa de elemento u objeto en el DOM) y que por lo tanto, de =
+no existir el oportuno selector CSS de pseudoelemento, no ser=C3=ADa posibl=
+e declararle estilos espec=C3=ADficos.</p>
+<h4><span class=3D"mw-headline" id=3D"Graf.C3.ADa_del_selector_css_de_pseud=
+oelemento">Graf=C3=ADa del selector css de pseudoelemento</span></h4>
+<p>Tradicionalmente (epecidicaci=C3=B3n Css2.1) la forma de escribir el sel=
+ector de pseudoelemento era anteponer el car=C3=A1cter ortogr=C3=A1fico <co=
+de>:</code> (dos puntos) a su nombre. Con el desarrollo de Css3 esta graf=
+=C3=ADa se cambi=C3=B3 a duplicar los dos puntos <code>::</code> para difer=
+enciarlos de los selectores de pseudoclase. Ambas formas son funcionales y =
+reconocidas por los navegadores en sus versiones m=C3=A1s actuales.</p>
+<h4><span class=3D"mw-headline" id=3D"Todos_los_selectores_Css_de_pseudoele=
+mento">Todos los selectores Css de pseudoelemento</span></h4>
+<ul>
+  <li><code>::after</code> <a rel=3D"nofollow" class=3D"external text" href=
+=3D"http://www.w3.org/TR/selectors/">"Selectors L3"</a></li>
+  <li><code>::attr()</code> <a rel=3D"nofollow" class=3D"external text" hre=
+f=3D"http://dev.w3.org/csswg/selectors-nonelement/">"Selectors Non Element"=
+</a></li>
+  <li><code>::backdrop</code> <a rel=3D"nofollow" class=3D"external text" h=
+ref=3D"http://www.w3.org/TR/fullscreen/">"Fullscreen"</a></li>
+  <li><code>::before</code> <a rel=3D"nofollow" class=3D"external text" hre=
+f=3D"http://www.w3.org/TR/selectors/">"Selectors L3"</a></li>
+  <li><code>::choices</code> <a rel=3D"nofollow" class=3D"external text" hr=
+ef=3D"http://dev.w3.org/csswg/css-ui/">"CSS UI L3"</a></li>
+  <li><code>::first-letter</code> <a rel=3D"nofollow" class=3D"external tex=
+t" href=3D"http://www.w3.org/TR/selectors/">"Selectors L3"</a></li>
+  <li><code>::first-line</code> <a rel=3D"nofollow" class=3D"external text"=
+ href=3D"http://www.w3.org/TR/selectors/">"Selectors L3"</a></li>
+  <li><code>::footnote-call</code> <a rel=3D"nofollow" class=3D"external te=
+xt" href=3D"http://dev.w3.org/csswg/css-gcpm/">"CSS GCPM"</a></li>
+  <li><code>::footnote-marker</code> <a rel=3D"nofollow" class=3D"external =
+text" href=3D"http://dev.w3.org/csswg/css-gcpm/">"CSS GCPM"</a></li>
+  <li><code>::marker</code> <a rel=3D"nofollow" class=3D"external text" hre=
+f=3D"http://dev.w3.org/csswg/css-lists-3">"CSS Lists L3"</a></li>
+  <li><code>::nth-fragment()</code> <a rel=3D"nofollow" class=3D"external t=
+ext" href=3D"http://dev.w3.org/csswg/css-overflow/">"CSS Overflow L3"</a></=
+li>
+  <li><code>::read-only</code> <a rel=3D"nofollow" class=3D"external text" =
+href=3D"http://dev.w3.org/csswg/css-ui/">"CSS UI L3"</a></li>
+  <li><code>::repeat-index</code> <a rel=3D"nofollow" class=3D"external tex=
+t" href=3D"http://dev.w3.org/csswg/css-ui/">"CSS UI L3"</a></li>
+  <li><code>::repeat-item</code> <a rel=3D"nofollow" class=3D"external text=
+" href=3D"http://dev.w3.org/csswg/css-ui/">"CSS UI L3"</a></li>
+  <li><code>::value</code> <a rel=3D"nofollow" class=3D"external text" href=
+=3D"http://dev.w3.org/csswg/css-ui/">"CSS UI L3"</a></li>
+</ul>
+<h3><span class=3D"mw-headline" id=3D"Pseudoclases_y_sus_selectores">Pseudo=
+clases y sus selectores</span></h3>
+<p>El selector de pseudoclase es una herramienta para poder apuntar desde l=
+a hoja de estilos a un elemento del DOM en base a alguna informaci=C3=B3n o=
+ detalle ajeno al propio elemento o al "=C3=A1rbol del documento".</p>
+<p>Esta informaci=C3=B3n a la que se refiere la especificaci=C3=B3n puede s=
+er de lo m=C3=A1s variada y en base a ella los acota y clasifica este tipo =
+de selectores CSS la especificaci=C3=B3n. Puede ser por el estado en que se=
+ encuentre el elemento, por el n=C3=BAmero que hace al aparece en el DOM, a=
+ resultas de alguna acci=C3=B3n del usuario...</p>
+<h4><span class=3D"mw-headline" id=3D"Todos_los_selectores_Css_de_pseudocla=
+ses">Todos los selectores Css de pseudoclases</span></h4>
+<ul>
+  <li><code>:active</code> <a rel=3D"nofollow" class=3D"external text" href=
+=3D"http://www.w3.org/TR/selectors/">"Selectors L3"</a></li>
+  <li><code>:active-drop</code> <a rel=3D"nofollow" class=3D"external text"=
+ href=3D"http://dev.w3.org/csswg/selectors4/">"Selectors L4"</a></li>
+  <li><code>:ancestor()</code> <a rel=3D"nofollow" class=3D"external text" =
+href=3D"http://dev.w3.org/csswg/shadow-styling/">"Shadow Styling"</a></li>
+  <li><code>:any-link</code> <a rel=3D"nofollow" class=3D"external text" hr=
+ef=3D"http://dev.w3.org/csswg/selectors4/">"Selectors L4"</a></li>=20
+  <li><code>:blank</code> <a rel=3D"nofollow" class=3D"external text" href=
+=3D"http://dev.w3.org/csswg/css-page/">"CSS Page L3"</a></li>
+  <li><code>:blank</code> <a rel=3D"nofollow" class=3D"external text" href=
+=3D"http://dev.w3.org/csswg/selectors4/">"Selectors L4"</a></li>
+  <li><code>:checked</code> <a rel=3D"nofollow" class=3D"external text" hre=
+f=3D"http://www.w3.org/TR/selectors/">"Selectors L3"</a></li>
+  <li><code>:current</code> <a rel=3D"nofollow" class=3D"external text" hre=
+f=3D"http://dev.w3.org/csswg/selectors4/">"Selectors L4"</a></li>
+  <li><code>:current()</code> <a rel=3D"nofollow" class=3D"external text" h=
+ref=3D"http://dev.w3.org/csswg/selectors4/">"Selectors L4"</a></li>
+  <li><code>:dir()</code> <a rel=3D"nofollow" class=3D"external text" href=
+=3D"http://dev.w3.org/csswg/selectors4/">"Selectors L4"</a></li>
+  <li><code>:default</code> <a rel=3D"nofollow" class=3D"external text" hre=
+f=3D"http://dev.w3.org/csswg/css-ui/">"CSS UI L3"</a></li>
+  <li><code>:disabled</code> <a rel=3D"nofollow" class=3D"external text" hr=
+ef=3D"http://www.w3.org/TR/selectors/">"Selectors L3"</a></li>
+  <li><code>:empty</code> <a rel=3D"nofollow" class=3D"external text" href=
+=3D"http://www.w3.org/TR/selectors/">"Selectors L3"</a></li>
+  <li><code>:enabled</code> <a rel=3D"nofollow" class=3D"external text" hre=
+f=3D"http://www.w3.org/TR/selectors/">"Selectors L3"</a></li>
+  <li><code>:first</code> <a rel=3D"nofollow" class=3D"external text" href=
+=3D"http://dev.w3.org/csswg/css-page/">"CSS Page L3"</a></li>
+  <li><code>:first-child</code> <a rel=3D"nofollow" class=3D"external text"=
+ href=3D"http://www.w3.org/TR/selectors/">"Selectors L3"</a></li>
+  <li><code>:first-of-type</code> <a rel=3D"nofollow" class=3D"external tex=
+t" href=3D"http://www.w3.org/TR/selectors/">"Selectors L3"</a></li>
+  <li><code>:focus</code> <a rel=3D"nofollow" class=3D"external text" href=
+=3D"http://www.w3.org/TR/selectors/">"Selectors L3"</a></li>
+  <li><code>:fullscreen</code> <a rel=3D"nofollow" class=3D"external text" =
+href=3D"http://www.w3.org/TR/fullscreen/">"Fullscreen"</a></li>
+  <li><code>:future</code> <a rel=3D"nofollow" class=3D"external text" href=
+=3D"http://dev.w3.org/csswg/selectors4/">"Selectors L4"</a></li>
+  <li><code>:host</code> <a rel=3D"nofollow" class=3D"external text" href=
+=3D"http://dev.w3.org/csswg/shadow-styling/">"Shadow Styling"</a></li>
+  <li><code>:host()</code> <a rel=3D"nofollow" class=3D"external text" href=
+=3D"http://dev.w3.org/csswg/shadow-styling/">"Shadow Styling"</a></li>
+  <li><code>:hover</code> <a rel=3D"nofollow" class=3D"external text" href=
+=3D"http://www.w3.org/TR/selectors/">"Selectors L3"</a></li>
+  <li><code>:indeterminate</code> <a rel=3D"nofollow" class=3D"external tex=
+t" href=3D"http://www.w3.org/TR/selectors/">"Selectors L3"</a></li>
+  <li><code>:in-range</code> <a rel=3D"nofollow" class=3D"external text" hr=
+ef=3D"http://dev.w3.org/csswg/css-ui/">"CSS UI L3"</a></li> =20
+  <li><code>:invalid</code> <a rel=3D"nofollow" class=3D"external text" hre=
+f=3D"http://dev.w3.org/csswg/css-ui/">"CSS UI L3"</a></li> =20
+  <li><code>:invalid-drop</code> <a rel=3D"nofollow" class=3D"external text=
+" href=3D"http://dev.w3.org/csswg/selectors4/">"Selectors L4"</a></li>
+  <li><code>:lang</code> <a rel=3D"nofollow" class=3D"external text" href=
+=3D"http://www.w3.org/TR/selectors/">"Selectors L3"</a></li>
+  <li><code>:last-child</code> <a rel=3D"nofollow" class=3D"external text" =
+href=3D"http://www.w3.org/TR/selectors/">"Selectors L3"</a></li>
+  <li><code>:last-of-type</code> <a rel=3D"nofollow" class=3D"external text=
+" href=3D"http://www.w3.org/TR/selectors/">"Selectors L3"</a></li>
+  <li><code>:left</code> <a rel=3D"nofollow" class=3D"external text" href=
+=3D"http://dev.w3.org/csswg/css-page/">"CSS Page L3"</a></li>
+  <li><code>:link</code> <a rel=3D"nofollow" class=3D"external text" href=
+=3D"http://www.w3.org/TR/selectors/">"Selectors L3"</a></li>
+  <li><code>:local-link</code> <a rel=3D"nofollow" class=3D"external text" =
+href=3D"http://dev.w3.org/csswg/selectors4/">"Selectors L4"</a></li>     =
+=20
+  <li><code>:local-link()</code> <a rel=3D"nofollow" class=3D"external text=
+" href=3D"http://dev.w3.org/csswg/selectors4/">"Selectors L4"</a></li>
+  <li><code>:matches()</code> <a rel=3D"nofollow" class=3D"external text" h=
+ref=3D"http://dev.w3.org/csswg/selectors4/">"Selectors L4"</a></li>
+  <li><code>:not</code> <a rel=3D"nofollow" class=3D"external text" href=3D=
+"http://www.w3.org/TR/selectors/">"Selectors L3"</a></li>
+  <li><code>:nth-child()</code> <a rel=3D"nofollow" class=3D"external text"=
+ href=3D"http://www.w3.org/TR/selectors/">"Selectors L3"</a></li>
+  <li><code>:nth-column</code> <a rel=3D"nofollow" class=3D"external text" =
+href=3D"http://dev.w3.org/csswg/selectors4/">"Selectors L4"</a></li>
+  <li><code>:nth-last-child()</code> <a rel=3D"nofollow" class=3D"external =
+text" href=3D"http://www.w3.org/TR/selectors/">"Selectors L3"</a></li>
+  <li><code>:nth-last-column</code> <a rel=3D"nofollow" class=3D"external t=
+ext" href=3D"http://dev.w3.org/csswg/selectors4/">"Selectors L4"</a></li>
+  <li><code>:nth-last-match</code> <a rel=3D"nofollow" class=3D"external te=
+xt" href=3D"http://dev.w3.org/csswg/selectors4/">"Selectors L4"</a></li>
+  <li><code>:nth-last-of-type()</code> <a rel=3D"nofollow" class=3D"externa=
+l text" href=3D"http://www.w3.org/TR/selectors/">"Selectors L3"</a></li>
+  <li><code>:nth-match</code> <a rel=3D"nofollow" class=3D"external text" h=
+ref=3D"http://dev.w3.org/csswg/selectors4/">"Selectors L4"</a></li>
+  <li><code>:nth-of-type()</code> <a rel=3D"nofollow" class=3D"external tex=
+t" href=3D"http://www.w3.org/TR/selectors/">"Selectors L3"</a></li>
+  <li><code>:only-child</code> <a rel=3D"nofollow" class=3D"external text" =
+href=3D"http://www.w3.org/TR/selectors/">"Selectors L3"</a></li>
+  <li><code>:only-of-type</code> <a rel=3D"nofollow" class=3D"external text=
+" href=3D"http://www.w3.org/TR/selectors/">"Selectors L3"</a></li>
+  <li><code>:optional</code> <a rel=3D"nofollow" class=3D"external text" hr=
+ef=3D"http://dev.w3.org/csswg/css-ui/">"CSS UI L3"</a></li> =20
+  <li><code>:out-of-range</code> <a rel=3D"nofollow" class=3D"external text=
+" href=3D"http://dev.w3.org/csswg/css-ui/">"CSS UI L3"</a></li> =20
+  <li><code>:past</code> <a rel=3D"nofollow" class=3D"external text" href=
+=3D"http://dev.w3.org/csswg/selectors4/">"Selectors L4"</a></li>
+  <li><code>:placeholder-shown</code> <a rel=3D"nofollow" class=3D"external=
+ text" href=3D"http://dev.w3.org/csswg/selectors4/">"Selectors L4"</a></li>=
+=20
+  <li><code>:read-only</code> <a rel=3D"nofollow" class=3D"external text" h=
+ref=3D"http://dev.w3.org/csswg/css-ui/">"CSS UI L3"</a></li> =20
+  <li><code>:read-write</code> <a rel=3D"nofollow" class=3D"external text" =
+href=3D"http://dev.w3.org/csswg/css-ui/">"CSS UI L3"</a></li>=20
+  <li><code>:required</code> <a rel=3D"nofollow" class=3D"external text" hr=
+ef=3D"http://dev.w3.org/csswg/css-ui/">"CSS UI L3"</a></li>=20
+  <li><code>:right</code> <a rel=3D"nofollow" class=3D"external text" href=
+=3D"http://dev.w3.org/csswg/css-page/">"CSS Page L3"</a></li>
+  <li><code>:root</code> <a rel=3D"nofollow" class=3D"external text" href=
+=3D"http://www.w3.org/TR/selectors/">"Selectors L3"</a></li>
+  <li><code>:scope</code> <a rel=3D"nofollow" class=3D"external text" href=
+=3D"http://dev.w3.org/csswg/selectors4/">"Selectors L4"</a></li>
+  <li><code>:target</code> <a rel=3D"nofollow" class=3D"external text" href=
+=3D"http://www.w3.org/TR/selectors/">"Selectors L3"</a></li>
+  <li><code>:top</code> <a rel=3D"nofollow" class=3D"external text" href=3D=
+"http://dev.w3.org/csswg/shadow-styling/">"Shadow Styling"</a></li>
+  <li><code>:valid</code> <a rel=3D"nofollow" class=3D"external text" href=
+=3D"http://dev.w3.org/csswg/css-ui/">"CSS UI L3"</a></li>     =20
+  <li><code>:valid-drop</code> <a rel=3D"nofollow" class=3D"external text" =
+href=3D"http://dev.w3.org/csswg/selectors4/">"Selectors L4"</a></li>
+  <li><code>:visited</code> <a rel=3D"nofollow" class=3D"external text" hre=
+f=3D"http://www.w3.org/TR/selectors/">"Selectors L3"</a></li>
+ </ul>
+<h2><span class=3D"mw-headline" id=3D"Origen_de_la_informaci.C3.B3n">Origen=
+ de la informaci=C3=B3n</span></h2>
+<p>El contenido =C3=ADntegro de esta entrada proviene de <a rel=3D"nofollow=
+" class=3D"external text" href=3D"https://escss.blogspot.com/2014/12/select=
+ores-css-guia-a-fondo.html">"el blog EsCss"</a>. Trasladada a esta wiki por=
+ su autor original y al amparo de la licencia "beerware" bajo la que est=C3=
+=A1 publicada.</p>
+
+<!--=20
+NewPP limit report
+Cached time: 20220323151552
+Cache expiry: 86400
+Dynamic content: false
+[SMW] In=E2=80=90text annotation parser time: 0.001 seconds
+CPU time usage: 0.024 seconds
+Real time usage: 0.029 seconds
+Preprocessor visited node count: 304/1000000
+Preprocessor generated node count: 464/1000000
+Post=E2=80=90expand include size: 0/2097152 bytes
+Template argument size: 0/2097152 bytes
+Highest expansion depth: 2/40
+Expensive parser function count: 0/100
+-->
+
+<!--=20
+Transclusion expansion time report (%,ms,calls,template)
+100.00%    0.000      1 - -total
+-->
+
+<!-- Saved in parser cache with key wikidb-esw_:pcache:idhash:8584-0!*!*!!e=
+n!*!* and timestamp 20220323151552 and revision id 87218
+ -->
+</div>					<div class=3D"printfooter">
+						Retrieved from "<a dir=3D"ltr" href=3D"https://www.w3.org/wiki/index.=
+php?title=3DCSS_/_Selectores_CSS&amp;oldid=3D87218">https://www.w3.org/wiki=
+/index.php?title=3DCSS_/_Selectores_CSS&amp;oldid=3D87218</a>"					</div>
+				<div id=3D"catlinks" class=3D"catlinks catlinks-allhidden" data-mw=3D"i=
+nterface"></div>				<div class=3D"visualClear"></div>
+							</div>
+		</div>
+		<div id=3D"mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id=3D"mw-head">
+									<div id=3D"p-personal" role=3D"navigation" class=3D"" aria-labelle=
+dby=3D"p-personal-label">
+						<h3 id=3D"p-personal-label">Personal tools</h3>
+						<ul>
+							<li id=3D"pt-login"><a href=3D"https://www.w3.org/wiki/index.php?tit=
+le=3DSpecial:UserLogin&amp;returnto=3DCSS+%2F+Selectores+CSS" title=3D"You =
+are encouraged to log in; however, it is not mandatory [alt-shift-o]" acces=
+skey=3D"o">Log in</a></li>						</ul>
+					</div>
+									<div id=3D"left-navigation">
+										<div id=3D"p-namespaces" role=3D"navigation" class=3D"vectorTabs"=
+ aria-labelledby=3D"p-namespaces-label">
+						<h3 id=3D"p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li id=3D"ca-nstab-main" class=3D"selected"><span><a href=3D=
+"https://www.w3.org/wiki/CSS_/_Selectores_CSS" title=3D"View the content pa=
+ge [alt-shift-c]" accesskey=3D"c">Page</a></span></li>
+															<li id=3D"ca-talk" class=3D"new"><span><a href=3D"https://ww=
+w.w3.org/wiki/index.php?title=3DTalk:CSS_/_Selectores_CSS&amp;action=3Dedit=
+&amp;redlink=3D1" title=3D"Discussion about the content page [alt-shift-t]"=
+ accesskey=3D"t" rel=3D"discussion">Discussion</a></span></li>
+													</ul>
+					</div>
+										<div id=3D"p-variants" role=3D"navigation" class=3D"vectorMenu em=
+ptyPortlet" aria-labelledby=3D"p-variants-label">
+												<h3 id=3D"p-variants-label" tabindex=3D"0">
+							<span>Variants</span><a href=3D"https://www.w3.org/wiki/CSS_/_Select=
+ores_CSS#" tabindex=3D"-1"></a>
+						</h3>
+
+						<div class=3D"menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id=3D"right-navigation">
+										<div id=3D"p-views" role=3D"navigation" class=3D"vectorTabs" aria=
+-labelledby=3D"p-views-label">
+						<h3 id=3D"p-views-label">Views</h3>
+						<ul>
+															<li id=3D"ca-view" class=3D"selected"><span><a href=3D"https=
+://www.w3.org/wiki/CSS_/_Selectores_CSS">Read</a></span></li>
+															<li id=3D"ca-viewsource"><span><a href=3D"https://www.w3.org=
+/wiki/index.php?title=3DCSS_/_Selectores_CSS&amp;action=3Dedit" title=3D"Th=
+is page is protected.
+You can view its source [alt-shift-e]" accesskey=3D"e">View source</a></spa=
+n></li>
+															<li id=3D"ca-history" class=3D"collapsible"><span><a href=3D=
+"https://www.w3.org/wiki/index.php?title=3DCSS_/_Selectores_CSS&amp;action=
+=3Dhistory" title=3D"Past revisions of this page [alt-shift-h]" accesskey=
+=3D"h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id=3D"p-cactions" role=3D"navigation" class=3D"vectorMenu em=
+ptyPortlet" aria-labelledby=3D"p-cactions-label" style=3D"">
+						<h3 id=3D"p-cactions-label" tabindex=3D"0"><span>More</span><a href=
+=3D"https://www.w3.org/wiki/CSS_/_Selectores_CSS#" tabindex=3D"-1"></a></h3=
+>
+
+						<div class=3D"menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id=3D"p-search" role=3D"search">
+						<h3>
+							<label for=3D"searchInput">Search</label>
+						</h3>
+
+						<form action=3D"https://www.w3.org/wiki/index.php" id=3D"searchform">
+							<div id=3D"simpleSearch">
+							<input type=3D"search" name=3D"search" placeholder=3D"Search" title=
+=3D"Search W3C Wiki [alt-shift-f]" accesskey=3D"f" id=3D"searchInput" tabin=
+dex=3D"1" autocomplete=3D"off"><input type=3D"submit" name=3D"go" value=3D"=
+Go" title=3D"Go to a page with this exact name if it exists" id=3D"searchBu=
+tton" class=3D"searchButton">							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id=3D"mw-panel">
+				<div id=3D"p-logo" role=3D"banner"><a class=3D"mw-wiki-logo" href=3D"ht=
+tps://www.w3.org/wiki/Main_Page" title=3D"Visit the main page"></a></div>
+						<div class=3D"portal" role=3D"navigation" id=3D"p-navigation" aria-la=
+belledby=3D"p-navigation-label">
+			<h3 id=3D"p-navigation-label">Navigation</h3>
+
+			<div class=3D"body">
+									<ul>
+						<li id=3D"n-mainpage"><a href=3D"https://www.w3.org/wiki/Main_Page" t=
+itle=3D"Visit the main page [alt-shift-z]" accesskey=3D"z">Main Page</a></l=
+i><li id=3D"n-Browse-categories"><a href=3D"https://www.w3.org/wiki/Special=
+:Categories">Browse categories</a></li><li id=3D"n-recentchanges"><a href=
+=3D"https://www.w3.org/wiki/Special:RecentChanges" title=3D"A list of recen=
+t changes in the wiki [alt-shift-r]" accesskey=3D"r">Recent changes</a></li=
+>					</ul>
+							</div>
+		</div>
+			<div class=3D"portal" role=3D"navigation" id=3D"p-tb" aria-labelledby=3D=
+"p-tb-label">
+			<h3 id=3D"p-tb-label">Tools</h3>
+
+			<div class=3D"body">
+									<ul>
+						<li id=3D"t-whatlinkshere"><a href=3D"https://www.w3.org/wiki/Special=
+:WhatLinksHere/CSS_/_Selectores_CSS" title=3D"A list of all wiki pages that=
+ link here [alt-shift-j]" accesskey=3D"j">What links here</a></li><li id=3D=
+"t-recentchangeslinked"><a href=3D"https://www.w3.org/wiki/Special:RecentCh=
+angesLinked/CSS_/_Selectores_CSS" title=3D"Recent changes in pages linked f=
+rom this page [alt-shift-k]" accesskey=3D"k">Related changes</a></li><li id=
+=3D"t-specialpages"><a href=3D"https://www.w3.org/wiki/Special:SpecialPages=
+" title=3D"A list of all special pages [alt-shift-q]" accesskey=3D"q">Speci=
+al pages</a></li><li id=3D"t-print"><a href=3D"https://www.w3.org/wiki/inde=
+x.php?title=3DCSS_/_Selectores_CSS&amp;printable=3Dyes" rel=3D"alternate" t=
+itle=3D"Printable version of this page [alt-shift-p]" accesskey=3D"p">Print=
+able version</a></li><li id=3D"t-permalink"><a href=3D"https://www.w3.org/w=
+iki/index.php?title=3DCSS_/_Selectores_CSS&amp;oldid=3D87218" title=3D"Perm=
+anent link to this revision of the page">Permanent link</a></li><li id=3D"t=
+-info"><a href=3D"https://www.w3.org/wiki/index.php?title=3DCSS_/_Selectore=
+s_CSS&amp;action=3Dinfo" title=3D"More information about this page">Page in=
+formation</a></li>					</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id=3D"footer" role=3D"contentinfo">
+							<ul id=3D"footer-info">
+											<li id=3D"footer-info-lastmod"> This page was last modified on 9=
+ December 2015, at 17:39.</li>
+									</ul>
+							<ul id=3D"footer-places">
+											<li id=3D"footer-places-privacy"><a href=3D"https://www.w3.org/w=
+iki/W3C_Wiki:Privacy_policy" title=3D"W3C Wiki:Privacy policy">Privacy poli=
+cy</a></li>
+											<li id=3D"footer-places-about"><a href=3D"https://www.w3.org/wik=
+i/W3C_Wiki:About" title=3D"W3C Wiki:About">About W3C Wiki</a></li>
+											<li id=3D"footer-places-disclaimer"><a href=3D"https://www.w3.or=
+g/wiki/W3C_Wiki:General_disclaimer" title=3D"W3C Wiki:General disclaimer">D=
+isclaimers</a></li>
+											<li id=3D"footer-places-mobileview"><a href=3D"https://www.w3.or=
+g/wiki/index.php?title=3DCSS_/_Selectores_CSS&amp;mobileaction=3Dtoggle_vie=
+w_mobile" class=3D"noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id=3D"footer-icons" class=3D"noprint">
+											<li id=3D"footer-poweredbyico">
+							<a href=3D"https://www.mediawiki.org/"><img src=3D"https://www.w3.or=
+g/wiki/resources/assets/poweredby_mediawiki_88x31.png" alt=3D"Powered by Me=
+diaWiki" width=3D"88" height=3D"31"></a>						</li>
+									</ul>
+						<div style=3D"clear:both"></div>
+		</div>
+	=09
+=09
+
+<div class=3D"suggestions" style=3D"display: none; font-size: 13px;"><div c=
+lass=3D"suggestions-results"></div><div class=3D"suggestions-special"></div=
+></div></body></html>
+------MultipartBoundary--ipjOoWcWZYvoG1NpqYozbHS6loTPlqt7nDDRoSbxJh----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-3f94b2d8-3481-4263-9fe1-6bdb6650f2d5@mhtml.blink
+
+@charset "utf-8";
+
+span.smwbuiltin, span.smwttactiveinline span.smwbuiltin { font-style: itali=
+c; }
+
+div.smwpre { font-family: monospace; padding: 1em; border: 1px dashed rgb(4=
+7, 111, 171); color: black; background-color: rgb(249, 249, 249); line-heig=
+ht: 1.1em; margin-bottom: 0.5em; margin-top: 0.5em; white-space: pre-wrap; =
+overflow-wrap: break-word; word-break: break-word; margin-right: 5px; }
+
+#smwfootbr { clear: both; }
+
+span.smwsortkey { display: none; }
+
+a.sortheader:hover { text-decoration: none; }
+
+div.smwtimeline { border: 1px solid rgb(170, 170, 170); background-color: r=
+gb(249, 249, 249); }
+
+span.smwtlevent, span.smwtlband, span.smwtlsize, span.smwtlposition { displ=
+ay: none; speak: none; }
+
+span.smwtlcomment { font-style: italic; padding: 5px; }
+
+div.smwfact { clear: both; background-color: rgb(249, 249, 249); padding: 5=
+px; margin-top: 1em; border: 1px solid rgb(170, 170, 170); font-size: 95%; =
+min-height: 23px; }
+
+div.smwfact td, div.smwfact tr, div.smwfact table { background-color: rgb(2=
+49, 249, 249); }
+
+.smwfactboxhead { font-size: 110%; font-weight: bold; float: left; margin-b=
+ottom: 2px; max-width: 90%; }
+
+table.smwfacttable { border-top: 1px dotted rgb(170, 170, 170); width: 100%=
+; clear: both; }
+
+td.smwpropname, th.smwpropname, td.smwspecname { text-align: right; vertica=
+l-align: top; padding-right: 1em; }
+
+.smwfact tbody > tr.row-even > td { background-color: rgb(255, 255, 255); }
+
+.property-page-results td.smwpropname { width: 50%; }
+
+.property-page-results td.smwprops, td.smwspecs { vertical-align: top; widt=
+h: 50%; }
+
+@media (min-width: 600px) {
+  .smwfact td.smwpropname, .property-page-results td.smwpropname { width: 3=
+3%; }
+  .smwfact td.smwprops, .property-page-results td.smwprops, td.smwspecs { w=
+idth: 75%; }
+}
+
+.property-page-results { margin-top: 0.9em; }
+
+.property-page-results table { border: none; }
+
+.property-page-results .header-row { }
+
+.property-page-results .value-row:hover { background-color: rgb(245, 245, 2=
+45); }
+
+.property-page-results .header-row > th { border-bottom: 0px solid rgb(221,=
+ 221, 221); }
+
+.property-page-results tr.value-row > td { padding-bottom: 0.2em; padding-t=
+op: 0.2em; }
+
+.property-page-results .header-row + tr.value-row td { padding-top: 0.3em; =
+}
+
+.property-page-results .header-title { font-weight: bold; font-size: 1.17em=
+; line-height: 1.6; margin-top: 0em; color: rgb(51, 51, 51); overflow: hidd=
+en; padding: 2px 3px; }
+
+.property-page-results tr.value-row:nth-child(2n) { }
+
+.smwtable-striped tbody > tr:nth-child(2n) { background-color: rgb(245, 245=
+, 245); }
+
+.smwtable-striped tbody > tr:nth-child(2n+1) { background-color: rgb(255, 2=
+55, 255); }
+
+.smwtable-striped tbody > tr:hover { background-color: rgb(238, 238, 238); =
+}
+
+div.smwhr hr { background-color: rgb(221, 221, 221); color: rgb(221, 221, 2=
+21); }
+
+span.smwwarning { color: rgb(136, 136, 136); font-style: italic; font-size:=
+ 90%; }
+
+.smw-edit-protection { background: url("data:image/png;base64,iVBORw0KGgoAA=
+AANSUhEUgAAAKAAAADOCAYAAAC5MQkHAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5=
+ccllPAAAA3JJREFUeNrs3dFuEkEYgNHOQBbWC8Nzqo+jL8QTNV64sAmMbdM1xEBrIt2ZnTknUSu=
+2lp39+g9FgbDf7x+47nA4/BiGYXs8HrtxHLvz+bya/uzp8v7yffu+H6a3Y4ynruvGzWYzPl1+2G=
+63X63mdWtL8Ef6+4KncF5+3MGXK5cFS952gKmwzx8EKLpSrlsQoOjEKMDmwnvrOIIAhSdEATYXX=
+tUhRvE5ZhNQeM1Owyg+09AEFF6z0zCKzzQUoPiaXau1xbQlm4Dia3YNo4UToQDF1+yaRgslQgGK=
+r9k1jhZGhAIUX7NrvrYQ7woVH196yHw/oUfFfUx0t/4uk76wAFOl0S0pxqxTMIrvZfFDQ5+3qHM=
+RG46vlABKuR6ppQBb2G5ruE5VBpgyn+RQ+BdGzuuXag8wd3wmdGHnqIW7YcLCr3fVd93EWr+yKr=
+pdleMYUo0Bis+xZAswOWGLO6ZUS4DiE2EzW3AL96VVdYyt3hFNIwHOuf229C8Jcx5rWnKA4nPM2=
+QJMTkQ1x56WGCBkC9D0MwWrn4Diq2AtbMFUF2DyFV/tFExLCBCqDtD0q2ht7h2gx73WL5UcIFQd=
+oO23sjUyAakmQLf/3A6segLafitcK1swAkSAthTbsAAxAWGRAboLpj2ppABBgAjQd8DWzgTEBAQ=
+BIkAQIAIEASJAECACBAEiQAQIAkSAIEAECAJEgCBABAgCRIBwf+vXX0t+ag1P+1HvuQnRCSZnwL=
+Zg3AZEgCBABAgCRIAgQAQIAkSAIEAECAJEgCBABAgCRIAgQAQIAkSAIEAECAJEgHAzwGAZyCRMz=
+441ReiJipglPEsAAAAAAAAAAABwV2G/309v+7+AzNre809RfGSSpgDFR7YIPSiJrASIABEgCBAB=
+ggARIAgQAYIAESAIEAGCABEgCBABggARIAgQAYIAESAIEAHCuwF64Thy0R4AAAAAAAAAAMB9XL5=
+Y4cRLd/GhzV3+Zi06ZnbZWvBihWSN0WNCyEqACBABggARIAgQAYIAESAIEAGCABEgCBABggARIP=
+x3gJ4omlyCCUgRW7ApyOzTz21AivomxBRk1ul3bQKKkNnie7Z+4x08YJ0PC+/WBDQNmS2+WxPw6=
+gcej8fvj4+Pn4dh+HQ6nVbjOHbWlUnXdeNqtTr1ff9rt9v93Gw23/7l434LMAB5UpLsaS0+0gAA=
+AABJRU5ErkJggg=3D=3D") 0% 0% / 16px 20px no-repeat; height: 20px; width: 16=
+px; }
+
+span.smwsearchicon { padding-right: 16px; margin-right: 2px; color: rgb(136=
+, 136, 136); background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA=
+AAAwAAAAMCAYAAABWdVznAAABlUlEQVR4AX1QM2CYQRSuvXbrVCzlVidTbNu2bdu2bdu2bdvakp=
+d3f8zhfB8fGLmnvbQNzOV0iyyp8I2vOAhKrtkJTKyucwkroidvtKziDy6PBwauKRxOoYUTCfktU=
+Fw/ALmVPdSIzm4ctvbP5VSxin58BYAsRXG5LdA1NAejM6vQ3DMFDZ0TZD1EtXglq6i3VwDmPpl7=
+BTX9MDixTAFGppZhcn4dphc2ILmwfQgVvl4BmHll7hMLVa2jMDC+CPPLW7Cwug3L6zuQWNA6LG0=
+U8u0KQM0mtjujtBPKm4YpdvJ5fWufWn1iK4q4ldzeXQEIaHgJYOgFVDhCwDk7ySVvFpEpZxL6Q0=
+I/8Mk5gFHc4o2ojr8sNlIXkdGwGZvTvOafWNmCn7PV7WJHsMUGacNgdl5VDwpEoRhEjZ9zKrp8w=
+E+/5U3DfnEru31Cki+GbqklqcUdgKA+dMLOImP/hABuHRwKzo94VNz/OoYU1JNSsP4ZVCGPdw9m=
+aTsyfiOoD60CZpkmD/cOehGjh8jMIWMcOsav7jVyDFZrKl+CbnMbAAAAAElFTkSuQmCC") righ=
+t center no-repeat; }
+
+#bodyContent span.smwsearch a { padding-right: 14px; margin-right: 2px; col=
+or: rgb(136, 136, 136); background: url("data:image/png;base64,iVBORw0KGgoA=
+AAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAABlUlEQVR4AX1QM2CYQRSuvXbrVCzlVidTbNu2bdu=
+2bdu2bdvakpd3f8zhfB8fGLmnvbQNzOV0iyyp8I2vOAhKrtkJTKyucwkroidvtKziDy6PBwauKR=
+xOoYUTCfktUFw/ALmVPdSIzm4ctvbP5VSxin58BYAsRXG5LdA1NAejM6vQ3DMFDZ0TZD1EtXglq=
+6i3VwDmPpl7BTX9MDixTAFGppZhcn4dphc2ILmwfQgVvl4BmHll7hMLVa2jMDC+CPPLW7Cwug3L=
+6zuQWNA6LG0U8u0KQM0mtjujtBPKm4YpdvJ5fWufWn1iK4q4ldzeXQEIaHgJYOgFVDhCwDk7ySV=
+vFpEpZxL6Q0I/8Mk5gFHc4o2ojr8sNlIXkdGwGZvTvOafWNmCn7PV7WJHsMUGacNgdl5VDwpEoR=
+hEjZ9zKrp8wE+/5U3DfnEru31Cki+GbqklqcUdgKA+dMLOImP/hABuHRwKzo94VNz/OoYU1JNSs=
+P4ZVCGPdw9maTsyfiOoD60CZpkmD/cOehGjh8jMIWMcOsav7jVyDFZrKl+CbnMbAAAAAElFTkSu=
+QmCC") right center / 10px 10px no-repeat; }
+
+#bodyContent span.smwsearch a:hover { text-decoration: none; color: rgb(0, =
+0, 255); padding-right: 16px; margin-right: 0px; background: url("data:imag=
+e/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACz0lEQVR4AZWRA7=
+ArSxgG+59ZxTl8tm3btm3btm3btlG6tm0fx05259m8XdX1FX/KZZfdT0tTVHmR2IEFr+2SvNe6P=
+rZDgnzJKfR+Sq7vnkq5MqVaq6OU8GcsJUYXGtbVc721b9ArrKQTrS6uDWWjon6tdLJMG7+7P3PC=
+KUrxtYjwZ+TCS+7fP7/Cdh82b76xrLJ8QMSDcgXSmTqO53xfzNDz+dczU+PHbm+ULAL5Y4GTL3v=
+mW2+nI3ZZZ70way0ttAhM7AlQnlCqGWJJTXrKfMY888ZZ9WLxSdHWHwscec276ZUOOii5+goBG7=
+UovJphfAlaYkJFgSPg+4YPrnzww9ScBQdpx+H3WA0n5oadgEzWZ1QlIBxWLB1XfB+EAceApRW1S=
+jWazRWw3T8WUPV0R0VsjV+DQCvCIcHVoICWnw35AYVMNpPLF8nmSnyfv2r1TRs3sJTK7aubIlTr=
+ECihCsR+tl2Ej/uPZN6shZ9Uqo3vi5UxgDE/aaVmTb1z6icf77LLRceGPA2BMSh+IizCwnSOz9/=
+5mkQiMW+35UazXG08C7MWXTlIFUEpLQOnf/Hhef0feSVfzRWwXMEgiAjDJs7ithsfx7JCbLd+/N=
+pNnHHXi9Bmi4/1vZoGSpQiqFefG/vuW7u8dvYVb7163p1znr3ywfnXn3L9+OvOvOGmVE9+H9vve=
+38VM2CXlVeK3xRRjefqgSQNYBAsANEaIRieXbToSDEB4ViEzKIucqksa69m0JPfXHKVw1Y4eN2d=
+jsF557X9ugemX+3M2icCvYqfERG0bf/4Jtv5Pj0H7YZxSnNxiwve+uidMQ9NnNzD6ocfwy5bJvd=
+p82rPNXxaFf+KwYhGW1axs7d20cO3fPDgqDG9rHPMMRy1R/P+raH6s4r/ieto051uXH7PTe/dP3=
+ZChtiG26FaVjhAsRjYtq6ncv5Vd1/79vt3PT+/ME226P8dQnA5DBkw9cwAAAAASUVORK5CYII=
+=3D") right center / 13px 13px no-repeat; }
+
+#bodyContent span.swmfactboxheadbrowse a { padding-right: 16px; margin-righ=
+t: 2px; color: rgb(0, 0, 0); background: url("data:image/png;base64,iVBORw0=
+KGgoAAAANSUhEUgAAAAwAAAAMCAIAAADZF8uwAAAABnRSTlMAAAAAAABupgeRAAABM0lEQVR4AV=
+2OA4LlQBCG+3p7gR3btm372VaMsW3bto6QqWd8SXeX60c+3t6/l1b3rMSkyTG2tLb7+vaBQtjYP=
+pGoSQs2IdcxgwrcQU2JVcTO3rG/Yn5pS6FjNUb28uazW2TrlzrAkCjxATmxuLyFgNv7914J3i+1=
+QQL+2g5LTq3RbWuMfLfIcXf/hmT6iZZeK4QEQRibPYCKsBw9GOBCUKqi9JZxpNJz7gpAZ5+LyNH=
+/S9SDAa67rn0AR0braGARVIQUlTTZEDeyxI6s+NZBRVGdf51Kzyv0Y+jj81ekICNzNG6xcYXGrC=
+qP8MxKQ1Wr9e7hHQHUyEZxk62mwym/Y8AOPxhlzeaUMotIN4N80KPrQwpCqqbhhl+kJDsG7aAMB=
+QN7f8YmlpQ6Gn6Gm3t5/fSl/gB+4wSrZdObugAAAABJRU5ErkJggg=3D=3D") right center =
+/ 13px 13px no-repeat; }
+
+#bodyContent span.swmfactboxheadbrowse a:hover { text-decoration: none; col=
+or: rgb(0, 0, 255); padding-right: 18px; margin-right: 0px; background: url=
+("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnR=
+STlMAAAAAAABupgeRAAABYUlEQVR4AWNAA/v3H5w0ZX5j6/TG1mndfbM2btrKgAscPXYiJa8vq3=
+Jd04SjXdPPdE4/U921PyZvaVBc07r1m9FVL1u5kU+vDojii9eklq/NqFqXXrkuqWRNdP5Kr+Rla=
+o7NHT3TkZxx4IhV4GQdz0lADQdPPGmbvN8xcpZjxKymSfuAXD2vfjWXfn69qkWLV0E1pBbN8oib=
+z6OZD5QGovKO7erO3aqOXTl1GyEi2m596i6TrHzrQao3bdkTmrk6p3IFUOL///8bd93wTloAtEr=
+CtMkrcQGQCxQESuVVr/FPXT5j9lKGurYF3dPPgVSDQfPkAzy6Ncyq5YxK5UBtQC5QEKInLGdDTG=
+YbQ0jaDLjqB0/e5tRvFjJsYFSCagBygYJwPabedSRrIN1JmJ428J4I8bS+10RMT2MJ1uSKtZBgT=
+a9ahxas6BFn7DeRYMQhkoaZX09Axko8SYPMxEdy8gYAvvNg35ib+m0AAAAASUVORK5CYII=3D")=
+ right center / 15px 15px no-repeat; }
+
+#bodyContent span.smwbrowse a { padding-right: 14px; margin-right: 2px; col=
+or: rgb(136, 136, 136); background: url("data:image/png;base64,iVBORw0KGgoA=
+AAANSUhEUgAAAAwAAAAMCAIAAADZF8uwAAAABnRSTlMAAAAAAABupgeRAAABM0lEQVR4AV2OA4L=
+lQBCG+3p7gR3btm372VaMsW3bto6QqWd8SXeX60c+3t6/l1b3rMSkyTG2tLb7+vaBQtjYPpGoSQ=
+s2IdcxgwrcQU2JVcTO3rG/Yn5pS6FjNUb28uazW2TrlzrAkCjxATmxuLyFgNv7914J3i+1QQL+2=
+g5LTq3RbWuMfLfIcXf/hmT6iZZeK4QEQRibPYCKsBw9GOBCUKqi9JZxpNJz7gpAZ5+LyNH/S9SD=
+Aa67rn0AR0braGARVIQUlTTZEDeyxI6s+NZBRVGdf51Kzyv0Y+jj81ekICNzNG6xcYXGrCqP8Mx=
+KQ1Wr9e7hHQHUyEZxk62mwym/Y8AOPxhlzeaUMotIN4N80KPrQwpCqqbhhl+kJDsG7aAMBQN7f8=
+YmlpQ6Gn6Gm3t5/fSl/gB+4wSrZdObugAAAABJRU5ErkJggg=3D=3D") right center / 10p=
+x 10px no-repeat; }
+
+#bodyContent span.smwbrowse a:hover { text-decoration: none; color: rgb(0, =
+0, 255); padding-right: 16px; margin-right: 0px; background: url("data:imag=
+e/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAA=
+BupgeRAAABYUlEQVR4AWNAA/v3H5w0ZX5j6/TG1mndfbM2btrKgAscPXYiJa8vq3Jd04SjXdPPd=
+E4/U921PyZvaVBc07r1m9FVL1u5kU+vDojii9eklq/NqFqXXrkuqWRNdP5Kr+Rlao7NHT3TkZxx=
+4IhV4GQdz0lADQdPPGmbvN8xcpZjxKymSfuAXD2vfjWXfn69qkWLV0E1pBbN8oibz6OZD5QGovK=
+O7erO3aqOXTl1GyEi2m596i6TrHzrQao3bdkTmrk6p3IFUOL///8bd93wTloAtErCtMkrcQGQCx=
+QESuVVr/FPXT5j9lKGurYF3dPPgVSDQfPkAzy6Ncyq5YxK5UBtQC5QEKInLGdDTGYbQ0jaDLjqB=
+0/e5tRvFjJsYFSCagBygYJwPabedSRrIN1JmJ428J4I8bS+10RMT2MJ1uSKtZBgTa9ahxas6BFn=
+7DeRYMQhkoaZX09Axko8SYPMxEdy8gYAvvNg35ib+m0AAAAASUVORK5CYII=3D") right cent=
+er / 13px 13px no-repeat; }
+
+#bodyContent span.smwmap a { padding-right: 20px; color: rgb(136, 136, 136)=
+; background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCA=
+YAAAAf8/9hAAADEUlEQVR4AWKgFDBiiMgUciooi4ZYGcj7aSiLmXNysHK/+/D17vlrz/efuPh46=
+YfzjZdwmsarU2FZ3bP9PKALcmCS7QgD6LkYz2K0NmPbtq1ynBTi/ISUEdu2bdtca4zr8XS66hVf=
+2/2ds542RKPRFs3WtlpvtITrNcRXP67VTrvs4dvgcJ3tU3DHWw676/GvLddrirJRExtpU/zyV1p=
+8/9uG+PaXdbGwUhSGVRcVuXfONY89BedqABoAc9cnLzhh33evueTglO3WWdkoUSg7OF6DcMhHvu=
+SgKCrtVge5z07Tg7u+83vWcbc+/koH6AlFrj1q//nR9YyBvMi/Kzl0XaXTEcR7w0gM5if78Oka/=
+y0XiYSDHL737K3PFW94VIPLfWoidEdXxJ8Kyd+yBQvDrpIt2lh2jVzRYWw4zsF7T9JstGm3IV90=
+yRW80MJa7k81MB8bVhVl8sufV3j+7V/kLzq7z4/Ig4Lf/s2ylbXJ5W2JVSGds2m1O5TKVQzLo9n=
+p7KMFU4eNoCrXBIM+VSIwNhjnxMN3ZJe5AUoVl2QsDJL/7ie/knOPgUQPFbPGW5/9SbZk/aO2An=
+7H79eaplUl1h2Sv6b5b6lAyO/n3BN3Z989RpgajWPbLda3LOnIw6s1qDeb+H0BS2vnHDc0OHV+I=
+BBMOdKwqgomhpOMDPbw3hf/8s6n/yB56Y4EEALGB+NScoEOCov//XmXDj82vUzvKwN7nLnT+mYW=
+064zMxFnZKgLx21QrbVx9Lr8tclWzkAKxq03SGfz5dryE++pgF7PfvmOVd4qz0wM0B0NYVp1VA3=
+6ElFmxhKgCOqNJgG/zsJGjmAoROafd54Dr6IBQWj1OqV1Bib23WfPXabUvniIL79foWxIaakuom=
+E/qXiU8eE4iXicLz95+Xdj5a37gIIGdACdluka2X+M7sT4xPDIeGR4IM5eu4yQ6I0SDodIxntZW=
+M6Kd1979IvM3y/cC/wNZBQAQAeSwCioO87veuRhhx953F577b5zP4qib6YLzk8/frfw2cevf+YY=
+G98Aq0AGqP4PpDyPoTUciocAAAAASUVORK5CYII=3D") right center no-repeat; }
+
+#bodyContent span.smwmap a:hover { padding-right: 20px; color: rgb(0, 0, 25=
+5); background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQ=
+CAYAAAAf8/9hAAADEUlEQVR4AWKgFDBiiMgUciooi4ZYGcj7aSiLmXNysHK/+/D17vlrz/efuPh=
+46YfzjZdwmsarU2FZ3bP9PKALcmCS7QgD6LkYz2K0NmPbtq1ynBTi/ISUEdu2bdtca4zr8XS66h=
+Vf2/2ds542RKPRFs3WtlpvtITrNcRXP67VTrvs4dvgcJ3tU3DHWw676/GvLddrirJRExtpU/zyV=
+1p8/9uG+PaXdbGwUhSGVRcVuXfONY89BedqABoAc9cnLzhh33evueTglO3WWdkoUSg7OF6DcMhH=
+vuSgKCrtVge5z07Tg7u+83vWcbc+/koH6AlFrj1q//nR9YyBvMi/Kzl0XaXTEcR7w0gM5if78Ok=
+a/y0XiYSDHL737K3PFW94VIPLfWoidEdXxJ8Kyd+yBQvDrpIt2lh2jVzRYWw4zsF7T9JstGm3IV=
+90yRW80MJa7k81MB8bVhVl8sufV3j+7V/kLzq7z4/Ig4Lf/s2ylbXJ5W2JVSGds2m1O5TKVQzLo=
+9np7KMFU4eNoCrXBIM+VSIwNhjnxMN3ZJe5AUoVl2QsDJL/7ie/knOPgUQPFbPGW5/9SbZk/aO2=
+An7H79eaplUl1h2Sv6b5b6lAyO/n3BN3Z989RpgajWPbLda3LOnIw6s1qDeb+H0BS2vnHDc0OHV=
++IBBMOdKwqgomhpOMDPbw3hf/8s6n/yB56Y4EEALGB+NScoEOCov//XmXDj82vUzvKwN7nLnT+m=
+YW064zMxFnZKgLx21QrbVx9Lr8tclWzkAKxq03SGfz5dryE++pgF7PfvmOVd4qz0wM0B0NYVp1V=
+A36ElFmxhKgCOqNJgG/zsJGjmAoROafd54Dr6IBQWj1OqV1Bib23WfPXabUvniIL79foWxIaaku=
+omE/qXiU8eE4iXicLz95+Xdj5a37gIIGdACdluka2X+M7sT4xPDIeGR4IM5eu4yQ6I0SDodIxnt=
+ZWM6Kd1979IvM3y/cC/wNZBQAQAeSwCioO87veuRhhx953F577b5zP4qib6YLzk8/frfw2cevf+=
+YYG98Aq0AGqP4PpDyPoTUciocAAAAASUVORK5CYII=3D") right center no-repeat; }
+
+.smwrdflink { float: right; font-size: small; padding: 2px 0px 0px; }
+
+.concept-documenation { border-top: 1px dotted rgb(170, 170, 170); }
+
+#bodyContent span.rdflink { float: right; }
+
+#bodyContent span.rdflink a { padding-right: 15px; color: rgb(136, 136, 136=
+); background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKC=
+AYAAACNMs+9AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAABXAAAAVwBIJKt8wAAABl0RVh0U29m=
+dHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEkSURBVBiVdZDNK8NxHMff799+B5nH1J5KGeV=
+AKRdxmB08/FKSlFJOagcnrpz8AcqFUmYXJbXjlLTUHKyUtuzoaaxc9suQH3vk+3Gx28/79q5XvR=
++IfzS9drLd5WkOHSdzD4W30rzDDmqdDPtnR7sPYxdPuvlecoHs0O3Ab3Lm4PQWhY8yAIAantk4E=
+fEFB70bn8VqJX33ckWKAWFRBEkS6wSyVsUxpy+M9SQ6Xc7erWgGBGpKYaQYD6UAwGnstwnFxPlS=
+Wc/lLXc0cV9PVeJAvm4oUiXQAABsmYosKiU7ACwRiWukT5Fnmvq5HOrz7n2Va8zkCgbtxjQZkeX=
+AgGd3uN+NzaNrAJK2BQEguBLLpm5M/18J0/ZHAHhtH38EEICIBQ2rv4PbbWvnjkO+AAAAAElFTk=
+SuQmCC") right center no-repeat; }
+
+#bodyContent span.rdflink a:hover { text-decoration: none; color: rgb(0, 0,=
+ 255); padding-right: 15px; margin-right: 0px; background: url("data:image/=
+png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAABHNCSVQICAgIfAhk=
+iAAAAAlwSFlzAAABoQAAAaEBKIw4xAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5v=
+uPBoAAAGBSURBVCiRfZHbK4NxGMe/z2+j4Z0lMnNmTUhyKqQU2uvUckWJ5JALf4BruXDDHyAskk=
+Jc2QXKsZWWUigJG1eilNXendi79/25mdqFeS4/z/dbz/P9Ev4Zo22taaizbOf5Tcq6vP9wRNXop=
+CaxnNP4VOA6JzPVtH74lBSJqlVRBXJCg6HXmKFL1s1uHrvjsZv+EgviYjZY0oaGSFRU/ov9qkrt=
+Wr24VN7dXLLFCEXnN++uQFgOAqiAymd9hnSb3u/v4pzvAdQXOpq40va2lDoG2syWkblTAOgB4SW=
+ZdLXeg2EJAPyAQ+i0vwfS9U4AYN+yYoqJY79C8jZ6AvEnEhAx+r50AMDOrl8X4nYqQLmCK/9YEO=
+1VAJDWtVLNgYIQRQZjZkAQ7a3EyEIKc0pHY+4063INMTYPgnlmtL5QCsra7RMPf/sMTv+ZEgCgf=
+0dTZ2CPHXV55tX9B3zLCgB8Ji7ufpenWGyVt8/ehuCX/Es9/zQNqMXWi3CYl4Eon4A7Tnz0B9r4=
+jkr5KFRQAAAAAElFTkSuQmCC") right center no-repeat; }
+
+.smw-spinner .text { padding-left: 2.1em; font-size: 12px; vertical-align: =
+middle; }
+
+.smw-spinner.left.mw-small-spinner { background-position: left center; vert=
+ical-align: middle; display: inline-block; padding: 0px !important; }
+
+.smw-spinner.center.mw-small-spinner { vertical-align: middle; display: inl=
+ine-block; padding: 0px !important; }
+
+table.smw-ask-query .smw-ask-query-condition { width: 100%; }
+
+table.smw-ask-query .smw-ask-query-printout { width: 100%; }
+
+.smw-form-horizontalrule { margin-bottom: 10px; }
+
+.smw-form-select, .smw-form-input { padding: 1px; }
+
+.smw-form-checkbox { vertical-align: middle; cursor: pointer; }
+
+label.smw-form-checkbox { vertical-align: middle; cursor: pointer; }
+
+.smw-editpage-help { background-color: rgb(240, 240, 240); border: 1px soli=
+d silver; padding: 0.5em 1em; margin-bottom: 1em; }
+
+.smw-column-header { font-weight: bold; font-size: 1.17em; line-height: 1.6=
+; margin-top: 0.3em; margin-bottom: 0px; padding-bottom: 0px; color: black;=
+ overflow: hidden; padding-top: 0.5em; }
+
+.smw-column { float: left; overflow-wrap: break-word; }
+
+.smw-column-responsive { columns: 20em 3; column-gap: 1em; }
+
+.smw-column-twofold-responsive { columns: 20em 2; column-gap: 1em; }
+
+.smw-column[dir=3D"rtl"] { float: right; }
+
+.smw-column-responsive[dir=3D"rtl"] { float: right; }
+
+.smw-columnlist-container .smw-column-responsive { margin-bottom: -2em; }
+
+.smw-callout { padding: 10px; margin: 0.5em 0px; border-width: 1px 1px 1px =
+5px; border-style: solid; border-color: rgb(238, 238, 238); border-image: i=
+nitial; border-radius: 3px; }
+
+.smw-callout-info { border-width: 1px 1px 1px 5px; border-style: solid; bor=
+der-color: rgb(217, 237, 247) rgb(217, 237, 247) rgb(217, 237, 247) rgb(27,=
+ 128, 158); border-image: initial; background-color: rgb(217, 237, 247); }
+
+.smw-callout-info .title { color: rgb(27, 128, 158); }
+
+.smw-callout-warning { border-width: 1px 1px 1px 5px; border-style: solid; =
+border-color: rgb(252, 248, 227) rgb(252, 248, 227) rgb(252, 248, 227) rgb(=
+170, 103, 8); border-image: initial; background-color: rgb(252, 248, 227); =
+}
+
+.smw-callout-warning .title { color: rgb(170, 103, 8); }
+
+.smw-callout-success { border-width: 1px 1px 1px 5px; border-style: solid; =
+border-color: rgb(223, 240, 216) rgb(223, 240, 216) rgb(223, 240, 216) rgb(=
+60, 118, 61); border-image: initial; background-color: rgb(223, 240, 216); =
+}
+
+.smw-callout-success .title { color: rgb(60, 118, 61); }
+
+.smw-callout-error { border-width: 1px 1px 1px 5px; border-style: solid; bo=
+rder-color: rgb(242, 222, 222) rgb(242, 222, 222) rgb(242, 222, 222) rgb(20=
+6, 72, 68); border-image: initial; background-color: rgb(242, 222, 222); }
+
+.smw-callout .title { margin-top: 0px; margin-bottom: 5px; font-size: 16px;=
+ font-family: inherit; font-weight: 500; }
+
+.smwb-value, .smwprops, .smwpropname, .smwb-factbox .smwtype_wpg, .smwtype_=
+uri, .smwb-ivalue, .smwb-title { word-break: break-word; overflow-wrap: bre=
+ak-word; hyphens: auto; }
+
+@media (max-width: 400px) {
+  .smwb-propvalue, .smwb-ipropvalue { word-break: break-word; overflow-wrap=
+: break-word; hyphens: auto; }
+}
+
+.smw-subobject-entity { font-style: italic; }
+
+.autocomplete-suggestions { border: 1px solid rgb(153, 153, 153); backgroun=
+d: rgb(255, 255, 255); overflow: auto; }
+
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow:=
+ hidden; font-size: 0.8em; }
+
+.autocomplete-selected { background: rgb(240, 240, 240); }
+
+.autocomplete-suggestions strong { font-weight: normal; color: rgb(51, 153,=
+ 255); }
+
+.autocomplete-group { padding: 2px 5px; }
+
+.autocomplete-group strong { display: block; border-bottom: 1px solid rgb(0=
+, 0, 0); }
+
+.skin-vector input#smw-property-input.autocomplete-suggestions { height: 1.=
+15em; padding: 2px; }
+
+.skin-chameleon input#smw-property-input.autocomplete-suggestions { height:=
+ 30px; padding: 2px; }
+
+.skin-foreground input#smw-property-input.autocomplete-suggestions { height=
+: 32px; padding: 2px 0px 0px 8px; }
+
+.skin-chameleon .autocomplete-suggestion, .skin-foreground .autocomplete-su=
+ggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; font-si=
+ze: 0.9em; }
+
+.smw-breadcrumb-link { color: rgb(125, 125, 125); font-size: 84%; line-heig=
+ht: 1.2em; margin: 0px 0px 0.8em; width: auto; }
+
+.smw-breadcrumb-arrow-right { border-top: 5px solid transparent; border-bot=
+tom: 5px solid transparent; border-left: 5px solid rgb(170, 170, 170); disp=
+lay: inline-block; position: relative; margin-left: 4px; margin-right: 4px;=
+ }
+
+.smw-ask-action-btn, .smw-action-btn { display: inline-block; padding: 3px =
+6px; margin-bottom: 0px; font-size: 12px; font-weight: 400; line-height: 1.=
+42857; text-align: center; white-space: nowrap; vertical-align: middle; tou=
+ch-action: manipulation; cursor: pointer; user-select: none; background-ima=
+ge: none; border: 1px solid transparent; border-radius: 4px; }
+
+.smw-action-btn-min200 { min-width: 200px; }
+
+.smw-ask-action-btn-lgrey, a.smw-ask-action-btn-lgrey:visited, .smw-action-=
+btn-lgrey, .smw-action-btn-lgrey:visited { color: rgb(34, 34, 34); backgrou=
+nd-color: rgb(238, 238, 238); border-color: rgb(221, 221, 221); text-decora=
+tion: none; }
+
+a.smw-ask-action-btn-lgrey:hover, .smw-action-btn-lgrey:hover { color: rgb(=
+34, 34, 34); background-color: rgb(221, 221, 221); border-color: rgb(221, 2=
+21, 221); text-decoration: none; }
+
+.smw-ask-action-btn-lblue, a.smw-ask-action-btn-lblue:visited { color: rgb(=
+255, 255, 255); background-color: rgb(91, 192, 222); border-color: rgb(70, =
+184, 218); text-decoration: none; }
+
+a.smw-ask-action-btn-lblue:hover { color: rgb(255, 255, 255); background-co=
+lor: rgb(49, 176, 213); border-color: rgb(38, 154, 188); text-decoration: n=
+one; }
+
+.smw-ask-action-btn-dblue, a.smw-ask-action-btn-dblue:visited { color: rgb(=
+255, 255, 255); background-color: rgb(51, 122, 183); border-color: rgb(46, =
+109, 164); text-decoration: none; }
+
+.smw-ask-action-btn-dblue:hover, .smw-ask-action-btn-dblue:focus, a.smw-ask=
+-action-btn-dblue:hover, a.smw-ask-action-btn-dblue:focus { color: rgb(255,=
+ 255, 255); background-image: none; background-color: rgb(40, 96, 144); bor=
+der-color: rgb(32, 77, 116); text-decoration: none; }
+
+.smw-concept-page-indicator a.external.text, .smw-page-indicator a.external=
+.text { background-image: none; padding-right: 0px; }
+
+.smw-property-page-indicator { display: inline-block; font-weight: normal; =
+line-height: 1.25; text-align: center; white-space: nowrap; vertical-align:=
+ middle; user-select: none; border: 1px solid rgb(221, 221, 221); transitio=
+n: all 0.2s ease-in-out 0s; padding: 0.25rem 0.5rem; font-size: 0.875rem; b=
+order-radius: 0.2rem; color: rgb(41, 43, 44); }
+
+.smw-protection-indicator { display: inline-block; vertical-align: middle; =
+user-select: none; border: 1px solid transparent; transition: all 0.2s ease=
+-in-out 0s; padding: 0.15rem 0.25rem; font-size: 0.875rem; border-radius: 0=
+.2rem; color: rgb(41, 43, 44); }
+
+.smw-protection-indicator.with-border { border-color: rgb(221, 221, 221); }
+
+.smw-page-indicator, .smw-page-indicator.usage-count, .smw-page-indicator.p=
+roperty-type { width: 45px; height: 21px; border-radius: 4px; font-size: 9p=
+x; color: rgb(119, 119, 119); line-height: 20px; text-align: center; backgr=
+ound: rgb(238, 238, 238); border: 1px solid rgb(221, 221, 221); float: righ=
+t; margin-top: 10px; }
+
+.smw-page-indicator.usage-count { margin-right: 10px; }
+
+.smw-property-page-indicator.usage-count.moderate { background-color: rgb(2=
+42, 210, 155); border: 1px solid rgb(242, 210, 155); color: rgb(170, 76, 44=
+); }
+
+.smw-property-page-indicator.usage-count.high { background-color: rgb(255, =
+136, 127); border: 1px solid rgb(255, 183, 158); color: rgb(128, 0, 0); }
+
+.skin-vector .smw-page-indicator.usage-count, .skin-vector .smw-page-indica=
+tor.property-type { margin-top: 5px; }
+
+.skin-chameleon .smwfact td { padding: 5px; }
+
+.smw-page-indicator-rdflink { line-height: 24px; margin-right: 10px; }
+
+.smw-page-indicator-rdflink a { background: url("data:image/png;base64,iVBO=
+Rw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAA=
+CcgAAAnIBJZ1kXQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAKLSURBVD=
+iNlZNLSJRhFIaf8884lqPDNAnmZaLsRoVFaYugQMhGDUyMwLBFUUkQSOAmWnSDFrUIso1UVqARU=
+UKWUWlRBhVWVF6oSJNG8krZZZwZnR/n+1oZ4gj9neV5Xx7Oe77vCP9Rs/POz1+Y5j7jW5fh+zoc=
+1E/bB+5EMCtHG/d/F6sQd+4V9+rVno76Ez5vRdUz7r7oRQS0pjsYsa0yrIImZkXLDhSv9FbVd9L=
+ybgAArQFY4nRES+1WQRrxtrQNUNfUFaMZ6FRL0TyFV12mGn/lccUv+xGIxIIMvf6f0RLyL6811f=
+gLYEaIhtOB++WtdgCn7+LmZPfsw6syPSt6B4PdX4YD95SWMQPt06g8DXWILgs9KO9ILLiYi5brQ=
+Apajoea954AkKSCS1u3bVxw68iuHGPv6Ra6+38zGjbRGjT4bdrYEWje83LqFEn5NYc0nFJE08JN=
++wcBjLS5zpMV27OMa4+6edP1jUDInHwNUKpkOgRAiWoDVHj94PBkz744w5V5sOo57T0jMfmV2GO=
+bgIh9HK2E9yvigTEA44P/Z+uXodEZF20TdZbCc/ExC46qBYAkBILL/3onUgtfRyZUMeCa4o2AfE=
+brHAeOnY5FRUOmN7sLf4ty5dd4EKqBeUC625vfGPbfMwUgqeh8MqZtjxZZhFZ9UYMrY/fL+1J8t=
+c4wZinCUQ0JiHRmLfSsObY7e86Td/00veqjZ+D3Jxu2AksfMsVX6wxJpCFhVlxea3UJH3t/UXr8=
+4VRLg+WjTdpyYemGlemf4uwGj9/2T5dHLN/aqNPd4x8MBMORaOIMcr/NKogPN3UkdYuMmRObpil=
+ai660DgLMntvPHJlvhxFJB5widIIcDDXtu/EHhWcLu1FB7OMAAAAASUVORK5CYII=3D") left =
+center no-repeat; padding-left: 28px; display: inline-block; height: 24px; =
+line-height: 24px; }
+
+.smw-reference-indicator { vertical-align: super; margin-left: 2px; font-si=
+ze: 10px; }
+
+.smw-reference-indicator::before { content: ""; }
+
+.smw-reference-indicator::after { content: "=E2=89=A1"; }
+
+.smw-admin-circle-orange { width: 14px; height: 14px; background: orange; p=
+osition: absolute; border-radius: 50%; display: inline-block; margin-right:=
+ 20px; margin-top: 3px; }
+
+.is-disabled { opacity: 0.5; position: relative; pointer-events: none; }
+
+.is-disabled::after { position: absolute; top: 0px; left: 0px; width: 100%;=
+ height: 100%; content: " "; }
+
+.smw-overlay-spinner.small { height: 20px; width: 20px; }
+
+.smw-overlay-spinner.medium { height: 40px; width: 40px; }
+
+.smw-overlay-spinner.large { height: 60px; width: 60px; }
+
+.smw-overlay-spinner { position: absolute; left: 47%; top: 30%; height: 60p=
+x; width: 60px; margin: 0px auto; animation: 1s linear 0s infinite normal n=
+one running rotation; border-width: 6px; border-style: solid; border-color:=
+ rgba(0, 174, 239, 0.8) rgba(0, 174, 239, 0.15) rgba(0, 174, 239, 0.15); bo=
+rder-radius: 100%; }
+
+.skin-vector .smw-overlay-spinner { left: 45%; top: 30%; }
+
+@-webkit-keyframes rotation {=20
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(359deg); }
+}
+
+@keyframes rotation {=20
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(359deg); }
+}
+------MultipartBoundary--ipjOoWcWZYvoG1NpqYozbHS6loTPlqt7nDDRoSbxJh----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-bcc5d149-06bf-421b-af9c-ca1992c88713@mhtml.blink
+
+@charset "utf-8";
+
+.mw-collapsible-toggle { float: right; user-select: none; }
+
+.mw-content-ltr .mw-collapsible-toggle, .mw-content-rtl .mw-content-ltr .mw=
+-collapsible-toggle { float: right; }
+
+.mw-content-rtl .mw-collapsible-toggle, .mw-content-ltr .mw-content-rtl .mw=
+-collapsible-toggle { float: left; }
+
+.mw-customtoggle, .mw-collapsible-toggle { cursor: pointer; }
+
+caption .mw-collapsible-toggle, .mw-content-ltr caption .mw-collapsible-tog=
+gle, .mw-content-rtl caption .mw-collapsible-toggle, .mw-content-rtl .mw-co=
+ntent-ltr caption .mw-collapsible-toggle, .mw-content-ltr .mw-content-rtl c=
+aption .mw-collapsible-toggle { float: none; }
+
+li .mw-collapsible-toggle, .mw-content-ltr li .mw-collapsible-toggle, .mw-c=
+ontent-rtl li .mw-collapsible-toggle, .mw-content-rtl .mw-content-ltr li .m=
+w-collapsible-toggle, .mw-content-ltr .mw-content-rtl li .mw-collapsible-to=
+ggle { float: none; }
+
+.mw-collapsible-toggle-li { list-style: none; }
+
+.suggestions { overflow: hidden; position: absolute; top: 0px; left: 0px; w=
+idth: 0px; border: none; z-index: 1099; padding: 0px; margin: -1px 0px 0px;=
+ }
+
+.suggestions-special { position: relative; background-color: white; cursor:=
+ pointer; border: 1px solid rgb(170, 170, 170); margin: -2px 0px 0px; displ=
+ay: none; padding: 0.25em; line-height: 1.25em; }
+
+.suggestions-results { background-color: white; cursor: pointer; border: 1p=
+x solid rgb(170, 170, 170); padding: 0px; margin: 0px; }
+
+.suggestions-result { color: black; margin: 0px; line-height: 1.5em; paddin=
+g: 0.01em 0.25em; text-align: left; overflow: hidden; text-overflow: ellips=
+is; white-space: nowrap; }
+
+.suggestions-result-current { background-color: rgb(76, 89, 166); color: wh=
+ite; }
+
+.suggestions-special .special-label { color: gray; text-align: left; }
+
+.suggestions-special .special-query { color: black; font-style: italic; tex=
+t-align: left; }
+
+.suggestions-special .special-hover { background-color: silver; }
+
+.suggestions-result-current .special-label, .suggestions-result-current .sp=
+ecial-query { color: white; }
+
+.highlight { font-weight: bold; }
+
+@media screen {
+  .tochidden, .toctoggle { user-select: none; }
+  .toctoggle { font-size: 94%; }
+}
+
+@media print {
+  #toc.tochidden, .toctoggle { display: none; }
+}
+
+.zebra { border-collapse: collapse; color: black; background-color: rgb(255=
+, 255, 255); border: 1px solid rgb(119, 119, 119); border-radius: 3px; }
+
+.zebra th { background-color: rgb(155, 175, 241); border: 1px solid rgb(119=
+, 119, 119); color: rgb(255, 255, 255); }
+
+.zebra td { border: 1px solid rgb(119, 119, 119); padding: 0px 0.5em; }
+
+.zebra tr:nth-child(2n+1) { background-color: rgb(232, 237, 255); }
+
+.zebra tr:hover { background-color: rgb(238, 238, 238); }
+
+img.stretch { width: 100%; height: auto; }
+
+.page-WAI_Website_Anatomy_of_a_Document h4 { margin-top: 3em; margin-left: =
+0px; }
+
+.page-WAI_Website_Anatomy_of_a_Document h4 ~ :not(h4) { margin-left: 2em; }
+
+.page-WAI_Website_Anatomy_of_a_Document h4 ~ h2, .page-WAI_Website_Anatomy_=
+of_a_Document h4 ~ h2 ~ * { margin-left: 0px; }
+
+.postedit-container { margin: 0px auto; position: fixed; top: 0px; height: =
+0px; left: 50%; z-index: 1000; font-size: 13px; }
+
+.postedit-container:hover { cursor: pointer; }
+
+.postedit { position: relative; top: 0.6em; left: -50%; padding: 0.6em 3.6e=
+m 0.6em 1.1em; line-height: 1.5625em; color: rgb(98, 100, 101); background-=
+color: rgb(244, 244, 244); border: 1px solid rgb(220, 217, 217); text-shado=
+w: rgba(255, 255, 255, 0.5) 0px 0.0625em 0px; border-radius: 5px; box-shado=
+w: rgb(204, 204, 204) 0px 2px 5px 0px; transition: all 0.25s ease-in-out 0s=
+; }
+
+.skin-monobook .postedit { top: 6em !important; }
+
+.postedit-faded { opacity: 0; }
+
+.postedit-icon { padding-left: 41px; line-height: 25px; background-repeat: =
+no-repeat; background-position: 8px 50%; }
+
+.postedit-icon-checkmark { background-image: url("data:image/png;base64,iVB=
+ORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAB9ElEQVR4AZWRA3AYURQArxrVHtW2bd=
+u2bdu2zdi2bdu2bWxs7zeehZaw4f70kbs+zI3e/nWK+RWx3aOFlrL56Sy5SxrruG69hlv6OyK+m=
+z+8KDSXdXembj0ispT7tjs4ZTIbpYBvxGSGKzZTeFrb7W/meN002swFs0U8ttpHTkF2BvCqWQrW=
+35929bTsKm5Zb+SEwWwcY8wAngB9m7Z+d+rIPZ/npdy12M5p47n8dXsCYAf0qPy06eGMdktuDu9=
+Qf+JmKl3SWM91qzVcN9tAbEYkwMaq0tyb1m/To5kP170el/BK8/qa6sJr70ydf+T/Uu5ab+Oo/l=
+S0AkUBpIFWlZ9WPhxpse/PHO7YbOOczjL0vZV2lNxPPtG73dYXM+xvm2znrOl83tidoqCwMBgYX=
+sPFB0on5S6pr+eK5TKuW67lgvaKvF8mL1dtfTL32FHxRdyx3cQpg7m4x9sCXKkTIzA4LDH44zWd=
+zaUf71hv5rTG4uyzcusybxSX7aThbMQ8XgCYAp3rzTTQOiIh9PNlzY3FSuZxrzjme1Y7uGS6kjs=
+WO4jPjM4FVjRZsvD4kO9XtTZzQn82NyzWc0B7AmZh6gA/hOYSGhfw9YbOVnarj+S7800AL2BIsx=
+UAbWNToj7bhBuQmZcOsFdoKUC74rGheCwXmqAIQTc9jQcrADIAAAAASUVORK5CYII=3D"); bac=
+kground-position: left center; }
+
+.postedit-close { position: absolute; padding: 0px 0.8em; right: 0px; top: =
+0px; font-size: 1.25em; font-weight: bold; line-height: 2.3em; color: black=
+; text-shadow: white 0px 0.0625em 0px; text-decoration: none; opacity: 0.2;=
+ }
+
+.postedit-close:hover { color: black; text-decoration: none; opacity: 0.4; }
+------MultipartBoundary--ipjOoWcWZYvoG1NpqYozbHS6loTPlqt7nDDRoSbxJh----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: cid:css-6560f945-650e-4986-aa40-fd8b3ba238cc@mhtml.blink
+
+@charset "utf-8";
+
+.suggestions a.mw-searchSuggest-link, .suggestions a.mw-searchSuggest-link:=
+hover, .suggestions a.mw-searchSuggest-link:active, .suggestions a.mw-searc=
+hSuggest-link:focus { color: black; text-decoration: none; }
+
+.suggestions-result-current a.mw-searchSuggest-link, .suggestions-result-cu=
+rrent a.mw-searchSuggest-link:hover, .suggestions-result-current a.mw-searc=
+hSuggest-link:active, .suggestions-result-current a.mw-searchSuggest-link:f=
+ocus { color: white; }
+
+.suggestions a.mw-searchSuggest-link .special-query { overflow: hidden; tex=
+t-overflow: ellipsis; white-space: nowrap; }
+------MultipartBoundary--ipjOoWcWZYvoG1NpqYozbHS6loTPlqt7nDDRoSbxJh----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.w3.org/wiki/load.php?debug=false&lang=en&modules=ext.smw.style%7Cext.smw.tooltip.styles&only=styles&skin=vector
+
+@charset "utf-8";
+
+span.smwbuiltin, span.smwttactiveinline span.smwbuiltin { font-style: itali=
+c; }
+
+div.smwpre { font-family: monospace; padding: 1em; border: 1px dashed rgb(4=
+7, 111, 171); color: black; background-color: rgb(249, 249, 249); line-heig=
+ht: 1.1em; margin-bottom: 0.5em; margin-top: 0.5em; white-space: pre-wrap; =
+overflow-wrap: break-word; word-break: break-word; margin-right: 5px; }
+
+#smwfootbr { clear: both; }
+
+span.smwsortkey { display: none; }
+
+a.sortheader:hover { text-decoration: none; }
+
+div.smwtimeline { border: 1px solid rgb(170, 170, 170); background-color: r=
+gb(249, 249, 249); }
+
+span.smwtlevent, span.smwtlband, span.smwtlsize, span.smwtlposition { displ=
+ay: none; speak: none; }
+
+span.smwtlcomment { font-style: italic; padding: 5px; }
+
+div.smwfact { clear: both; background-color: rgb(249, 249, 249); padding: 5=
+px; margin-top: 1em; border: 1px solid rgb(170, 170, 170); font-size: 95%; =
+min-height: 23px; }
+
+div.smwfact td, div.smwfact tr, div.smwfact table { background-color: rgb(2=
+49, 249, 249); }
+
+.smwfactboxhead { font-size: 110%; font-weight: bold; float: left; margin-b=
+ottom: 2px; max-width: 90%; }
+
+table.smwfacttable { border-top: 1px dotted rgb(170, 170, 170); width: 100%=
+; clear: both; }
+
+td.smwpropname, th.smwpropname, td.smwspecname { text-align: right; vertica=
+l-align: top; padding-right: 1em; }
+
+.smwfact tbody > tr.row-even > td { background-color: rgb(255, 255, 255); }
+
+.property-page-results td.smwpropname { width: 50%; }
+
+.property-page-results td.smwprops, td.smwspecs { vertical-align: top; widt=
+h: 50%; }
+
+@media (min-width: 600px) {
+  .smwfact td.smwpropname, .property-page-results td.smwpropname { width: 3=
+3%; }
+  .smwfact td.smwprops, .property-page-results td.smwprops, td.smwspecs { w=
+idth: 75%; }
+}
+
+.property-page-results { margin-top: 0.9em; }
+
+.property-page-results table { border: none; }
+
+.property-page-results .header-row { }
+
+.property-page-results .value-row:hover { background-color: rgb(245, 245, 2=
+45); }
+
+.property-page-results .header-row > th { border-bottom: 0px solid rgb(221,=
+ 221, 221); }
+
+.property-page-results tr.value-row > td { padding-bottom: 0.2em; padding-t=
+op: 0.2em; }
+
+.property-page-results .header-row + tr.value-row td { padding-top: 0.3em; =
+}
+
+.property-page-results .header-title { font-weight: bold; font-size: 1.17em=
+; line-height: 1.6; margin-top: 0em; color: rgb(51, 51, 51); overflow: hidd=
+en; padding: 2px 3px; }
+
+.property-page-results tr.value-row:nth-child(2n) { }
+
+.smwtable-striped tbody > tr:nth-child(2n) { background-color: rgb(245, 245=
+, 245); }
+
+.smwtable-striped tbody > tr:nth-child(2n+1) { background-color: rgb(255, 2=
+55, 255); }
+
+.smwtable-striped tbody > tr:hover { background-color: rgb(238, 238, 238); =
+}
+
+div.smwhr hr { background-color: rgb(221, 221, 221); color: rgb(221, 221, 2=
+21); }
+
+span.smwwarning { color: rgb(136, 136, 136); font-style: italic; font-size:=
+ 90%; }
+
+.smw-edit-protection { background: url("data:image/png;base64,iVBORw0KGgoAA=
+AANSUhEUgAAAKAAAADOCAYAAAC5MQkHAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5=
+ccllPAAAA3JJREFUeNrs3dFuEkEYgNHOQBbWC8Nzqo+jL8QTNV64sAmMbdM1xEBrIt2ZnTknUSu=
+2lp39+g9FgbDf7x+47nA4/BiGYXs8HrtxHLvz+bya/uzp8v7yffu+H6a3Y4ynruvGzWYzPl1+2G=
+63X63mdWtL8Ef6+4KncF5+3MGXK5cFS952gKmwzx8EKLpSrlsQoOjEKMDmwnvrOIIAhSdEATYXX=
+tUhRvE5ZhNQeM1Owyg+09AEFF6z0zCKzzQUoPiaXau1xbQlm4Dia3YNo4UToQDF1+yaRgslQgGK=
+r9k1jhZGhAIUX7NrvrYQ7woVH196yHw/oUfFfUx0t/4uk76wAFOl0S0pxqxTMIrvZfFDQ5+3qHM=
+RG46vlABKuR6ppQBb2G5ruE5VBpgyn+RQ+BdGzuuXag8wd3wmdGHnqIW7YcLCr3fVd93EWr+yKr=
+pdleMYUo0Bis+xZAswOWGLO6ZUS4DiE2EzW3AL96VVdYyt3hFNIwHOuf229C8Jcx5rWnKA4nPM2=
+QJMTkQ1x56WGCBkC9D0MwWrn4Diq2AtbMFUF2DyFV/tFExLCBCqDtD0q2ht7h2gx73WL5UcIFQd=
+oO23sjUyAakmQLf/3A6segLafitcK1swAkSAthTbsAAxAWGRAboLpj2ppABBgAjQd8DWzgTEBAQ=
+BIkAQIAIEASJAECACBAEiQAQIAkSAIEAECAJEgCBABAgCRIBwf+vXX0t+ag1P+1HvuQnRCSZnwL=
+Zg3AZEgCBABAgCRIAgQAQIAkSAIEAECAJEgCBABAgCRIAgQAQIAkSAIEAECAJEgHAzwGAZyCRMz=
+441ReiJipglPEsAAAAAAAAAAABwV2G/309v+7+AzNre809RfGSSpgDFR7YIPSiJrASIABEgCBAB=
+ggARIAgQAYIAESAIEAGCABEgCBABggARIAgQAYIAESAIEAHCuwF64Thy0R4AAAAAAAAAAMB9XL5=
+Y4cRLd/GhzV3+Zi06ZnbZWvBihWSN0WNCyEqACBABggARIAgQAYIAESAIEAGCABEgCBABggARIP=
+x3gJ4omlyCCUgRW7ApyOzTz21AivomxBRk1ul3bQKKkNnie7Z+4x08YJ0PC+/WBDQNmS2+WxPw6=
+gcej8fvj4+Pn4dh+HQ6nVbjOHbWlUnXdeNqtTr1ff9rt9v93Gw23/7l434LMAB5UpLsaS0+0gAA=
+AABJRU5ErkJggg=3D=3D") 0% 0% / 16px 20px no-repeat; height: 20px; width: 16=
+px; }
+
+span.smwsearchicon { padding-right: 16px; margin-right: 2px; color: rgb(136=
+, 136, 136); background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgA=
+AAAwAAAAMCAYAAABWdVznAAABlUlEQVR4AX1QM2CYQRSuvXbrVCzlVidTbNu2bdu2bdu2bdvakp=
+d3f8zhfB8fGLmnvbQNzOV0iyyp8I2vOAhKrtkJTKyucwkroidvtKziDy6PBwauKRxOoYUTCfktU=
+Fw/ALmVPdSIzm4ctvbP5VSxin58BYAsRXG5LdA1NAejM6vQ3DMFDZ0TZD1EtXglq6i3VwDmPpl7=
+BTX9MDixTAFGppZhcn4dphc2ILmwfQgVvl4BmHll7hMLVa2jMDC+CPPLW7Cwug3L6zuQWNA6LG0=
+U8u0KQM0mtjujtBPKm4YpdvJ5fWufWn1iK4q4ldzeXQEIaHgJYOgFVDhCwDk7ySVvFpEpZxL6Q0=
+I/8Mk5gFHc4o2ojr8sNlIXkdGwGZvTvOafWNmCn7PV7WJHsMUGacNgdl5VDwpEoRhEjZ9zKrp8w=
+E+/5U3DfnEru31Cki+GbqklqcUdgKA+dMLOImP/hABuHRwKzo94VNz/OoYU1JNSsP4ZVCGPdw9m=
+aTsyfiOoD60CZpkmD/cOehGjh8jMIWMcOsav7jVyDFZrKl+CbnMbAAAAAElFTkSuQmCC") righ=
+t center no-repeat; }
+
+#bodyContent span.smwsearch a { padding-right: 14px; margin-right: 2px; col=
+or: rgb(136, 136, 136); background: url("data:image/png;base64,iVBORw0KGgoA=
+AAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAABlUlEQVR4AX1QM2CYQRSuvXbrVCzlVidTbNu2bdu=
+2bdu2bdvakpd3f8zhfB8fGLmnvbQNzOV0iyyp8I2vOAhKrtkJTKyucwkroidvtKziDy6PBwauKR=
+xOoYUTCfktUFw/ALmVPdSIzm4ctvbP5VSxin58BYAsRXG5LdA1NAejM6vQ3DMFDZ0TZD1EtXglq=
+6i3VwDmPpl7BTX9MDixTAFGppZhcn4dphc2ILmwfQgVvl4BmHll7hMLVa2jMDC+CPPLW7Cwug3L=
+6zuQWNA6LG0U8u0KQM0mtjujtBPKm4YpdvJ5fWufWn1iK4q4ldzeXQEIaHgJYOgFVDhCwDk7ySV=
+vFpEpZxL6Q0I/8Mk5gFHc4o2ojr8sNlIXkdGwGZvTvOafWNmCn7PV7WJHsMUGacNgdl5VDwpEoR=
+hEjZ9zKrp8wE+/5U3DfnEru31Cki+GbqklqcUdgKA+dMLOImP/hABuHRwKzo94VNz/OoYU1JNSs=
+P4ZVCGPdw9maTsyfiOoD60CZpkmD/cOehGjh8jMIWMcOsav7jVyDFZrKl+CbnMbAAAAAElFTkSu=
+QmCC") right center / 10px 10px no-repeat; }
+
+#bodyContent span.smwsearch a:hover { text-decoration: none; color: rgb(0, =
+0, 255); padding-right: 16px; margin-right: 0px; background: url("data:imag=
+e/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAACz0lEQVR4AZWRA7=
+ArSxgG+59ZxTl8tm3btm3btm3btlG6tm0fx05259m8XdX1FX/KZZfdT0tTVHmR2IEFr+2SvNe6P=
+rZDgnzJKfR+Sq7vnkq5MqVaq6OU8GcsJUYXGtbVc721b9ArrKQTrS6uDWWjon6tdLJMG7+7P3PC=
+KUrxtYjwZ+TCS+7fP7/Cdh82b76xrLJ8QMSDcgXSmTqO53xfzNDz+dczU+PHbm+ULAL5Y4GTL3v=
+mW2+nI3ZZZ70way0ttAhM7AlQnlCqGWJJTXrKfMY888ZZ9WLxSdHWHwscec276ZUOOii5+goBG7=
+UovJphfAlaYkJFgSPg+4YPrnzww9ScBQdpx+H3WA0n5oadgEzWZ1QlIBxWLB1XfB+EAceApRW1S=
+jWazRWw3T8WUPV0R0VsjV+DQCvCIcHVoICWnw35AYVMNpPLF8nmSnyfv2r1TRs3sJTK7aubIlTr=
+ECihCsR+tl2Ej/uPZN6shZ9Uqo3vi5UxgDE/aaVmTb1z6icf77LLRceGPA2BMSh+IizCwnSOz9/=
+5mkQiMW+35UazXG08C7MWXTlIFUEpLQOnf/Hhef0feSVfzRWwXMEgiAjDJs7ithsfx7JCbLd+/N=
+pNnHHXi9Bmi4/1vZoGSpQiqFefG/vuW7u8dvYVb7163p1znr3ywfnXn3L9+OvOvOGmVE9+H9vve=
+38VM2CXlVeK3xRRjefqgSQNYBAsANEaIRieXbToSDEB4ViEzKIucqksa69m0JPfXHKVw1Y4eN2d=
+jsF557X9ugemX+3M2icCvYqfERG0bf/4Jtv5Pj0H7YZxSnNxiwve+uidMQ9NnNzD6ocfwy5bJvd=
+p82rPNXxaFf+KwYhGW1axs7d20cO3fPDgqDG9rHPMMRy1R/P+raH6s4r/ieto051uXH7PTe/dP3=
+ZChtiG26FaVjhAsRjYtq6ncv5Vd1/79vt3PT+/ME226P8dQnA5DBkw9cwAAAAASUVORK5CYII=
+=3D") right center / 13px 13px no-repeat; }
+
+#bodyContent span.swmfactboxheadbrowse a { padding-right: 16px; margin-righ=
+t: 2px; color: rgb(0, 0, 0); background: url("data:image/png;base64,iVBORw0=
+KGgoAAAANSUhEUgAAAAwAAAAMCAIAAADZF8uwAAAABnRSTlMAAAAAAABupgeRAAABM0lEQVR4AV=
+2OA4LlQBCG+3p7gR3btm372VaMsW3bto6QqWd8SXeX60c+3t6/l1b3rMSkyTG2tLb7+vaBQtjYP=
+pGoSQs2IdcxgwrcQU2JVcTO3rG/Yn5pS6FjNUb28uazW2TrlzrAkCjxATmxuLyFgNv7914J3i+1=
+QQL+2g5LTq3RbWuMfLfIcXf/hmT6iZZeK4QEQRibPYCKsBw9GOBCUKqi9JZxpNJz7gpAZ5+LyNH=
+/S9SDAa67rn0AR0braGARVIQUlTTZEDeyxI6s+NZBRVGdf51Kzyv0Y+jj81ekICNzNG6xcYXGrC=
+qP8MxKQ1Wr9e7hHQHUyEZxk62mwym/Y8AOPxhlzeaUMotIN4N80KPrQwpCqqbhhl+kJDsG7aAMB=
+QN7f8YmlpQ6Gn6Gm3t5/fSl/gB+4wSrZdObugAAAABJRU5ErkJggg=3D=3D") right center =
+/ 13px 13px no-repeat; }
+
+#bodyContent span.swmfactboxheadbrowse a:hover { text-decoration: none; col=
+or: rgb(0, 0, 255); padding-right: 18px; margin-right: 0px; background: url=
+("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnR=
+STlMAAAAAAABupgeRAAABYUlEQVR4AWNAA/v3H5w0ZX5j6/TG1mndfbM2btrKgAscPXYiJa8vq3=
+Jd04SjXdPPdE4/U921PyZvaVBc07r1m9FVL1u5kU+vDojii9eklq/NqFqXXrkuqWRNdP5Kr+Rla=
+o7NHT3TkZxx4IhV4GQdz0lADQdPPGmbvN8xcpZjxKymSfuAXD2vfjWXfn69qkWLV0E1pBbN8oib=
+z6OZD5QGovKO7erO3aqOXTl1GyEi2m596i6TrHzrQao3bdkTmrk6p3IFUOL///8bd93wTloAtEr=
+CtMkrcQGQCxQESuVVr/FPXT5j9lKGurYF3dPPgVSDQfPkAzy6Ncyq5YxK5UBtQC5QEKInLGdDTG=
+YbQ0jaDLjqB0/e5tRvFjJsYFSCagBygYJwPabedSRrIN1JmJ428J4I8bS+10RMT2MJ1uSKtZBgT=
+a9ahxas6BFn7DeRYMQhkoaZX09Axko8SYPMxEdy8gYAvvNg35ib+m0AAAAASUVORK5CYII=3D")=
+ right center / 15px 15px no-repeat; }
+
+#bodyContent span.smwbrowse a { padding-right: 14px; margin-right: 2px; col=
+or: rgb(136, 136, 136); background: url("data:image/png;base64,iVBORw0KGgoA=
+AAANSUhEUgAAAAwAAAAMCAIAAADZF8uwAAAABnRSTlMAAAAAAABupgeRAAABM0lEQVR4AV2OA4L=
+lQBCG+3p7gR3btm372VaMsW3bto6QqWd8SXeX60c+3t6/l1b3rMSkyTG2tLb7+vaBQtjYPpGoSQ=
+s2IdcxgwrcQU2JVcTO3rG/Yn5pS6FjNUb28uazW2TrlzrAkCjxATmxuLyFgNv7914J3i+1QQL+2=
+g5LTq3RbWuMfLfIcXf/hmT6iZZeK4QEQRibPYCKsBw9GOBCUKqi9JZxpNJz7gpAZ5+LyNH/S9SD=
+Aa67rn0AR0braGARVIQUlTTZEDeyxI6s+NZBRVGdf51Kzyv0Y+jj81ekICNzNG6xcYXGrCqP8Mx=
+KQ1Wr9e7hHQHUyEZxk62mwym/Y8AOPxhlzeaUMotIN4N80KPrQwpCqqbhhl+kJDsG7aAMBQN7f8=
+YmlpQ6Gn6Gm3t5/fSl/gB+4wSrZdObugAAAABJRU5ErkJggg=3D=3D") right center / 10p=
+x 10px no-repeat; }
+
+#bodyContent span.smwbrowse a:hover { text-decoration: none; color: rgb(0, =
+0, 255); padding-right: 16px; margin-right: 0px; background: url("data:imag=
+e/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAIAAACQkWg2AAAABnRSTlMAAAAAAA=
+BupgeRAAABYUlEQVR4AWNAA/v3H5w0ZX5j6/TG1mndfbM2btrKgAscPXYiJa8vq3Jd04SjXdPPd=
+E4/U921PyZvaVBc07r1m9FVL1u5kU+vDojii9eklq/NqFqXXrkuqWRNdP5Kr+Rlao7NHT3TkZxx=
+4IhV4GQdz0lADQdPPGmbvN8xcpZjxKymSfuAXD2vfjWXfn69qkWLV0E1pBbN8oibz6OZD5QGovK=
+O7erO3aqOXTl1GyEi2m596i6TrHzrQao3bdkTmrk6p3IFUOL///8bd93wTloAtErCtMkrcQGQCx=
+QESuVVr/FPXT5j9lKGurYF3dPPgVSDQfPkAzy6Ncyq5YxK5UBtQC5QEKInLGdDTGYbQ0jaDLjqB=
+0/e5tRvFjJsYFSCagBygYJwPabedSRrIN1JmJ428J4I8bS+10RMT2MJ1uSKtZBgTa9ahxas6BFn=
+7DeRYMQhkoaZX09Axko8SYPMxEdy8gYAvvNg35ib+m0AAAAASUVORK5CYII=3D") right cent=
+er / 13px 13px no-repeat; }
+
+#bodyContent span.smwmap a { padding-right: 20px; color: rgb(136, 136, 136)=
+; background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCA=
+YAAAAf8/9hAAADEUlEQVR4AWKgFDBiiMgUciooi4ZYGcj7aSiLmXNysHK/+/D17vlrz/efuPh46=
+YfzjZdwmsarU2FZ3bP9PKALcmCS7QgD6LkYz2K0NmPbtq1ynBTi/ISUEdu2bdtca4zr8XS66hVf=
+2/2ds542RKPRFs3WtlpvtITrNcRXP67VTrvs4dvgcJ3tU3DHWw676/GvLddrirJRExtpU/zyV1p=
+8/9uG+PaXdbGwUhSGVRcVuXfONY89BedqABoAc9cnLzhh33evueTglO3WWdkoUSg7OF6DcMhHvu=
+SgKCrtVge5z07Tg7u+83vWcbc+/koH6AlFrj1q//nR9YyBvMi/Kzl0XaXTEcR7w0gM5if78Oka/=
+y0XiYSDHL737K3PFW94VIPLfWoidEdXxJ8Kyd+yBQvDrpIt2lh2jVzRYWw4zsF7T9JstGm3IV90=
+yRW80MJa7k81MB8bVhVl8sufV3j+7V/kLzq7z4/Ig4Lf/s2ylbXJ5W2JVSGds2m1O5TKVQzLo9n=
+p7KMFU4eNoCrXBIM+VSIwNhjnxMN3ZJe5AUoVl2QsDJL/7ie/knOPgUQPFbPGW5/9SbZk/aO2An=
+7H79eaplUl1h2Sv6b5b6lAyO/n3BN3Z989RpgajWPbLda3LOnIw6s1qDeb+H0BS2vnHDc0OHV+I=
+BBMOdKwqgomhpOMDPbw3hf/8s6n/yB56Y4EEALGB+NScoEOCov//XmXDj82vUzvKwN7nLnT+mYW=
+064zMxFnZKgLx21QrbVx9Lr8tclWzkAKxq03SGfz5dryE++pgF7PfvmOVd4qz0wM0B0NYVp1VA3=
+6ElFmxhKgCOqNJgG/zsJGjmAoROafd54Dr6IBQWj1OqV1Bib23WfPXabUvniIL79foWxIaakuom=
+E/qXiU8eE4iXicLz95+Xdj5a37gIIGdACdluka2X+M7sT4xPDIeGR4IM5eu4yQ6I0SDodIxntZW=
+M6Kd1979IvM3y/cC/wNZBQAQAeSwCioO87veuRhhx953F577b5zP4qib6YLzk8/frfw2cevf+YY=
+G98Aq0AGqP4PpDyPoTUciocAAAAASUVORK5CYII=3D") right center no-repeat; }
+
+#bodyContent span.smwmap a:hover { padding-right: 20px; color: rgb(0, 0, 25=
+5); background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQ=
+CAYAAAAf8/9hAAADEUlEQVR4AWKgFDBiiMgUciooi4ZYGcj7aSiLmXNysHK/+/D17vlrz/efuPh=
+46YfzjZdwmsarU2FZ3bP9PKALcmCS7QgD6LkYz2K0NmPbtq1ynBTi/ISUEdu2bdtca4zr8XS66h=
+Vf2/2ds542RKPRFs3WtlpvtITrNcRXP67VTrvs4dvgcJ3tU3DHWw676/GvLddrirJRExtpU/zyV=
+1p8/9uG+PaXdbGwUhSGVRcVuXfONY89BedqABoAc9cnLzhh33evueTglO3WWdkoUSg7OF6DcMhH=
+vuSgKCrtVge5z07Tg7u+83vWcbc+/koH6AlFrj1q//nR9YyBvMi/Kzl0XaXTEcR7w0gM5if78Ok=
+a/y0XiYSDHL737K3PFW94VIPLfWoidEdXxJ8Kyd+yBQvDrpIt2lh2jVzRYWw4zsF7T9JstGm3IV=
+90yRW80MJa7k81MB8bVhVl8sufV3j+7V/kLzq7z4/Ig4Lf/s2ylbXJ5W2JVSGds2m1O5TKVQzLo=
+9np7KMFU4eNoCrXBIM+VSIwNhjnxMN3ZJe5AUoVl2QsDJL/7ie/knOPgUQPFbPGW5/9SbZk/aO2=
+An7H79eaplUl1h2Sv6b5b6lAyO/n3BN3Z989RpgajWPbLda3LOnIw6s1qDeb+H0BS2vnHDc0OHV=
++IBBMOdKwqgomhpOMDPbw3hf/8s6n/yB56Y4EEALGB+NScoEOCov//XmXDj82vUzvKwN7nLnT+m=
+YW064zMxFnZKgLx21QrbVx9Lr8tclWzkAKxq03SGfz5dryE++pgF7PfvmOVd4qz0wM0B0NYVp1V=
+A36ElFmxhKgCOqNJgG/zsJGjmAoROafd54Dr6IBQWj1OqV1Bib23WfPXabUvniIL79foWxIaaku=
+omE/qXiU8eE4iXicLz95+Xdj5a37gIIGdACdluka2X+M7sT4xPDIeGR4IM5eu4yQ6I0SDodIxnt=
+ZWM6Kd1979IvM3y/cC/wNZBQAQAeSwCioO87veuRhhx953F577b5zP4qib6YLzk8/frfw2cevf+=
+YYG98Aq0AGqP4PpDyPoTUciocAAAAASUVORK5CYII=3D") right center no-repeat; }
+
+.smwrdflink { float: right; font-size: small; padding: 2px 0px 0px; }
+
+.concept-documenation { border-top: 1px dotted rgb(170, 170, 170); }
+
+#bodyContent span.rdflink { float: right; }
+
+#bodyContent span.rdflink a { padding-right: 15px; color: rgb(136, 136, 136=
+); background: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAoAAAAKC=
+AYAAACNMs+9AAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAABXAAAAVwBIJKt8wAAABl0RVh0U29m=
+dHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAEkSURBVBiVdZDNK8NxHMff799+B5nH1J5KGeV=
+AKRdxmB08/FKSlFJOagcnrpz8AcqFUmYXJbXjlLTUHKyUtuzoaaxc9suQH3vk+3Gx28/79q5XvR=
++IfzS9drLd5WkOHSdzD4W30rzDDmqdDPtnR7sPYxdPuvlecoHs0O3Ab3Lm4PQWhY8yAIAantk4E=
+fEFB70bn8VqJX33ckWKAWFRBEkS6wSyVsUxpy+M9SQ6Xc7erWgGBGpKYaQYD6UAwGnstwnFxPlS=
+Wc/lLXc0cV9PVeJAvm4oUiXQAABsmYosKiU7ACwRiWukT5Fnmvq5HOrz7n2Va8zkCgbtxjQZkeX=
+AgGd3uN+NzaNrAJK2BQEguBLLpm5M/18J0/ZHAHhtH38EEICIBQ2rv4PbbWvnjkO+AAAAAElFTk=
+SuQmCC") right center no-repeat; }
+
+#bodyContent span.rdflink a:hover { text-decoration: none; color: rgb(0, 0,=
+ 255); padding-right: 15px; margin-right: 0px; background: url("data:image/=
+png;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAABHNCSVQICAgIfAhk=
+iAAAAAlwSFlzAAABoQAAAaEBKIw4xAAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5v=
+uPBoAAAGBSURBVCiRfZHbK4NxGMe/z2+j4Z0lMnNmTUhyKqQU2uvUckWJ5JALf4BruXDDHyAskk=
+Jc2QXKsZWWUigJG1eilNXendi79/25mdqFeS4/z/dbz/P9Ev4Zo22taaizbOf5Tcq6vP9wRNXop=
+CaxnNP4VOA6JzPVtH74lBSJqlVRBXJCg6HXmKFL1s1uHrvjsZv+EgviYjZY0oaGSFRU/ov9qkrt=
+Wr24VN7dXLLFCEXnN++uQFgOAqiAymd9hnSb3u/v4pzvAdQXOpq40va2lDoG2syWkblTAOgB4SW=
+ZdLXeg2EJAPyAQ+i0vwfS9U4AYN+yYoqJY79C8jZ6AvEnEhAx+r50AMDOrl8X4nYqQLmCK/9YEO=
+1VAJDWtVLNgYIQRQZjZkAQ7a3EyEIKc0pHY+4063INMTYPgnlmtL5QCsra7RMPf/sMTv+ZEgCgf=
+0dTZ2CPHXV55tX9B3zLCgB8Ji7ufpenWGyVt8/ehuCX/Es9/zQNqMXWi3CYl4Eon4A7Tnz0B9r4=
+jkr5KFRQAAAAAElFTkSuQmCC") right center no-repeat; }
+
+.smw-spinner .text { padding-left: 2.1em; font-size: 12px; vertical-align: =
+middle; }
+
+.smw-spinner.left.mw-small-spinner { background-position: left center; vert=
+ical-align: middle; display: inline-block; padding: 0px !important; }
+
+.smw-spinner.center.mw-small-spinner { vertical-align: middle; display: inl=
+ine-block; padding: 0px !important; }
+
+table.smw-ask-query .smw-ask-query-condition { width: 100%; }
+
+table.smw-ask-query .smw-ask-query-printout { width: 100%; }
+
+.smw-form-horizontalrule { margin-bottom: 10px; }
+
+.smw-form-select, .smw-form-input { padding: 1px; }
+
+.smw-form-checkbox { vertical-align: middle; cursor: pointer; }
+
+label.smw-form-checkbox { vertical-align: middle; cursor: pointer; }
+
+.smw-editpage-help { background-color: rgb(240, 240, 240); border: 1px soli=
+d silver; padding: 0.5em 1em; margin-bottom: 1em; }
+
+.smw-column-header { font-weight: bold; font-size: 1.17em; line-height: 1.6=
+; margin-top: 0.3em; margin-bottom: 0px; padding-bottom: 0px; color: black;=
+ overflow: hidden; padding-top: 0.5em; }
+
+.smw-column { float: left; overflow-wrap: break-word; }
+
+.smw-column-responsive { columns: 20em 3; column-gap: 1em; }
+
+.smw-column-twofold-responsive { columns: 20em 2; column-gap: 1em; }
+
+.smw-column[dir=3D"rtl"] { float: right; }
+
+.smw-column-responsive[dir=3D"rtl"] { float: right; }
+
+.smw-columnlist-container .smw-column-responsive { margin-bottom: -2em; }
+
+.smw-callout { padding: 10px; margin: 0.5em 0px; border-width: 1px 1px 1px =
+5px; border-style: solid; border-color: rgb(238, 238, 238); border-image: i=
+nitial; border-radius: 3px; }
+
+.smw-callout-info { border-width: 1px 1px 1px 5px; border-style: solid; bor=
+der-color: rgb(217, 237, 247) rgb(217, 237, 247) rgb(217, 237, 247) rgb(27,=
+ 128, 158); border-image: initial; background-color: rgb(217, 237, 247); }
+
+.smw-callout-info .title { color: rgb(27, 128, 158); }
+
+.smw-callout-warning { border-width: 1px 1px 1px 5px; border-style: solid; =
+border-color: rgb(252, 248, 227) rgb(252, 248, 227) rgb(252, 248, 227) rgb(=
+170, 103, 8); border-image: initial; background-color: rgb(252, 248, 227); =
+}
+
+.smw-callout-warning .title { color: rgb(170, 103, 8); }
+
+.smw-callout-success { border-width: 1px 1px 1px 5px; border-style: solid; =
+border-color: rgb(223, 240, 216) rgb(223, 240, 216) rgb(223, 240, 216) rgb(=
+60, 118, 61); border-image: initial; background-color: rgb(223, 240, 216); =
+}
+
+.smw-callout-success .title { color: rgb(60, 118, 61); }
+
+.smw-callout-error { border-width: 1px 1px 1px 5px; border-style: solid; bo=
+rder-color: rgb(242, 222, 222) rgb(242, 222, 222) rgb(242, 222, 222) rgb(20=
+6, 72, 68); border-image: initial; background-color: rgb(242, 222, 222); }
+
+.smw-callout .title { margin-top: 0px; margin-bottom: 5px; font-size: 16px;=
+ font-family: inherit; font-weight: 500; }
+
+.smwb-value, .smwprops, .smwpropname, .smwb-factbox .smwtype_wpg, .smwtype_=
+uri, .smwb-ivalue, .smwb-title { word-break: break-word; overflow-wrap: bre=
+ak-word; hyphens: auto; }
+
+@media (max-width: 400px) {
+  .smwb-propvalue, .smwb-ipropvalue { word-break: break-word; overflow-wrap=
+: break-word; hyphens: auto; }
+}
+
+.smw-subobject-entity { font-style: italic; }
+
+.autocomplete-suggestions { border: 1px solid rgb(153, 153, 153); backgroun=
+d: rgb(255, 255, 255); overflow: auto; }
+
+.autocomplete-suggestion { padding: 2px 5px; white-space: nowrap; overflow:=
+ hidden; font-size: 0.8em; }
+
+.autocomplete-selected { background: rgb(240, 240, 240); }
+
+.autocomplete-suggestions strong { font-weight: normal; color: rgb(51, 153,=
+ 255); }
+
+.autocomplete-group { padding: 2px 5px; }
+
+.autocomplete-group strong { display: block; border-bottom: 1px solid rgb(0=
+, 0, 0); }
+
+.skin-vector input#smw-property-input.autocomplete-suggestions { height: 1.=
+15em; padding: 2px; }
+
+.skin-chameleon input#smw-property-input.autocomplete-suggestions { height:=
+ 30px; padding: 2px; }
+
+.skin-foreground input#smw-property-input.autocomplete-suggestions { height=
+: 32px; padding: 2px 0px 0px 8px; }
+
+.skin-chameleon .autocomplete-suggestion, .skin-foreground .autocomplete-su=
+ggestion { padding: 2px 5px; white-space: nowrap; overflow: hidden; font-si=
+ze: 0.9em; }
+
+.smw-breadcrumb-link { color: rgb(125, 125, 125); font-size: 84%; line-heig=
+ht: 1.2em; margin: 0px 0px 0.8em; width: auto; }
+
+.smw-breadcrumb-arrow-right { border-top: 5px solid transparent; border-bot=
+tom: 5px solid transparent; border-left: 5px solid rgb(170, 170, 170); disp=
+lay: inline-block; position: relative; margin-left: 4px; margin-right: 4px;=
+ }
+
+.smw-ask-action-btn, .smw-action-btn { display: inline-block; padding: 3px =
+6px; margin-bottom: 0px; font-size: 12px; font-weight: 400; line-height: 1.=
+42857; text-align: center; white-space: nowrap; vertical-align: middle; tou=
+ch-action: manipulation; cursor: pointer; user-select: none; background-ima=
+ge: none; border: 1px solid transparent; border-radius: 4px; }
+
+.smw-action-btn-min200 { min-width: 200px; }
+
+.smw-ask-action-btn-lgrey, a.smw-ask-action-btn-lgrey:visited, .smw-action-=
+btn-lgrey, .smw-action-btn-lgrey:visited { color: rgb(34, 34, 34); backgrou=
+nd-color: rgb(238, 238, 238); border-color: rgb(221, 221, 221); text-decora=
+tion: none; }
+
+a.smw-ask-action-btn-lgrey:hover, .smw-action-btn-lgrey:hover { color: rgb(=
+34, 34, 34); background-color: rgb(221, 221, 221); border-color: rgb(221, 2=
+21, 221); text-decoration: none; }
+
+.smw-ask-action-btn-lblue, a.smw-ask-action-btn-lblue:visited { color: rgb(=
+255, 255, 255); background-color: rgb(91, 192, 222); border-color: rgb(70, =
+184, 218); text-decoration: none; }
+
+a.smw-ask-action-btn-lblue:hover { color: rgb(255, 255, 255); background-co=
+lor: rgb(49, 176, 213); border-color: rgb(38, 154, 188); text-decoration: n=
+one; }
+
+.smw-ask-action-btn-dblue, a.smw-ask-action-btn-dblue:visited { color: rgb(=
+255, 255, 255); background-color: rgb(51, 122, 183); border-color: rgb(46, =
+109, 164); text-decoration: none; }
+
+.smw-ask-action-btn-dblue:hover, .smw-ask-action-btn-dblue:focus, a.smw-ask=
+-action-btn-dblue:hover, a.smw-ask-action-btn-dblue:focus { color: rgb(255,=
+ 255, 255); background-image: none; background-color: rgb(40, 96, 144); bor=
+der-color: rgb(32, 77, 116); text-decoration: none; }
+
+.smw-concept-page-indicator a.external.text, .smw-page-indicator a.external=
+.text { background-image: none; padding-right: 0px; }
+
+.smw-property-page-indicator { display: inline-block; font-weight: normal; =
+line-height: 1.25; text-align: center; white-space: nowrap; vertical-align:=
+ middle; user-select: none; border: 1px solid rgb(221, 221, 221); transitio=
+n: all 0.2s ease-in-out 0s; padding: 0.25rem 0.5rem; font-size: 0.875rem; b=
+order-radius: 0.2rem; color: rgb(41, 43, 44); }
+
+.smw-protection-indicator { display: inline-block; vertical-align: middle; =
+user-select: none; border: 1px solid transparent; transition: all 0.2s ease=
+-in-out 0s; padding: 0.15rem 0.25rem; font-size: 0.875rem; border-radius: 0=
+.2rem; color: rgb(41, 43, 44); }
+
+.smw-protection-indicator.with-border { border-color: rgb(221, 221, 221); }
+
+.smw-page-indicator, .smw-page-indicator.usage-count, .smw-page-indicator.p=
+roperty-type { width: 45px; height: 21px; border-radius: 4px; font-size: 9p=
+x; color: rgb(119, 119, 119); line-height: 20px; text-align: center; backgr=
+ound: rgb(238, 238, 238); border: 1px solid rgb(221, 221, 221); float: righ=
+t; margin-top: 10px; }
+
+.smw-page-indicator.usage-count { margin-right: 10px; }
+
+.smw-property-page-indicator.usage-count.moderate { background-color: rgb(2=
+42, 210, 155); border: 1px solid rgb(242, 210, 155); color: rgb(170, 76, 44=
+); }
+
+.smw-property-page-indicator.usage-count.high { background-color: rgb(255, =
+136, 127); border: 1px solid rgb(255, 183, 158); color: rgb(128, 0, 0); }
+
+.skin-vector .smw-page-indicator.usage-count, .skin-vector .smw-page-indica=
+tor.property-type { margin-top: 5px; }
+
+.skin-chameleon .smwfact td { padding: 5px; }
+
+.smw-page-indicator-rdflink { line-height: 24px; margin-right: 10px; }
+
+.smw-page-indicator-rdflink a { background: url("data:image/png;base64,iVBO=
+Rw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABHNCSVQICAgIfAhkiAAAAAlwSFlzAAA=
+CcgAAAnIBJZ1kXQAAABl0RVh0U29mdHdhcmUAd3d3Lmlua3NjYXBlLm9yZ5vuPBoAAAKLSURBVD=
+iNlZNLSJRhFIaf8884lqPDNAnmZaLsRoVFaYugQMhGDUyMwLBFUUkQSOAmWnSDFrUIso1UVqARU=
+UKWUWlRBhVWVF6oSJNG8krZZZwZnR/n+1oZ4gj9neV5Xx7Oe77vCP9Rs/POz1+Y5j7jW5fh+zoc=
+1E/bB+5EMCtHG/d/F6sQd+4V9+rVno76Ez5vRdUz7r7oRQS0pjsYsa0yrIImZkXLDhSv9FbVd9L=
+ybgAArQFY4nRES+1WQRrxtrQNUNfUFaMZ6FRL0TyFV12mGn/lccUv+xGIxIIMvf6f0RLyL6811f=
+gLYEaIhtOB++WtdgCn7+LmZPfsw6syPSt6B4PdX4YD95SWMQPt06g8DXWILgs9KO9ILLiYi5brQ=
+Apajoea954AkKSCS1u3bVxw68iuHGPv6Ra6+38zGjbRGjT4bdrYEWje83LqFEn5NYc0nFJE08JN=
++wcBjLS5zpMV27OMa4+6edP1jUDInHwNUKpkOgRAiWoDVHj94PBkz744w5V5sOo57T0jMfmV2GO=
+bgIh9HK2E9yvigTEA44P/Z+uXodEZF20TdZbCc/ExC46qBYAkBILL/3onUgtfRyZUMeCa4o2AfE=
+brHAeOnY5FRUOmN7sLf4ty5dd4EKqBeUC625vfGPbfMwUgqeh8MqZtjxZZhFZ9UYMrY/fL+1J8t=
+c4wZinCUQ0JiHRmLfSsObY7e86Td/00veqjZ+D3Jxu2AksfMsVX6wxJpCFhVlxea3UJH3t/UXr8=
+4VRLg+WjTdpyYemGlemf4uwGj9/2T5dHLN/aqNPd4x8MBMORaOIMcr/NKogPN3UkdYuMmRObpil=
+ai660DgLMntvPHJlvhxFJB5widIIcDDXtu/EHhWcLu1FB7OMAAAAASUVORK5CYII=3D") left =
+center no-repeat; padding-left: 28px; display: inline-block; height: 24px; =
+line-height: 24px; }
+
+.smw-reference-indicator { vertical-align: super; margin-left: 2px; font-si=
+ze: 10px; }
+
+.smw-reference-indicator::before { content: ""; }
+
+.smw-reference-indicator::after { content: "=E2=89=A1"; }
+
+.smw-admin-circle-orange { width: 14px; height: 14px; background: orange; p=
+osition: absolute; border-radius: 50%; display: inline-block; margin-right:=
+ 20px; margin-top: 3px; }
+
+.is-disabled { opacity: 0.5; position: relative; pointer-events: none; }
+
+.is-disabled::after { position: absolute; top: 0px; left: 0px; width: 100%;=
+ height: 100%; content: " "; }
+
+.smw-overlay-spinner.small { height: 20px; width: 20px; }
+
+.smw-overlay-spinner.medium { height: 40px; width: 40px; }
+
+.smw-overlay-spinner.large { height: 60px; width: 60px; }
+
+.smw-overlay-spinner { position: absolute; left: 47%; top: 30%; height: 60p=
+x; width: 60px; margin: 0px auto; animation: 1s linear 0s infinite normal n=
+one running rotation; border-width: 6px; border-style: solid; border-color:=
+ rgba(0, 174, 239, 0.8) rgba(0, 174, 239, 0.15) rgba(0, 174, 239, 0.15); bo=
+rder-radius: 100%; }
+
+.skin-vector .smw-overlay-spinner { left: 45%; top: 30%; }
+
+@-webkit-keyframes rotation {=20
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(359deg); }
+}
+
+@keyframes rotation {=20
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(359deg); }
+}
+
+.qtip { position: absolute; left: -28000px; top: -28000px; display: none; m=
+ax-width: 280px; min-width: 50px; font-size: 10.5px; line-height: 12px; dir=
+ection: ltr; box-shadow: none; padding: 0px; }
+
+.qtip-content { position: relative; padding: 5px 9px; overflow: hidden; tex=
+t-align: left; overflow-wrap: break-word; }
+
+.qtip-titlebar { position: relative; padding: 5px 35px 5px 10px; overflow: =
+hidden; border-width: 0px 0px 1px; font-weight: bold; }
+
+.qtip-titlebar + .qtip-content { border-top-width: 0px !important; }
+
+.qtip-close { position: absolute; right: -9px; top: -9px; z-index: 11; curs=
+or: pointer; outline: none medium; border: 1px solid transparent; }
+
+.qtip-titlebar .qtip-close { right: 4px; top: 50%; margin-top: -9px; }
+
+* html .qtip-titlebar .qtip-close { top: 16px; }
+
+.qtip-titlebar .ui-icon, .qtip-icon .ui-icon { display: block; text-indent:=
+ -1000em; direction: ltr; }
+
+.qtip-icon, .qtip-icon .ui-icon { border-radius: 3px; text-decoration: none=
+; }
+
+.qtip-icon .ui-icon { width: 18px; height: 14px; text-align: center; text-i=
+ndent: 0px; font: bold 10px / 13px Tahoma, sans-serif; color: inherit; back=
+ground: none -100em -100em no-repeat transparent; }
+
+.qtip-focus { }
+
+.qtip-hover { }
+
+.qtip-default { border: 1px solid rgb(241, 208, 49); background-color: rgb(=
+255, 255, 163); color: rgb(85, 85, 85); }
+
+.qtip-default .qtip-titlebar { background-color: rgb(255, 239, 147); }
+
+.qtip-default .qtip-icon { border-color: rgb(204, 204, 204); background: rg=
+b(241, 241, 241); color: rgb(119, 119, 119); }
+
+.qtip-default .qtip-titlebar .qtip-close { border-color: rgb(170, 170, 170)=
+; color: rgb(17, 17, 17); }
+
+.qtip-shadow { box-shadow: rgba(0, 0, 0, 0.15) 1px 1px 3px 1px; }
+
+.qtip-rounded, .qtip-tipsy, .qtip-bootstrap { border-radius: 5px; }
+
+.qtip-rounded .qtip-titlebar { border-radius: 4px 4px 0px 0px; }
+
+.qtip-youtube { border-radius: 2px; box-shadow: rgb(51, 51, 51) 0px 0px 3px=
+; color: white; border: 0px solid transparent; background: -webkit-linear-g=
+radient(top, rgb(74, 74, 74) 0px, black 100%) rgb(74, 74, 74); }
+
+.qtip-youtube .qtip-titlebar { background-color: rgba(0, 0, 0, 0); }
+
+.qtip-youtube .qtip-content { padding: 0.75em; font: 12px arial, sans-serif=
+; }
+
+.qtip-youtube .qtip-icon { border-color: rgb(34, 34, 34); }
+
+.qtip-youtube .qtip-titlebar .ui-state-hover { border-color: rgb(48, 48, 48=
+); }
+
+.qtip-jtools { background: -webkit-linear-gradient(top, rgb(113, 113, 113),=
+ rgb(35, 35, 35)) rgba(0, 0, 0, 0.7); border: 2px solid rgb(241, 241, 241);=
+ border-radius: 2px; box-shadow: rgb(51, 51, 51) 0px 0px 12px; }
+
+.qtip-jtools .qtip-titlebar { background-color: transparent; }
+
+.qtip-jtools .qtip-content { }
+
+.qtip-jtools .qtip-titlebar, .qtip-jtools .qtip-content { background: trans=
+parent; color: white; border: 0px dashed transparent; }
+
+.qtip-jtools .qtip-icon { border-color: rgb(85, 85, 85); }
+
+.qtip-jtools .qtip-titlebar .ui-state-hover { border-color: rgb(51, 51, 51)=
+; }
+
+.qtip-cluetip { box-shadow: rgba(0, 0, 0, 0.4) 4px 4px 5px; background-colo=
+r: rgb(217, 217, 194); color: rgb(17, 17, 17); border: 0px dashed transpare=
+nt; }
+
+.qtip-cluetip .qtip-titlebar { background-color: rgb(135, 135, 106); color:=
+ white; border: 0px dashed transparent; }
+
+.qtip-cluetip .qtip-icon { border-color: rgb(128, 128, 100); }
+
+.qtip-cluetip .qtip-titlebar .ui-state-hover { border-color: rgb(105, 105, =
+82); color: rgb(105, 105, 82); }
+
+.qtip-tipsy { background: rgba(0, 0, 0, 0.87); color: white; border: 0px so=
+lid transparent; font-size: 11px; font-family: "Lucida Grande", sans-serif;=
+ font-weight: bold; line-height: 16px; text-shadow: black 0px 1px; }
+
+.qtip-tipsy .qtip-titlebar { padding: 6px 35px 0px 10px; background-color: =
+transparent; }
+
+.qtip-tipsy .qtip-content { padding: 6px 10px; }
+
+.qtip-tipsy .qtip-icon { border-color: rgb(34, 34, 34); text-shadow: none; =
+}
+
+.qtip-tipsy .qtip-titlebar .ui-state-hover { border-color: rgb(48, 48, 48);=
+ }
+
+.qtip-tipped { border: 3px solid rgb(149, 159, 169); border-radius: 3px; ba=
+ckground-color: rgb(249, 249, 249); color: rgb(69, 69, 69); font-weight: no=
+rmal; font-family: serif; }
+
+.qtip-tipped .qtip-titlebar { border-bottom-width: 0px; color: white; backg=
+round: -webkit-linear-gradient(top, rgb(58, 121, 184), rgb(46, 98, 157)) rg=
+b(58, 121, 184); }
+
+.qtip-tipped .qtip-icon { border: 2px solid rgb(40, 85, 137); background: r=
+gb(40, 85, 137); }
+
+.qtip-tipped .qtip-icon .ui-icon { background-color: rgb(251, 251, 251); co=
+lor: rgb(85, 85, 85); }
+
+.qtip-bootstrap { font-size: 14px; line-height: 20px; color: rgb(51, 51, 51=
+); padding: 1px; background-color: rgb(255, 255, 255); border: 1px solid rg=
+ba(0, 0, 0, 0.2); border-radius: 6px; box-shadow: rgba(0, 0, 0, 0.2) 0px 5p=
+x 10px; background-clip: padding-box; }
+
+.qtip-bootstrap .qtip-titlebar { padding: 8px 14px; margin: 0px; font-size:=
+ 14px; font-weight: normal; line-height: 18px; background-color: rgb(247, 2=
+47, 247); border-bottom: 1px solid rgb(235, 235, 235); border-radius: 5px 5=
+px 0px 0px; }
+
+.qtip-bootstrap .qtip-titlebar .qtip-close { right: 11px; top: 45%; border-=
+style: none; }
+
+.qtip-bootstrap .qtip-content { padding: 9px 14px; }
+
+.qtip-bootstrap .qtip-icon { background: transparent; }
+
+.qtip-bootstrap .qtip-icon .ui-icon { width: auto; height: auto; float: rig=
+ht; font-size: 20px; font-weight: bold; line-height: 18px; color: rgb(0, 0,=
+ 0); text-shadow: rgb(255, 255, 255) 0px 1px 0px; opacity: 0.2; }
+
+.qtip-bootstrap .qtip-icon .ui-icon:hover { color: rgb(0, 0, 0); text-decor=
+ation: none; cursor: pointer; opacity: 0.4; }
+
+.qtip:not(.ie9haxors) div.qtip-content, .qtip:not(.ie9haxors) div.qtip-titl=
+ebar { filter: none; }
+
+.qtip .qtip-tip { margin: 0px auto; overflow: hidden; z-index: 10; }
+
+.qtip .qtip-tip, .qtip .qtip-tip .qtip-vml, .qtip .qtip-tip canvas { positi=
+on: absolute; color: rgb(18, 52, 86); background: transparent; border: 0px =
+dashed transparent; }
+
+.qtip .qtip-tip canvas { top: 0px; left: 0px; }
+
+.qtip .qtip-tip .qtip-vml { display: inline-block; visibility: visible; }
+
+div.smwtt { color: rgb(0, 0, 0); }
+
+span.smwttpersist span.smwttcontent { color: rgb(136, 136, 136); font-style=
+: italic; font-size: 90%; }
+
+span.smwttinline span.smwttcontent { display: none; speak: none; }
+
+span.smwtticon { display: none; }
+
+span.smwttactivepersist { cursor: help; color: rgb(0, 0, 200); }
+
+span.smwttactiveinline { color: rgb(187, 119, 0); text-decoration: none; }
+
+img.smwttimg { padding-right: 5px; padding-left: 4px; }
+
+.smwttcontent { display: none; }
+
+.smwtticon { padding: 14px 12px 0px 0px; white-space: nowrap; margin-bottom=
+: -1px; }
+
+.smwtticon.info { display: inline-block; background: url("data:image/png;ba=
+se64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAB+klEQVR4AWJkgANxNo3APF=
+VNRVENNmYGBaDA/1+/GR5cvffi+q1NE+4wMLz7DVIF0SBmK2IbnhvjaaUcLy4mrCYIaFqaAbaKA=
+uh5795n/ba1ZNt27WFqyfbanI0tT9m2bX+2zYyD5UBTpDyAQCgSszu9b0/d/Lj31pH1B+C+7SMo=
+G2gMnzZ/+aSRPZZ2aC2vH9WpjGutkJi2cokReIFXDK2yrKy4b0qtZ798tDwgHaYsmtSnX++1VWW=
+KVlUoIpwErnwII50DOtVKeG6LIccyIsMrXSJQn1JKmSG8qiq+RB73rUkQmgHLENQW8sjkAHsUiH=
+3vBM3QOQ6DaSiN4jfeDGpAUGxQ8ITDjA4iiiQWWx/GEUix8IYAkyeDYAqlFITPRPI8LHGCqCSg5=
+Lt1keCJD/iUEhFNAd54ElFwYAlNU2SSbwXK5hVVYjRNQKlG8CIIuNNAiU4ACEgmJaSTkVw+k37N=
+RtzmMyG76Z2hCDBkgnIV6FwEVCKBcgXQZQpDFRGymV6HnV/Ok+inW84oVFNOKGyrrygor9B5plp=
+l8NKWQJ7j4PKEsw9uPX745sL+Nb5rm24y+AVitB/WtcPY2TPbakrb15fIpdk88NUTdb0xO5+/OL=
+ZpZ/TdtacAsgz+g1xcX1DZ0qWySC8s/37I+0Nep+PDI3vcZwniN74BNcHHQEW4ECsAAAAASUVOR=
+K5CYII=3D") left bottom no-repeat; }
+
+.smwtticon.service { display: inline-block; background: url("data:image/png=
+;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAB+klEQVR4AWJkgANxNo3=
+APFVNRVENNmYGBaDA/1+/GR5cvffi+q1NE+4wMLz7DVIF0SBmK2IbnhvjaaUcLy4mrCYIaFqaAb=
+aKAuh5795n/ba1ZNt27WFqyfbanI0tT9m2bX+2zYyD5UBTpDyAQCgSszu9b0/d/Lj31pH1B+C+7=
+SMoG2gMnzZ/+aSRPZZ2aC2vH9WpjGutkJi2cokReIFXDK2yrKy4b0qtZ798tDwgHaYsmtSnX++1=
+VWWKVlUoIpwErnwII50DOtVKeG6LIccyIsMrXSJQn1JKmSG8qiq+RB73rUkQmgHLENQW8sjkAHs=
+UiH3vBM3QOQ6DaSiN4jfeDGpAUGxQ8ITDjA4iiiQWWx/GEUix8IYAkyeDYAqlFITPRPI8LHGCqC=
+Sg5Lt1keCJD/iUEhFNAd54ElFwYAlNU2SSbwXK5hVVYjRNQKlG8CIIuNNAiU4ACEgmJaSTkVw+k=
+37NRtzmMyG76Z2hCDBkgnIV6FwEVCKBcgXQZQpDFRGymV6HnV/Ok+inW84oVFNOKGyrrygor9B5=
+plpl8NKWQJ7j4PKEsw9uPX745sL+Nb5rm24y+AVitB/WtcPY2TPbakrb15fIpdk88NUTdb0xO5+=
+/OLZpZ/TdtacAsgz+g1xcX1DZ0qWySC8s/37I+0Nep+PDI3vcZwniN74BNcHHQEW4ECsAAAAASU=
+VORK5CYII=3D") left bottom no-repeat; }
+
+.smwtticon.warning { display: inline-block; background: url("data:image/png=
+;base64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAABfUlEQVR4AZXLs6IdYRR=
+A4fXPHGtm7rGu7Tsntm3bNrq0aePkBVLmJWLbtlHG3LG9NrqPH9vVjqoDfVk5v4g6fkhE0PimHT=
+b+YFKbWtwvPLNfrTbL9hPih76ArU3gDqqmSNu6gb4+a/wlnWr6TixRLSs9qF8ClxefWRue+6i6a=
++n6TdeR6i4FtTlrbvMwwV8Ch1trHsqV9b34LMGevYc59ThKbbvSbsmg1u4nsN3GCJR4l4Z7dwya=
+EQ9Ox0uMsItI31b+wS3cCzsEiX0BO210X5QhicGZdno8im2/oKJCp3nzJ6iYl4rh4ZZjqhma0HF=
++AJqDlNXSOcKfS5lwFpFT9O3rAE4Cpwk2N0K5zvrw8RkyH0CwmmFWF09nZ/Segn0cOryPSZO3sG=
+PnQeAYevSBquitt6trZByAIxBTs4Lpl265exOA0pCwbPprqvIeIbffAK/xp944qwqZCixXG3uwI=
+ZTVikWUAj5+JfBGkDcAglKoG1d4MH+LTFAiwv/0FhheYpPzYQn1AAAAAElFTkSuQmCC") left =
+bottom no-repeat; }
+
+.smwtticon.note { display: inline-block; background: url("data:image/png;ba=
+se64,iVBORw0KGgoAAAANSUhEUgAAAAwAAAAMCAYAAABWdVznAAAB7ElEQVR4ASWNM9hcTQCF35=
+m9e9efbSx+22bSxEnfpI6TMmX6J0YVdbGNJrZtY82rmeiwO0dowIuY3Jv8NXZAtWEExhqB0DeuN=
+L1c90+n7J5vtlVEMBPv7yGZTGIACEehpBjZNJBY0NCXSJqRGEiTWqnI0wd7Lt/0D08T8fhBAKP8=
+++dYMflf+5fJnfVdfRIhobEXhCDs9xNv7fgscP7EnvSd3rHVzvadxtMfQm2xntYVHfWmVKXX4A8=
+jPxvN23n00aVghun99Asje2rbikuxri/l8dY/x9XHfIO6kgfrravpty6grbeuZqBWAKdMb3OwO3=
+Pj9EQjEgqlDG2jHAXSALsMbvVD13JoAOUQNsGff/2rYTnOY21XUNpESAOUi07fAasIdgGEAGW/f=
+1SqLWI8TpfPW40lQtEQWhggJN6ZVYBAeB7YJaTwKKZf4rT+fkd++fvI80/d1qvCyqOdGtou4xs5=
+D9/vM9DVHLgWlF5xt2Aq0RbfKJ48f0Hx3qVfwztnHOyqs03tD0LfzwjlIV5dR6C4/qjG0x/mLOz=
+7/MepQmuNBxxev2ZE27W1Szq8e8MhUQNpUFZhHtDnPYtPWvzpb//Piff32gaAdl1UU+/eV3/M/e=
+7ly9sTRPbhLwqiTrTrjmyLb/E51knh2gC8AXng4FD0wz3SAAAAAElFTkSuQmCC") left botto=
+m no-repeat; }
+------MultipartBoundary--ipjOoWcWZYvoG1NpqYozbHS6loTPlqt7nDDRoSbxJh----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.w3.org/wiki/load.php?debug=false&lang=en&modules=mediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles&only=styles&skin=vector
+
+@charset "utf-8";
+
+@media print {
+  .noprint, div#jump-to-nav, .mw-jump, div.top, div#column-one, .mw-editsec=
+tion, .mw-editsection-like, #footer-places, .mw-hidden-catlinks, .usermessa=
+ge, .patrollink, .ns-0 .mw-redirectedfrom, div.magnify, #mw-navigation, #si=
+teNotice, div#f-poweredbyico, div#f-copyrightico, li#about, li#disclaimer, =
+li#mobileview, li#privacy { display: none; }
+  body { background: rgb(255, 255, 255); color: rgb(0, 0, 0); margin: 0px; =
+padding: 0px; }
+  h1, h2, h3, h4, h5, h6 { font-weight: bold; break-after: avoid; }
+  dt { font-weight: bold; }
+  ul { list-style-type: square; }
+  p { margin: 1em 0px; line-height: 1.2em; orphans: 3; widows: 3; }
+  pre, .mw-code { background: rgb(255, 255, 255); color: rgb(0, 0, 0); bord=
+er: 1pt dashed rgb(0, 0, 0); padding: 1em 0px; font-size: 8pt; white-space:=
+ pre; overflow-wrap: break-word; overflow: auto; }
+  img, .wikitable, .thumb { break-inside: avoid; }
+  img { border: 0px; vertical-align: middle; }
+  #globalWrapper { width: 100% !important; min-width: 0px !important; }
+  .mw-body { background: rgb(255, 255, 255); color: rgb(0, 0, 0); direction=
+: ltr; border: 0px !important; padding: 0px !important; margin: 0px !import=
+ant; }
+  #column-content { margin: 0px !important; }
+  #column-content .mw-body { padding: 1em; margin: 0px !important; }
+  #toc { background-color: rgb(249, 249, 249); border: 1pt solid rgb(170, 1=
+70, 170); padding: 5px; display: table; }
+  .tocnumber, .toctext { display: table-cell; }
+  .tocnumber { padding-left: 0px; padding-right: 0.5em; }
+  .mw-content-ltr .tocnumber { padding-left: 0px; padding-right: 0.5em; }
+  .mw-content-rtl .tocnumber { padding-left: 0.5em; padding-right: 0px; }
+  #footer { background: rgb(255, 255, 255); color: rgb(0, 0, 0); margin-top=
+: 1em; border-top: 1pt solid rgb(170, 170, 170); direction: ltr; }
+  a { background: none !important; padding: 0px !important; }
+  .mw-body a.external.text::after, .mw-body a.external.autonumber::after { =
+content: " (" attr(href) ")"; overflow-wrap: break-word; }
+  .mw-body a.external.text[href^=3D"//"]::after, .mw-body a.external.autonu=
+mber[href^=3D"//"]::after { content: " (https:" attr(href) ")"; }
+  a, a.external, a.new, a.stub { color: rgb(0, 0, 0) !important; text-decor=
+ation: none !important; }
+  a, a.external, a.new, a.stub { color: inherit !important; text-decoration=
+: inherit !important; }
+  div.floatright { float: right; clear: right; position: relative; margin: =
+0.5em 0px 0.8em 1.4em; }
+  div.floatright p { font-style: italic; }
+  div.floatleft { float: left; clear: left; position: relative; margin: 0.5=
+em 1.4em 0.8em 0px; }
+  div.floatleft p { font-style: italic; }
+  div.center { text-align: center; }
+  div.thumb { background-color: transparent; border: 0px; width: auto; marg=
+in-top: 0.5em; margin-bottom: 0.8em; }
+  div.thumbinner { background-color: rgb(255, 255, 255); border: 1pt solid =
+rgb(204, 204, 204); font-size: 94%; text-align: center; overflow: hidden; p=
+adding: 3px !important; }
+  html .thumbimage { border: 1pt solid rgb(204, 204, 204); }
+  html .thumbcaption { border: none; text-align: left; line-height: 1.4em; =
+font-size: 94%; padding: 3px !important; }
+  div.tright { float: right; clear: right; margin: 0.5em 0px 0.8em 1.4em; }
+  div.tleft { float: left; clear: left; margin: 0.5em 1.4em 0.8em 0px; }
+  img.thumbborder { border: 1pt solid rgb(221, 221, 221); }
+  table.wikitable, table.mw_metadata { background: rgb(255, 255, 255); marg=
+in: 1em 0px; border: 1pt solid rgb(170, 170, 170); border-collapse: collaps=
+e; }
+  table.wikitable > tr > th, table.wikitable > tr > td, table.wikitable > *=
+ > tr > th, table.wikitable > * > tr > td, .mw_metadata th, .mw_metadata td=
+ { border: 1pt solid rgb(170, 170, 170); padding: 0.2em; }
+  table.wikitable > tr > th, table.wikitable > * > tr > th, .mw_metadata th=
+ { background: rgb(255, 255, 255); font-weight: bold; text-align: center; }
+  table.wikitable > caption, .mw_metadata caption { font-weight: bold; }
+  table.listing, table.listing td { border: 1pt solid rgb(0, 0, 0); border-=
+collapse: collapse; }
+  a.sortheader { margin: 0px 0.3em; }
+  .catlinks ul { display: inline; padding: 0px; list-style: none none; }
+  .catlinks li { display: inline-block; line-height: 1.15em; padding: 0px 0=
+.4em; border-left: 1pt solid rgb(170, 170, 170); margin: 0.1em 0px; }
+  .catlinks li:first-child { padding-left: 0.2em; border-left: 0px; }
+  .printfooter { padding: 1em 0px; }
+}
+
+@media screen {
+  .mw-content-ltr { direction: ltr; }
+  .mw-content-rtl { direction: rtl; }
+  .sitedir-ltr textarea, .sitedir-ltr input { direction: ltr; }
+  .sitedir-rtl textarea, .sitedir-rtl input { direction: rtl; }
+  .mw-userlink { unicode-bidi: embed; }
+  mark { background-color: yellow; color: black; }
+  wbr { display: inline-block; }
+  input[type=3D"submit"], input[type=3D"button"], input[type=3D"reset"], in=
+put[type=3D"file"] { direction: ltr; }
+  textarea[dir=3D"ltr"], input[dir=3D"ltr"] { direction: ltr; }
+  textarea[dir=3D"rtl"], input[dir=3D"rtl"] { direction: rtl; }
+  abbr[title], .explain[title] { border-bottom: 1px dotted; cursor: help; }
+  @supports (text-decoration:underline dotted) {
+  abbr[title], .explain[title] { border-bottom: none; text-decoration: unde=
+rline dotted; }
+}
+  .mw-plusminus-pos { color: rgb(0, 100, 0); }
+  .mw-plusminus-neg { color: rgb(139, 0, 0); }
+  .mw-plusminus-null { color: rgb(170, 170, 170); }
+  .mw-plusminus-pos, .mw-plusminus-neg, .mw-plusminus-null { unicode-bidi: =
+isolate; }
+  span.comment { font-style: italic; unicode-bidi: isolate; }
+  #wikiPreview.ontop { margin-bottom: 1em; }
+  #editform, #toolbar, #wpTextbox1 { clear: both; }
+  li span.deleted, span.history-deleted { text-decoration: line-through; co=
+lor: rgb(136, 136, 136); font-style: italic; }
+  .not-patrolled { background-color: rgb(255, 255, 170); }
+  .unpatrolled { font-weight: bold; color: red; }
+  div.patrollink { font-size: 75%; text-align: right; }
+  td.mw-label { text-align: right; }
+  td.mw-input { text-align: left; }
+  td.mw-submit { text-align: left; }
+  td.mw-label { vertical-align: middle; }
+  td.mw-submit { white-space: nowrap; }
+  input#wpSummary { width: 80%; margin-bottom: 1em; }
+  .mw-input-with-label { white-space: nowrap; }
+  .mw-content-ltr .thumbcaption { text-align: left; }
+  .mw-content-ltr .magnify { float: right; }
+  .mw-content-rtl .thumbcaption { text-align: right; }
+  .mw-content-rtl .magnify { float: left; }
+  #catlinks { text-align: left; }
+  .catlinks ul { display: inline; margin: 0px; padding: 0px; list-style: no=
+ne none; }
+  .catlinks li { display: inline-block; line-height: 1.25em; border-left: 1=
+px solid rgb(170, 170, 170); margin: 0.125em 0px; padding: 0px 0.5em; zoom:=
+ 1; }
+  .catlinks li:first-child { padding-left: 0.25em; border-left: none; }
+  .catlinks li a.mw-redirect { font-style: italic; }
+  .mw-hidden-cats-hidden { display: none; }
+  .catlinks-allhidden { display: none; }
+  p.mw-protect-editreasons, p.mw-filedelete-editreasons, p.mw-delete-editre=
+asons { font-size: 90%; text-align: right; }
+  .autocomment { color: gray; }
+  #pagehistory .history-user { margin-left: 0.4em; margin-right: 0.2em; }
+  #pagehistory li { border: 1px solid white; }
+  #pagehistory li.selected { background-color: rgb(249, 249, 249); border: =
+1px dashed rgb(170, 170, 170); }
+  .mw-history-revisionactions { float: right; }
+  .newpage, .minoredit, .botedit { font-weight: bold; }
+  div.mw-warning-with-logexcerpt { padding: 3px; margin-bottom: 3px; border=
+: 2px solid rgb(47, 111, 171); clear: both; }
+  div.mw-warning-with-logexcerpt ul li { font-size: 90%; }
+  span.mw-revdelundel-link, strong.mw-revdelundel-link { font-size: 90%; }
+  span.mw-revdelundel-hidden, input.mw-revdelundel-hidden { visibility: hid=
+den; }
+  td.mw-revdel-checkbox, th.mw-revdel-checkbox { padding-right: 10px; text-=
+align: center; }
+  a.new { color: rgb(186, 0, 0); }
+  .plainlinks a.external { background: none !important; padding: 0px !impor=
+tant; }
+  .rtl a.external.free, .rtl a.external.autonumber { direction: ltr; unicod=
+e-bidi: embed; }
+  table.wikitable { margin: 1em 0px; background-color: rgb(249, 249, 249); =
+border: 1px solid rgb(170, 170, 170); border-collapse: collapse; color: bla=
+ck; }
+  table.wikitable > tr > th, table.wikitable > tr > td, table.wikitable > *=
+ > tr > th, table.wikitable > * > tr > td { border: 1px solid rgb(170, 170,=
+ 170); padding: 0.2em 0.4em; }
+  table.wikitable > tr > th, table.wikitable > * > tr > th { background-col=
+or: rgb(242, 242, 242); text-align: center; }
+  table.wikitable > caption { font-weight: bold; }
+  .error, .warning, .success { font-size: larger; }
+  .error { color: rgb(204, 0, 0); }
+  .warning { color: rgb(112, 80, 0); }
+  .success { color: rgb(0, 144, 0); }
+  .errorbox, .warningbox, .successbox { border: 1px solid; padding: 0.5em 1=
+em; margin-bottom: 1em; display: inline-block; zoom: 1; }
+  .errorbox h2, .warningbox h2, .successbox h2 { font-size: 1em; color: inh=
+erit; font-weight: bold; display: inline; margin: 0px 0.5em 0px 0px; border=
+: none; }
+  .errorbox { color: rgb(204, 0, 0); border-color: rgb(250, 197, 197); back=
+ground-color: rgb(250, 227, 227); }
+  .warningbox { color: rgb(112, 80, 0); border-color: rgb(253, 226, 155); b=
+ackground-color: rgb(253, 241, 209); }
+  .successbox { color: rgb(0, 128, 0); border-color: rgb(183, 253, 181); ba=
+ckground-color: rgb(225, 253, 223); }
+  .mw-infobox { border: 2px solid rgb(255, 127, 0); margin: 0.5em; clear: l=
+eft; overflow: hidden; }
+  .mw-infobox-left { margin: 7px; float: left; width: 35px; }
+  .mw-infobox-right { margin: 0.5em 0.5em 0.5em 49px; }
+  .previewnote { color: rgb(204, 0, 0); margin-bottom: 1em; }
+  .previewnote p { text-indent: 3em; margin: 0.8em 0px; }
+  .visualClear { clear: both; }
+  .mw-datatable { border-collapse: collapse; }
+  .mw-datatable, .mw-datatable td, .mw-datatable th { border: 1px solid rgb=
+(170, 170, 170); padding: 0px 0.15em; }
+  .mw-datatable th { background-color: rgb(221, 221, 255); }
+  .mw-datatable td { background-color: rgb(255, 255, 255); }
+  .mw-datatable tr:hover td { background-color: rgb(238, 238, 255); }
+  table.mw_metadata { font-size: 0.8em; margin-left: 0.5em; margin-bottom: =
+0.5em; width: 400px; }
+  table.mw_metadata caption { font-weight: bold; }
+  table.mw_metadata th { font-weight: normal; }
+  table.mw_metadata td { padding: 0.1em; }
+  table.mw_metadata { border: none; border-collapse: collapse; }
+  table.mw_metadata td, table.mw_metadata th { text-align: center; border: =
+1px solid rgb(170, 170, 170); padding-left: 5px; padding-right: 5px; }
+  table.mw_metadata th { background-color: rgb(249, 249, 249); }
+  table.mw_metadata td { background-color: rgb(252, 252, 252); }
+  table.mw_metadata ul.metadata-langlist { list-style-type: none; list-styl=
+e-image: none; padding-right: 5px; padding-left: 5px; margin: 0px; }
+  .mw-content-ltr ul, .mw-content-rtl .mw-content-ltr ul { margin: 0.3em 0p=
+x 0px 1.6em; padding: 0px; }
+  .mw-content-rtl ul, .mw-content-ltr .mw-content-rtl ul { margin: 0.3em 1.=
+6em 0px 0px; padding: 0px; }
+  .mw-content-ltr ol, .mw-content-rtl .mw-content-ltr ol { margin: 0.3em 0p=
+x 0px 3.2em; padding: 0px; }
+  .mw-content-rtl ol, .mw-content-ltr .mw-content-rtl ol { margin: 0.3em 3.=
+2em 0px 0px; padding: 0px; }
+  .mw-content-ltr dd, .mw-content-rtl .mw-content-ltr dd { margin-left: 1.6=
+em; margin-right: 0px; }
+  .mw-content-rtl dd, .mw-content-ltr .mw-content-rtl dd { margin-right: 1.=
+6em; margin-left: 0px; }
+  .mw-ajax-loader { background-image: url("/wiki/resources/src/mediawiki.le=
+gacy/images/ajax-loader.gif?57f34"); background-position: center center; ba=
+ckground-repeat: no-repeat; padding: 16px; position: relative; top: -16px; =
+}
+  .mw-small-spinner { margin-right: 0.6em; background-image: url("/wiki/res=
+ources/src/mediawiki.legacy/images/spinner.gif?ca65b"); background-position=
+: center center; background-repeat: no-repeat; padding: 10px !important; }
+  h1:lang(anp), h1:lang(as), h1:lang(bh), h1:lang(bho), h1:lang(bn), h1:lan=
+g(gu), h1:lang(hi), h1:lang(kn), h1:lang(ks), h1:lang(ml), h1:lang(mr), h1:=
+lang(my), h1:lang(mai), h1:lang(ne), h1:lang(new), h1:lang(or), h1:lang(pa)=
+, h1:lang(pi), h1:lang(sa), h1:lang(ta), h1:lang(te) { line-height: 1.6em !=
+important; }
+  h2:lang(anp), h3:lang(anp), h4:lang(anp), h5:lang(anp), h6:lang(anp), h2:=
+lang(as), h3:lang(as), h4:lang(as), h5:lang(as), h6:lang(as), h2:lang(bho),=
+ h3:lang(bho), h4:lang(bho), h5:lang(bho), h6:lang(bho), h2:lang(bh), h3:la=
+ng(bh), h4:lang(bh), h5:lang(bh), h6:lang(bh), h2:lang(bn), h3:lang(bn), h4=
+:lang(bn), h5:lang(bn), h6:lang(bn), h2:lang(gu), h3:lang(gu), h4:lang(gu),=
+ h5:lang(gu), h6:lang(gu), h2:lang(hi), h3:lang(hi), h4:lang(hi), h5:lang(h=
+i), h6:lang(hi), h2:lang(kn), h3:lang(kn), h4:lang(kn), h5:lang(kn), h6:lan=
+g(kn), h2:lang(ks), h3:lang(ks), h4:lang(ks), h5:lang(ks), h6:lang(ks), h2:=
+lang(ml), h3:lang(ml), h4:lang(ml), h5:lang(ml), h6:lang(ml), h2:lang(mr), =
+h3:lang(mr), h4:lang(mr), h5:lang(mr), h6:lang(mr), h2:lang(my), h3:lang(my=
+), h4:lang(my), h5:lang(my), h6:lang(my), h2:lang(mai), h3:lang(mai), h4:la=
+ng(mai), h5:lang(mai), h6:lang(mai), h2:lang(ne), h3:lang(ne), h4:lang(ne),=
+ h5:lang(ne), h6:lang(ne), h2:lang(new), h3:lang(new), h4:lang(new), h5:lan=
+g(new), h6:lang(new), h2:lang(or), h3:lang(or), h4:lang(or), h5:lang(or), h=
+6:lang(or), h2:lang(pa), h3:lang(pa), h4:lang(pa), h5:lang(pa), h6:lang(pa)=
+, h2:lang(pi), h3:lang(pi), h4:lang(pi), h5:lang(pi), h6:lang(pi), h2:lang(=
+sa), h3:lang(sa), h4:lang(sa), h5:lang(sa), h6:lang(sa), h2:lang(ta), h3:la=
+ng(ta), h4:lang(ta), h5:lang(ta), h6:lang(ta), h2:lang(te), h3:lang(te), h4=
+:lang(te), h5:lang(te), h6:lang(te) { line-height: 1.2em; }
+  ol:lang(azb) li, ol:lang(bcc) li, ol:lang(bgn) li, ol:lang(bqi) li, ol:la=
+ng(fa) li, ol:lang(glk) li, ol:lang(kk-arab) li, ol:lang(lrc) li, ol:lang(l=
+uz) li, ol:lang(mzn) li { list-style-type: persian; }
+  ol:lang(ckb) li, ol:lang(sdh) li { list-style-type: arabic-indic; }
+  ol:lang(hi) li, ol:lang(mr) li { list-style-type: devanagari; }
+  ol:lang(as) li, ol:lang(bn) li { list-style-type: bengali; }
+  ol:lang(or) li { list-style-type: oriya; }
+  #toc ul, .toc ul { margin: 0.3em 0px; }
+  .mw-content-ltr .toc ul, .mw-content-ltr #toc ul, .mw-content-rtl .mw-con=
+tent-ltr .toc ul, .mw-content-rtl .mw-content-ltr #toc ul { text-align: lef=
+t; }
+  .mw-content-rtl .toc ul, .mw-content-rtl #toc ul, .mw-content-ltr .mw-con=
+tent-rtl .toc ul, .mw-content-ltr .mw-content-rtl #toc ul { text-align: rig=
+ht; }
+  .mw-content-ltr .toc ul ul, .mw-content-ltr #toc ul ul, .mw-content-rtl .=
+mw-content-ltr .toc ul ul, .mw-content-rtl .mw-content-ltr #toc ul ul { mar=
+gin: 0px 0px 0px 2em; }
+  .mw-content-rtl .toc ul ul, .mw-content-rtl #toc ul ul, .mw-content-ltr .=
+mw-content-rtl .toc ul ul, .mw-content-ltr .mw-content-rtl #toc ul ul { mar=
+gin: 0px 2em 0px 0px; }
+  #toc #toctitle, .toc #toctitle, #toc .toctitle, .toc .toctitle { directio=
+n: ltr; }
+  .mw-help-field-hint { display: none; margin-left: 2px; margin-bottom: -8p=
+x; padding: 0px 0px 0px 15px; background-image: url("/wiki/resources/src/me=
+diawiki.legacy/images/help-question.gif?346d8"); background-position: left =
+center; background-repeat: no-repeat; cursor: pointer; font-size: 0.8em; te=
+xt-decoration: underline; color: rgb(6, 69, 173); }
+  .mw-help-field-hint:hover { background-image: url("/wiki/resources/src/me=
+diawiki.legacy/images/help-question-hover.gif?53eb5"); }
+  .mw-help-field-data { display: block; background-color: rgb(214, 243, 255=
+); padding: 5px 8px 4px; border: 1px solid rgb(93, 201, 244); margin-left: =
+20px; }
+  #mw-clearyourcache, #mw-sitecsspreview, #mw-sitejspreview, #mw-usercsspre=
+view, #mw-userjspreview { direction: ltr; unicode-bidi: embed; }
+  .diff-currentversion-title, .diff { direction: ltr; unicode-bidi: embed; =
+}
+  .diff-contentalign-right td { direction: rtl; unicode-bidi: embed; }
+  .diff-contentalign-left td { direction: ltr; unicode-bidi: embed; }
+  .diff-multi, .diff-otitle, .diff-ntitle, .diff-lineno { unicode-bidi: emb=
+ed; direction: ltr !important; }
+  #mw-revision-info, #mw-revision-info-current, #mw-revision-nav { directio=
+n: ltr; display: inline; }
+  div.tright, div.floatright, table.floatright { clear: right; float: right=
+; }
+  div.tleft, div.floatleft, table.floatleft { float: left; clear: left; }
+  div.floatright, table.floatright, div.floatleft, table.floatleft { positi=
+on: relative; }
+  #mw-credits a { unicode-bidi: embed; }
+  .mw-jump, #jump-to-nav { overflow: hidden; height: 0px; zoom: 1; }
+  .printfooter { display: none; }
+  .xdebug-error { position: absolute; z-index: 99; }
+  .mw-editsection, #jump-to-nav { user-select: none; }
+  .mw-editsection, .mw-editsection-like { font-size: small; font-weight: no=
+rmal; margin-left: 1em; vertical-align: baseline; line-height: 1em; display=
+: inline-block; }
+  .mw-content-ltr .mw-editsection, .mw-content-rtl .mw-content-ltr .mw-edit=
+section { margin-left: 1em; }
+  .mw-content-rtl .mw-editsection, .mw-content-ltr .mw-content-rtl .mw-edit=
+section { margin-right: 1em; }
+  sup, sub { line-height: 1; }
+}
+
+.mw-headline-anchor { display: none; }
+
+@media screen {
+  a { text-decoration: none; color: rgb(6, 69, 173); background: none; }
+  a:visited { color: rgb(11, 0, 128); }
+  a:active { color: rgb(250, 167, 0); }
+  a:hover, a:focus { text-decoration: underline; }
+  a:lang(ar), a:lang(kk-arab), a:lang(mzn), a:lang(ps), a:lang(ur) { text-d=
+ecoration: none; }
+  a.stub { color: rgb(119, 34, 51); }
+  a.new, #p-personal a.new { color: rgb(186, 0, 0); }
+  a.new:visited, #p-personal a.new:visited { color: rgb(165, 88, 88); }
+  .mw-body a.extiw, .mw-body a.extiw:active { color: rgb(51, 102, 187); }
+  .mw-body a.extiw:visited { color: rgb(102, 51, 102); }
+  .mw-body a.extiw:active { color: rgb(187, 102, 51); }
+  .mw-body a.external { color: rgb(51, 102, 187); }
+  .mw-body a.external:visited { color: rgb(102, 51, 102); }
+  .mw-body a.external:active { color: rgb(187, 102, 51); }
+  .mw-body a.external.free { overflow-wrap: break-word; }
+  img { border: none; vertical-align: middle; }
+  hr { height: 1px; color: rgb(170, 170, 170); background-color: rgb(170, 1=
+70, 170); border: 0px; margin: 0.2em 0px; }
+  h1, h2, h3, h4, h5, h6 { color: black; background: none; font-weight: nor=
+mal; margin: 0px; overflow: hidden; padding-top: 0.5em; padding-bottom: 0.1=
+7em; border-bottom: 1px solid rgb(170, 170, 170); }
+  h1 { font-size: 188%; }
+  h2 { font-size: 150%; }
+  h3, h4, h5, h6 { border-bottom: none; font-weight: bold; }
+  h3 { font-size: 128%; }
+  h4 { font-size: 116%; }
+  h5 { font-size: 108%; }
+  h6 { font-size: 100%; }
+  h1, h2 { margin-bottom: 0.6em; }
+  h3, h4, h5 { margin-bottom: 0.3em; }
+  p { margin: 0.4em 0px 0.5em; }
+  p img { margin: 0px; }
+  ul { list-style-type: square; margin: 0.3em 0px 0px 1.6em; padding: 0px; =
+}
+  ol { margin: 0.3em 0px 0px 3.2em; padding: 0px; list-style-image: none; }
+  li { margin-bottom: 0.1em; }
+  dt { font-weight: bold; margin-bottom: 0.1em; }
+  dl { margin-top: 0.2em; margin-bottom: 0.5em; }
+  dd { margin-left: 1.6em; margin-bottom: 0.1em; }
+  pre, code, tt, kbd, samp, .mw-code { font-family: monospace, Courier; }
+  code { color: black; background-color: rgb(249, 249, 249); border: 1px so=
+lid rgb(221, 221, 221); border-radius: 2px; padding: 1px 4px; }
+  pre, .mw-code { color: black; background-color: rgb(249, 249, 249); borde=
+r: 1px solid rgb(221, 221, 221); padding: 1em; white-space: pre-wrap; }
+  table { font-size: 100%; }
+  fieldset { border: 1px solid rgb(47, 111, 171); margin: 1em 0px; padding:=
+ 0px 1em 1em; }
+  fieldset.nested { margin: 0px 0px 0.5em; padding: 0px 0.5em 0.5em; }
+  legend { padding: 0.5em; font-size: 95%; }
+  form { border: none; margin: 0px; }
+  textarea { width: 100%; padding: 0.1em; display: block; box-sizing: borde=
+r-box; }
+  .center { width: 100%; text-align: center; }
+  .center * { margin-left: auto; margin-right: auto; }
+  .small { font-size: 94%; }
+  table.small { font-size: 100%; }
+  #toc, .toc, .mw-warning, .toccolours { border: 1px solid rgb(170, 170, 17=
+0); background-color: rgb(249, 249, 249); padding: 5px; font-size: 95%; }
+  #toc, .toc { display: table; zoom: 1; padding: 7px; }
+  table#toc, table.toc { border-collapse: collapse; }
+  table#toc td, table.toc td { padding: 0px; }
+  #toc h2, .toc h2 { display: inline; border: none; padding: 0px; font-size=
+: 100%; font-weight: bold; }
+  #toc #toctitle, .toc #toctitle, #toc .toctitle, .toc .toctitle { text-ali=
+gn: center; }
+  #toc ul, .toc ul { list-style-type: none; list-style-image: none; margin-=
+left: 0px; padding: 0px; text-align: left; }
+  #toc ul ul, .toc ul ul { margin: 0px 0px 0px 2em; }
+  .tocnumber, .toctext { display: table-cell; text-decoration: inherit; }
+  .tocnumber { padding-left: 0px; padding-right: 0.5em; }
+  .mw-content-ltr .tocnumber { padding-left: 0px; padding-right: 0.5em; }
+  .mw-content-rtl .tocnumber { padding-left: 0.5em; padding-right: 0px; }
+  .mw-warning { margin-left: 50px; margin-right: 50px; text-align: center; =
+}
+  div.floatright, table.floatright { margin: 0px 0px 0.5em 0.5em; border: 0=
+px; }
+  div.floatright p { font-style: italic; }
+  div.floatleft, table.floatleft { margin: 0px 0.5em 0.5em 0px; border: 0px=
+; }
+  div.floatleft p { font-style: italic; }
+  div.thumb { margin-bottom: 0.5em; width: auto; background-color: transpar=
+ent; }
+  div.thumbinner { border: 1px solid rgb(204, 204, 204); padding: 3px; back=
+ground-color: rgb(249, 249, 249); font-size: 94%; text-align: center; overf=
+low: hidden; }
+  html .thumbimage { border: 1px solid rgb(204, 204, 204); }
+  html .thumbcaption { border: none; line-height: 1.4em; padding: 3px; font=
+-size: 94%; text-align: left; }
+  div.magnify { float: right; margin-left: 3px; }
+  div.magnify a { display: block; text-indent: 15px; white-space: nowrap; o=
+verflow: hidden; width: 15px; height: 11px; background-image: linear-gradie=
+nt(transparent, transparent), url("data:image/svg+xml,%3C%3Fxml%20version%3=
+D%221.0%22%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%=
+20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2=
+011%2015%22%20width%3D%2215%22%20height%3D%2211%22%3E%0A%20%20%20%20%3Cg%20=
+id%3D%22magnify-clip%22%20fill%3D%22%23fff%22%20stroke%3D%22%23000%22%3E%0A=
+%20%20%20%20%20%20%20%20%3Cpath%20id%3D%22bigbox%22%20d%3D%22M1.509%201.865=
+h10.99v7.919h-10.99z%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20id%3D%22s=
+mallbox%22%20d%3D%22M-1.499%206.868h5.943v4.904h-5.943z%22%2F%3E%0A%20%20%2=
+0%20%3C%2Fg%3E%0A%3C%2Fsvg%3E%0A"); user-select: none; }
+  img.thumbborder { border: 1px solid rgb(221, 221, 221); }
+  .mw-content-ltr .thumbcaption { text-align: left; }
+  .mw-content-ltr .magnify { float: right; margin-left: 3px; margin-right: =
+0px; }
+  .mw-content-ltr div.magnify a { background-image: linear-gradient(transpa=
+rent, transparent), url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22=
+%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%20xmlns%3D=
+%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2011%2015%2=
+2%20width%3D%2215%22%20height%3D%2211%22%3E%0A%20%20%20%20%3Cg%20id%3D%22ma=
+gnify-clip%22%20fill%3D%22%23fff%22%20stroke%3D%22%23000%22%3E%0A%20%20%20%=
+20%20%20%20%20%3Cpath%20id%3D%22bigbox%22%20d%3D%22M1.509%201.865h10.99v7.9=
+19h-10.99z%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20id%3D%22smallbox%22=
+%20d%3D%22M-1.499%206.868h5.943v4.904h-5.943z%22%2F%3E%0A%20%20%20%20%3C%2F=
+g%3E%0A%3C%2Fsvg%3E%0A"); }
+  .mw-content-rtl .thumbcaption { text-align: right; }
+  .mw-content-rtl .magnify { float: left; margin-left: 0px; margin-right: 3=
+px; }
+  .mw-content-rtl div.magnify a { background-image: linear-gradient(transpa=
+rent, transparent), url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22=
+%20encoding%3D%22UTF-8%22%20standalone%3D%22no%22%3F%3E%0A%3Csvg%20xmlns%3D=
+%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20viewBox%3D%220%200%2011%2015%2=
+2%20width%3D%2215%22%20height%3D%2211%22%3E%0A%20%20%20%20%3Cg%20id%3D%22ma=
+gnify-clip%22%20fill%3D%22%23fff%22%20stroke%3D%22%23000%22%3E%0A%20%20%20%=
+20%20%20%20%20%3Cpath%20id%3D%22bigbox%22%20d%3D%22M9.491%201.865h-10.99v7.=
+919h10.99z%22%2F%3E%0A%20%20%20%20%20%20%20%20%3Cpath%20id%3D%22smallbox%22=
+%20d%3D%22M12.499%206.868h-5.943v4.904h5.943z%22%2F%3E%0A%20%20%20%20%3C%2F=
+g%3E%0A%3C%2Fsvg%3E%0A"); }
+  div.tright { margin: 0.5em 0px 1.3em 1.4em; }
+  div.tleft { margin: 0.5em 1.4em 1.3em 0px; }
+  .catlinks { border: 1px solid rgb(170, 170, 170); background-color: rgb(2=
+49, 249, 249); padding: 5px; margin-top: 1em; clear: both; }
+  .editOptions { background-color: rgb(240, 240, 240); border-right: 1px so=
+lid silver; border-bottom: 1px solid silver; border-left: 1px solid silver;=
+ border-image: initial; border-top: none; padding: 1em 1em 1.5em; margin-bo=
+ttom: 2em; }
+  .usermessage { background-color: rgb(255, 206, 123); border: 1px solid rg=
+b(255, 165, 0); color: black; font-weight: bold; margin: 2em 0px 1em; paddi=
+ng: 0.5em 1em; vertical-align: middle; }
+  #siteNotice { position: relative; text-align: center; margin: 0px; }
+  #localNotice { margin-bottom: 0.9em; }
+  .firstHeading { margin-bottom: 0.1em; line-height: 1.2em; padding-bottom:=
+ 0px; }
+  #siteSub { display: none; }
+  #jump-to-nav { margin-top: -1.4em; margin-bottom: 1.4em; }
+  #contentSub, #contentSub2 { font-size: 84%; line-height: 1.2em; margin: 0=
+px 0px 1.4em 1em; color: rgb(84, 84, 84); width: auto; }
+  span.subpages { display: block; }
+}
+
+.mw-wiki-logo { background-image: url("/Icons/w3c_home"); }
+
+@media screen {
+  html { font-size: 100%; }
+  html, body { height: 100%; margin: 0px; padding: 0px; font-family: sans-s=
+erif; }
+  body { background-color: rgb(246, 246, 246); }
+  .mw-body { margin-left: 10em; padding: 1em; border-width: 1px 0px 1px 1px=
+; border-style: solid; border-color: rgb(167, 215, 249); border-image: init=
+ial; margin-top: -1px; background-color: rgb(255, 255, 255); color: rgb(37,=
+ 37, 37); direction: ltr; }
+  .mw-body .mw-editsection, .mw-body .mw-editsection-like { font-family: sa=
+ns-serif; }
+  .mw-body p { line-height: inherit; margin: 0.5em 0px; }
+  .mw-body h1, .mw-body h2 { font-family: "Linux Libertine", Georgia, Times=
+, serif; line-height: 1.3; margin-bottom: 0.25em; padding: 0px; }
+  .mw-body h1 { font-size: 1.8em; }
+  .mw-body .mw-body-content h1 { margin-top: 1em; }
+  .mw-body h2 { font-size: 1.5em; margin-top: 1em; }
+  .mw-body h3, .mw-body h4, .mw-body h5, .mw-body h6 { line-height: 1.6; ma=
+rgin-top: 0.3em; margin-bottom: 0px; padding-bottom: 0px; }
+  .mw-body h3 { font-size: 1.2em; }
+  .mw-body h3, .mw-body h4 { font-weight: bold; }
+  .mw-body h4, .mw-body h5, .mw-body h6 { font-size: 100%; }
+  .mw-body #toc h2, .mw-body .toc h2 { font-size: 100%; font-family: sans-s=
+erif; }
+  .mw-body .firstHeading { overflow: visible; }
+  .mw-body .mw-indicators { float: right; line-height: 1.6; font-size: 0.87=
+5em; position: relative; z-index: 1; }
+  .mw-body .mw-indicator { display: inline-block; zoom: 1; }
+  div.emptyPortlet { display: none; }
+  ul { list-style-type: disc; list-style-image: url("data:image/svg+xml,%3C=
+%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%0A%3Csvg%20xmln=
+s%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20version%3D%221.1%22%20widt=
+h%3D%225%22%20height%3D%2213%22%3E%0A%3Ccircle%20cx%3D%222.5%22%20cy%3D%229=
+.5%22%20r%3D%222.5%22%20fill%3D%22%2300528c%22%2F%3E%0A%3C%2Fsvg%3E%0A"); }
+  pre, .mw-code { line-height: 1.3em; }
+  #siteNotice { font-size: 0.8em; }
+  .redirectText { font-size: 140%; }
+  .redirectMsg p { margin: 0px; }
+  .mw-body-content { position: relative; line-height: 1.6; font-size: 0.875=
+em; z-index: 0; }
+  #p-personal { position: absolute; top: 0.33em; right: 0.75em; z-index: 10=
+0; }
+  #p-personal h3 { display: none; }
+  #p-personal ul { list-style-type: none; list-style-image: none; margin: 0=
+px; padding-left: 10em; }
+  #p-personal li { line-height: 1.125em; float: left; margin-left: 0.75em; =
+margin-top: 0.5em; font-size: 0.75em; white-space: nowrap; }
+  #pt-userpage, #pt-anonuserpage { background-position: left top; backgroun=
+d-repeat: no-repeat; background-image: linear-gradient(transparent, transpa=
+rent), url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3=
+D%22utf-8%22%3F%3E%0A%3C%21DOCTYPE%20svg%20PUBLIC%20%22-%2F%2FW3C%2F%2FDTD%=
+20SVG%201.1%2F%2FEN%22%20%22http%3A%2F%2Fwww.w3.org%2FGraphics%2FSVG%2F1.1%=
+2FDTD%2Fsvg11.dtd%22%3E%0A%3Csvg%20version%3D%221.1%22%20id%3D%22Layer_1%22=
+%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22=
+http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20x%3D%220px%22%20y%3D%220px%22%0=
+A%09%20width%3D%2212px%22%20height%3D%2213.836px%22%20viewBox%3D%220%200%20=
+12%2013.836%22%20enable-background%3D%22new%200%200%2012%2013.836%22%20xml%=
+3Aspace%3D%22preserve%22%3E%0A%3Cpath%20fill%3D%22%23777777%22%20d%3D%22M1.=
+938%2C6.656c-1.32%2C1.485-1.47%2C3.15-0.97%2C4.25c0.323%2C0.707%2C0.78%2C1.=
+127%2C1.313%2C1.375%0A%09c0.496%2C0.229%2C1.074%2C0.273%2C1.658%2C0.282c0.0=
+23%2C0%2C0.04%2C0.03%2C0.062%2C0.03h4.187c0.61%2C0%2C1.225-0.125%2C1.75-0.4=
+05%0A%09c0.527-0.28%2C0.961-0.718%2C1.188-1.376c0.335-0.964%2C0.175-2.529-1=
+.094-4.03C9.094%2C7.954%2C7.68%2C8.719%2C6.065%2C8.719%0A%09c-1.677%2C0-3.1=
+82-0.812-4.125-2.063H1.938z%22%2F%3E%0A%3Cpath%20fill%3D%22%23777777%22%20d=
+%3D%22M6.063%2C0c-1.89%2C0-3.595%2C1.674-3.594%2C3.563C2.467%2C5.45%2C4.173=
+%2C7.155%2C6.06%2C7.155%0A%09c1.89%2C0%2C3.564-1.705%2C3.563-3.593C9.625%2C=
+1.673%2C7.95%2C0%2C6.063%2C0L6.063%2C0z%22%2F%3E%0A%3C%2Fsvg%3E%0A"); paddi=
+ng-left: 15px !important; }
+  #pt-anonuserpage { color: rgb(112, 112, 112); }
+  #p-search { float: left; margin-right: 0.5em; margin-left: 0.5em; }
+  #p-search h3 { display: none; }
+  #p-search form, #p-search input { margin: 0.4em 0px 0px; }
+  div#simpleSearch { display: block; width: 20vw; min-width: 5em; max-width=
+: 20em; padding-right: 1.4em; height: 1.4em; margin-top: 0.65em; position: =
+relative; min-height: 1px; border: 1px solid rgb(170, 170, 170); color: bla=
+ck; background-color: white; background-image: url("data:image/png;base64,i=
+VBORw0KGgoAAAANSUhEUgAAAAEAAAAQCAIAAABY/YLgAAAAJUlEQVQIHQXBsQEAAAjDoND/73UW=
+dnerhmHVsDQZJrNWVg3Dqge6bgMe6bejNAAAAABJRU5ErkJggg=3D=3D"); background-posi=
+tion: left top; background-repeat: repeat-x; }
+  div#simpleSearch input { margin: 0px; padding: 0px; border: 0px; backgrou=
+nd-color: transparent; color: black; }
+  div#simpleSearch #searchInput { width: 100%; padding: 0.2em 0px 0.2em 0.2=
+em; font-size: 13px; direction: ltr; appearance: textfield; }
+  div#simpleSearch #searchInput:focus { outline: none; }
+  div#simpleSearch #searchInput.placeholder { color: rgb(153, 153, 153); }
+  div#simpleSearch #searchInput::-webkit-search-decoration, div#simpleSearc=
+h #searchInput::-webkit-search-cancel-button, div#simpleSearch #searchInput=
+::-webkit-search-results-button, div#simpleSearch #searchInput::-webkit-sea=
+rch-results-decoration { appearance: textfield; }
+  div#simpleSearch #searchButton, div#simpleSearch #mw-searchButton { posit=
+ion: absolute; top: 0px; right: 0px; width: 1.65em; height: 100%; cursor: p=
+ointer; text-indent: -99999px; line-height: 1; direction: ltr; white-space:=
+ nowrap; overflow: hidden; background-image: linear-gradient(transparent, t=
+ransparent), url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20enco=
+ding%3D%22UTF-8%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%=
+2Fsvg%22%20width%3D%2212%22%20height%3D%2213%22%3E%3Cg%20stroke-width%3D%22=
+2%22%20stroke%3D%22%236c6c6c%22%20fill%3D%22none%22%3E%3Cpath%20d%3D%22M11.=
+29%2011.71l-4-4%22%2F%3E%3Ccircle%20cx%3D%225%22%20cy%3D%225%22%20r%3D%224%=
+22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E"); background-position: center center; backg=
+round-repeat: no-repeat; }
+  div#simpleSearch #mw-searchButton { z-index: 1; }
+  div.vectorTabs h3 { display: none; }
+  div.vectorTabs { float: left; height: 2.5em; background-image: url("data:=
+image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAuCAIAAABmjeQ9AAAAQ0lEQVR4AW=
+VOhQEAIAzC/X+xAXbXeoDFGA3A9yk1n4juBROcUegfarWjP3ojZvEzxs6j+nygmo+zzsk79nY+t=
+OxdEhlf3UHVgUFrVwAAAABJRU5ErkJggg=3D=3D"); background-position: left bottom=
+; background-repeat: no-repeat; padding-left: 1px; }
+  div.vectorTabs ul { float: left; height: 100%; list-style-type: none; lis=
+t-style-image: none; margin: 0px; padding: 0px; background-image: url("data=
+:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAuCAIAAABmjeQ9AAAAQ0lEQVR4A=
+WVOhQEAIAzC/X+xAXbXeoDFGA3A9yk1n4juBROcUegfarWjP3ojZvEzxs6j+nygmo+zzsk79nY+=
+tOxdEhlf3UHVgUFrVwAAAABJRU5ErkJggg=3D=3D"); background-position: right bott=
+om; background-repeat: no-repeat; }
+  div.vectorTabs ul li { float: left; line-height: 1.125em; display: inline=
+-block; height: 100%; margin: 0px; padding: 0px; background-color: rgb(243,=
+ 243, 243); background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSU=
+hEUgAAAAEAAABkCAIAAADITs03AAAAO0lEQVR4AeSKhREAMQzDdN5/5uixuEKDpqgBjl2f78wd2=
+DVj1+26/h///PfteVMN7zoGebcg1/Y/ZQQAlAUtQCujIJMAAAAASUVORK5CYII=3D"); backgr=
+ound-position: left bottom; background-repeat: repeat-x; white-space: nowra=
+p; }
+  div.vectorTabs ul > li { display: block; }
+  div.vectorTabs li { }
+  div.vectorTabs li.new a, div.vectorTabs li.new a:visited { color: rgb(165=
+, 88, 88); }
+  div.vectorTabs li.selected { background-image: url("data:image/png;base64=
+,iVBORw0KGgoAAAANSUhEUgAAAAEAAABkAQAAAABvV2fNAAAADElEQVR4AWNoGB4QAInlMgFKeR=
+KBAAAAAElFTkSuQmCC"); }
+  div.vectorTabs li.selected a, div.vectorTabs li.selected a:visited { colo=
+r: rgb(51, 51, 51); text-decoration: none; }
+  div.vectorTabs li.icon a { background-position: right bottom; background-=
+repeat: no-repeat; }
+  div.vectorTabs li a { display: inline-block; height: 1.9em; padding-left:=
+ 0.5em; padding-right: 0.5em; color: rgb(6, 69, 173); cursor: pointer; font=
+-size: 0.8em; }
+  div.vectorTabs li > a { display: block; }
+  div.vectorTabs span { display: inline-block; background-image: url("data:=
+image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAuCAIAAABmjeQ9AAAAQ0lEQVR4AW=
+VOhQEAIAzC/X+xAXbXeoDFGA3A9yk1n4juBROcUegfarWjP3ojZvEzxs6j+nygmo+zzsk79nY+t=
+OxdEhlf3UHVgUFrVwAAAABJRU5ErkJggg=3D=3D"); background-position: right botto=
+m; background-repeat: no-repeat; }
+  div.vectorTabs span a { display: inline-block; padding-top: 1.25em; }
+  div.vectorTabs span > a { float: left; display: block; }
+  div.vectorMenu { direction: ltr; float: left; cursor: pointer; position: =
+relative; }
+  body.rtl div.vectorMenu { direction: rtl; }
+  div#mw-head div.vectorMenu h3 { float: left; background-image: url("data:=
+image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAAuCAIAAABmjeQ9AAAAQ0lEQVR4AW=
+VOhQEAIAzC/X+xAXbXeoDFGA3A9yk1n4juBROcUegfarWjP3ojZvEzxs6j+nygmo+zzsk79nY+t=
+OxdEhlf3UHVgUFrVwAAAABJRU5ErkJggg=3D=3D"); background-repeat: no-repeat; ba=
+ckground-position: right bottom; font-size: 1em; height: 2.5em; padding-rig=
+ht: 1px; margin-right: -1px; }
+  div.vectorMenu h3 span { display: block; font-size: 0.8em; padding-left: =
+0.7em; padding-top: 1.375em; margin-right: 20px; font-weight: normal; color=
+: rgb(77, 77, 77); }
+  div.vectorMenu h3 a { position: absolute; top: 0px; right: 0px; width: 20=
+px; height: 2.5em; background-image: linear-gradient(transparent, transpare=
+nt), url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%=
+22UTF-8%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22=
+%20width%3D%2222%22%20height%3D%2216%22%3E%3Cpath%20d%3D%22M15.502%206.001l=
+-5%205.001-5-5.001z%22%20fill%3D%22%23797979%22%2F%3E%3C%2Fsvg%3E"); backgr=
+ound-position: 100% 70%; background-repeat: no-repeat; transition: backgrou=
+nd-position 250ms ease 0s; }
+  div.vectorMenu.menuForceShow h3 a { background-position: 100% 100%; }
+  div.vectorMenuFocus h3 a { background-image: linear-gradient(transparent,=
+ transparent), url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20en=
+coding%3D%22UTF-8%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F200=
+0%2Fsvg%22%20width%3D%2222%22%20height%3D%2216%22%3E%3Cpath%20d%3D%22M15.50=
+2%206.001l-5%205.001-5-5.001z%22%20fill%3D%22%23929292%22%2F%3E%3C%2Fsvg%3E=
+"); }
+  div.vectorMenu div.menu { min-width: 100%; position: absolute; top: 2.5em=
+; left: -1px; background-color: white; border-width: 0px 1px 1px; border-st=
+yle: solid; border-color: silver; border-image: initial; clear: both; text-=
+align: left; display: none; z-index: 1; }
+  div.vectorMenu:hover div.menu, div.vectorMenu.menuForceShow div.menu { di=
+splay: block; }
+  div.vectorMenu ul { list-style-type: none; list-style-image: none; paddin=
+g: 0px; margin: 0px; text-align: left; }
+  div.vectorMenu li { padding: 0px; margin: 0px; text-align: left; line-hei=
+ght: 1em; }
+  div.vectorMenu li a { display: inline-block; padding: 0.5em; white-space:=
+ nowrap; color: rgb(6, 69, 173); cursor: pointer; font-size: 0.8em; }
+  div.vectorMenu li > a { display: block; }
+  div.vectorMenu li.selected a, div.vectorMenu li.selected a:visited { colo=
+r: rgb(51, 51, 51); text-decoration: none; }
+  * html div.vectorMenu div.menu { display: block; position: static; border=
+: 0px; }
+  * html div#mw-head div.vectorMenu h3 { display: none; }
+  * html div.vectorMenu li { float: left; line-height: 1.125em; border-righ=
+t: 1px solid rgb(167, 215, 249); }
+  * html div.vectorMenu li a { padding-top: 1.25em; }
+  @-webkit-keyframes rotate {=20
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+  @keyframes rotate {=20
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+  #ca-unwatch.icon a, #ca-watch.icon a { margin: 0px; padding: 3.1em 0px 0p=
+x; display: block; width: 26px; height: 0px; overflow: hidden; background-p=
+osition: 5px 60%; }
+  #ca-unwatch.icon a { background-image: linear-gradient(transparent, trans=
+parent), url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding=
+%3D%22UTF-8%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsv=
+g%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.w3.org%2F1999%2Fxlink%22%20width=
+%3D%2216%22%20height%3D%2216%22%3E%3Cdefs%3E%3ClinearGradient%20id%3D%22a%2=
+2%3E%3Cstop%20offset%3D%220%22%20stop-color%3D%22%23c2edff%22%2F%3E%3Cstop%=
+20offset%3D%22.5%22%20stop-color%3D%22%2368bdff%22%2F%3E%3Cstop%20offset%3D=
+%221%22%20stop-color%3D%22%23fff%22%2F%3E%3C%2FlinearGradient%3E%3ClinearGr=
+adient%20x1%3D%2213.47%22%20y1%3D%2214.363%22%20x2%3D%224.596%22%20y2%3D%22=
+3.397%22%20id%3D%22b%22%20xlink%3Ahref%3D%22%23a%22%20gradientUnits%3D%22us=
+erSpaceOnUse%22%2F%3E%3C%2Fdefs%3E%3Cpath%20d%3D%22M8.103%201.146l2.175%204=
+.408%204.864.707-3.52%203.431.831%204.845-4.351-2.287-4.351%202.287.831-4.8=
+45-3.52-3.431%204.864-.707z%22%20fill%3D%22url%28%23b%29%22%20stroke%3D%22%=
+237cb5d1%22%20stroke-width%3D%220.9999199999999999%22%2F%3E%3C%2Fsvg%3E"); =
+}
+  #ca-watch.icon a { background-image: linear-gradient(transparent, transpa=
+rent), url("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3=
+D%22UTF-8%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%=
+22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cpath%20d%3D%22M8.103%201.146=
+l2.175%204.408%204.864.707-3.52%203.431.831%204.845-4.351-2.287-4.351%202.2=
+87.831-4.845-3.52-3.431%204.864-.707z%22%20fill%3D%22%23fff%22%20stroke%3D%=
+22%237cb5d1%22%20stroke-width%3D%220.9999199999999999%22%2F%3E%3C%2Fsvg%3E"=
+); }
+  #ca-unwatch.icon a:hover, #ca-unwatch.icon a:focus { background-image: li=
+near-gradient(transparent, transparent), url("data:image/svg+xml,%3C%3Fxml%=
+20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%3Csvg%20xmlns%3D%22htt=
+p%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20xmlns%3Axlink%3D%22http%3A%2F%2Fwww.=
+w3.org%2F1999%2Fxlink%22%20width%3D%2216%22%20height%3D%2216%22%3E%3Cdefs%3=
+E%3ClinearGradient%20id%3D%22a%22%3E%3Cstop%20offset%3D%220%22%20stop-color=
+%3D%22%23c2edff%22%2F%3E%3Cstop%20offset%3D%22.5%22%20stop-color%3D%22%2368=
+bdff%22%2F%3E%3Cstop%20offset%3D%221%22%20stop-color%3D%22%23fff%22%2F%3E%3=
+C%2FlinearGradient%3E%3ClinearGradient%20x1%3D%2213.47%22%20y1%3D%2214.363%=
+22%20x2%3D%224.596%22%20y2%3D%223.397%22%20id%3D%22b%22%20xlink%3Ahref%3D%2=
+2%23a%22%20gradientUnits%3D%22userSpaceOnUse%22%2F%3E%3C%2Fdefs%3E%3Cpath%2=
+0d%3D%22M8.103%201.146l2.175%204.408%204.864.707-3.52%203.431.831%204.845-4=
+.351-2.287-4.351%202.287.831-4.845-3.52-3.431%204.864-.707z%22%20fill%3D%22=
+url%28%23b%29%22%20stroke%3D%22%23c8b250%22%20stroke-width%3D%220.999919999=
+9999999%22%2F%3E%3C%2Fsvg%3E"); }
+  #ca-watch.icon a:hover, #ca-watch.icon a:focus { background-image: linear=
+-gradient(transparent, transparent), url("data:image/svg+xml,%3C%3Fxml%20ve=
+rsion%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%3Csvg%20xmlns%3D%22http%3A=
+%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%22%3E%=
+3Cpath%20d%3D%22M8.103%201.146l2.175%204.408%204.864.707-3.52%203.431.831%2=
+04.845-4.351-2.287-4.351%202.287.831-4.845-3.52-3.431%204.864-.707z%22%20fi=
+ll%3D%22%23fff%22%20stroke%3D%22%23c8b250%22%20stroke-width%3D%220.99991999=
+99999999%22%2F%3E%3C%2Fsvg%3E"); }
+  #ca-unwatch.icon a.loading, #ca-watch.icon a.loading { background-image: =
+linear-gradient(transparent, transparent), url("data:image/svg+xml,%3C%3Fxm=
+l%20version%3D%221.0%22%20encoding%3D%22UTF-8%22%3F%3E%3Csvg%20xmlns%3D%22h=
+ttp%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%2216%22%20height%3D%2216%=
+22%3E%3Cpath%20d%3D%22M8.103%201.146l2.175%204.408%204.864.707-3.52%203.431=
+.831%204.845-4.351-2.287-4.351%202.287.831-4.845-3.52-3.431%204.864-.707z%2=
+2%20fill%3D%22%23fff%22%20stroke%3D%22%23d1d1d1%22%20stroke-width%3D%220.99=
+99199999999999%22%2F%3E%3C%2Fsvg%3E"); animation: 700ms linear 0s infinite =
+normal none running rotate; outline: none; cursor: default; pointer-events:=
+ none; background-position: 50% 60%; transform-origin: 50% 57%; }
+  #ca-unwatch.icon a span, #ca-watch.icon a span { display: none; }
+  #mw-navigation h2 { position: absolute; top: -9999px; }
+  #mw-page-base { height: 5em; background-position: left bottom; background=
+-repeat: repeat-x; background-image: linear-gradient(rgb(255, 255, 255) 50%=
+, rgb(246, 246, 246) 100%); background-color: rgb(255, 255, 255); }
+  #mw-head-base { margin-top: -5em; margin-left: 10em; height: 5em; }
+  div#mw-head { position: absolute; top: 0px; right: 0px; width: 100%; }
+  div#mw-head h3 { margin: 0px; padding: 0px; }
+  #left-navigation { float: left; margin-left: 10em; margin-top: 2.5em; mar=
+gin-bottom: -2.5em; display: inline; }
+  #right-navigation { float: right; margin-top: 2.5em; }
+  #p-logo { position: absolute; top: -160px; left: 0px; width: 10em; height=
+: 160px; }
+  #p-logo a { display: block; width: 10em; height: 160px; background-repeat=
+: no-repeat; background-position: center center; text-decoration: none; }
+  div#mw-panel { font-size: inherit; position: absolute; top: 160px; paddin=
+g-top: 1em; width: 10em; left: 0px; }
+  div#mw-panel div.portal { margin: 0px 0.6em 0px 0.7em; padding: 0.25em 0p=
+x; direction: ltr; background-position: left top; background-repeat: no-rep=
+eat; background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAA=
+IwAAAABCAAAAAAphRnkAAAAJ0lEQVQIW7XFsQEAIAyAMPD/b7uLWz8wS5youFW1UREfiIpH1Q2V=
+Bz7fGPS1dOGeAAAAAElFTkSuQmCC"); }
+  div#mw-panel div.portal h3 { font-size: 0.75em; color: rgb(77, 77, 77); f=
+ont-weight: normal; margin: 0px; padding: 0.25em 0px 0.25em 0.25em; cursor:=
+ default; border: none; }
+  div#mw-panel div.portal div.body { margin: 0px 0px 0px 1.25em; padding-to=
+p: 0px; }
+  div#mw-panel div.portal div.body ul { list-style-type: none; list-style-i=
+mage: none; margin: 0px; padding: 0px; }
+  div#mw-panel div.portal div.body ul li { line-height: 1.125em; margin: 0p=
+x; padding: 0.25em 0px; font-size: 0.75em; overflow-wrap: break-word; }
+  div#mw-panel div.portal div.body ul li a { color: rgb(6, 69, 173); }
+  div#mw-panel div.portal div.body ul li a:visited { color: rgb(11, 0, 128)=
+; }
+  div#mw-panel #p-logo + div.portal { background-image: none; margin-top: 0=
+px; }
+  div#mw-panel #p-logo + div.portal h3 { display: none; }
+  div#mw-panel #p-logo + div.portal div.body { margin-left: 0.5em; }
+  div#footer { margin-left: 10em; margin-top: 0px; padding: 0.75em; directi=
+on: ltr; }
+  div#footer ul { list-style-type: none; list-style-image: none; margin: 0p=
+x; padding: 0px; }
+  div#footer ul li { margin: 0px; padding: 0.5em 0px; color: rgb(51, 51, 51=
+); font-size: 0.7em; }
+  div#footer #footer-icons { float: right; }
+  div#footer #footer-icons li { float: left; margin-left: 0.5em; line-heigh=
+t: 2em; text-align: right; }
+  div#footer #footer-info li { line-height: 1.4em; }
+  div#footer #footer-places li { float: left; margin-right: 1em; line-heigh=
+t: 2em; }
+  body.ltr div#footer #footer-places { float: left; }
+  .mw-body .external { background-position: right center; background-repeat=
+: no-repeat; background-image: linear-gradient(transparent, transparent), u=
+rl("data:image/svg+xml,%3C%3Fxml%20version%3D%221.0%22%20encoding%3D%22UTF-=
+8%22%20standalone%3D%22no%22%3F%3E%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.o=
+rg%2F2000%2Fsvg%22%20width%3D%2212%22%20height%3D%2212%22%3E%3Cpath%20fill%=
+3D%22%23fff%22%20stroke%3D%22%2306c%22%20d%3D%22M1.5%204.518h5.982V10.5H1.5=
+z%22%2F%3E%3Cpath%20d%3D%22M5.765%201H11v5.39L9.427%207.937l-1.31-1.31L5.39=
+3%209.35l-2.69-2.688%202.81-2.808L4.2%202.544z%22%20fill%3D%22%2306f%22%2F%=
+3E%3Cpath%20d%3D%22M9.995%202.004l.022%204.885L8.2%205.07%205.32%207.95%204=
+.09%206.723l2.882-2.88-1.85-1.852z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fsvg%=
+3E"); padding-right: 13px; }
+}
+
+@media screen and (min-width: 982px) {
+  .mw-body { margin-left: 11em; padding: 1.25em 1.5em 1.5em; }
+  #p-logo { left: 0.5em; }
+  div#footer { margin-left: 11em; padding: 1.25em; }
+  #mw-panel { padding-left: 0.5em; }
+  #p-search { margin-right: 1em; }
+  #left-navigation { margin-left: 11em; }
+  #p-personal { right: 1em; }
+  #mw-head-base { margin-left: 11em; }
+}
+------MultipartBoundary--ipjOoWcWZYvoG1NpqYozbHS6loTPlqt7nDDRoSbxJh----
+Content-Type: image/svg+xml
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.w3.org/Icons/w3c_home
+
+<svg width=3D"72" height=3D"48" viewBox=3D"0 0 72 48" xmlns=3D"http://www.w=
+3.org/2000/svg">
+<path fill=3D"#ffffff" d=3D"M 0 0 L 72 0 L 72 48 L 0 48 Z"/>
+<path d=3D"M 0 0 L 72 0 L 72 1 L 0 1 Z"/>
+<path d=3D"M 0 47 L 72 47 L 72 48 L 0 48 Z"/>
+<path fill=3D"#005a9c" d=3D"M 20.149 8.815 L 25.908 28.395 L 31.667 8.815 L=
+ 35.837 8.815 L 47.28 8.815 L 47.28 10.761 L 41.402 20.888 C 43.467 21.551 =
+45.029 22.756 46.088 24.503 C 47.147 26.25 47.677 28.302 47.677 30.658 C 47=
+.677 33.571 46.903 36.02 45.354 38.006 C 43.805 39.992 41.799 40.984 39.337=
+ 40.984 C 37.483 40.984 35.868 40.395 34.492 39.217 C 33.115 38.039 32.096 =
+36.444 31.434 34.431 L 34.69 33.081 C 35.167 34.299 35.796 35.259 36.577 35=
+.96 C 37.358 36.662 38.278 37.012 39.337 37.012 C 40.449 37.012 41.389 36.3=
+9 42.157 35.146 C 42.925 33.901 43.309 32.406 43.309 30.658 C 43.309 28.725=
+ 42.898 27.229 42.078 26.17 C 41.124 24.926 39.628 24.304 37.589 24.304 L 3=
+6.001 24.304 L 36.001 22.398 L 41.562 12.786 L 34.85 12.786 L 34.468 13.436=
+ L 26.305 40.984 L 25.908 40.984 L 19.95 21.048 L 13.992 40.985 L 13.595 40=
+.985 L 4.064 8.815 L 8.234 8.815 L 13.993 28.395 L 17.886 15.21 L 15.98 8.8=
+15 Z"/>
+<path d=3D"M 68.952 8.815 C 68.133 8.815 67.398 9.11 66.841 9.676 C 66.25 1=
+0.276 65.921 11.052 65.921 11.854 C 65.921 12.656 66.234 13.399 66.808 13.9=
+82 C 67.391 14.573 68.142 14.894 68.953 14.894 C 69.746 14.894 70.515 14.57=
+3 71.114 13.991 C 71.688 13.434 72 12.69 72 11.854 C 72 11.043 71.679 10.28=
+4 71.122 9.718 C 70.539 9.127 69.779 8.815 68.952 8.815 Z M 71.595 11.88 C =
+71.595 12.581 71.324 13.231 70.826 13.712 C 70.303 14.219 69.653 14.489 68.=
+935 14.489 C 68.26 14.489 67.593 14.211 67.095 13.704 C 66.597 13.198 66.31=
+8 12.547 66.318 11.855 C 66.318 11.163 66.605 10.487 67.12 9.964 C 67.601 9=
+.474 68.251 9.213 68.96 9.213 C 69.686 9.213 70.336 9.484 70.843 9.998 C 71=
+.333 10.487 71.595 11.146 71.595 11.88 Z M 69.037 10.073 L 67.737 10.073 L =
+67.737 13.518 L 68.387 13.518 L 68.387 12.049 L 69.029 12.049 L 69.73 13.51=
+8 L 70.456 13.518 L 69.687 11.947 C 70.185 11.846 70.472 11.508 70.472 11.0=
+19 C 70.472 10.394 69.999 10.073 69.037 10.073 Z M 68.918 10.495 C 69.526 1=
+0.495 69.804 10.664 69.804 11.086 C 69.804 11.491 69.526 11.635 68.934 11.6=
+35 L 68.385 11.635 L 68.385 10.495 Z"/>
+<path d=3D"M 63.839 8.634 L 64.515 12.741 L 62.124 17.316 C 62.124 17.316 6=
+1.206 15.375 59.681 14.301 C 58.396 13.396 57.559 13.199 56.25 13.469 C 54.=
+569 13.816 52.663 15.826 51.831 18.304 C 50.836 21.269 50.826 22.704 50.791=
+ 24.022 C 50.735 26.135 51.068 27.384 51.068 27.384 C 51.068 27.384 49.617 =
+24.698 49.63 20.764 C 49.639 17.956 50.081 15.41 51.38 12.897 C 52.523 10.6=
+88 54.222 9.362 55.73 9.206 C 57.289 9.045 58.521 9.796 59.473 10.61 C 60.4=
+72 11.464 61.483 13.33 61.483 13.33 Z"/>
+<path d=3D"M 64.134 31.872 C 64.134 31.872 63.077 33.761 62.419 34.489 C 61=
+.76 35.217 60.582 36.499 59.127 37.14 C 57.671 37.781 56.909 37.902 55.471 =
+37.764 C 54.034 37.626 52.698 36.794 52.23 36.447 C 51.762 36.1 50.566 35.0=
+78 49.891 34.125 C 49.215 33.171 48.158 31.266 48.158 31.266 C 48.158 31.26=
+6 48.747 33.177 49.116 33.987 C 49.328 34.453 49.98 35.881 50.906 37.123 C =
+51.768 38.282 53.445 40.277 55.992 40.727 C 58.539 41.178 60.289 40.034 60.=
+722 39.756 C 61.155 39.479 62.068 38.715 62.646 38.097 C 63.249 37.452 63.8=
+2 36.629 64.136 36.135 C 64.367 35.775 64.743 35.043 64.743 35.043 Z"/>
+</svg>=0A
+------MultipartBoundary--ipjOoWcWZYvoG1NpqYozbHS6loTPlqt7nDDRoSbxJh----
+Content-Type: text/css
+Content-Transfer-Encoding: quoted-printable
+Content-Location: https://www.w3.org/wiki/load.php?debug=false&lang=en&modules=site&only=styles&skin=vector
+
+@charset "utf-8";
+
+.zebra { border-collapse: collapse; color: black; background-color: rgb(255=
+, 255, 255); border: 1px solid rgb(119, 119, 119); border-radius: 3px; }
+
+.zebra th { background-color: rgb(155, 175, 241); border: 1px solid rgb(119=
+, 119, 119); color: rgb(255, 255, 255); }
+
+.zebra td { border: 1px solid rgb(119, 119, 119); padding: 0px 0.5em; }
+
+.zebra tr:nth-child(2n+1) { background-color: rgb(232, 237, 255); }
+
+.zebra tr:hover { background-color: rgb(238, 238, 238); }
+
+img.stretch { width: 100%; height: auto; }
+
+.page-WAI_Website_Anatomy_of_a_Document h4 { margin-top: 3em; margin-left: =
+0px; }
+
+.page-WAI_Website_Anatomy_of_a_Document h4 ~ :not(h4) { margin-left: 2em; }
+
+.page-WAI_Website_Anatomy_of_a_Document h4 ~ h2, .page-WAI_Website_Anatomy_=
+of_a_Document h4 ~ h2 ~ * { margin-left: 0px; }
+------MultipartBoundary--ipjOoWcWZYvoG1NpqYozbHS6loTPlqt7nDDRoSbxJh----
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: https://www.w3.org/wiki/resources/assets/poweredby_mediawiki_88x31.png
+
+iVBORw0KGgoAAAANSUhEUgAAAFgAAAAfCAYAAABjyArgAAANaElEQVR4Ae2YBVAbW7jHc60uUOh1
+d3d3d3d34/qtUnd3V+rFXUpTgoUQ4sQ9hIQQJw7U/+/seXd2hqGdW3taMvOf/eSc79v9rZ0Nh/nZ
+bLbLiLKJXEQ4LfXJRVkSphSu1Wq9iagjFArh4MGDOHr0aJ9OXZQhw5JhSnQrAzgvHA7T5OHDh09f
+faIsI5EIA7mQARw5dOgQ+nTmRdjGORaLBUeOHDnlIgcPJFjb7ahi7QMHus5muJQpw5YFTJ4dpySH
+ZQ26OsNo5k+GuiaJxrzW1WizZoEdd6Cbbs8mnTHAIu6rMGsmQ1n/PYLqFMRCFlhlwwh0L7oSfnQF
+NrNjEzHX2QfYbDafFmBV/c1wG0bCUJ2EgDIJLuUV0DUMgN0wHw4CPOjRwd8qhkX8OIKWSYgGzSdU
+9/EFxfhmWw2mFEnZWDjR9a/zQvHOY8Y7esYR6+yGP5rA2DwhG3MEInh6cSk+2chDptB62oAJWwqY
+vvkOHDhwQuru7kS3fxvr6ySXwWtKRaB5OPySIXCJB8AkHIK4bSgcijsI5KWIOy8FEqnoMN5xwn2+
+yKjG/v0H8PKKcgjNbny7pQ7fbq9GpsCGjFoTVE4fNvG1sLhDWLFHj0ZzO8blN2FUbiNWVathdAfx
+1upK1BrasHhvM0blNSA9S4GOSDcyBDp8S07e55t5eGtNJdhjcQVIvBY5Igt+3i7AwkoyPpYA39iO
+1TVqOuYERZlSwCaTiXHIwezvoRe+WUG1cFM1gdqNvAo5rnp4JnbtlmH6rHcRN6bAbciFXvAGvNoh
+CEkGIcI/D+31F6Bd0B/B5gEImUcg0Z6KqC8F3pa7kVMuwE23roJQ1gJfIILFGftwzztz8cfsnF79
+75qRhx931GF9nQa/7uaDq3YgmujEZ2R/5pUpMblAgheXVWBWmRQT8kXUf3ftXqyv1eChuUWYXipB
+2q56lCla8Mj8Ihp/bVUFftheR2uECLgmSzszh+1p8XTgqUUl+HprDWYUy7CMq0KO0IbxeU3gaR10
+zAmKMiVsjw/43Ft+wzOfL2H9hRvzMPD2NAY29Wt33wWnJgleyUUICDnoFpyDo3UcRIki1UQSYhsG
+Itiago7ARXBp/kKbORuzFj4DnTaXrZv68Dg8+MGCXv3fJFefLxyj9o8761CrdaGL9P5gPRcKmx+P
+zivGzBI53e5qMmLRXgW+3FKNrCYz/tzVRE6MGjNKpQSME88uLUGW2ITx+UIs3deMDzfuRaKrC812
+H95cVcn21Dj9+IbAZeC/vroCelcAzy4qx0/b+TR/SoCNRiNdVhBwPTTs/tF49cvV1I5HHTDKn8fB
+wDVAdzK62u6BRfA0jOXnw111Dpzl/eHO6gfXzhQ4diYhUDQQB8Tno7P5fHRYhiOgHwGvZigQ4aCJ
+m4wqfiPb55rnpuD5b1b06j+pUMTaSrsfn2dU4WsCcD1PT2OrqpUUyKLKZhgIiHZvAr9nNuD33Q1Y
+ylVCYnNjWZUS8c4uTCuW4I8sPkbnNMIfiWFDnQbfba1l6pF4A9unLRDGO+SK/m57DbbxjTT2HDk5
+GfW058mIMmXYHh/wfX/jlS83sH52cRMefeVj6LmPwModgrAgCYcb+mN/XT80LrwQ0hmXQjE9BdJx
+wyCddxVMWy9CovoCJOT94ZH0h1MxDGr5eHBGjkXJHg1b9+pnJ+O5r5f/6w4nCChvKPqv49wdkROK
+k7uDwO88Zp84EWMHI3H8uL0OAbI9ZcAGg4E6XV1dPTT0vlF4+eM11O70VEAsvBebNj2KgPkhxFtS
+0akfisOqC+DZPQK6aUmo/7UfCr8fjsq0oRD93h/imRciWD4A3c3noEPfD07lk3C2ivDON6+gvEbK
+9vkHMLX/F4rAjZ3KPMqUsD0+4CH3jcXLXy+ldiTkRn7eWHRYUpFwEnCOG+A3XYq4aDi0C1MhTR+E
+Hb8nIWNqCjLSU1CQlgL5qCHoKBiOmPR8tEqS4FBeDo1oCl785GUUcRX/CvjZxaWYViLuEVtbq8Iz
+i0tgdgdO+EB52lZMLhJB3uLGzzvrjj9O7UTaLjaPFVwVtgo11O7s7ELaznos5yppLa3Th99283vM
+31inwYSCpt6A9Xo9s24jRTp7aCh5RLz81QbWLymvwvj0p+CSfY2g9FoklCNgr0hF7V9JqB2VhLXp
+yZg5rh/WTU9G8eiRUE8ZBFdWMg7qzkdA9Q5bhzNoMvL2yFifAv5qea/+g3/LwJXjd8EdDFM/Fk/Q
+lcV5P2+E2OJixyntHrT6OnrN17f54PSHkCs2kZNSCos7wEBg875QBBqHj62tdnhxydgdbK27pxXg
+haVl//Tw4poJu1Grd2C30IA6sr1zRi5byxOMYJ/ajl1CAxtjmDJsWcCJRKKHKOCv17D+lq0S3Pf6
+V4jZX0PCkYyYbhAOS/tDMWU4+H8mY9voi7Hkz4HI/CUFDWn9IZk2Es6c4YjKBsCn64eo4RrYrDJw
+hk5A6T4lW/eq/wTcq/9Dcwvw5IJirK9TUZ+ndJLlViGeWFgEiaUdjvYonlpQipunZuGGyVmYUSSl
+49yBCF5ZUYbrJmXijum5ZNlVjA/Xc+lJ+TKDR8fsFOgpsJunZJMeJXh0PlPTRexS5EvMCISjJJeD
++2YV0PErqhR0Tc03OMhLlA+B0YmH59McPltbh/VVemTU6fBXFp/dfxawTqc7PuCP1lM7FvWDW/Ij
+AroUdLcmwyNORVRAVgq6ZHTyhkKVPhD70oah5LdkcL8biqq0wVAsHQFX6QC0NxHAhkFoUw2BS3Mj
+Zi68DRbjarbPlU9OOSbgB+YUYDm3maxdy6j//SY+WfOK8fLyMshtbny8jofvt9QjEotD6/Ti6vRM
+8FQO/LxVgBcWV6DFE4Sm1YtbJxbg7TV7UK2148mFxTC0+ZH8x3ZkCkxoD4Swcq8GnB82kprtmFYs
+wqisRlSrHfhww16yoqiE1uHDpxursIanRrnCileWl0NoasPzS0uxZp8G908rofswuagJb6za0wMw
+w5aj1Wrpl0c8Hu8h8pKjgKnvqQav8EHMnfcAXNJL4BLfiXDzRQirrkS3dSQ6qwejbU0/KAlowajB
+0K8Yhu66ZMTlydAXDoeePxjdbcNhNYnAufw35FfWsn2ufGYynv1qWa/+t07NITB8uHdWHmSWdtwz
+vQA6hxdPLypBpdKGK9N34qVl5eTK2oP3yNLqqvTd+HFHDe6dnYsmUxtbJ1NooAdeQwC/sqIca3n0
+Od6jF7lbaL7J5MILBNyEfCGW71ViSr4Y8ytkeHx+MUwuHwqkJlpLanXh8vE7cPGYHdDaArTGlCIh
+3llTydZkmDJsORqN5piAz7n1T7z6/RLW35K5Dve8+gHarVVImO+CveZiRM3XIGy4Ct2KwYB5EOz7
+boCr4nJ0VQ1ArGkYIsZL0GFKhZY7Asb6+2GUzwbn+lHILZWydS97cgIe+Whhr/7MbR+NxZC2ox4P
+zy4mB1YBCmNeAao1dpLPxOwyCYpkZhTLLORqV4CnbcHtM7NQJreydVaRK/R1MpcAJFd/OXYIdLh7
+Vk6PXrdNywFXZUMsFscjcwtpb7HZhXJ5C66dtBsvLimj43JE9GRBZG7D/bMK8epiLibsUhwXMMOW
+o1arqROLxXrorrdm495352Hehj2IRKLYkSlD/0vTIeM9iIqCzxBUXoyY5QrETRchpEhBtz0Zzqan
+EHXejlBjfzh5QxGxXwGn/EokPCmAfzAKi1fjopvmYm+dFi63H/NJ7SufmYTPxmT06n8JuTp8wTCq
+VHZwftyALTV6Gr95aia9oqdlqfDgvDxUqVuwhqfErZPzYHcHsbBYhavG5iBPbMSWOh2Gpe3CqyvL
+sU9tw4Nz8+EOhHDd+Bz8vL0eFQorvtzMo/VJHVr/w7VVOC9tA0KRKFo8AZobldVAczsFOvpo4Otb
+CeACtLgDuHTCFuTUt2BagYR5fLH7zzAlbClg+mkXjUaPqdY2L2tbjYXwOGRQSzLgUd0Fb/PlUAk+
+h1t9DbpdydA3joFXeSOc9YNgEyTBrx+JgO06WJtXIWhNhUszBGZdde/avUU+T2sJjA50hCP4dWc9
+Wj0BGv8rkw+t3UNPenq+gFlpENC5KBM62LlzS2S4fQZ5gS0qwvRiERbtkUFhc2F8fgPNKw1BvLG2
+FLdMycbvu/hE9ZBY2miuRGbCmKxGxqY9vt9ag1qtnfrMdmaJGBq7G6Nz+TRWKXQjbWsDNtdosaBC
+yu4Dw5QCVqlULOATlVo4CV6XGgbhx9T36q9Gh20w/G4bmqvugbx8GFS8gTDxX0O87WK0mUsRCnpg
+1+Whw2elc/6fizJl2HKUSiV1IpHIyYjAFMNu4VHb0nQ3bNJh1LbppsIoGQJd0x/wWDNhU2+Gz3op
+zZ1FokwZthyFQsECPlWp5J9BKZ3L+kLuC/AH2mHQr6e+WZUJn8dw1gFm2HLkcjn9cyIcDp859Yky
+ZdhyZDJZH+D/IsAMW05jY2OEfHnQYCgUOn31ibJk/o8gbOMcHo9X2NLSQomTZ0cfoNMUYUhZMkwZ
+tpzS0tJbiTr0ej1dXpBkn05dlCHDkmHKsOUwv+zs7MuI8og8RDgt9clDWRKmDNv/AKBCZq78CfnF
+AAAAAElFTkSuQmCC
+
+------MultipartBoundary--ipjOoWcWZYvoG1NpqYozbHS6loTPlqt7nDDRoSbxJh------

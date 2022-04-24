@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<!-- saved from url=(0066)https://www.ciberaula.com/cursos/java/palabras_reservadas_java.php -->
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>🥇🥇 Palabras Reservadas en Java</title>
+    
+    <meta name="google-site-verification" content="0ugi5HDpM66-RsD_Aif7Hl1RMcBgcK4PlOW86de2tyg">
+    <meta name="distribution" content="document">
+    <meta name="robots" content="all">
+    <meta name="author" content="Ciberaula">
+    <meta name="title" content="Palabras Reservadas en Java">
+    <meta name="keywords" content="programacion tutorial java palabras reservadas abstract extends package static this">
+    <meta name="description" content="En Java, una palabra reservada es una palabra que tiene un propósito determinado por el lenguaje y no puede ser utilizada por el usuario.">
+    <link rel="stylesheet" href="./🥇🥇 Palabras Reservadas en Java_files/bootstrap.min.css">
+    <link rel="stylesheet" href="./🥇🥇 Palabras Reservadas en Java_files/css">
+    <link rel="stylesheet" href="./🥇🥇 Palabras Reservadas en Java_files/css(1)">
+    <link rel="stylesheet" href="./🥇🥇 Palabras Reservadas en Java_files/Article-Clean.css">
+    <link rel="stylesheet" href="./🥇🥇 Palabras Reservadas en Java_files/Footer-Basic.css">
+    <link rel="stylesheet" href="./🥇🥇 Palabras Reservadas en Java_files/Header-Dark.css">
+    <link rel="stylesheet" href="./🥇🥇 Palabras Reservadas en Java_files/styles.css">
+    <link rel="canonical" href="https://www.ciberaula.com/cursos/java/palabras_reservadas_java.php">
+<script src="./🥇🥇 Palabras Reservadas en Java_files/f.txt"></script><script type="text/javascript" async="" src="./🥇🥇 Palabras Reservadas en Java_files/analytics.js.descargar"></script><script src="./🥇🥇 Palabras Reservadas en Java_files/f(1).txt" id="google_shimpl"></script><script async="" src="./🥇🥇 Palabras Reservadas en Java_files/f(2).txt"></script>
+<script>
+     (adsbygoogle = window.adsbygoogle || []).push({
+          google_ad_client: "ca-pub-8653194849676497",
+          enable_page_level_ads: true
+     });
+</script>
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="./🥇🥇 Palabras Reservadas en Java_files/js"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-165887013-1');
+</script>
+<meta http-equiv="origin-trial" content="AxujKG9INjsZ8/gUq8+dTruNvk7RjZQ1oFhhgQbcTJKDnZfbzSTE81wvC2Hzaf3TW4avA76LTZEMdiedF1vIbA4AAABueyJvcmlnaW4iOiJodHRwczovL2ltYXNkay5nb29nbGVhcGlzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzVGhpcmRQYXJ0eSI6dHJ1ZX0="><meta http-equiv="origin-trial" content="Azuce85ORtSnWe1MZDTv68qpaW3iHyfL9YbLRy0cwcCZwVnePnOmkUJlG8HGikmOwhZU22dElCcfrfX2HhrBPAkAAAB7eyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A16nvcdeoOAqrJcmjLRpl1I6f3McDD8EfofAYTt/P/H4/AWwB99nxiPp6kA0fXoiZav908Z8etuL16laFPUdfQsAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="AxBHdr0J44vFBQtZUqX9sjiqf5yWZ/OcHRcRMN3H9TH+t90V/j3ENW6C8+igBZFXMJ7G3Pr8Dd13632aLng42wgAAACBeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiVHJ1c3RUb2tlbnMiLCJleHBpcnkiOjE2NTI3NzQ0MDAsImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><meta http-equiv="origin-trial" content="A88BWHFjcawUfKU3lIejLoryXoyjooBXLgWmGh+hNcqMK44cugvsI5YZbNarYvi3roc1fYbHA1AVbhAtuHZflgEAAAB2eyJvcmlnaW4iOiJodHRwczovL2dvb2dsZS5jb206NDQzIiwiZmVhdHVyZSI6IlRydXN0VG9rZW5zIiwiZXhwaXJ5IjoxNjUyNzc0NDAwLCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlfQ=="><meta http-equiv="origin-trial" content="A8FHS1NmdCwGqD9DwOicnHHY+y27kdWfxKa0YHSGDfv0CSpDKRHTQdQmZVPDUdaFWUsxdgVxlwAd6o+dhJykPA0AAACWeyJvcmlnaW4iOiJodHRwczovL2RvdWJsZWNsaWNrLm5ldDo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A8zdXi6dr1hwXEUjQrYiyYQGlU3557y5QWDnN0Lwgj9ePt66XMEvNkVWOEOWPd7TP9sBQ25X0Q15Lr1Nn4oGFQkAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXN5bmRpY2F0aW9uLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><meta http-equiv="origin-trial" content="A4/Htern2udN9w3yJK9QgWQxQFruxOXsXL7cW60DyCl0EZFGCSme/J33Q/WzF7bBkVvhEWDlcBiUyZaim5CpFQwAAACceyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ3NlcnZpY2VzLmNvbTo0NDMiLCJmZWF0dXJlIjoiQ29udmVyc2lvbk1lYXN1cmVtZW50IiwiZXhwaXJ5IjoxNjQzMTU1MTk5LCJpc1N1YmRvbWFpbiI6dHJ1ZSwiaXNUaGlyZFBhcnR5Ijp0cnVlLCJ1c2FnZSI6InN1YnNldCJ9"><link rel="preload" href="./🥇🥇 Palabras Reservadas en Java_files/f(3).txt" as="script"><script type="text/javascript" src="./🥇🥇 Palabras Reservadas en Java_files/f(3).txt"></script><link rel="preload" href="./🥇🥇 Palabras Reservadas en Java_files/f(4).txt" as="script"><script type="text/javascript" src="./🥇🥇 Palabras Reservadas en Java_files/f(4).txt"></script></head>
+
+<body>
+    <div>
+        <nav class="navbar navbar-light navbar-expand-md navigation-clean" style="background-color: rgba(32,24,130,0);background-image: url(&quot;assets/img/fondo_cabecera.jpg&quot;);padding: 11px;margin: 0px;background-position: bottom;background-size: cover;background-repeat: repeat-x;min-width: 0px;">
+            <div class="container"><a class="navbar-brand" style="background-image: url(&quot;assets/img/ciberaula.gif&quot;);width: 208px;height: 73px;margin-left: 30px;"></a><button data-toggle="collapse" class="navbar-toggler" data-target="#navcol-1" style="background-color: #ffffff;"><span class="sr-only">Toggle navigation</span><span class="navbar-toggler-icon" style="color: rgb(242,238,238);"></span></button>
+                <div class="collapse navbar-collapse" id="navcol-1"></div>
+    </div>
+    </nav>
+    </div>
+    <div style="margin-top: -21px;">
+        <div class="header-dark" style="height: 240px;">
+            <div class="container hero" style="margin-top: 20px;">
+                <div class="row">
+                    <div class="col-12 col-md-12 col-lg-12 col-xl-10 offset-md-0 offset-lg-0 offset-xl-1 d-none d-sm-block d-md-block d-lg-block d-xl-block" style="margin-top: 5px;">
+                        <h2 class="text-center" style="color: rgb(255,255,255);font-size: 45px;">Curso Online Gratuito POO y Java</h2>
+                        <div class="row">
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 text-center text-md-center text-lg-center"><a class="d-sm-none d-lg-block dxl-block" href="https://www.ciberaula.com/cursos/java/programacion_orientada_objetos.php" style="font-size: 35px;color: rgb(255,255,255);">Ir a la Página Principal POO</a>
+                                <div class="dropright d-xl-flex justify-content-xl-center d-xl-block d-lg-block d-md-block d-sm-block" style="margin-bottom: 3px;"><button class="btn btn-primary dropdown-toggle btn-sm" data-toggle="dropdown" aria-expanded="false" type="button">Programación Orientada a Objetos</button>
+                                    <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/historia_programacion.php">Historia de la Programación<br></a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/objeto.php">El Objeto<br></a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/clase.php">La Clase</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/abstraccion.php">Abstracción</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/herencia.php">Herencia</a>
+                                        <a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/polimorfismo.php">Polimorfismo</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/ventajas_poo.php">Ventajas POO</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/lenguaje_orientado_objetos.php">Lenguajes Orientado a Objetos</a></div>
+                                </div>
+                                <div class="dropright d-none d-xl-flex justify-content-xl-center d-xl-block d-lg-block d-md-block d-sm-block" style="margin-bottom: 3px;"><button class="btn btn-primary dropdown-toggle btn-sm" data-toggle="dropdown" aria-expanded="false" type="button">Lenguaje de Programación Java&nbsp;</button>
+                                    <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/que_es_java.php">¿Qúe es Java?</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/introduccion_java.php">Introducción a Java</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/encapsulamiento_java.php">Encapsulamiento en Java</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/metodo_main.php">Método Main</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/flujos_control_java.php">Flujos de Control en Java</a>
+                                        <a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/declaracion_clase_java.php">Declaración de &nbsp;una Clase en Java</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/control_acceso_miembros_clase.php">Control de Acc. Miembros de una Clase</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/this_java.php">This, en Clases de Java</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/clases_java_utilidad.php">Clases en Java de Utilidad</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/metodos_clase.php">Métodos de Clase</a>
+                                            <a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/manejo_errores_excepciones_java.php">Manejo de Errores y Exepciones en Java</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/origen_patrones.php">Origen de los Patrones de Diseño</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/patron_proxy.php">El Patrón Proxy</a>
+                                                <a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/patron_bridge.php">El Patrón Bridge (Puente)</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/patron_iterator.php">El Patrón Iterator (Iterador)<br></a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/conceptos_programacion.php">Conceptos de Programación</a>
+                                                    <a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/palabras_reservadas_java.php">Palabras Reservadas en Java</a>
+                                    </div>
+                                </div>
+                                <div class="dropright d-none d-xl-flex justify-content-xl-center d-xl-block d-lg-block d-md-block d-sm-block"><button class="btn btn-primary dropdown-toggle btn-sm" data-toggle="dropdown" aria-expanded="false" type="button">Java y Aplicaciones Web</button>
+                                    <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/introduccion_aplicaciones_web.php">Introducción a la Aplicaciones Web</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/tecnologia_servlet.php">Tecnología Servlet</a>
+                                        <a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/tecnologia_jps.php">Tecnología JSP</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/javabeans_enterprise.php">JavaBeans Enterprise</a></div>
+                                </div>
+                            </div>
+                            <div class="col-sm-6 col-md-6 col-lg-6 col-xl-6 text-right text-sm-center text-md-center text-lg-center"><a class="d-sm-none d-lg-block dxl-block" href="https://www.ciberaula.com/" style="font-size: 35px;color: rgb(255,255,255);">Ir a la Portada de Ciberaula</a>
+                                <div class="dropleft d-xl-block d-lg-block d-md-block d-sm-block" style="padding: 0px;padding-bottom: -2px;"><button class="btn btn-primary dropdown-toggle btn-sm" data-toggle="dropdown" aria-expanded="false" type="button" style="margin-bottom: 3px;">Conceptos Básicos de Programación</button>
+                                    <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/logica.php">Lógica</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/tabla_verdad.php">Tabla de Verdad</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/propiedades_programacion.php">Propiedades en Programación</a>
+                                        <a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/pseudolenguaje_1.php">El Pseudolenguaje (Parte I)</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/pseudolenguaje_2.php">El Pseudolenguaje (Parte II)</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/diagrama_flujo_1.php">Diagrama de Flujo (Parte I)</a>
+                                            <a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/diagrama_flujo_2.php">Diagrama de Flujo (Parte II)</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/uml.php">UML</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/divide_venceras.php">Divide y Vencerás</a></div>
+                                </div>
+                                <div class="dropleft d-xl-block d-lg-block d-md-block d-sm-block" style="margin-bottom: 3px;"><button class="btn btn-primary dropdown-toggle btn-sm" data-toggle="dropdown" aria-expanded="false" type="button" style="margin-bottom: 0px;">Estructuras de Datos en Java</button>
+                                    <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/pilas_java.php">Pilas en Java</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/listas_java.php">Listas en Java</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/colas_java.php">Colas en Java</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/arboles_java.php">Árboles en Java</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/exploracion_arboles.php">Exploración de Árboles</a>
+                                        <a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/grafos_java.php">Grafos en Java</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/algoritmos_voraces.php">Algoritmos Voraces</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/backtracking.php">Backtracking</a></div>
+                                </div>
+                                <div class="dropleft d-xl-block d-lg-block d-md-block d-sm-block"><button class="btn btn-primary dropdown-toggle btn-sm" data-toggle="dropdown" aria-expanded="false" type="button" style="margin-bottom: 0px;">Operadores</button>
+                                    <div class="dropdown-menu" role="menu"><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/operadores_aritmeticos.php">Operadores Aritméticos</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/operadores_asignacion.php">Operadores de Asignación</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/operadores_relacionales.php">Operadores Relacionales</a><a class="dropdown-item" role="presentation" href="https://www.ciberaula.com/cursos/java/operadores_logicos.php">Operadores Lógicos</a></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row d-sm-none">
+                    <div class="col">
+                        <h2 class="text-center" style="color: rgb(255,255,255);margin-top: 10px;">Curso Online Gratuito POO y Java</h2>
+                        <div class="d-flex justify-content-center" style="margin-top: 50px;"><a class="btn btn-primary" role="button" href="https://www.ciberaula.com/cursos/java/articulos.html">Ir a Índices de Lecciones</a></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="article-clean" style="font-family: &#39;Open Sans&#39;, sans-serif;">
+        <div class="container d-xl-flex justify-content-xl-center">
+            <div class="row" style="margin-top: 15px;">
+                <div class="col-md-2 col-xl-3 d-none d-md-block d-lg-block d-xl-block border border-bottom-0 border-top-0" style="filter: contrast(95%);max-width: 215px;width: 215px;">
+                    <h3 class="text-center" style="font-size: 16px;color: rgb(11,69,157);"><strong>Programación Orientada a Objetos</strong></h3>
+                    <figure class="figure"><img class="img-fluid figure-img" src="./🥇🥇 Palabras Reservadas en Java_files/algenroldan.jpg" style="filter: contrast(100%);">
+                        <figcaption class="figure-caption text-center" style="font-size: 15px;">Profesor: Ángel Roldán</figcaption>
+                    </figure>
+                    <div class="d-xl-flex justify-content-xl-center"><img class="img-fluid" src="./🥇🥇 Palabras Reservadas en Java_files/cursos_relacionados.gif" style="filter: contrast(100%);"></div>
+                    <p class="text-center" style="padding-top: 5px;font-size: 18px;font-family: Alice, serif;"><span style="text-decoration: underline;">Cursos de Java</span></p>
+                    <div class="table-responsive table-bordered table-hover box-shadow" style="/*hover 
+  border-bottom: 3px solid red;*//*hover border bottom: 3px solid red;*/padding-left: 0px;padding-bottom: 5px;">
+                        <table class="table">
+                            <thead class="border rounded" style="background-color: #02050d;">
+                                <tr>
+                                    <th style="color: rgb(255,255,255);background-color: #0a266f;font-size: 21px;font-family: verdana;">&nbsp;<img src="./🥇🥇 Palabras Reservadas en Java_files/icono_datos - copia.gif">&nbsp;Opciones</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr id="tabla">
+                                    <td style="padding-bottom: 0px;padding-top: 0px;font-family: verdana;"><a href="https://www.ciberaula.com/cursos-java-online/" style="color: rgb(0,0,0);">Cursos de Java<br></a></td>
+                                </tr>
+                                <tr id="tabla">
+                                    <td style="padding-bottom: 0px;padding-top: 0px;font-family: verdana;"><a href="https://www.ciberaula.com/cursos-java-online/personalizado/" style="color: rgb(0,0,0);">Personalizado<br></a></td>
+                                </tr>
+                                <tr id="tabla">
+                                    <td style="padding-bottom: 0px;padding-top: 0px;font-family: verdana;"><a href="https://www.ciberaula.com/cursos-java-online/ventajas/" style="color: rgb(0,0,0);">Ventajas<br></a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="table-responsive table-bordered table-hover" style="padding-top: 0px;">
+                        <table class="table">
+                            <thead class="border rounded" style="background-color: #02050d;">
+                                <tr>
+                                    <th style="color: rgb(255,255,255);background-color: #0a266f;font-size: 16px;font-family: verdana;">&nbsp;<img src="./🥇🥇 Palabras Reservadas en Java_files/icono_datos - copia.gif"> Cursos Relacionados<br></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr id="tabla">
+                                    <td style="padding-bottom: 0px;padding-top: 0px;font-family: verdana;"><a href="https://www.ciberaula.com/cursos-java-basico-online/" style="color: rgb(0,0,0);">Java Básico<br></a></td>
+                                </tr>
+                                <tr id="tabla">
+                                    <td style="padding-bottom: 0px;padding-top: 0px;font-family: verdana;"><a href="https://www.ciberaula.com/cursos-java-avanzado-online/" style="color: rgb(0,0,0);">Java Avanzado<br></a></td>
+                                </tr>
+                                <tr id="tabla">
+                                    <td style="padding-bottom: 0px;padding-top: 0px;font-family: verdana;"><a href="https://www.ciberaula.com/cursos-java-j2ee-online/" style="color: rgb(0,0,0);">Java para&nbsp;<br>Internet (J2EE)<br></a></td>
+                                </tr>
+                                <tr id="tabla">
+                                    <td style="padding-bottom: 0px;padding-top: 0px;"><a href="https://www.ciberaula.com/cursos-java-j2se-online/" style="color: rgb(0,0,0);font-family: verdana;">Lenguaje Java (J2SE)<br></a></td>
+                                </tr>
+                                <tr id="tabla">
+                                    <td style="padding-bottom: 0px;padding-top: 0px;font-family: verdana;"><a href="https://www.ciberaula.com/cursos-java-xml-online/" style="color: rgb(0,0,0);">Java y XML<br></a></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+                <div class="col" style="max-width: 616px;">
+                    <div class="intro">
+                        <h1 class="text-center" style="color: rgb(130,18,18);font-size: 32px;"><b><strong>Palabras Reservadas en Java</strong></b><br></h1>
+                    </div>
+                    <div class="text">
+                        <p class="text-justify" style="font-size: 15px;color: rgb(11,69,159);">En el lenguaje de programación Java, una palabra clave es cualquiera de las 57 <strong>palabras reservadas&nbsp;</strong>que tienen un significado predefinido en el lenguaje; debido a esto, los programadores no pueden usar palabras
+                            clave como nombres para variables, métodos, clases o como cualquier otro identificador. De estas 57 palabras clave, 55 están en uso y 2 no están en uso. Debido a sus funciones especiales en el lenguaje, la mayoría de los entornos
+                            de desarrollo integrados para Java utilizan el resaltado de sintaxis para mostrar palabras clave en un color diferente para una fácil identificación.<br></p>
+                        <p class="text-justify" style="font-size: 15px;">En este capítulo tenéis un listado de las <strong>palabras reservadas</strong> de Java orientado a objetos. Las <strong>palabras reservadas&nbsp;</strong>son identificadores, pero como su nombre indica, estas palabras están reservadas,
+                            y no se pueden usar como identificadores de usuario.<br><br></p>
+                        <div class="d-flex d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center"><img class="img-fluid d-flex d-xl-flex justify-content-center align-items-center justify-content-xl-center align-items-xl-center" src="./🥇🥇 Palabras Reservadas en Java_files/Captura4.PNG"></div>
+                        <h2 style="color: rgb(11,69,159);"><br>abstract<br></h2>
+                        <p class="text-justify" style="font-size: 15px;">Se utilizan para implementar una abstracción en Java. Un método sin definición debe declararse como abstracto y la clase que lo contiene debe declararse como abstracto. Las clases abstractas no pueden ser instanciadas. Los métodos
+                            abstractos deben ser implementados en las subclases. La palabra clave abstract no se puede utilizar con variables o constructores. Tenga en cuenta que no se requiere que una clase abstracta tenga un método abstracto en absoluto.<br></p>
+                        <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">assert<br></h2>
+                            <p class="text-justify" style="font-size: 15px;">Assert describe un predicado (una declaración de verdadero / falso) colocado en un programa Java para indicar que el desarrollador piensa que el predicado siempre es verdadero en ese lugar. Si una aserción se evalúa como falsa
+                                en tiempo de ejecución, se produce un error de aserción, que normalmente hace que la ejecución se anule. Opcionalmente habilitar por el método ClassLoader.<br></p>
+                            <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">boolean<br></h2>
+                            <p class="text-justify" style="font-size: 15px;">Define una variable booleana para los valores "true" o "false" solamente. Por defecto, el valor del tipo primitivo booleano es falso. Esta palabra clave también se usa para declarar que un método devuelve un valor del tipo
+                                primitivo booleano.<br></p>
+                            <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">break<br></h2>
+                            <p class="text-justify" style="font-size: 15px;">Se utiliza para finalizar la ejecución en el cuerpo del bucle actual.<br></p>
+                            <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">byte<br></h2>
+                            <p class="text-justify" style="font-size: 15px;">La palabra clave byte se utiliza para declarar un campo que puede contener un entero de complemento de dos con signo de 8 bits. Esta palabra clave también se utiliza para declarar que un método devuelve un&nbsp;valor del byte
+                                tipo primitivo.<br></p>
+                            <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">case<br></h2>
+                            <p class="text-justify" style="font-size: 15px;">Una declaración en el bloque de conmutación se puede etiquetar con una o&nbsp;más etiquetas de case. La instrucción switch evalúa su expresión, luego&nbsp;ejecuta todas las declaraciones que siguen la etiqueta de caso correspondiente.<br></p>
+                            <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">catch <br></h2>
+                                <p class="text-justify" style="font-size: 15px;">Se usa junto con un bloque de prueba y un bloque finalmente opcional. Las declaraciones en el bloque catch especifican qué hacer si el bloque try lanza un tipo específico de excepción.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">char <br></h2>
+                                <p class="text-justify" style="font-size: 15px;">Define una variable de carácter capaz de contener cualquier carácter del conjunto de caracteres del archivo fuente Java.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">class<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">Un tipo que define la implementación de un tipo particular de objeto. Una definición de clase define los campos de instancia y clase, los métodos y las clases internas, además de especificar las interfaces que implementa
+                                    la clase y la superclase inmediata de la clase. Si la superclase no se especifica explícitamente, la superclase es implícitamente Object. La palabra clave de clase también se puede utilizar en el formulario Class.class
+                                    para obtener un objeto Class sin necesidad de una instancia de esa clase. Por ejemplo, String.class se puede usar en lugar de hacer una nueva String (). GetClass ().<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">continue<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">Se utiliza para reanudar la ejecución del programa al final del cuerpo del bucle actual. Si le sigue una etiqueta, continúe con la ejecución de reanudación al final del cuerpo del bucle etiquetado adjunto.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">default<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">La palabra clave default se puede usar opcionalmente en una instrucción de cambio para etiquetar un bloque de instrucciones que se ejecutarán si&nbsp;ningún caso coincide con el valor especificado; ver interruptor. Alternativamente,
+                                    la palabra clave predeterminada también se puede utilizar para declarar valores predeterminados en una anotación de Java.&nbsp;Desde Java 8 en adelante, la palabra clave predeterminada se puede usar&nbsp;para permitir
+                                    que una interfaz proporcione una implementación de un método.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">do<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">La palabra clave do se usa junto con while para crear un bucle do-while, que ejecuta un bloque de sentencias asociadas con el bucle y luego prueba una expresión booleana asociada con while. Si la expresión se evalúa como
+                                    verdadera, el bloque se ejecuta de nuevo; esto continúa hasta que la expresión se evalúa como falsa.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">double<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">La palabra clave double se usa para declarar una variable que puede contener un número de punto flotante IEEE 754 de doble precisión de 64 bits. Esta palabra clave también se usa para declarar un método que devuelve un
+                                    valor del tipo primitivo double.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">else<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">La palabra clave else se usa junto con if para crear una sentencia if-else, que pruebe una expresión booleana; si la expresión se evalúa como verdadera, se evalúa el bloque de instrucciones asociadas con el if; si se evalúa
+                                    como falso, se evalúa el bloque de declaraciones asociadas con else.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">enum (agregada en J2SE 5.0)<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">Una palabra clave de Java utilizada para declarar un tipo enumerado. Las enumeraciones amplían la clase base Enum.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">exports <br></h2>
+                                <p class="text-justify" style="font-size: 15px;">Se utiliza en java modular para exportar un paquete con un módulo. Esta palabra clave sólo está disponible en Java 9 y versiones posteriores.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">extends<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">Se utiliza en una declaración de clase para especificar la superclase; utilizado en una declaración de interfaz para especificar una o más superinterfaces. La clase X extiende la clase Y para agregar funcionalidad, ya sea
+                                    agregando campos o métodos a la clase Y, o reemplazando los métodos de la clase Y. Una interfaz Z extiende una o más interfaces al agregar métodos. Se dice que la clase X es una subclase de la clase Y; Se dice que la
+                                    interfaz Z es una subinterfaz de las interfaces que se extiende.&nbsp;También se usa para especificar un límite superior en un parámetro de tipo en Genéricos.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">final<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">Defina una entidad una vez que no se puede cambiar ni derivar de más adelante. Más específicamente: una clase final no puede ser subclasificada, un método final no puede ser anulado, y una variable final puede aparecer
+                                    como máximo una vez como una expresión de la mano izquierda en un comando ejecutado. Todos los métodos en una clase final son implícitamente finales.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">finally<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">Se utiliza para definir un bloque de instrucciones para un bloque definido previamente por la palabra clave try. El bloque finally se ejecuta después de que la ejecución sale del bloque try y de cualquier cláusula catch
+                                    asociada sin importar si se lanzó o capturó una excepción, o si se ejecutó el método de izquierda en medio de los bloques try o catch usando la palabra clave return.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">float<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">La palabra clave flotante se usa para declarar una variable que puede contener un número punto flotante IEEE 754 de precisión simple de 32 bits. Esta palabra clave también se usa para declarar que un método devuelve un
+                                    valor del tipo primitivo float.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">for<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">La palabra clave for se utiliza para crear un bucle for, que especifica una inicialización variable, una expresión booleana y un incremento. La inicialización de la variable se realiza primero y luego se evalúa la expresión
+                                    booleana. Si la expresión se evalúa como verdadera, el bloque de instrucciones asociado con el bucle se ejecuta, y luego se realiza el&nbsp;incremento. La expresión booleana se evalúa de nuevo; esto continúa hasta que
+                                    la expresión se evalúa como falsa.&nbsp;A partir de J2SE 5.0, la palabra clave for también se puede usar para crear el llamado "bucle mejorado para", que especifica una matriz o&nbsp;un objeto iterable; Cada iteración
+                                    del bucle ejecuta el bloque asociado&nbsp;de declaraciones utilizando un elemento diferente en la matriz o Iterable.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">if<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">La palabra clave if se usa para crear una sentencia if, que prueba una expresión booleana; si la expresión se evalúa como verdadera, se ejecuta&nbsp;el bloque de instrucciones asociadas con la instrucción if. Esta palabra
+                                    clave también se puede utilizar para crear una sentencia if-else; ver otra cosa.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">implements<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">Incluido en una declaración de clase para especificar una o más interfaces implementadas por la clase actual. Una clase hereda los tipos y métodos abstractos declarados por las interfaces.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">import<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">Se usa al comienzo de un archivo fuente para especificar clases o paquetes completos de Java para consultarlos más adelante sin incluir sus nombres de paquete en la referencia. Desde J2SE 5.0, las declaraciones de importación
+                                    pueden importar miembros estáticos de una clase.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">instanceof<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">Un operador binario que toma una referencia de objeto como su primer operando y una clase o interfaz como su segundo operando y produce un resultado booleano. El instanceofoperator evalúa como verdadero si y solo si el
+                                    tipo de tiempo de ejecución del objeto es compatible con la clase o la interfaz.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">int<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">La palabra clave int se utiliza para declarar una variable que puede contener un entero de complemento a dos con signo de 32 bits. Esta palabra clave también se usa para declarar que un método devuelve un valor del tipo
+                                    primitivo int.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">interface<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">Se utiliza para declarar un tipo especial de clase que solo contiene métodos abstractos o predeterminados, campos constantes (final estático) e interfaces estáticas. Más tarde puede implementarse por clases que declaran
+                                    la interfaz con la palabra clave implementa. Como la herencia múltiple no está permitida en Java, las interfaces se utilizan para evitarla. Una interfaz se puede definir dentro de otra interfaz.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">long<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">La palabra clave larga se usa para declarar una variable que puede contener un entero de complemento a dos con signo de 64 bits. Esta palabra clave también se usa para declarar que un método devuelve un valor del tipo primitivo
+                                    long.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">module<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">La palabra clave del módulo se utiliza para declarar un módulo dentro de una aplicación Java. Esta palabra clave solo está disponible en Java 9 y&nbsp;versiones posteriores.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">native<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">Se usa en declaraciones de métodos para especificar que el método no se implementa en el mismo archivo fuente de Java, sino en otro idioma.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">new<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">Se utiliza para crear una instancia de una clase o un objeto de matriz. El uso de palabras clave para este fin no es completamente necesario (como lo ejemplifica Scala), aunque sirve para dos propósitos: permite la existencia
+                                    de un espacio de nombres diferente para los métodos y nombres de clase, define estática y localmente que se crea un objeto nuevo, y de qué tipo de tiempo de ejecución es (podría decirse que introduce dependencia en
+                                    el código).<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">package<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">El package Java es un grupo de clases e interfaces similares. Los paquetes se declaran con la palabra clave del paquete.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">private<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">La palabra clave privada se usa en la declaración de un método, campo o clase interna; Los miembros privados solo pueden ser accedidos por otros&nbsp;miembros de su propia clase.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">protected<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">La palabra clave protegida se usa en la declaración de un método, campo o clase interna; Los miembros protegidos solo pueden acceder a los miembros de su propia clase, las subclases de esa clase o las clases del&nbsp;mismo
+                                    paquete.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">public<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">La palabra clave pública se usa en la declaración de una clase, método o&nbsp;campo; Los miembros de cualquier clase pueden acceder a clases públicas, métodos y campos.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">requires<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">Se utiliza para especificar las bibliotecas requeridas dentro de un módulo. Esta palabra clave solo está disponible en Java 9 y versiones posteriores.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">return<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">Se utiliza para finalizar la ejecución de un método. Puede ir seguido de&nbsp;un valor requerido por la definición del método que se devuelve al <br>llamante.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">short<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">La palabra clave corta se usa para declarar un campo que puede contener un entero de complemento de dos con signo de 16 bits. Esta palabra clave&nbsp;también se usa para declarar que un método devuelve un valor del tipo
+                                    primitivo short.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">static<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">Se utiliza para declarar un campo, método o clase interna como un campo de clase. Las clases mantienen una copia de los campos de clase independientemente de cuántas instancias existen de esa clase. Staticalso se usa para
+                                    definir un método como un método de clase. Los métodos de clase están vinculados a la clase en lugar de a una instancia&nbsp;específica, y solo pueden operar en campos de clase. (Las clases e interfaces declaradas como
+                                    miembros estáticos de otra clase o interfaz son en realidad clases de nivel superior y no son clases internas).<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">strictfp (agregado en J2SE 1.2)<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">Una palabra clave de Java utilizada para restringir la precisión y el redondeo de los cálculos de punto flotante para garantizar la portabilidad.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">super<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">Herencia básicamente utilizada para lograr la vinculación dinámica o el polimorfismo en tiempo de ejecución en java. Se utiliza para acceder a los miembros de una clase heredada por la clase en la que aparece.&nbsp;Permite
+                                    que una subclase acceda a métodos anulados y miembros ocultos de&nbsp;su superclase. La palabra clave super también se usa para reenviar una llamada de un constructor a un constructor en la superclase. También se usa
+                                    para especificar un límite inferior en un parámetro de tipo en Genéricos.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">switch<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">La palabra clave switch se usa junto con case y default para crear una instrucción switch, que evalúa una variable, compara su valor con un caso específico y ejecuta el bloque de declaraciones asociadas con ese caso. Si
+                                    no se compara el valor, se ejecuta el bloque opcional etiquetado de forma predeterminada, si se incluye.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">synchronized<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">Se utiliza en la declaración de un método o bloque de código para adquirir el bloqueo mutex para un objeto mientras el hilo actual ejecuta&nbsp;el código. Para los métodos estáticos, el objeto bloqueado es la clase de la
+                                    clase. Garantiza que, como máximo, un subproceso a la vez que opera en el mismo objeto ejecuta ese código. El bloqueo mutex se libera automáticamente cuando la ejecución sale del código sincronizado. Los campos, clases
+                                    e interfaces no pueden ser declarados como sincronizados.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">this<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">Se utiliza para representar una instancia de la clase en la que aparece.<br> Esto se puede usar para acceder a los miembros de la clase y como referencia a la instancia actual. La palabra clave también se usa para reenviar
+                                    una llamada de un constructor en una clase a otro constructor en la misma clase.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">throw<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">Hace que se lance la instancia de excepción declarada. Esto hace que la ejecución continúe con el primer controlador de excepciones de cierre declarado por la palabra clave catch para manejar un tipo de excepción compatible
+                                    de asignación. Si no se encuentra dicho controlador de excepciones en el método actual, entonces el método vuelve y el proceso se repite en el método de llamada. Si no se encuentra un controlador de excepciones en ninguna
+                                    llamada de método en la pila, entonces la excepción se pasa al controlador de excepciones no capturado del subproceso.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">throws<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">Se utiliza en las declaraciones de métodos para especificar qué excepciones no se manejan dentro del método, sino que se pasan al siguiente nivel superior del programa. Todas las excepciones no detectadas en un método que
+                                    no sean instancias de RuntimeException deben&nbsp;declararse utilizando la palabra clave throws.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">transient<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">Declara que un campo de instancia no es parte de la forma serializada predeterminada de un objeto. Cuando un objeto se serializa, solo los valores de sus campos de instancia no transitorios se incluyen en la representación
+                                    serial predeterminada. Cuando un objeto se deserializa, los campos transitorios se inicializan solo a su valor predeterminado. Si no se utiliza el formulario predeterminado, por ejemplo, cuando se declara una tabla
+                                    serialPersistentFields en la jerarquía de clases, se ignoran todas las palabras clave transitorias.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">try<br></h2>
+                                <p class="text-justify" style="font-size: 15px;">Define un bloque de sentencias que tienen manejo de excepciones. Si se lanza una excepción dentro del bloque try, un bloque catch opcional puede manejar los tipos de excepción declarados. Además, se puede declarar un bloque
+                                    finalmente opcional que se ejecutará cuando la ejecución salga de las cláusulas try y catch, independientemente de si se lanza una excepción o no. Un bloque try debe tener al menos una cláusula catch o un bloque finally.<br></p>
+                                <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">void <br></h2>
+                                    <p class="text-justify" style="font-size: 15px;">La palabra clave void se usa para declarar que un método no devuelve ningún valor.<br></p>
+                                    <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">volatile<br></h2>
+                                    <p class="text-justify" style="font-size: 15px;">Se utiliza en declaraciones de campo para especificar que la variable se modifica de forma asíncrona mediante subprocesos que se ejecutan simultáneamente. Los métodos, las clases y las interfaces no se pueden declarar
+                                        volátiles, ni las variables o los parámetros locales.<br></p>
+                                    <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">while<br></h2>
+                                    <p class="text-justify" style="font-size: 15px;">La palabra clave while se usa para crear un bucle while, que prueba una expresión booleana y ejecuta el bloque de sentencias asociadas con el bucle si la expresión se evalúa como verdadera; esto continúa hasta que la
+                                        expresión se evalúa como falsa. Esta palabra clave también se puede utilizar para crear un bucle do-while; ver hacer.<br></p>
+                                    <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">Palabras reservadas para valores literales:<br></h2>
+                                    <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">true, null, false <br></h2>
+                                    <p class="text-justify" style="font-size: 15px;">Un valor literal booleano. No son considerados palabras clave de Java, sino literales. Ahora bien, tampoco se pueden utilizar como indentificadores.<br></p>
+                                    <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">Identificadores especiales:<br></h2>
+                                    <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">var<br></h2>
+                                    <p class="text-justify" style="font-size: 15px;">Un identificador especial que no se puede usar como nombre de tipo (desde Java 10).No usado<br></p>
+                                    <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">const<br></h2>
+                                    <p class="text-justify" style="font-size: 15px;">Aunque está reservado como palabra clave en Java, const no se usa y no tiene función. Para definir constantes en Java, vea la palabra clave final.<br></p>
+                                    <h2 style="color: rgb(11,69,159);height: 29px;margin: 28px 0px 20px;font-size: 20px;">goto<br></h2>
+                                    <p class="text-justify" style="font-size: 15px;">Aunque reservado como una palabra clave en Java, goto no se usa y no tiene ninguna función. Los paradigmas de programación son una forma de clasificar los lenguajes de programación según sus características. Las lenguas
+                                        se pueden clasificar en múltiples paradigmas.&nbsp;Algunos paradigmas se ocupan principalmente de las implicaciones&nbsp;para el modelo de ejecución del lenguaje, como permitir efectos secundarios o si la secuencia
+                                        de operaciones está definida por el modelo&nbsp;de ejecución. Otros paradigmas se refieren principalmente a la forma en&nbsp;que se organiza el código, como agrupar un código en unidades junto con&nbsp;el estado
+                                        que es modificado por el código. Sin embargo, otros están relacionados principalmente con el estilo de la sintaxis y la gramática.<br></p>
+                    </div>
+                </div>
+                <div class="col-md-2 col-xl-3 d-none d-md-block d-lg-block d-xl-block border border-bottom-0 border-top-0" style="filter: contrast(95%);max-width: 215px;width: 215px;">
+                    <div>
+                        <p class="text-center" style="font-size: 18px;color: rgb(11,69,157);"><strong>Compartir</strong></p>
+                    </div><a class="d-md-flex d-lg-flex d-xl-flex justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center" href="https://www.facebook.com/sharer/sharer.php?u=http://www.ciberaula.com/cursos/java/"><img class="img-fluid d-lg-flex justify-content-lg-center align-items-lg-center" src="./🥇🥇 Palabras Reservadas en Java_files/facebook.png" style="width: 80px;"></a>
+                    <a class="d-md-flex d-lg-flex d-xl-flex justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center" href="https://twitter.com/intent/tweet?text=http://www.ciberaula.com/cursos/java/"><img class="img-fluid" src="./🥇🥇 Palabras Reservadas en Java_files/twitter.png" style="width: 86px;margin-top: 5px;"></a>
+                        <p class="text-center" style="padding-top: 20px;font-size: 18px;font-family: Alice, serif;"><span style="text-decoration: underline;">Sección de Interés</span></p>
+                        <p class="text-center" style="padding-top: 0px;font-size: 22px;font-family: Alice, serif;">ÁREA LINUX</p><a class="d-md-flex d-lg-flex d-xl-flex justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center" href="https://linux.ciberaula.com/"><img class="img-fluid" src="./🥇🥇 Palabras Reservadas en Java_files/area-linux.png"></a></div>
+            </div>
+        </div>
+    </div>
+    <center><div style="max-width: 600px; background-color: aliceblue;padding: 15px 0 15px 0px;margin: 0 22px 0 22px;border-style: groove;border-width: 1px 1px 1px 1px;border-color: aqua;border-radius: 8px;font-family: times;font-style: oblique;">
+                         
+                     </div></center>
+    <div>
+                 
+                </div>
+    <div class="footer-basic border border-bottom-0 border-right-0 border-left-0" style="margin-top: 10px;">
+        <footer style="margin-top: 10px;padding-top: 60px;"><a class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center align-items-xl-center" href="https://www.ciberaula.com/aviso_legal" style="color: #fdfeff;font-size: 18px;">Aviso Legal</a>
+            <p class="d-flex d-sm-flex d-md-flex d-lg-flex d-xl-flex justify-content-center align-items-center justify-content-sm-center align-items-sm-center justify-content-md-center align-items-md-center justify-content-lg-center align-items-lg-center justify-content-xl-center" style="font-size: 18px;margin-top: 5px;">Lo más buscado en Ciberaula</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="https://www.ciberaula.com/cursos-excel-online/">Curso de Excel Online</a></li>
+                <li class="list-inline-item"><a href="https://www.ciberaula.com/cursos-illustrator-online/">Curso de Illustrator Online</a></li>
+                <li class="list-inline-item"><a href="https://www.ciberaula.com/cursos-office-online/">Curso Office Básico Online</a></li>
+                <li class="list-inline-item"><a href="https://www.ciberaula.com/fundacion-tripartita-cursos-bonificados-online/">Cursos Fundación Tripartita</a></li>
+            </ul>
+            <p class="copyright">Copyright 2018-2019 - Ciberaula ® Reservado todos los Derechos<br></p>
+        </footer>
+        <div class="dropup d-md-none" id="dropsocial" style="font-family: Lora, serif;font-size: 16px;filter: blur(0px) brightness(91%) contrast(159%) grayscale(35%) hue-rotate(0deg) invert(4%) saturate(115%);"><button class="btn btn-primary dropdown-toggle" data-toggle="dropdown" aria-expanded="false" id="socialboton" type="button" style="font-size: 18px;">&nbsp;RRSS</button>
+            <div class="dropdown-menu" role="menu" id="dropmenu"><a class="dropdown-item d-flex justify-content-center align-items-center" role="presentation" href="https://www.ciberaula.com/cursos/java/www.ciberaula.com/"><img src="./🥇🥇 Palabras Reservadas en Java_files/facebook.png" style="width: 30px;"></a><a class="dropdown-item d-flex justify-content-center align-items-center" role="presentation" href="https://www.ciberaula.com/cursos/java/www.ciberaula.com/"><img src="./🥇🥇 Palabras Reservadas en Java_files/twitter.png" style="width: 30px;"></a></div>
+        </div>
+    </div>
+    <script src="./🥇🥇 Palabras Reservadas en Java_files/jquery.min.js.descargar"></script>
+    <script src="./🥇🥇 Palabras Reservadas en Java_files/bootstrap.min.js.descargar"></script>
+
+
+<ins class="adsbygoogle adsbygoogle-noablate" data-adsbygoogle-status="done" style="display: none !important;" data-ad-status="unfilled"><ins id="aswift_0_expand" tabindex="0" title="Advertisement" aria-label="Advertisement" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: inline-table;"><ins id="aswift_0_anchor" style="border: none; height: 0px; width: 0px; margin: 0px; padding: 0px; position: relative; visibility: visible; background-color: transparent; display: block;"><iframe id="aswift_0" name="aswift_0" style="left:0;position:absolute;top:0;border:0;width:undefinedpx;height:undefinedpx" sandbox="allow-forms allow-popups allow-popups-to-escape-sandbox allow-same-origin allow-scripts allow-top-navigation-by-user-activation" frameborder="0" marginwidth="0" marginheight="0" vspace="0" hspace="0" allowtransparency="true" scrolling="no" src="./🥇🥇 Palabras Reservadas en Java_files/ads.html" data-google-container-id="a!1" data-load-complete="true"></iframe></ins></ins></ins><iframe src="./🥇🥇 Palabras Reservadas en Java_files/aframe.html" width="0" height="0" style="display: none;"></iframe></body><iframe id="google_esf" name="google_esf" src="./🥇🥇 Palabras Reservadas en Java_files/zrt_lookup.html" style="display: none;"></iframe></html>

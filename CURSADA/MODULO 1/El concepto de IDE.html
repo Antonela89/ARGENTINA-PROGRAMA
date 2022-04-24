@@ -1,0 +1,977 @@
+<!DOCTYPE html>
+<!-- saved from url=(0055)https://www.redhat.com/es/topics/middleware/what-is-ide -->
+<html lang="es" class="js"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><script type="text/javascript" async="async" src="./El concepto de IDE_files/s17718084331772"></script><script async="" src="./El concepto de IDE_files/clarity.js.descargar"></script><script type="text/javascript" async="" src="./El concepto de IDE_files/g86msd8nzmpc.js.descargar"></script><script type="text/javascript" async="" src="./El concepto de IDE_files/6si.min.js.descargar"></script><script src="./El concepto de IDE_files/bat.js.descargar" async=""></script><script async="" src="./El concepto de IDE_files/insight.old.min.js.descargar"></script><script type="text/javascript" async="" src="./El concepto de IDE_files/f.txt"></script><script type="text/javascript" async="" src="./El concepto de IDE_files/js"></script><script type="text/javascript" async="" src="./El concepto de IDE_files/6si.min.js.descargar"></script><script type="text/javascript" async="" src="./El concepto de IDE_files/insight.min.js.descargar"></script><script async="" src="./El concepto de IDE_files/uwt.js.descargar"></script><script src="./El concepto de IDE_files/bat.js.descargar" async=""></script><style type="text/css">.truste_cursor_pointer {cursor: pointer;}.truste_border_none {border: none;}</style><style>body {transition: opacity ease-in 0.2s; } 
+body[unresolved] {opacity: 0; display: block; overflow: hidden; position: relative; } 
+</style>
+    <!--[if IE]><![endif]-->
+<script type="text/javascript" async="" src="./El concepto de IDE_files/tag.aspx"></script><script src="./El concepto de IDE_files/127452601179025" async=""></script><script async="" src="./El concepto de IDE_files/fbevents.js.descargar"></script><script async="" id="demandbase_js_lib" src="./El concepto de IDE_files/X4PVAXm1.min.js.descargar"></script><script id="trustarc" type="text/javascript" src="./El concepto de IDE_files/trustarc.js.descargar"></script><script type="text/javascript" src="./El concepto de IDE_files/notice" id="truste_0.32118169693616916"></script>
+<script id="ddo" type="text/javascript">
+<!--//--><![CDATA[//><!--
+    var digitalData = {"cart":[],"event":[],"listing":{"browseFilter":"","query":"","queryMethod":"","refinementType":"","refinementValue":"","resultCount":"","searchType":""},"page":{"attributes":{"queryParameters":"","referringSearchEngine":"","analyticsTitle":"article page | article | what is an ide","taxonomyPageSubType":["27551"],"taxonomyBusinessChallenge":["131"],"taxonomySolution":["1081"],"taxonomyTopic":["27031"],"taxonomyMetaHreflang":["29051"]},"category":{"contentType":"","keyPage":"false","keyPageType":"","pageType":"pattern_template","primaryCategory":"topics","subCategories":["middleware","what-is-ide"]},"pageInfo":{"cms":"RH CMS 2022.2.0","contentFindingMethod":"","contentID":"381331","contentPortal":"","destinationURL":"https:\/\/www.redhat.com\/es\/topics\/middleware\/what-is-ide","errorMessage":"","errorType":"","language":"es","pageName":"","referringDomain":"","referringURL":"","sysEnv":"","template":"","title":"El concepto de IDE"}},"product":[],"user":[{"profile":[{"profileInfo":{"daysSinceLastPurchase":"","demandbaseSID":"","eloquaGUID":"","lastLoginDate":"","lastPurchaseDate":"","loggedIn":"false","profileID":"","subscriptionFrequency":"","subscriptionLevel":""}}]}]};
+    !function(a,b,c){"use strict";function d(a){var c="; "+b.cookie,d=c.split("; "+a+"=");if(2===d.length)return d.pop().split(";").shift()}if(b.referrer){var e=b.createElement("a");e.href=b.referrer,c.page.pageInfo.referringDomain=e.hostname,c.page.pageInfo.referringURL=e.href}c.page.pageInfo.sysEnv=a.innerWidth<=768?"tablet":"desktop";var f=c.user[0].profile[0].profileInfo,g=d("rh_elqCustomerGUID");g&&(f.eloquaGUID=g);var h=d("rh_user");if(h){var i=h.split("\\|");i[0]&&(f.loggedIn="true")}var j=d("s_dmdbase");j&&(f.demandbaseSID=j)}(window,document,digitalData);
+//--><!]]>
+</script>
+<script src="./El concepto de IDE_files/trustecm.js.descargar" data-domain="www.redhat.com"></script><script src="./El concepto de IDE_files/trustecm-functional.js.descargar" async=""></script><script data-src="https://static.redhat.com/libs/redhat/marketing/latest/trustarc/trustecm/js/trustecm-functional.js" class="trustecm" data-tracker-type="functional"></script><script src="./El concepto de IDE_files/trustecm-advertising.js.descargar" async=""></script><script data-src="https://static.redhat.com/libs/redhat/marketing/latest/trustarc/trustecm/js/trustecm-advertising.js" class="trustecm" data-tracker-type="advertising"></script><script id="dpal" type="text/javascript" src="./El concepto de IDE_files/dtm.js.descargar"></script><script src="./El concepto de IDE_files/AppMeasurement.min.js.descargar" async=""></script><script src="./El concepto de IDE_files/AppMeasurement_Module_ActivityMap.min.js.descargar" async=""></script><script src="./El concepto de IDE_files/AppMeasurement_Module_AudienceManagement.min.js.descargar" async=""></script>
+<meta http-equiv="content-language" content="es">
+<link href="https://www.redhat.com/en/topics/middleware/what-is-ide" rel="alternate" hreflang="en">
+<link href="https://www.redhat.com/de/topics/middleware/what-is-ide" rel="alternate" hreflang="de">
+<link href="https://www.redhat.com/es/topics/middleware/what-is-ide" rel="alternate" hreflang="es">
+<link href="https://www.redhat.com/fr/topics/middleware/what-is-ide" rel="alternate" hreflang="fr">
+<link href="https://www.redhat.com/it/topics/middleware/what-is-ide" rel="alternate" hreflang="it">
+<link href="https://www.redhat.com/ja/topics/middleware/what-is-ide" rel="alternate" hreflang="ja">
+<link href="https://www.redhat.com/ko/topics/middleware/what-is-ide" rel="alternate" hreflang="ko">
+<link href="https://www.redhat.com/pt-br/topics/middleware/what-is-ide" rel="alternate" hreflang="pt-br">
+<link href="https://www.redhat.com/zh/topics/middleware/what-is-ide" rel="alternate" hreflang="zh">
+<script type="application/ld+json">{
+    "@context": "https://schema.org",
+    "availableLanguages": {
+        "en": {
+            "@type": "Language",
+            "name": "English",
+            "href": "/en/topics/middleware/what-is-ide"
+        },
+        "de": {
+            "@type": "Language",
+            "name": "Deutsch",
+            "href": "/de/topics/middleware/what-is-ide"
+        },
+        "es": {
+            "@type": "Language",
+            "name": "Español",
+            "href": "/es/topics/middleware/what-is-ide",
+            "current_lang": true
+        },
+        "fr": {
+            "@type": "Language",
+            "name": "Français",
+            "href": "/fr/topics/middleware/what-is-ide"
+        },
+        "it": {
+            "@type": "Language",
+            "name": "Italiano",
+            "href": "/it/topics/middleware/what-is-ide"
+        },
+        "ja": {
+            "@type": "Language",
+            "name": "日本語",
+            "href": "/ja/topics/middleware/what-is-ide"
+        },
+        "ko": {
+            "@type": "Language",
+            "name": "한국어",
+            "href": "/ko/topics/middleware/what-is-ide"
+        },
+        "pt-br": {
+            "@type": "Language",
+            "name": "Português",
+            "href": "/pt-br/topics/middleware/what-is-ide"
+        },
+        "zh": {
+            "@type": "Language",
+            "name": "简体中文",
+            "href": "/zh/topics/middleware/what-is-ide"
+        }
+    }
+}</script><link rel="prefetch" href="https://www.redhat.com/es/redhat_www_menu/ajax/menus-nav2">
+<meta name="last-publish-date" content="Tue, 08 Jan 2019 05:00:00 GMT">
+<meta name="node-type" content="pattern_template">
+<meta name="source" content="rhdc_drupal">
+<meta name="rhdc_key" content="d4af6fadbacca73399a839479b063e7c">
+<meta name="taxonomy-business-challenge" content="Desarrollo de aplicaciones nativas de la nube">
+<meta name="taxonomy-business-challenge-tid" content="131">
+<meta name="taxonomy-solution" content="Integración y desarrollo de aplicaciones">
+<meta name="taxonomy-solution-tid" content="1081">
+<meta name="taxonomy-page-sub-type" content="Article page">
+<meta name="taxonomy-page-sub-type-tid" content="27551">
+<meta name="taxonomy-topic" content="Desarrollo">
+<meta name="taxonomy-topic-tid" content="27031">
+<meta name="taxonomy-meta-hreflang" content="en">
+<meta name="taxonomy-meta-hreflang-tid" content="29051">
+<link rel="shortcut icon" href="https://www.redhat.com/misc/favicon.ico" type="image/x-icon">
+<meta property="og:description" content="Un entorno de desarrollo integrado (IDE) es un sistema de software para el diseño de aplicaciones que combina herramientas comunes para desarrolladores en una sola interfaz de usuario gráfica (GUI).">
+<meta name="description" content="Un entorno de desarrollo integrado (IDE) es un sistema de software para el diseño de aplicaciones que combina herramientas comunes para desarrolladores en una sola interfaz de usuario gráfica (GUI).">
+<meta name="generator" content="Drupal 7 (http://drupal.org)">
+<link rel="image_src" href="https://www.redhat.com/profiles/rh/themes/redhatdotcom/img/red-hat-social-share.jpg">
+<link rel="canonical" href="https://www.redhat.com/es/topics/middleware/what-is-ide">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://www.redhat.com/es/topics/middleware/what-is-ide">
+<meta property="og:title" content="El concepto de IDE">
+<meta property="og:image" content="https://www.redhat.com/profiles/rh/themes/redhatdotcom/img/red-hat-social-share.jpg">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:title" content="El concepto de IDE">
+<meta name="twitter:image" content="https://www.redhat.com/profiles/rh/themes/redhatdotcom/img/red-hat-social-share.jpg">
+    <title>El concepto de IDE</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://static.redhat.com/">
+    <link rel="preload" href="https://www.redhat.com/sites/all/libraries/rh_iconfont/dist/fonts/web_icon/rh-web-iconfont.woff" as="font" type="font/woff" crossorigin="">
+    <link rel="preload" href="https://static.redhat.com/libs/redhat/redhat-font/4/webfonts/modified/RedHatTextVFModified.woff2" as="font" type="font/woff2" crossorigin="">
+    <link rel="preload" href="https://static.redhat.com/libs/redhat/redhat-font/4/webfonts/modified/RedHatDisplayVFModified.woff2" as="font" type="font/woff2" crossorigin="">
+    <link type="text/css" rel="stylesheet" href="./El concepto de IDE_files/css__k9aoxkMyjUtSX9AXGCPExPgTYjM0Xv5OYNfbFGDRafY__N9sjJtGj85lXtvOptw2e_YZ01FXbTXcJywP8EaKBijU__Is9Fzp2biSxt_Ho705y73DI3sFWDIEvxSghbp3egomo.css" media="all">
+<link type="text/css" rel="stylesheet" href="./El concepto de IDE_files/webrh.webcomponents.min.css" media="all">
+<link type="text/css" rel="stylesheet" href="./El concepto de IDE_files/webrh.min.css" media="all">
+<link type="text/css" rel="stylesheet" href="./El concepto de IDE_files/css__JUlelZgW74B_sAGLZy4KpEW8H72iADPTTVMELY3jzKE__DH8kP18IRpUpUEERiRVtz7y7r6o1JpSBvdGyFaEsVc4__Is9Fzp2biSxt_Ho705y73DI3sFWDIEvxSghbp3egomo.css" media="all">
+<link type="text/css" rel="stylesheet" href="./El concepto de IDE_files/css__wpajrf8pWA19ifT2xQXPB3J1TByoCXqZVtt6kXfl4Ow__PFQbFxxWsZl0yTnfrpPiA-o5Pvtu-CXh7nICx08JW0c__Is9Fzp2biSxt_Ho705y73DI3sFWDIEvxSghbp3egomo.css" media="print">
+<link type="text/css" rel="stylesheet" href="./El concepto de IDE_files/trustecm.css" media="all">
+<link type="text/css" rel="stylesheet" href="./El concepto de IDE_files/advanced-theme.css" media="all">
+<link type="text/css" rel="stylesheet" href="./El concepto de IDE_files/red-hat-font.min.css" media="all">
+    <!--[if lt IE 9]>
+      <script src="/profiles/rh/themes/redhatdotcom/js/selectivizr-min.js" type="text/javascript"></script>
+      <script src="/profiles/rh/themes/redhatdotcom/js/nwmatcher-min.js" type="text/javascript"></script>
+      <script src="/profiles/rh/themes/redhatdotcom/js/respond.js" type="text/javascript"></script>
+    <![endif]-->
+    <script type="text/javascript" src="./El concepto de IDE_files/js__B6wED6l5P_XUdxVmb7Nvh5d9zn074QukFqJa2HLXS6c__VzWs8XZBHHsPW77egi-W-FQw2mAEr5F-GgCJU0wn3Nc__Is9Fzp2biSxt_Ho705y73DI3sFWDIEvxSghbp3egomo.js.descargar"></script>
+<script type="text/javascript" src="./El concepto de IDE_files/webrh.vendor.min.js.descargar"></script>
+<script type="text/javascript" src="./El concepto de IDE_files/webrh.webcomponents.min.js.descargar"></script>
+<script type="text/javascript" src="./El concepto de IDE_files/webrh.min.js.descargar"></script>
+<script type="text/javascript" src="./El concepto de IDE_files/js__pDOiYGKaYbdKNp1gvMxR0fWhWZnfUemYDUhADyCn3oM__jCrCuWCJIPYPe1FzZoUvsJWEjkNMmRIQHYek1h7idBE__Is9Fzp2biSxt_Ho705y73DI3sFWDIEvxSghbp3egomo.js.descargar"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+document.createElement( "picture" );
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.rh = window.rh || {}; window.rh.drupalTrustArcLoaded = true;
+//--><!]]>
+</script>
+<script type="text/javascript" src="./El concepto de IDE_files/js__jHRiqECvALzw0UJhFXlXL-_dWV3xSsoR-dYilLXFDnM__XR4aM5iJ0lV79uhY-0Ux2onL96h-xGb4sKBlMqY1aV4__Is9Fzp2biSxt_Ho705y73DI3sFWDIEvxSghbp3egomo.js.descargar"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"es\/","ajaxPageState":{"theme":"redhatdotcom","theme_token":"l2fEvrkBJCtq1FOHsmHohdX0a5Wz5RcBgcV_4qXSVbw","css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"sites\/all\/libraries\/webrh\/dist\/css\/webrh.webcomponents.min.css":1,"sites\/all\/libraries\/webrh\/dist\/css\/webrh.min.css":1,"https:\/\/static.redhat.com\/libs\/redhat\/marketing\/latest\/trustarc\/trustecm\/css\/trustecm.css":1,"https:\/\/static.redhat.com\/libs\/redhat\/redhat-theme\/6\/advanced-theme.css":1,"https:\/\/static.redhat.com\/libs\/redhat\/redhat-font\/4\/webfonts\/red-hat-font.min.css":1,"modules\/locale\/locale.css":1,"sites\/all\/libraries\/rh_iconfont\/dist\/files\/rh-iconfont.css":1,"sites\/all\/libraries\/rh_iconfont\/dist\/files\/rh-web-iconfont.css":1,"sites\/all\/libraries\/patternfly-elements\/pfe-styles\/pfe-typography-classes.css":1,"profiles\/rh\/themes\/redhatdotcom\/css\/site-switcher.css":1,"profiles\/rh\/themes\/redhatdotcom\/css\/chrome.css":1,"profiles\/rh\/themes\/redhatdotcom\/css\/pfe-nav-light-dom.css":1,"profiles\/rh\/themes\/redhatdotcom\/css\/universal-nav.css":1,"profiles\/rh\/themes\/redhatdotcom\/js\/jquery.selectBoxIt\/jquery.selectBoxIt.css":1,"profiles\/rh\/themes\/redhatdotcom\/css\/print.css":1},"js":{"profiles\/rh\/modules\/redhat_www_analytics\/libraries\/dist\/js\/rhdc_analytics_eddl_user.min.js":1,"profiles\/rh\/modules\/redhat_www_analytics\/libraries\/dist\/js\/rhdc_analytics_eddl_bottom.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"profiles\/rh\/modules\/redhat_www_ddo\/dist\/post-jquery.min.js":1,"sites\/all\/libraries\/webrh\/dist\/js\/webrh.vendor.min.js":1,"sites\/all\/libraries\/webrh\/dist\/js\/webrh.webcomponents.min.js":1,"sites\/all\/libraries\/webrh\/dist\/js\/webrh.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.widget.min.js":1,"public:\/\/languages\/es_zQ7KBm6GqMSgZ_9IHCT1_6vrx-lQ5fShA9f-IyswNio.js":1,"profiles\/rh\/modules\/redhat_www_menu\/js\/rh_nav.js":1,"profiles\/rh\/modules\/redhat_www_analytics\/libraries\/dist\/js\/rhdc_analytics_eddl_top.min.js":1,"profiles\/rh\/modules\/redhat_www_share\/js\/rh_share.js":1,"sites\/all\/libraries\/jquery-cookie\/jquery.cookie-1.4.1.min.js":1,"profiles\/rh\/modules\/redhat_www_solr\/js\/rh_solr.js":1,"profiles\/rh\/modules\/redhat_www_solr\/js\/redhat_www_solr_suggestions.js":1,"profiles\/rh\/themes\/redhatdotcom\/js\/jquery.pushmenu.js":1,"profiles\/rh\/themes\/redhatdotcom\/js\/jquery-scrolltofixed.js":1,"profiles\/rh\/themes\/redhatdotcom\/js\/rh-chrome.js":1,"profiles\/rh\/themes\/redhatdotcom\/js\/jquery.fitvids.js":1,"profiles\/rh\/themes\/redhatdotcom\/js\/jquery.switchIt.js":1,"profiles\/rh\/themes\/redhatdotcom\/js\/jquery.selectBoxIt\/jquery.selectBoxIt.js":1,"profiles\/rh\/themes\/redhatdotcom\/js\/jquery.viewport\/jquery.viewport.min.js":1,"profiles\/rh\/themes\/redhatdotcom\/js\/sass-bootstrap.min.js":1}},"redhat_www_menu":{"path":"node\/381331"},"rh_analytics_enabled":false,"urlIsAjaxTrusted":{"\/es\/search\/node":true}});
+//--><!]]>
+</script>
+    <noscript>
+        <link href="/sites/all/libraries/webrh/dist/css/webrh.webcomponents.noscript.min.css" rel="stylesheet" >
+    </noscript>
+  <script>bazadebezolkohpepadr="1249758989"</script><script type="text/javascript" src="./El concepto de IDE_files/4a7dce9b" defer=""></script><script src="./El concepto de IDE_files/RC3876e16a91d04645946df92658c31292-source.min.js.descargar" async=""></script><script src="./El concepto de IDE_files/rh.mktg.js.descargar"></script><script src="./El concepto de IDE_files/RCe407fa25daae4843aa41c364bd6ef61f-source.min.js.descargar" async=""></script><script src="./El concepto de IDE_files/RC58d0cd0f483548eaa038aa9d7b0ed6ad-source.min.js.descargar" async=""></script><script src="./El concepto de IDE_files/RC0c79f464873e404985d03fba5d2d7de3-source.min.js.descargar" async=""></script><script src="./El concepto de IDE_files/RCb423489cc0f6474c8e2b86ee3165a34e-source.min.js.descargar" async=""></script><script charset="utf-8" src="./El concepto de IDE_files/11.f94ae62479d5b3566b98.chunk.js.descargar"></script><script src="./El concepto de IDE_files/RCf331caa023e14cf2a19dbe3dc7b29a23-source.min.js.descargar" async=""></script><script type="text/javascript" src="./El concepto de IDE_files/oct.js.descargar"></script><script src="./El concepto de IDE_files/RC4aac735b4ab54079a7efdc185243d31a-source.min.js.descargar" async=""></script><script src="./El concepto de IDE_files/17517155.js.descargar" type="text/javascript" async="" data-ueto="ueto_85c62d49a7"></script><meta http-equiv="origin-trial" content="A3v9QjmVUCOO7YqFMKHP/NKbn6kY1G1pa2S1TfeXJZUD/tysMONTy6lV0Jkou3rrCjSKRGbqTrgTaZkm1XJ7pQUAAACKeyJvcmlnaW4iOiJodHRwczovL2dvb2dsZXRhZ21hbmFnZXIuY29tOjQ0MyIsImZlYXR1cmUiOiJDb252ZXJzaW9uTWVhc3VyZW1lbnQiLCJleHBpcnkiOjE2NDMxNTUxOTksImlzU3ViZG9tYWluIjp0cnVlLCJpc1RoaXJkUGFydHkiOnRydWV9"><script async="" src="./El concepto de IDE_files/hotjar-1712492.js.descargar"></script><script type="text/javascript" src="./El concepto de IDE_files/oct.js.descargar"></script><script src="./El concepto de IDE_files/f(1).txt"></script><script src="./El concepto de IDE_files/f(2).txt"></script><script async="" src="./El concepto de IDE_files/modules.f5f76c095cd0aa128146.js.descargar" charset="utf-8"></script><style type="text/css">iframe#_hjRemoteVarsFrame {display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;}</style><script type="text/javascript" src="./El concepto de IDE_files/svrGP"></script><style type="text/css">.drift-conductor-item iframe,
+.drift-frame-controller {
+  display: block;
+  min-width: 0;
+  max-width: none;
+  min-height: 0;
+  max-height: none;
+}
+
+.drift-conductor-item iframe {
+  border: none !important;
+  background: transparent !important;
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+}
+
+.drift-conductor-item.with-transition {
+  -webkit-transition: opacity .5s ease, -webkit-transform .5s ease;
+  transition: opacity .5s ease, -webkit-transform .5s ease;
+  -o-transition: opacity .5s ease, -o-transform .5s ease;
+  -moz-transition: opacity .5s ease, transform .5s ease, -moz-transform .5s ease;
+  transition: opacity .5s ease, transform .5s ease;
+  transition: opacity .5s ease, transform .5s ease, -webkit-transform .5s ease, -moz-transform .5s ease, -o-transform .5s ease;
+}
+
+.drift-frame-chat.with-transition.drift-frame-chat__takeover {
+  -webkit-transition: opacity .5s ease;
+  -o-transition: opacity .5s ease;
+  -moz-transition: opacity .5s ease;
+  transition: opacity .5s ease;
+}
+
+.drift-conductor-item.with-height-transition {
+  -webkit-transition: max-height .5s ease, opacity .5s ease, -webkit-transform .5s ease;
+  transition: max-height .5s ease, opacity .5s ease, -webkit-transform .5s ease;
+  -o-transition: max-height .5s ease, opacity .5s ease, -o-transform .5s ease;
+  -moz-transition: max-height .5s ease, opacity .5s ease, transform .5s ease, -moz-transform .5s ease;
+  transition: max-height .5s ease, opacity .5s ease, transform .5s ease;
+  transition: max-height .5s ease, opacity .5s ease, transform .5s ease, -webkit-transform .5s ease, -moz-transform .5s ease, -o-transform .5s ease;
+}
+
+.drift-conductor-item {
+  -webkit-transform: translateZ(0);
+     -moz-transform: translateZ(0);
+          transform: translateZ(0);
+}
+
+.drift-frame-controller {
+  bottom: 24px;
+}
+
+.drift-frame-controller-align-left {
+  left: 24px;
+}
+
+.drift-frame-controller-align-right {
+  right: 24px;
+}
+
+.drift-frame-chat:not(iframe) {
+  bottom: -webkit-calc(12px + 52px + 24px);
+  bottom: -moz-calc(12px + 52px + 24px);
+  bottom: calc(12px + 52px + 24px); /* vertical margin x 2 + widget icon size*/
+  width: 100%;
+  height: 100%;
+  min-width: 320px;
+  opacity: 0;
+  visibility: hidden;
+
+  -webkit-transform: translateY(88px);
+
+     -moz-transform: translateY(88px);
+
+      -ms-transform: translateY(88px);
+
+       -o-transform: translateY(88px);
+
+          transform: translateY(88px);
+}
+
+.drift-frame-chat:not(iframe).drift-chat-open {
+  opacity: 1;
+  visibility: visible;
+  -webkit-transform: translateY(0px);
+     -moz-transform: translateY(0px);
+      -ms-transform: translateY(0px);
+       -o-transform: translateY(0px);
+          transform: translateY(0px);
+}
+
+.drift-frame-chat.drift-frame-chat__takeover:not(iframe):not(.drift-frame--mobile) {
+  min-width: 600px;
+}
+
+.drift-frame-chat-align-left {
+  left: 12px;
+}
+
+.drift-frame-chat-align-right {
+  right: 12px;
+}
+
+.drift-frame-takeover,
+.drift-frame-landingPage,
+.drift-frame-chat__takeover {
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+.drift-frame-chat__takeover.hide-frame {
+  visibility: hidden;
+}
+
+.drift-frame-emailCapture {
+  bottom: 0;
+  height: -webkit-calc(100% + 30px);
+  height: -moz-calc(100% + 30px);
+  height: calc(100% + 30px);
+}
+
+.drift-frame-emailCapture-align-left {
+  left: 0;
+}
+
+.drift-frame-emailCapture-align-right {
+  right: 0;
+}
+
+.drift-frame-slider {
+  bottom: 18px;
+  height: -webkit-calc(100% + 20px);
+  height: -moz-calc(100% + 20px);
+  height: calc(100% + 20px);
+}
+
+.drift-frame-slider-align-left {
+  left: 96px;
+}
+
+.drift-frame-slider-align-right {
+  right: 96px;
+}
+
+.drift-frame--mobile.drift-frame-slider-align-left {
+  left: 68px;
+}
+
+.drift-frame--mobile.drift-frame-slider-align-right {
+  right: 68px;
+}
+
+.drift-widget-content-box {
+  background: rgba(0,0,0,.5);
+  width: 100%;
+  height: 100%;
+
+  position: fixed;
+  z-index: 2147483647;
+  top: 0;
+  left: 0;
+}
+
+.drift-widget-content-box > * {
+  margin: 0 auto;
+  position: relative;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+     -moz-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+       -o-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  max-height: 80%;
+
+}
+
+@media
+(max-height: 685px),
+(min-width: 369px) and (max-width: 380px),
+(max-width: 367px),
+
+(min-device-width: 320px)
+and (max-device-width: 480px)
+and (-webkit-min-device-pixel-ratio: 2)
+and (orientation: portrait)
+
+{
+  .drift-frame--mobile.drift-frame-chat.drift-chat-open {
+    bottom: 0 !important;
+    right: 0;
+    left: 0;
+    z-index: 2147483647 !important;
+  }
+
+  .drift-frame--mobile.drift-frame-controller {
+    bottom: 0;
+  }
+
+  .drift-frame--mobile.drift-frame-controller.drift-frame-controller-align-left {
+    left: 0;
+  }
+
+  .drift-frame--mobile.drift-frame-controller.drift-frame-controller-align-right {
+    right: 0;
+  }
+
+
+  .drift-frame--mobile.drift-frame-controller.drift-chat-open {
+    display: none;
+  }
+
+  .drift-frame--mobile.drift-frame-slider {
+    bottom: 0;
+    max-width: 320px;
+  }
+
+  .drift-frame--mobile iframe.drift-frame-chat {
+    width: 1px !important;
+    min-width: 100%;
+
+    height: 1px !important;
+    min-height: 100%;
+  }
+
+  html.drift-widget-parent--chat-open,
+  html.drift-widget-parent--chat-open > body {
+    height: 100vh !important;
+    margin: 0 !important;
+    min-height: 0 !important;
+    overflow: hidden !important;
+    position: static !important;
+  }
+}
+
+@media only screen and (orientation: landscape) {
+  .drift-frame--mobile.drift-frame-controller.drift-chat-open {
+    display: none;
+  }
+
+  .drift-frame--mobile.drift-frame-controller {
+    bottom: 0;
+  }
+
+  .drift-frame--mobile.drift-frame-controller-align-right {
+    right: 0;
+  }
+
+  .drift-frame--mobile.drift-frame-controller-align-left {
+    left: 0;
+  }
+}
+
+.drift-frame-chat.widget--xs.drift-chat-open {
+  bottom: 0 !important;
+  right: 0 !important;
+  left: 0 !important;
+}
+
+.drift-frame-controller.widget--xs.drift-chat-open {
+  display: none;
+}
+
+</style></head>
+  <body class="bands-index html not-front not-logged-in no-sidebars page-node page-node- page-node-381331 node-type-pattern-template i18n-es  redhat_www_menu-processed redhat_www_solr_suggestions-processed" style="--pfe-jump-links--Height--actual:0px; --pfe-navigation--Height--actual:81px;">
+    <div class="page">
+            <!-- Legacy migrated page support with body.migrated-page-hero -->
+<div class="header-background-image fts-migrated-bg">
+</div>
+
+  <div id="main-content">
+                      <div class="region region-content">
+    <div id="block-system-main" class="block block-system">
+
+      
+  <article class="node-381331 node node-pattern-template clearfix">
+
+  
+    <!-- Pattern group | hero -->
+
+        
+    
+
+<div class="header-background-image"></div>
+
+
+  <nav id="universal-nav" class="unav" aria-labelledby="unav-label" data-analytics-region="universal-navigation">
+    <h2 id="unav-label" class="unav__visually-hidden">Enlaces destacados</h2>
+    <div class="unav__wrapper">
+      <ul class="unav__menu">
+                              <li>
+              <a class="unav__link" href="https://www.redhat.com/es/products/open-hybrid-cloud" data-analytics-category="Featured Links" data-analytics-text="Open hybrid cloud">Nube híbrida abierta</a>
+            </li>
+                                        <li>
+              <a class="unav__link" href="https://access.redhat.com/" data-analytics-category="Featured Links" data-analytics-text="Support">Soporte</a>
+            </li>
+                                        <li>
+              <a class="unav__link" href="https://developers.redhat.com/" data-analytics-category="Featured Links" data-analytics-text="Developers">Desarrolladores</a>
+            </li>
+                                        <li>
+              <a class="unav__link" href="https://www.redhat.com/es/partners" data-analytics-category="Featured Links" data-analytics-text="Partners">Partners</a>
+            </li>
+                                        <li>
+              <a class="unav__link unav__trial" href="https://www.redhat.com/es/products/trials" data-analytics-category="Featured Links" data-analytics-text="Start a trial">
+                <span class="unav__trial-button">Comenzar la prueba</span>
+              </a>
+            </li>
+                          </ul>
+    </div>
+  </nav>
+
+<pfe-navigation id="main-menu" class="main-header PFElement" pfe-sticky="" pfe-full-width="" pfe-close-on-click="external" pfe-menu-label="Menú" full-width="" pfelement="" has_skip="" has_logo="" has_search="" has_mobile-search="" has_main="" has_language="" has_mobile-language="" has_login="" has_mobile-login="" has_site-switcher="">
+
+  <!-- Skip navigation -->
+  <div slot="skip">
+    <ul>
+      <li><a href="https://www.redhat.com/es/topics/middleware/what-is-ide#rh-main-content">Skip to content</a></li>
+    </ul>
+  </div>
+
+  <!-- Site logo -->
+  <p slot="logo">
+    <a href="https://www.redhat.com/es" title="Red Hat">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 613 145" class="redhat-logo" style="margin:0; width: 135px;" height="145" width="613">
+        <path d="M127.47 83.49c12.51 0 30.61-2.58 30.61-17.46a14 14 0 0 0-.31-3.42l-7.45-32.36c-1.72-7.12-3.23-10.35-15.73-16.6C124.89 8.69 103.76.5 97.51.5 91.69.5 90 8 83.06 8c-6.68 0-11.64-5.6-17.89-5.6-6 0-9.91 4.09-12.93 12.5 0 0-8.41 23.72-9.49 27.16a6.43 6.43 0 0 0-.22 1.94c0 9.22 36.3 39.45 84.94 39.45M160 72.07c1.73 8.19 1.73 9.05 1.73 10.13 0 14-15.74 21.77-36.43 21.77-46.76.03-87.72-27.37-87.72-45.48a18.45 18.45 0 0 1 1.51-7.33C22.27 52 .5 55 .5 74.22c0 31.48 74.59 70.28 133.65 70.28 45.28 0 56.7-20.48 56.7-36.65 0-12.72-11-27.16-30.83-35.78" fill="#e00"></path>
+        <path d="M160 72.07c1.73 8.19 1.73 9.05 1.73 10.13 0 14-15.74 21.77-36.43 21.77-46.76.03-87.72-27.37-87.72-45.48a18.45 18.45 0 0 1 1.51-7.33l3.66-9.06a6.43 6.43 0 0 0-.22 1.9c0 9.22 36.3 39.45 84.94 39.45 12.51 0 30.61-2.58 30.61-17.46a14 14 0 0 0-.31-3.42Z"></path>
+        <path d="M579.74 92.8c0 11.89 7.15 17.67 20.19 17.67a52.11 52.11 0 0 0 11.89-1.68V95a24.84 24.84 0 0 1-7.68 1.16c-5.37 0-7.36-1.68-7.36-6.73V68.3h15.56V54.1h-15.56v-18l-17 3.68V54.1h-11.29v14.2h11.25Zm-53 .32c0-3.68 3.69-5.47 9.26-5.47a43.12 43.12 0 0 1 10.1 1.26v7.15a21.51 21.51 0 0 1-10.63 2.63c-5.46 0-8.73-2.1-8.73-5.57m5.2 17.56c6 0 10.84-1.26 15.36-4.31v3.37h16.82V74.08c0-13.56-9.14-21-24.39-21-8.52 0-16.94 2-26 6.1l6.1 12.52c6.52-2.74 12-4.42 16.83-4.42 7 0 10.62 2.73 10.62 8.31v2.73a49.53 49.53 0 0 0-12.62-1.58c-14.31 0-22.93 6-22.93 16.73 0 9.78 7.78 17.24 20.19 17.24m-92.44-.94h18.09V80.92h30.29v28.82H506V36.12h-18.07v28.29h-30.29V36.12h-18.09Zm-68.86-27.9c0-8 6.31-14.1 14.62-14.1A17.22 17.22 0 0 1 397 72.09v19.45A16.36 16.36 0 0 1 385.24 96c-8.2 0-14.62-6.1-14.62-14.09m26.61 27.87h16.83V32.44l-17 3.68v20.93a28.3 28.3 0 0 0-14.2-3.68c-16.19 0-28.92 12.51-28.92 28.5a28.25 28.25 0 0 0 28.4 28.6 25.12 25.12 0 0 0 14.93-4.83ZM320 67c5.36 0 9.88 3.47 11.67 8.83h-23.2C310.15 70.3 314.36 67 320 67m-28.67 15c0 16.2 13.25 28.82 30.28 28.82 9.36 0 16.2-2.53 23.25-8.42l-11.26-10c-2.63 2.74-6.52 4.21-11.14 4.21a14.39 14.39 0 0 1-13.68-8.83h39.65v-4.23c0-17.67-11.88-30.39-28.08-30.39a28.57 28.57 0 0 0-29 28.81M262 51.58c6 0 9.36 3.78 9.36 8.31S268 68.2 262 68.2h-17.89V51.58Zm-36 58.16h18.09V82.92h13.77l13.89 26.82H292l-16.2-29.45a22.27 22.27 0 0 0 13.88-20.72c0-13.25-10.41-23.45-26-23.45H226Z" fill="#fff"></path>
+      </svg>
+    </a>
+  </p>
+
+  <!-- Search -->
+  <pfe-navigation-item data-analytics-region="menu-utility" slot="search" pfe-icon="web-search" id="utility-search" pfelement="" class="PFElement" has_trigger="" has_tray="" full-width="" pfe-full-width="">
+    <div slot="trigger">
+      <a href="https://www.redhat.com/es/search" data-analytics-region="utility" data-analytics="Search" data-analytics-label="Search" tabindex="-1">Buscar</a>    </div>
+    <div slot="tray" hidden="">
+      <div class="pfe-navigation-item__tray--container">
+        <form class="search-form" autocomplete="off" action="https://www.redhat.com/es/search/node" method="post" id="redhat-www-solr-search-box" accept-charset="UTF-8"><div><div class="container-inline form-wrapper" id="edit-basic"><div class="form-item form-type-textfield form-item-keys">
+  <label class="element-invisible" for="edit-keys">Enter your keywords </label>
+ <input maxlength="128" size="15" placeholder="Introducir término de búsqueda" type="text" id="edit-keys" name="keys" value="" class="form-text">
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit" name="op" value="Buscar" class="form-submit"></div><div class="search-autocomplete__container"></div></div><input type="hidden" name="form_build_id" value="form-t09U7XH1wxQuUaLIUcS-DyxTHF56RBqi_YqxijHQMpo">
+<input type="hidden" name="form_id" value="redhat_www_solr_search_box">
+</div></form>      <div class="search-autocomplete__overlay"></div></div>
+    </div>
+  </pfe-navigation-item>
+  <form class="search-form" autocomplete="off" slot="mobile-search" hidden="" action="https://www.redhat.com/es/search/node" method="post" id="redhat-www-solr-search-box--2" accept-charset="UTF-8"><div><div class="container-inline form-wrapper" id="edit-basic--2"><div class="form-item form-type-textfield form-item-keys">
+  <label class="element-invisible" for="edit-keys--2">Enter your keywords </label>
+ <input maxlength="128" size="15" placeholder="Introducir término de búsqueda" type="text" id="edit-keys--2" name="keys" value="" class="form-text">
+</div>
+<div class="form-actions form-wrapper" id="edit-actions"><input type="submit" id="edit-submit--2" name="op" value="Buscar" class="form-submit"></div></div><input type="hidden" name="form_build_id" value="form-KSEU4n6-wYzZxa_catYywL3Z5tl0vPue6FLL2g1n9co">
+<input type="hidden" name="form_id" value="redhat_www_solr_search_box">
+</div></form>
+  <!-- Main navigation -->
+  <pfe-navigation-main pfelement="" role="navigation" aria-label="Main" show_content="">
+    <ul>
+              <li>
+          <pfe-navigation-item pfelement="" class="PFElement" has_trigger="" has_tray="" is_nested="" first="" full-width="" pfe-full-width="" parent_hidden="">
+            <div slot="trigger">
+              <a href="https://www.redhat.com/es/technologies" data-analytics-region="nav" data-analytics="Products" data-analytics-label="Products" data-analytics-level="1" tabindex="-1">Productos</a>
+            </div>
+            <div slot="tray" data-column="10311" hidden="">
+            </div>
+          </pfe-navigation-item>
+        </li>        <li>
+          <pfe-navigation-item pfelement="" class="PFElement" has_trigger="" has_tray="" is_nested="" full-width="" pfe-full-width="" parent_hidden="">
+            <div slot="trigger">
+              <a href="https://www.redhat.com/es/solutions" data-analytics-region="nav" data-analytics="Solutions" data-analytics-label="Solutions" data-analytics-level="1" tabindex="-1">Soluciones</a>
+            </div>
+            <div slot="tray" data-column="10331" hidden="">
+            </div>
+          </pfe-navigation-item>
+        </li>        <li>
+          <pfe-navigation-item pfelement="" class="PFElement" has_trigger="" has_tray="" is_nested="" full-width="" pfe-full-width="" parent_hidden="">
+            <div slot="trigger">
+              <a href="https://www.redhat.com/es/services" data-analytics-region="nav" data-analytics="Services &amp; support" data-analytics-label="Services &amp; support" data-analytics-level="1" tabindex="-1">Servicios y soporte</a>
+            </div>
+            <div slot="tray" data-column="138281" hidden="">
+            </div>
+          </pfe-navigation-item>
+        </li>        <li>
+          <pfe-navigation-item pfelement="" class="PFElement" has_trigger="" has_tray="" is_nested="" full-width="" pfe-full-width="" parent_hidden="">
+            <div slot="trigger">
+              <a href="https://www.redhat.com/es/resources" data-analytics-region="nav" data-analytics="Resources" data-analytics-label="Resources" data-analytics-level="1" tabindex="-1">Recursos</a>
+            </div>
+            <div slot="tray" data-column="169591" hidden="">
+            </div>
+          </pfe-navigation-item>
+        </li>        <li>
+          <pfe-navigation-item pfelement="" class="PFElement" has_trigger="" has_tray="" is_nested="" full-width="" pfe-full-width="" parent_hidden="">
+            <div slot="trigger">
+              <a href="https://www.redhat.com/es/about" data-analytics-region="nav" data-analytics="Red Hat &amp; open source" data-analytics-label="Red Hat &amp; open source" data-analytics-level="1" tabindex="-1">Red Hat &amp; open source</a>
+            </div>
+            <div slot="tray" data-column="10351" hidden="">
+            </div>
+          </pfe-navigation-item>
+        </li>      <!-- Mobile specific links -->
+              <li class="universal-nav-link" data-analytics-region="universal-navigation">
+          <pfe-navigation-item pfelement="" class="PFElement" has_trigger="" has_tray="" is_nested="" last="" full-width="" pfe-full-width="" parent_hidden="">
+            <div slot="trigger">
+              <a href="https://www.redhat.com/es/topics/middleware/what-is-ide#" data-analytics-category="Featured Links" data-analytics-text="Featured Links" data-analytics-level="1" tabindex="-1">Enlaces destacados</a>
+            </div>
+            <div slot="tray">
+              <div class="pfe-navigation-item__tray--container">
+                <div class="pfe-navigation-grid">
+                  <div class="pfe-navigation--column">
+                    <div class="pfe-link-list">
+                      <ul class="pfe-link-list--group">
+                                                                              <li class="pfe-link-list--group-item">
+                              <a href="https://www.redhat.com/es/products/open-hybrid-cloud" data-analytics-category="Featured Links" data-analytics-text="Open hybrid cloud">Nube híbrida abierta</a>
+                            </li>
+                                                                                                        <li class="pfe-link-list--group-item">
+                              <a href="https://access.redhat.com/" data-analytics-category="Featured Links" data-analytics-text="Support">Soporte</a>
+                            </li>
+                                                                                                        <li class="pfe-link-list--group-item">
+                              <a href="https://developers.redhat.com/" data-analytics-category="Featured Links" data-analytics-text="Developers">Desarrolladores</a>
+                            </li>
+                                                                                                        <li class="pfe-link-list--group-item">
+                              <a href="https://www.redhat.com/es/partners" data-analytics-category="Featured Links" data-analytics-text="Partners">Partners</a>
+                            </li>
+                                                                                                        <li class="pfe-link-list--group-item">
+                              <pfe-cta pfelement="" class="PFElement" has_link="">
+                                <a href="https://www.redhat.com/es/products/trials" data-analytics-category="Featured Links" data-analytics-text="Start a trial">Comenzar la prueba</a>
+                              </pfe-cta>
+                            </li>
+                                                                          </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </pfe-navigation-item>
+        </li>
+          </ul>
+  </pfe-navigation-main>
+
+  <!-- Language -->
+  <pfe-navigation-item data-analytics-region="menu-utility" slot="language" pfe-icon="web-globe" id="utility-globe" pfelement="" class="PFElement" has_trigger="" has_tray="" full-width="" pfe-full-width="">
+    <div slot="trigger">
+      <a href="https://www.redhat.com/es/selecciona-un-idioma" data-analytics-region="utility" data-analytics="Language" data-analytics-label="Language" tabindex="-1">Español</a>    </div>
+    <div slot="tray" hidden="">
+      <div class="pfe-navigation-item__tray--container">
+        <div class="language-picker">
+  <h3 class="pfe-headline-2">Seleccionar idioma</h3>
+  <ul><li class="pfe-headline-5"><a href="https://www.redhat.com/zh/topics/middleware/what-is-ide" class="language-link" xml:lang="zh" hreflang="zh" title="article | What is an IDE?[DO NOT OVERWRITE ZH PAGE]" aria-current="page">简体中文</a></li><li class="pfe-headline-5"><a href="https://www.redhat.com/en/topics/middleware/what-is-ide" class="language-link" xml:lang="en" hreflang="en" title="article | What is an IDE?" aria-current="page">English</a></li><li class="pfe-headline-5"><a href="https://www.redhat.com/fr/topics/middleware/what-is-ide" class="language-link" xml:lang="fr" hreflang="fr" title="article | What is an IDE? [DO NOT OVERWRITE FR PAGE]" aria-current="page">Français</a></li><li class="pfe-headline-5"><a href="https://www.redhat.com/de/topics/middleware/what-is-ide" class="language-link" xml:lang="de" hreflang="de" title="article | What is an IDE? [DO NOT OVERWRITE DE PAGE]" aria-current="page">Deutsch</a></li><li class="pfe-headline-5"><a href="https://www.redhat.com/it/topics/middleware/what-is-ide" class="language-link" xml:lang="it" hreflang="it" title="article | What is an IDE? [DO NOT OVERWRITE IT PAGE]" aria-current="page">Italiano</a></li><li class="pfe-headline-5"><a href="https://www.redhat.com/ja/topics/middleware/what-is-ide" class="language-link" xml:lang="ja" hreflang="ja" title="article | What is an IDE? [DO NOT OVERWRITE JA META]" aria-current="page">日本語</a></li><li class="pfe-headline-5"><a href="https://www.redhat.com/ko/topics/middleware/what-is-ide" class="language-link" xml:lang="ko" hreflang="ko" title="article | What is an IDE?" aria-current="page">한국어</a></li><li class="pfe-headline-5"><a href="https://www.redhat.com/pt-br/topics/middleware/what-is-ide" class="language-link" xml:lang="pt-br" hreflang="pt-br" title="article | What is an IDE? [DO NOT OVERWRITE PT-BR PAGE]" aria-current="page">Português</a></li><li class="pfe-headline-5"><a href="https://www.redhat.com/es/topics/middleware/what-is-ide" class="language-link active" xml:lang="es" hreflang="es" title="article | What is an IDE?" aria-current="page">Español</a></li></ul></div>      </div>
+    </div>
+  </pfe-navigation-item>
+  <div slot="mobile-language" pfe-icon="web-globe" data-analytics-region="utility" data-analytics="Language" data-analytics-label="Language" hidden=""><a id="pfe-modal--trigger" tabindex="0">Español</a></div>
+  <!-- Log in -->
+  <pfe-navigation-item data-analytics-region="menu-utility" slot="login" pfe-icon="web-user" id="utility-account" pfelement="" class="PFElement" has_trigger="" has_tray="" full-width="" pfe-full-width="">
+    <div slot="trigger">
+      <a href="https://sso.redhat.com/auth/realms/redhat-external/protocol/saml/clients/legacy-idp-servlets" class="rh-user-loggedout" data-analytics-region="utility" data-analytics="login" data-analytics-label="login" tabindex="-1">Iniciar sesión</a>          </div>
+    <div slot="tray" hidden="">
+      <div class="pfe-navigation-item__tray--container">
+        <section class="account-tray">
+  <header>
+    <div class="container">
+              
+                    <p class="rh-login-heading rh-user-loggedout">Iniciar sesión en su cuenta de Red Hat</p>
+          </div>
+  </header>
+  <div class="content">
+    <div class="container">
+      <section class="account-login rh-user-loggedout">
+        <div class="account-login-wrapper">
+                      <a href="https://sso.redhat.com/auth/realms/redhat-external/protocol/saml/clients/legacy-idp-servlets" id="redhat-account-login-link" class="account-login-link utility-user-login-link" data-analytics-region="utility" data-analytics="Log in" data-analytics-label="Log in">Iniciar sesión</a>                                <p>Con su cuenta de Red Hat puede acceder a su perfil de miembro y sus preferencias, además de a los siguientes servicios teniendo en cuenta su estado de cliente:</p>
+                                <div class="utility-user-additional-links"><div class="item-list"><ul><li class="first">Portal de clientes</li>
+<li class="last">Red Hat Connect para partners empresariales</li>
+</ul></div><div class="item-list"><ul><li class="first">Gestión de usuarios</li>
+<li class="last">Central de certificación</li>
+</ul></div></div>                  </div>
+        <div class="account-register-wrapper">
+                      <a href="https://sso.redhat.com/auth/realms/redhat-external/protocol/openid-connect/registrations?client_id=https%3A%2F%2Fwww.redhat.com%2Fwapps%2Fugc-oidc&amp;redirect_uri=https%3A%2F%2Fwww.redhat.com%2Fwapps%2Fugc%2Fprotected%2Faccount.html&amp;response_type=code&amp;scope=openid" class="account-register-link" data-analytics-region="utility" data-analytics="Register now" data-analytics-label="Register now">Regístrese ahora</a>                                <p class="account-register-heading">¿Aún no se ha registrado? Le ofrecemos varios motivos por los que debería hacerlo:</p><div class="item-list"><ul><li class="first">Consulte artículos de la base de conocimiento, gestione casos de soporte y suscripciones, descargue actualizaciones y mucho más desde una misma ubicación.</li>
+<li>Consulte los usuarios de la organización, y edite la información, preferencias y permisos de sus cuentas.</li>
+<li class="last">Gestione sus certificaciones de Red Hat, consulte el historial de exámenes y descargue logotipos y documentos relacionados con las certificaciones.</li>
+</ul></div>                  </div>
+      </section>
+      
+    </div>
+  </div>
+</section>
+      </div>
+    </div>
+  </pfe-navigation-item>
+
+  <!-- Contact us -->
+  <pfe-navigation-item data-analytics-region="menu-utility" slot="site-switcher" pfe-icon="local-talk-bubble" id="utility-contact" pfelement="" class="PFElement" has_trigger="" full-width="" pfe-full-width="">
+    <div slot="trigger">
+      <a href="https://www.redhat.com/es/contact" data-analytics-category="utility" data-analytics-text="contact" tabindex="-1">Contáctenos</a>
+    </div>
+  </pfe-navigation-item>
+
+  <a href="https://sso.redhat.com/auth/realms/redhat-external/protocol/saml/clients/legacy-idp-servlets" class="rh-user-loggedout" slot="mobile-login" pfe-icon="web-user" tabindex="-1" hidden="">Iniciar sesión / Registrar</a>  </pfe-navigation>
+
+<!-- Language switcher modal, must be outside the navigation component -->
+<pfe-modal class="language-picker PFElement" id="language-picker" hidden="" pfelement="" type="container" has_body="">
+  <h3 class="pfe-headline-2" id="pfe-sx2ddf5cq">Seleccionar idioma</h3>
+  <ul><li class="pfe-headline-5"><a href="https://www.redhat.com/zh/topics/middleware/what-is-ide" class="language-link" xml:lang="zh" hreflang="zh" title="article | What is an IDE?[DO NOT OVERWRITE ZH PAGE]" aria-current="page">简体中文</a></li><li class="pfe-headline-5"><a href="https://www.redhat.com/en/topics/middleware/what-is-ide" class="language-link" xml:lang="en" hreflang="en" title="article | What is an IDE?" aria-current="page">English</a></li><li class="pfe-headline-5"><a href="https://www.redhat.com/fr/topics/middleware/what-is-ide" class="language-link" xml:lang="fr" hreflang="fr" title="article | What is an IDE? [DO NOT OVERWRITE FR PAGE]" aria-current="page">Français</a></li><li class="pfe-headline-5"><a href="https://www.redhat.com/de/topics/middleware/what-is-ide" class="language-link" xml:lang="de" hreflang="de" title="article | What is an IDE? [DO NOT OVERWRITE DE PAGE]" aria-current="page">Deutsch</a></li><li class="pfe-headline-5"><a href="https://www.redhat.com/it/topics/middleware/what-is-ide" class="language-link" xml:lang="it" hreflang="it" title="article | What is an IDE? [DO NOT OVERWRITE IT PAGE]" aria-current="page">Italiano</a></li><li class="pfe-headline-5"><a href="https://www.redhat.com/ja/topics/middleware/what-is-ide" class="language-link" xml:lang="ja" hreflang="ja" title="article | What is an IDE? [DO NOT OVERWRITE JA META]" aria-current="page">日本語</a></li><li class="pfe-headline-5"><a href="https://www.redhat.com/ko/topics/middleware/what-is-ide" class="language-link" xml:lang="ko" hreflang="ko" title="article | What is an IDE?" aria-current="page">한국어</a></li><li class="pfe-headline-5"><a href="https://www.redhat.com/pt-br/topics/middleware/what-is-ide" class="language-link" xml:lang="pt-br" hreflang="pt-br" title="article | What is an IDE? [DO NOT OVERWRITE PT-BR PAGE]" aria-current="page">Português</a></li><li class="pfe-headline-5"><a href="https://www.redhat.com/es/topics/middleware/what-is-ide" class="language-link active" xml:lang="es" hreflang="es" title="article | What is an IDE?" aria-current="page">Español</a></li></ul></pfe-modal><span id="rh-main-content"></span>
+
+        
+<!-- Pattern | secondary_nav_bar -->
+
+
+
+
+    
+    
+    
+
+
+
+
+
+
+
+  <!-- Pattern | long_form_article -->
+
+            
+                                                                        
+    
+    
+        
+
+
+                                                                                                    
+    
+                        
+    
+
+<div class="rh-band--layout rh-article-hero" data-rh-content="long-form-article" id="article-hero" data-rh-band-collapse="reduced-bottom-only" data-rh-background="white"><div class="rh-band-container" data-rh-layout="stacked"><section class="rh-band-main" data-rh-layout="stacked"><header class="rh-band-header" data-rh-layout="only8 center" data-rh-theme=""><ul class="rh-navigation-link--component" data-rh-nav-type="breadcrumb"><li class="rh-navigation-link-container"><a class="rh-navigation-link-item" href="https://www.redhat.com/es/topics" title="central | temas">                                Temas                            </a></li><li class="rh-navigation-link-container"><a class="rh-navigation-link-item" href="https://www.redhat.com/es/topics/middleware" title="tema | el concepto de middleware">                                El concepto de middleware                            </a></li><li class="rh-navigation-link-container">
+                    El concepto de IDE                    </li></ul><div class="rh-band-header--component"><h1 class="rh-band-header-hero-headline">El concepto de IDE</h1></div><!-- Subpattern | Front_matter  --><div class="rh-front-matter--component" data-rh-layout="inline-horizontal" data-eq-pts="fm-md: 600" data-eq-state="fm-md"><div class="rh-front-matter-metadata"><span class="rh-front-matter-metadata-publish-date">Fecha de publicación  8 de Enero de 2019 </span><span class="rh-front-matter-metadata-separator">•</span><pfe-readtime class="rh-front-matter-metadata-readtime PFElement" for="article-contents" data-rh-hidden="sm" word-count="1201" wpm="218" template="%t minutos de lectura" lang="es" pfelement="" type="content">%t minutos de lectura</pfe-readtime></div><pfe-clipboard class="rh-front-matter-share PFElement" role="button" tabindex="0" copied-duration="3" copy-from="url" pfelement="" type="content"><span slot="text">Copiar URL</span></pfe-clipboard></div></header></section></div></div>
+
+                        
+
+
+    
+
+    <div class="rh-band--layout" data-rh-content="long-form-article" data-rh-band-collapse="top" data-rh-unique-id="5512141" data-rh-background="white"><div class="rh-band-container" data-rh-layout="tall-stacked"><section class="rh-band-main" data-rh-layout="tall-stacked"><div class="rh-band-content" data-rh-layout="2 8 2"><!-- Jump links navigation --><pfe-jump-links-nav id="article-nav" autobuild="" offset="120" sr-text="Secciones" color="lightest" accordion-collapse-timing="750" pfelement="" class="PFElement" type="content" style="top: 140px;"><ul class="pfe-jump-links-nav"><li class="pfe-jump-links-nav__item"><a class="pfe-jump-links-nav__link" href="https://www.redhat.com/es/topics/middleware/what-is-ide#descripci%C3%B3n-general" data-target="descripción-general">Descripción general</a></li><li class="pfe-jump-links-nav__item"><a class="pfe-jump-links-nav__link" href="https://www.redhat.com/es/topics/middleware/what-is-ide#%C2%BFpor-qu%C3%A9-los-desarrolladores-utilizan-los-ide" data-target="¿por-qué-los-desarrolladores-utilizan-los-ide">¿Por qué los desarrolladores utilizan los IDE?</a></li><li class="pfe-jump-links-nav__item"><a class="pfe-jump-links-nav__link" href="https://www.redhat.com/es/topics/middleware/what-is-ide#ide-conocidos" data-target="ide-conocidos">IDE conocidos</a></li></ul></pfe-jump-links-nav><!-- Group layout --><div class="rh-group--layout" id="article-contents" data-rh-layout="tall-stacked" data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620" data-eq-state="xxs-group xs-group sm-group md-group lg-group"><div class="rh-group-body" data-rh-layout="tall-stacked"><!-- Jump links panel --><pfe-jump-links-panel scrolltarget="article-nav" data-rh-layout="tall-stacked" pfelement="" class="PFElement" type="content"><!-- Subpattern | Article section --><!-- Group layout --><div class="rh-group--layout" data-rh-content-size="xl" data-rh-layout="stacked" data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620" data-eq-state="xxs-group xs-group sm-group md-group lg-group"><div class="rh-group-body" data-rh-layout="min-stacked"><header class="rh-standard-header--component"><div class="rh-standard-header-container"><h2 class="rh-standard-header-headline-medium pfe-jump-links-panel__section" id="descripción-general" nav-label="Descripción general">Descripción general</h2></div></header><div class="rh-generic--component" data-eq-pts="xxs-hr: 0, lg-hr: 450" data-eq-state="xxs-hr lg-hr"><p>Un entorno de desarrollo integrado (IDE) es un sistema de software para el diseño de aplicaciones que combina herramientas comunes para desarrolladores en una sola interfaz de usuario gráfica (GUI). Generalmente, un IDE cuenta con las siguientes características:</p><ul><li><strong>Editor de código fuente</strong>:&nbsp;editor de texto que ayuda a escribir el código de software con funciones como el resaltado de la sintaxis con indicaciones visuales, el relleno automático específico para el lenguaje y la comprobación de errores a medida que se escribe el código.</li><li><b></b><strong>Automatización de compilaciones locales</strong>:&nbsp;herramientas que automatizan tareas sencillas y repetitivas como parte de la creación de una compilación local del software para su uso por parte del desarrollador, como la compilación del código fuente de la computadora en un código binario, el empaquetado de ese código y la ejecución de pruebas automatizadas.</li><li><strong>Depurador</strong>:&nbsp;programa que sirve para probar otros programas y mostrar la ubicación de un error en el código original de forma gráfica.</li></ul><div class="rc-cta-secondary"><a href="https://developers.redhat.com/products/codeready-workspaces/download">Comience ya sin costo</a></div></div></div></div><!-- Subpattern | Article section --><!-- Group layout --><div class="rh-group--layout" data-rh-content-size="xl" data-rh-layout="stacked" data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620" data-eq-state="xxs-group xs-group sm-group md-group lg-group"><div class="rh-group-body" data-rh-layout="min-stacked"><header class="rh-standard-header--component"><div class="rh-standard-header-container"><h2 class="rh-standard-header-headline-medium pfe-jump-links-panel__section" id="¿por-qué-los-desarrolladores-utilizan-los-ide" nav-label="¿Por qué los desarrolladores utilizan los IDE?">¿Por qué los desarrolladores utilizan los IDE?</h2></div></header><div class="rh-generic--component" data-eq-pts="xxs-hr: 0, lg-hr: 450" data-eq-state="xxs-hr lg-hr"><p>Los IDE permiten que los desarrolladores comiencen a programar aplicaciones nuevas con rapidez, ya que no necesitan establecer ni integrar manualmente varias herramientas como parte del proceso de configuración. Tampoco es necesario que pasen horas aprendiendo a utilizar diferentes herramientas por separado, gracias a que todas están representadas en la misma área de trabajo. Esto resulta muy útil al incorporar desarrolladores nuevos, porque pueden confiar en un IDE para ponerse al día con los flujos de trabajo y las herramientas estándares de un equipo. De hecho, la mayoría de las características de los IDE están diseñadas para ahorrar tiempo, como el relleno inteligente y la generación automatizada del código, lo cual elimina la necesidad de escribir secuencias enteras de caracteres.</p><p>Otras funciones comunes del IDE se encargan de ayudar a los desarrolladores a organizar su flujo de trabajo y solucionar problemas. Los IDE analizan el código mientras se escribe, así que las fallas causadas por errores humanos se identifican en tiempo real. Gracias a que hay una sola GUI que representa todas las herramientas, los desarrolladores pueden ejecutar tareas sin tener que pasar de una aplicación a otra. El resaltado de sintaxis también es común en la mayoría de los IDE, y utiliza indicaciones visuales para distinguir la gramática en el editor de texto. Además, algunos IDE incluyen examinadores de objetos y clases, así como diagramas de jerarquía de clases para ciertos lenguajes.</p><p>Es posible desarrollar aplicaciones sin IDE, o que los desarrolladores básicamente diseñen su propio IDE integrando varias herramientas de forma manual con los editores de texto ligero como Vim o Emacs. Para algunos desarrolladores, el beneficio de este enfoque radica en el control y la personalización extrema que ofrece. Sin embargo, en un contexto empresarial, el tiempo que se ahorra, la estandarización del entorno y las funciones de <a href="https://www.redhat.com/es/topics/automation">automatización</a> de los IDE modernos normalmente superan las demás consideraciones.</p><p>Actualmente, la mayoría de los equipos de desarrollo de las empresas optan por un IDE preconfigurado que se adecue mejor a sus casos de uso específicos; por lo que la pregunta no es si conviene adoptar un IDE, sino cuál elegir.</p></div></div></div><!-- Subpattern | Article section --><!-- Group layout --><div class="rh-group--layout" data-rh-content-size="xl" data-rh-layout="stacked" data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620" data-eq-state="xxs-group xs-group sm-group md-group lg-group"><div class="rh-group-body" data-rh-layout="min-stacked"><header class="rh-standard-header--component"><div class="rh-standard-header-container"><h2 class="rh-standard-header-headline-medium pfe-jump-links-panel__section" id="ide-conocidos" nav-label="IDE conocidos">Tipos de IDE conocidos</h2></div></header><div class="rh-generic--component" data-eq-pts="xxs-hr: 0, lg-hr: 450" data-eq-state="xxs-hr lg-hr"><p>Hay varios casos prácticos comerciales y técnicos diferentes para los IDE, lo cual también significa que hay muchas opciones propietarias y <a href="https://www.redhat.com/es/about/open-source">open source</a> de estos entornos en el mercado. En general, hay una serie de características importantes que diferencian a los IDE:</p><ul><li><strong>Cantidad de lenguajes compatibles</strong>:&nbsp;algunos IDE son compatibles con un solo lenguaje, así que son mejores para un modelo de programación específico. Por ejemplo, IntelliJ es conocido principalmente como un IDE de Java. Otros IDE admiten una gran variedad de lenguajes de manera conjunta, como el IDE de Eclipse, que es compatible con Java, XML, Python, entre otros.</li><li><strong>Sistemas operativos compatibles</strong>:&nbsp;el sistema operativo de un desarrollador determinará qué tipos de IDE son viables (salvo que el IDE esté en la nube). Además, si la aplicación en desarrollo está destinada a un usuario final con un sistema operativo específico (como Android o iOS), esto condicionará aún más el IDE que se utilizará.</li><li><strong>Características de la automatización</strong>:&nbsp;si bien la mayoría de los IDE incluye tres&nbsp;funciones esenciales (el editor de texto, la automatización de las compilaciones y el depurador), muchos admiten funciones adicionales, como la reestructuración de las aplicaciones, la búsqueda de código y las herramientas de <a href="https://www.redhat.com/es/topics/devops/what-is-ci-cd">integración e implementación continuas</a> (CI/CD).</li><li><strong>Impacto en el rendimiento del sistema</strong>:&nbsp;si el desarrollador desea ejecutar al mismo tiempo varias aplicaciones que consumen mucha memoria, deberá considerar cuánta requiere el IDE.</li><li><strong>Plugins y extensiones</strong>:&nbsp;algunos IDE permiten personalizar los flujos de trabajo, de manera que se adapten a las necesidades y preferencias del desarrollador.&nbsp;</li></ul><h3>IDE para el desarrollo de aplicaciones móviles</h3><p>La creciente popularidad de las aplicaciones diseñadas para teléfonos inteligentes y tabletas influye en casi todos los sectores, así que muchas empresas deben desarrollar <a href="https://www.redhat.com/es/topics/mobile">aplicaciones móviles</a>, además de las aplicaciones web tradicionales. Uno de los factores clave en el desarrollo de aplicaciones móviles es la selección de la plataforma. Por ejemplo, si diseña una aplicación nueva para utilizarla en iOS, Android y una página web, será mejor comenzar con un IDE que sea compatible con varias plataformas en diversos sistemas operativos.&nbsp;</p><h3>IDE de nube</h3><p>Los IDE que se ofrecen como <a href="https://www.redhat.com/es/topics/cloud-computing/what-is-saas">software como servicio (SaaS)</a> en la <a href="https://www.redhat.com/es/topics/cloud">nube</a> brindan varios beneficios exclusivos, en comparación con los entornos de desarrollo locales. Por un lado, al igual que con cualquier oferta de SaaS, no es necesario descargar el sistema de software y configurar dependencias y entornos locales, lo cual permite que los desarrolladores comiencen a contribuir con los proyectos rápidamente. Esto también brinda estandarización en todos los entornos de los miembros del equipo, que permite solucionar el problema típico de que un elemento funcione bien en una computadora y no en otras. Por otro lado, como el entorno de desarrollo se gestiona de forma centralizada, ningún código se aloja en la computadora de un desarrollador en particular, por lo cual se eliminan los problemas relacionados con la seguridad y la propiedad intelectual.&nbsp;</p><p>El impacto de los procesos en los equipos locales también es diferente. Los procesos como la ejecución de compilaciones y las pruebas de conjunto de aplicaciones suelen consumir muchos recursos informáticos. Por eso es probable que los desarrolladores no puedan seguir utilizando las estaciones de trabajo mientras se ejecuta un proceso. Un IDE de SaaS puede distribuir las tareas de larga duración sin monopolizar los recursos informáticos de un equipo local. Por lo general, los IDE de nube no dependen de ninguna plataforma, lo cual posibilita su conexión con los diferentes proveedores de nube.</p></div></div><div class="rh-group-footer"><!-- Group layout --><div class="rh-group--layout" data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620" data-eq-state="xxs-group xs-group sm-group md-group lg-group"><div class="rh-group-body" data-rh-layout="buttons-flex-left-end"><span class="rh-cta--component" data-rh-cta-type="primary"><a class="rh-cta-link" href="https://www.redhat.com/es/solutions/cloud-native-development" title="Soluciones de desarrollo de aplicaciones en la nube" data-analytics-linktype="cta">Obtenga más información sobre el desarrollo en la nube</a></span></div></div></div></div></pfe-jump-links-panel></div></div></div><footer class="rh-band-footer" data-rh-layout="only8 flex center"><!-- Group layout --><div class="rh-group--layout" data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620" data-eq-state="xxs-group xs-group sm-group md-group lg-group"><div class="rh-group-body" data-rh-layout="stacked"><!-- Subpattern | standard_text --><!-- Group layout --><div class="rh-group--layout" data-rh-layout="stacked" data-eq-pts="xxs-group: 0, xs-group: 220, sm-group: 320, md-group: 420, lg-group: 620" data-eq-state="xxs-group xs-group sm-group md-group lg-group"><div class="rh-group-body" data-rh-layout="min-stacked"><header class="rh-standard-header--component" data-rh-align="left"><div class="rh-standard-header-container"><h3 class="rh-standard-header-headline-small">Capacitación gratuita</h3></div></header><div class="rh-generic--component" data-eq-pts="xxs-hr: 0, lg-hr: 450" data-rh-align="left" data-eq-state="xxs-hr lg-hr"><dl><dt><a href="https://www.redhat.com/es/services/training/do040-red-hat-agile-integration-technical-overview">Red&nbsp;Hat Agile&nbsp;Integration Technical&nbsp;Overview&nbsp;(DO040)</a></dt><dd>Aprenda los conceptos básicos de la integración ágil</dd><dt><a href="https://www.redhat.com/es/services/training/do092-developing-cloud-native-applications-microservices-architectures">Developing&nbsp;Cloud-Native&nbsp;Applications with Microservices&nbsp;Architectures&nbsp;(DO092)</a></dt><dd>Identifique las herramientas y los marcos adecuados para diseñar su arquitectura de microservicios</dd></dl></div></div></div></div></div></footer></section></div></div>  <!-- Pattern | custom_band -->
+    
+
+
+
+
+        
+    
+
+
+
+
+
+    
+
+
+
+
+    
+    <div class="rh-band--layout" data-rh-unique-id="5512221" data-rh-background-align="center-center" data-rh-background="gray"><div class="rh-band-container" data-rh-layout="stacked"><section class="rh-band-main" data-rh-layout="stacked"><header class="rh-band-header" data-rh-layout="only8 center" data-rh-theme=""><div class="rh-band-header--component" data-rh-align="center"><h3 class="rh-band-header-subsection-headline">El punto de partida para su próximo proyecto de desarrollo de aplicaciones</h3></div></header><div class="rh-band-content" data-rh-layout="spacious-gallery2 center"><!-- Subpattern | image_box --><!-- Card layout --><div class="rh-card--layout" data-rh-background="white" data-rh-theme="light" data-rh-bg-align="cover" data-rh-layout="stacked" data-eq-pts="xxs-box: 0, xs-box: 202, sm-box: 302, md-box: 402, lg-box: 502, xl-box: 602, xxl-box: 702, box-edges: 262" data-rh-justify="justify" data-eq-state="xxs-box xs-box box-edges sm-box md-box lg-box"><div class="rh-card-content" data-rh-layout="stacked"><div class="rh-image-embed--component" data-rh-align="logo-short" data-rh-img-=" "><div class="rh-image-embed-container"><a class="rh-image-embed-link" href="https://www.redhat.com/es/technologies/jboss-middleware/developer-studio"><div class="rh-image-embed-span"><img class="rh-image-embed-img" src="./El concepto de IDE_files/src_products_red-hat-codeready.svg" alt="Red Hat Codeready product logo" loading="lazy"></div></a></div></div><div class="rh-generic--component" data-eq-pts="xxs-hr: 0, lg-hr: 450" data-rh-align="left" data-eq-state="xxs-hr lg-hr"><p>Red&nbsp;Hat® CodeReady&nbsp;Studio es un IDE certificado y basado en Eclipse que permite desarrollar, probar e implementar microservicios, aplicaciones web avanzadas, aplicaciones web móviles y aplicaciones empresariales para realizar operaciones. Proporciona respaldo de calidad durante el ciclo de vida de desarrollo completo, y todo en una sola herramienta.</p></div></div><footer class="rh-card-footer"><span class="rh-cta--component" data-rh-align="left" data-rh-cta-type="secondary"><a class="rh-cta-link" href="https://www.redhat.com/es/technologies/jboss-middleware/developer-studio" title="Red Hat CodeReady Studio" data-analytics-linktype="cta">Obtenga más información</a></span></footer></div><!-- Subpattern | image_box --><!-- Card layout --><div class="rh-card--layout" data-rh-background="white" data-rh-theme="light" data-rh-bg-align="cover" data-rh-layout="stacked" data-eq-pts="xxs-box: 0, xs-box: 202, sm-box: 302, md-box: 402, lg-box: 502, xl-box: 602, xxl-box: 702, box-edges: 262" data-rh-justify="justify" data-eq-state="xxs-box xs-box box-edges sm-box md-box lg-box"><div class="rh-card-content" data-rh-layout="stacked"><div class="rh-image-embed--component" data-rh-align="logo-tall" data-rh-img-=" "><div class="rh-image-embed-container"><a class="rh-image-embed-link" href="https://developers.redhat.com/products/codeready-workspaces/overview"><div class="rh-image-embed-span"><img class="rh-image-embed-img" src="./El concepto de IDE_files/Logo-Red_Hat-CodeReady_Worspaces-A-Standard-RGB-720x206.png" loading="lazy"></div></a></div></div><div class="rh-generic--component" data-eq-pts="xxs-hr: 0, lg-hr: 450" data-rh-align="left" data-eq-state="xxs-hr lg-hr"><p>Red&nbsp;Hat CodeReady&nbsp;Workspaces se basa en el proyecto abierto Eclipse&nbsp;Che y brinda ambientes de desarrollo, los cuales incluyen todas las herramientas y las dependencias necesarias para programar, diseñar, probar, ejecutar y depurar aplicaciones. Todo el producto se ejecuta en un clúster de OpenShift alojado en las instalaciones o en la nube, y elimina la necesidad de instalar programas en un equipo local.</p></div></div><footer class="rh-card-footer"><span class="rh-cta--component" data-rh-align="left" data-rh-cta-type="secondary"><a class="rh-cta-link" href="https://developers.redhat.com/products/codeready-workspaces/overview" title="Red Hat CodeReady Workspaces" data-analytics-linktype="cta">Obtenga más información</a></span></footer></div></div></section></div></div>  <div class="patternbuilder-item patternbuilder-item--shared-content rh-band clearfix" data-rh-unique-id="5512251">
+    <div class="entity entity-paragraphs-item paragraphs-item-shared-content">
+  <div class="content">
+    <div class="field field-name-field-shared-content field-type-entityreference field-label-hidden">
+    <div class="field-items">
+          <div class="field-item even"><article class="node-shared">
+  
+        <!-- Pattern | raw_html -->
+
+<div class="rh-raw" data-rh-unique-id="5248281">
+        <div style="max-width:1140px; margin: 0 auto;display:flex;justify-content:center;padding: 80px 0;">
+<div class="newsletter-block" style="display:inline-flex;gap:32px;">
+<p></p><div class="media media-element-container media-default"><img class="newsletter-block-image" data-delta="1" src="./El concepto de IDE_files/illustration-mail.png" width="211" height="162" alt="Illustration - mail" title="Illustration - mail"></div><p></p>
+
+<div>
+<h4 class="pfe-title--2xl" style="margin-bottom:24px;">Get more content like this</h4>
+
+<p class="pfe-text--xl" style="padding-bottom:24px;">Sign up for our free newsletter, Red Hat Shares.</p>
+
+<div class="rc-cta-primary"><a href="https://engage.redhat.com/Global-Preference-Center?newsletter=RH-Shares&amp;intcmp=7013a000002w0nSAAQ">Continue</a></div>
+</div>
+</div>
+</div>
+<style>
+@media screen and (max-width:767px) {
+.newsletter-block { display: block !important; text-align:center;
+}
+.newsletter-block-image { margin-bottom: 24px;
+max-width: 160px;
+    height: auto;
+}
+.newsletter-block .media {
+    justify-content: center;
+}
+}
+</style>
+    </div>  </article>
+</div>
+      </div>
+</div>
+  </div>
+</div>
+  </div>
+
+  
+  
+</article>
+
+</div>
+  </div>
+        
+  </div>
+
+  <footer>
+      <section class="rc-footer-menu" data-rc-toggle-id="footer-extended">
+      <div class="container rc-footer-menu-container">
+        <nav class="row rc-footer-menu-about-items"><div class="rc-footer-menu-about-col foot-about foot-about"><div class="rc-footer-menu-list-header"><h3 class="rc-footer-menu-list-header-title">Acerca de Red Hat</h3></div><p class="rc-footer-menu-about-description">Somos el principal proveedor mundial de soluciones empresariales de código abierto con un enfoque impulsado por la comunidad que nos permite ofrecer tecnologías de alto rendimiento de Linux, nube, contenedor y Kubernetes. Le ayudamos a estandarizar en todos los entornos, a desarrollar aplicaciones nativas de la nube,  a integrar, automatizar, asegurar y gestionar entornos complejos gracias al soporte, training y servicios de consultoría galardonados.</p><ul class="rc-footer-menu-about-list"><li><a href="https://www.redhat.com/es/about/company">Información corporativa</a></li>
+<li><a href="https://www.redhat.com/es/jobs-overview">Oportunidades de empleo</a></li>
+<li><a href="https://www.redhat.com/es/about/office-locations">Sedes</a></li>
+<li><a href="https://www.redhat.com/es/about/development-model">Modelo de desarrollo </a></li>
+<li><a href="https://www.redhat.com/es/events">Eventos</a></li>
+<li><a href="https://www.redhat.com/es/about/newsroom">Sala de prensa</a></li>
+<li><a href="https://www.redhat.com/es/blog">Blog</a></li>
+<li><a href="https://coolstuff.redhat.com/">Cool Stuff Store</a></li>
+<li><a href="https://www.redhat.com/es/about/our-culture/diversity-equity-inclusion/statement">Diversidad, igualdad e inclusión</a></li>
+<li><span class="nolink"><span></span></span></li>
+</ul><div class="rc-footer-menu-social-links"><nav id="foot-social"><ul><li class="first leaf"><a href="http://www.linkedin.com/company/red-hat" class="icon-linkedin-sign"></a></li>
+<li class="leaf"><a href="http://www.youtube.com/user/RedHatVideos" class="icon-youtube"></a></li>
+<li class="leaf"><a href="https://www.facebook.com/redhatinc" class="icon-facebook"></a></li>
+<li class="last leaf"><a href="https://twitter.com/RedHat" class="icon-twitter"></a></li>
+</ul></nav></div></div>
+</nav>        <nav class="row rc-footer-menu-items"><div class="rc-footer-menu-col foot-products"><div class="rc-footer-menu-list-header" data-rc-state="open" data-rc-toggle-visuals="xxs xs sm " aria-expanded="true" tabindex="0"><span class="rc-footer-menu-list-header-indicator" data-rc-indicator-symbol="plus" data-rc-hidden-at="lg "></span><h3 class="rc-footer-menu-list-header-title">Productos</h3></div><ul class="rc-footer-menu-list" data-rc-toggle-target="xxs xs sm" data-rc-state="open" data-rc-toggle="hide" aria-expanded="true"><li><a href="https://www.redhat.com/es/technologies/management/ansible">Red Hat Ansible Automation Platform</a></li>
+<li><a href="https://www.redhat.com/es/technologies/linux-platforms/enterprise-linux">Red Hat Enterprise Linux</a></li>
+<li><a href="https://www.redhat.com/es/technologies/cloud-computing/openshift">Red Hat OpenShift</a></li>
+<li><a href="https://www.redhat.com/es/technologies/cloud-computing/openshift-container-storage">Red Hat OpenShift Data Foundation</a></li>
+<li><a href="https://www.redhat.com/es/technologies/linux-platforms/openstack-platform">Red Hat  OpenStack Platform</a></li>
+<li><a href="https://www.redhat.com/es/technologies/all-products">Ver todos los productos</a></li>
+</ul></div>
+<div class="rc-footer-menu-col foot-tools"><div class="rc-footer-menu-list-header" data-rc-state="open" data-rc-toggle-visuals="xxs xs sm " aria-expanded="true" tabindex="0"><span class="rc-footer-menu-list-header-indicator" data-rc-indicator-symbol="plus" data-rc-hidden-at="lg "></span><h3 class="rc-footer-menu-list-header-title">Herramientas</h3></div><ul class="rc-footer-menu-list" data-rc-toggle-target="xxs xs sm" data-rc-state="open" data-rc-toggle="hide" aria-expanded="true"><li><a href="https://sso.redhat.com/">Mi cuenta</a></li>
+<li><a href="https://access.redhat.com/">Soporte al cliente</a></li>
+<li><a href="https://connect.redhat.com/">Recursos para partners</a></li>
+<li><a href="https://developers.redhat.com/">Recursos para desarrolladores</a></li>
+<li><a href="https://www.redhat.com/es/services/training-and-certification">Training y Certificación</a></li>
+<li><a href="https://learn.redhat.com/">Learning community</a></li>
+<li><a href="https://catalog.redhat.com/">Red Hat Ecosystem Catalog</a></li>
+<li><a href="https://www.redhat.com/es/resources">Biblioteca de recursos</a></li>
+</ul></div>
+<div class="rc-footer-menu-col foot-try-buy-sell"><div class="rc-footer-menu-list-header" data-rc-state="open" data-rc-toggle-visuals="xxs xs sm " aria-expanded="true" tabindex="0"><span class="rc-footer-menu-list-header-indicator" data-rc-indicator-symbol="plus" data-rc-hidden-at="lg "></span><h3 class="rc-footer-menu-list-header-title">Comprar, vender, explorar</h3></div><ul class="rc-footer-menu-list" data-rc-toggle-target="xxs xs sm" data-rc-state="open" data-rc-toggle="hide" aria-expanded="true"><li><a href="https://www.redhat.com/es/products/trials">Centro de pruebas de producto</a></li>
+<li><a href="https://www.redhat.com/en/store">Red Hat Store</a></li>
+<li><a href="https://marketplace.redhat.com/">Red Hat Marketplace</a></li>
+<li><a href="https://www.redhat.com/es/about/japan-buy">Comprar en línea (Japón)</a></li>
+<li><a href="http://redhat.force.com/finder/">Busque un partner</a></li>
+<li><a href="https://www.redhat.com/es/contact">Comuníquese con la oficina de ventas</a></li>
+<li><a href="https://www.redhat.com/es/services/training-and-certification/contact-us">Comuníquese con Red Hat Training</a></li>
+<li><a href="https://www.redhat.com/es/services/consulting-overview#contact-us">Comuníquese con Red Hat Consulting</a></li>
+</ul></div>
+<div class="rc-footer-menu-col foot-communicate"><div class="rc-footer-menu-list-header" data-rc-state="open" data-rc-toggle-visuals="xxs xs sm " aria-expanded="true" tabindex="0"><span class="rc-footer-menu-list-header-indicator" data-rc-indicator-symbol="plus" data-rc-hidden-at="lg "></span><h3 class="rc-footer-menu-list-header-title">Comunicarse</h3></div><ul class="rc-footer-menu-list" data-rc-toggle-target="xxs xs sm" data-rc-state="open" data-rc-toggle="hide" aria-expanded="true"><li><a href="https://www.redhat.com/es/contact">Póngase en contacto con nosotros</a></li>
+<li><a href="https://www.redhat.com/es/comentarios-sobre-nuestro-sitio-web">Nos interesa sus comentarios</a></li>
+<li><a href="https://www.redhat.com/es/about/social">Redes sociales</a></li>
+<li><a href="https://engage.redhat.com/Global-Preference-Center?newsletter=RH-Shares&amp;intcmp=7016000000154xCAAQ">Red Hat newsletter</a></li>
+</ul></div>
+</nav>      </div>
+    </section>
+        <section class="rc-footer-traditional">
+      <div class="container rc-footer-traditional-container">
+        <section class="rc-footer-traditional-section">
+          <div class="rc-footer-traditional-logo">
+            <div class="row">
+              <a href="https://www.redhat.com/es">
+                <img src="./El concepto de IDE_files/logo.svg" class="screen" title="Red Hat">
+                </a>
+            </div>
+          </div>
+          <div id="legal" class="rc-footer-traditional-legal">
+            <div class="row">
+              <div class="copyright">© 2022 Red Hat, Inc.</div>
+              <div>
+                <ul class="menu"><li class="first leaf"><a href="https://www.redhat.com/es/about/privacy-policy">Declaración de privacidad</a></li>
+<li class="leaf"><a href="https://www.redhat.com/es/about/terms-use">Condiciones de uso</a></li>
+<li class="leaf"><a href="https://www.redhat.com/es/about/all-policies-guidelines">Todas las políticas y directrices</a></li>
+<li class="leaf"><a href="https://www.redhat.com/es/about/digital-accessibility">Accesibilidad digital</a></li>
+<li class="last leaf"><span id="teconsent" class="nolink" consent="0,1,2" aria-label="Open Cookie Preferences Modal" role="complementary" style="display: block; opacity: 1;">|<script src="./El concepto de IDE_files/v1.7-458" async="async" crossorigin="" importance="high"></script><a role="link" id="icon-id03459203359471865" tabindex="0" lang="es" aria-label="Preferencias sobre cookies" class="truste_cursor_pointer">Preferencias sobre cookies</a><script src="./El concepto de IDE_files/notice(1)" async="async" crossorigin="" importance="high"></script></span></li>
+</ul>              </div>
+            </div>
+                      </div>
+          <div class="rc-footer-traditional-event-logo">
+            <div id="block-block-5" class="block block-block block-footer-promote">
+
+      
+  <a href="https://www.redhat.com/summit"><img src="./El concepto de IDE_files/Logo-Red_Hat-Summit-A-Standard-RGB-02_0.svg" alt="Red Hat Summit" style="float: right;" width="72px"></a>
+</div>
+          </div>
+        </section>
+      </div>
+    </section>
+  </footer>
+        <script type="text/javascript" src="./El concepto de IDE_files/js__Wqei0xAeTP7iRc2zw0xoCasBBIyh1kCF4fU7LpOh3PE__zVrfOovDoGMapT3lFo2ebFG3Ez8gEOxRdOuoBNBb4jY__Is9Fzp2biSxt_Ho705y73DI3sFWDIEvxSghbp3egomo.js.descargar"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+  if (("undefined" !== typeof _satellite) && ("function" === typeof _satellite.pageBottom)) {
+      _satellite.pageBottom();
+  }
+//--><!]]>
+</script><script>_satellite["_runScript1"](function(event, target, Promise) {
+"use strict";
+
+window.LoadDriftWidget = function LoadDriftWidget() {
+  var t = window.driftt = window.drift = window.driftt || [];
+  if (!t.init) {
+    if (t.invoked) return void (window.console && console.error && console.error("Drift snippet included twice."));
+    t.invoked = !0, t.methods = [ "identify", "config", "track", "reset", "debug", "show", "ping", "page", "hide", "off", "on" ], 
+    t.factory = function(e) {
+      return function() {
+        var n = Array.prototype.slice.call(arguments);
+        return n.unshift(e), t.push(n), t;
+      };
+    }, t.methods.forEach(function(e) {
+      t[e] = t.factory(e);
+    }), t.load = function(t) {
+      var e = 3e5, n = Math.ceil(new Date() / e) * e, o = document.createElement("script");
+      o.type = "text/javascript", o.async = !0, o.crossorigin = "anonymous", o.src = "https://js.driftt.com/include/" + n + "/" + t + ".js";
+      var i = document.getElementsByTagName("script")[0];
+      i.parentNode.insertBefore(o, i);
+    };
+  }
+  drift.SNIPPET_VERSION = '0.3.1';
+  drift.load(_satellite.getVar("driftLanguage"));
+};
+
+});</script>
+    </div><div id="consent_blackbar" style="position: fixed;bottom: 0;width: 100%;z-index: 5;padding: 10px;"><style>  @font-face{    font-family:"RedHatDisplayBold";    src: url(https://consent.trustarc.com/get?name=RedHatDisplay-Bold.ttf) format("truetype");}@font-face{    font-family:"RedHatDisplayMedium";    src: url(https://consent.trustarc.com/get?name=RedHatDisplay-Medium.ttf) format("truetype");}@font-face{    font-family:"RedHatTextRegular";    src: url(https://consent.trustarc.com/get?name=RedHatText-Regular.ttf) format("truetype");}    #truste-consent-track{      background-color: #FFF;      max-width: 412px;      border-top: 2px solid #2B9AF3;      box-shadow: 0px 5px 15px rgb(0 0 0 / 20%);      position: fixed;      bottom: 32px;      left: 32px;      right: 32px;    }    .truste-banner {       margin: 0 auto;        padding: 16px;    }    	.truste-messageColumn {        font-family: RedHatTextRegular;        font-size: 14px;        color: #000;        margin: 0;         line-height: 21px;        padding: 0 0 0 32px;        position: relative;    }    .truste-buttonsColumn {       position: absolute;       right: 16px;       top: 11px;    }   .hidedesktop {		  display: none;      font-family:  RedHatTextRegular;      font-size: 14px;      cursor: pointer;      color: #00559c;    	text-decoration:none;	}  .truste-cookie-link {      font-family:  RedHatTextRegular;       cursor: pointer;      color: #0066CC;    	text-decoration: none;   }  .truste-info-icon {    width: 18px;    position: absolute;    left: 0;    top: 1px;}  span.truste-titlee {    color: #002952;    font-family: RedHatDisplayMedium;    display: block;    padding-bottom: 8px;    font-weight: 600;}img.truste-info-icon {    filter: invert(44%) sepia(82%) saturate(679%) hue-rotate(171deg) brightness(104%) contrast(91%);}button#truste-consent-button {    background: none;    border: none;    cursor: pointer;    padding: 0;    margin: 0;}button#truste-consent-button img {    filter: invert(45%) sepia(8%) saturate(284%) hue-rotate(173deg) brightness(92%) contrast(89%);    width: 10px;}        /* MEDIA QUERIES */    @media screen and (max-width: 768px){      #truste-consent-track{        max-width: 314px;        left: 24px;        right: 24px;        bottom: 24px;      }    }    @media screen and (max-width: 404px){      #truste-consent-track{        max-width: 100%;      }    }      @media screen and (max-width: 420px) {      	.hidedesktop {    		  display: inline;          font-size: 14px;          cursor: pointer;          color: #00559c;        	text-decoration:none;    	}   }  	@media screen and (min-width: 421px) and (max-width: 856px) {    	.hidedesktop {    		  display: inline;          font-size: 14px;          cursor: pointer;          color: #00559c;        	text-decoration:none;    	}        }      </style><div id="truste-consent-track" style="display: none; opacity: 0;">  <div id="truste-consent-content" class="truste-banner" style="overflow: hidden; max-width: 1200px; max-height:auto;">        <div id="truste-consent-text" class="truste-messageColumn"><img class="truste-info-icon" src="./El concepto de IDE_files/get"><span class="truste-titlee">Cómo utilizamos las cookies</span>Utilizamos cookies en nuestros sitios web para ofrecer nuestros servicios en línea. Los detalles sobre cómo utilizamos las cookies y cómo puede desactivarlas se indican en nuestra&nbsp;<a href="http://www.redhat.com/es/about/privacy-policy#cookies" target="_blank" class="truste-cookie-link">Declaración de Privacidad</a>. Al utilizar este sitio web, usted acepta nuestros términos de uso de cookies. </div>      <div id="truste-consent-buttons" class="truste-buttonsColumn">          <button id="truste-consent-button" type="button" class="truste-button1"><img alt="Close" src="./El concepto de IDE_files/get(1)"></button>        </div>         </div>    </div></div>
+  <noscript><img src="https://www.redhat.com/akam/11/pixel_4a7dce9b?a=dD1mYmE2MGIyMWE2ODMwNGQ0NTBlNTc3NjYyYTIyYjY3MTEwMmU0MjRhJmpzPW9mZg==" style="visibility: hidden; position: absolute; left: -999px; top: -999px;" /></noscript><script type="text/javascript" src="./El concepto de IDE_files/Ewc"></script>
+
+<script>_satellite["_runScript2"](function(event, target, Promise) {
+var dataLayerName="appEventData",reservedAttributes=["event"],internalDomains=[],downloadExtensions=["doc","docx","eps","jpg","png","svg","xls","ppt","pptx","pdf","xlsx","tab","csv","zip","txt","vsd","vxd","xml","js","css","rar","exe","wma","mov","avi","wmv","mp3","wav","m4v"],parseAttributes=function(t){var e={};for(var a in t.dataset)if("analytics"===a.substr(0,9)){var n=a.replace("analytics","");e[n[0]?n[0].toLocaleLowerCase()+n.slice(1):""]=t.dataset[a]}return e},addAttributes=function(t,e){return isJavascript(t)&&(e.isJavascript=!0),isDownload(t)&&(e.isDownload=!0),isCrossPropertyDomain(t)&&(e.isCrossPropertyDomain=!0,e.linkTypeName="cross property link"),isCta(t)&&(e.isCta=!0,e.linkTypeName="cta link"),isFooter(t)&&(e.isFooter=!0),isInternalCampaign(t)&&(e.isInternalCampaign=!0),isPromoSection(t)&&(e.isPromoSection=!0),e.targetHost=getHostName(t.href),e.internalCampaign=window._sdi.util.getQueryParam("icid",t.href)||window._sdi.util.getQueryParam("intcmp",t.href),e},getLinkText=function(t){return t.getAttribute("data-analytics-text")||t.getAttribute("sObjectId")||t.getAttribute("s-object-id")||t.getAttribute("sObjectID")||t.getAttribute("data-s-object-id")||t.innerText&&""!==t.innerText.trim()&&t.innerText.trim()||t.textContent&&""!==t.textContent.trim()&&t.textContent.trim()||t.querySelector("[alt]")&&t.querySelector("[alt]").getAttribute("alt")||t.querySelector("[title]")&&t.querySelector("[title]").getAttribute("title")||t.getAttribute("aria-label")||t.href||"unknown"},getRegions=function(t,e){if(e=e||[],!t)return e;var a=t.closest("[data-analytics-region]");return a?(e.push(a.dataset.analyticsRegion),e=getRegions(a.parentElement,e)):e},removeReservedAttributes=function(t){return reservedAttributes.forEach((function(e){delete t[e]})),t},buildDataObject=function(t,e,a){return a=a||getRegions(t),{event:buildEventName(t,e,a),linkInfo:Object.assign({href:t.href,regions:a.reverse().join("|"),text:getLinkText(t)},removeReservedAttributes(e))}},buildEventName=function(t,e,a){if(e.event)return e.event;var n={};if(a=a||getRegions(t))for(var i=0;i<a.length;i++)if(n[a[i]])return n[a[i]];return"Master Link Clicked"},findRootElement=function(t){if(t)return t.closest("a, [data-analytics-event]")},isJavascript=function(t){return new RegExp("^javascript:","i").test(t.href)},isDownload=function(t){return new RegExp(".("+downloadExtensions.join("|")+")$","i").test(t.href)},isInternalDomain=function(t){return new RegExp(internalDomains.join("|"),"i").test(t.href)},isExitLink=function(t){return!new RegExp(_satellite.getVar("exitExclusionArray").join("|"),"i").test(t.href)},isCrossPropertyDomain=function(t){return document.location.hostname!==getHostName(t.href)&&"access.cdn.redhat.com"!==getHostName(t.href)&&new RegExp(_satellite.getVar("redHatDomains").join("|"),"i").test(getHostName(t.href))},isCta=function(t){return!(!t.classList.contains("cta-primary")&&"primary"!=t.getAttribute("data-rh-cta-type")&&"primary"!=t.getAttribute("data-ux-cta-type"))},isTab=function(t){return!!(t.classList.contains('[data-toggle="tab"]')||t.classList.contains("pfe-accordion-header")||t.classList.contains('[role="tab"]')||t.classList.contains("ux-vtab-nav-link")||t.classList.contains("ux-tile-nav-link")||t.classList.contains("btn-brick")||t.classList.contains("ux-htab-nav-link")||t.classList.contains("ux-horizontal-tab-nav-link")||t.classList.contains("ux-oss-hub-filter-type-text")||t.classList.contains("ux-htabb-nav-link")||"tab"==t.getAttribute("data-toggle")||"PFE-ACCORDION-HEADER"==t.tagName||"tab"==t.getAttribute("role"))},isFooter=function(t){return el=t.closest("footer"),"undefined"!=typeof el&&null!=el},isInternalCampaign=function(t){return(""!=window._sdi.util.getQueryParam("icid",t.href)||""!=window._sdi.util.getQueryParam("intcmp",t.href))&&(linkRole=t.getAttribute("role")||"",_satellite.logger.log("isInternalCampaign: linkRole:",linkRole),"tab"!==linkRole||void 0)},isPromoSection=function(t){return el=t.closest("div.band-hero"),"undefined"!=typeof el&&null!=el},getHostName=function(e){return t=document.createElement("a"),t.href=e,t.hostname},pushEvent=function(t){window.appEventData=window.appEventData||[],console.info("Pushing to the dataLayer",t);var e=window[dataLayerName];Array.isArray(e)&&e.push(t)};window.analyticsHelper=window.analyticsHelper||{},window.analyticsHelper.parseCustomEvent=function(t,e,a){_satellite.logger.log("target:",t);var n=parseAttributes(t),i=null,r=getRegions(t);if(e)i=e.closest("[data-analytics-region]");else{var s=t.getRootNode();s&&s.host&&(i=t.getRootNode().host.closest("[data-analytics-region]"))}i&&(r=r.concat(getRegions(i))),"expand"===a&&r.includes("mega menu")&&(n.event="Mega Menu Expanded"),"expand"===a&&r.includes("site-switcher")&&(n.event="Site Switcher Expanded"),"true"!==n.istab&&"true"!==n.isTab||(n.event="Tab Link Clicked",tabHref=t.getAttribute("href")||getLinkText(t)||"",tabHref=tabHref.trim(),n.tabHref=tabHref),_satellite.logger.log("attributes",n),_satellite.logger.log("event type",a),_satellite.logger.log("regions",r),n=addAttributes(t,n);var o=buildDataObject(t,n,r);o.event&&pushEvent(o)};var clickHandler=function(t){if(!(t.target&&t.target.tagName&&t.target.tagName.indexOf("-")>0)){var e=findRootElement(t.target);if(e){var a=parseAttributes(e);isTab(e)&&(a.event="Tab Link Clicked",tabHref=e.getAttribute("href")||getLinkText(e)||"",tabHref=tabHref.trim(),a.tabHref=tabHref),a=addAttributes(e,a);var n=buildDataObject(e,a);n.event&&pushEvent(n)}}};document.addEventListener("click",clickHandler,!0),document.addEventListener("pfe-tabs:shown-tab",(function(t){if(window.analyticsHelper&&"function"==typeof window.analyticsHelper.parseCustomEvent){var e=t.target.closest("pfe-content-set")||t.target.closest("pfe-tabs"),a=null;if(e){if("PFE-CONTENT-SET"===e.tagName){var n=t.detail.tab.querySelector("slot");if(n)(a=e.getSlot(n.getAttribute("name")))&&(a=e.getSlot(t.detail.tab.querySelector("slot").getAttribute("name"))[0])}else a=t.detail.tab;a?(a.setAttribute("data-analytics-isTab","true"),_satellite.logger.info("Called pfe-tabs:shown-tab:parseCustomEvent clicked"),window.analyticsHelper.parseCustomEvent(a,e,"clicked")):console.warn("Wasn't able to find the tabTextWrapper")}else console.warn("Wasn't able to find the componentParent")}})),document.addEventListener("pfe-accordion:change",(function(t){if(window.analyticsHelper&&"function"==typeof window.analyticsHelper.parseCustomEvent){var e=t.target.closest("pfe-content-set")||t.target.closest("pfe-accordion");if(t.detail.expanded){var a="PFE-ACCORDION-HEADER"===t.target.tagName?t.target:t.path[0];if(e&&"PFE-CONTENT-SET"===e.tagName){var n=a.querySelector("slot");if(n){var i=e.getSlot(n.getAttribute("name"));i&&i[0]&&(a=i[0])}}a&&a.setAttribute("data-analytics-isTab","true"),_satellite.logger.info("Called pfe-accordion:change:parseCustomEvent expand"),window.analyticsHelper.parseCustomEvent(a,e,"expand")}}}));
+});</script><div id="ZN_bCxD2jjWRr4bfVQ"></div><script type="text/javascript" src="./El concepto de IDE_files/saved_resource"></script><script>_satellite["_runScript3"](function(event, target, Promise) {
+if("yes"==_satellite.getVar("tagsAllowedFunc")&&"yes"==_satellite.getVar("rhMarketingLoaded")){var scCid=_satellite.cookie.get("rh_omni_tc");if(""!==scCid&&void 0!==scCid)for(var updatedLink="",anchors=window.document.getElementsByTagName("a"),i=0;i<anchors.length;i++)(anchors[i].href.indexOf("vts.inxpo.com")>-1||anchors[i].href.indexOf("onlinexperiences.com")>-1)&&-1==anchors[i].href.toLowerCase().indexOf("affiliatedata=")&&""!==(updatedLink=window._sdi.util.appendQuery(anchors[i].href,"AffiliateData",scCid))&&(anchors[i].href=updatedLink)}
+});</script><script>_satellite["_runScript4"](function(event, target, Promise) {
+if("yes"==_satellite.getVar("tagsAllowedFunc")){var scCid=_satellite.cookie.get("rh_omni_tc");if(""!==scCid)for(var updatedLink="",anchors=window.document.getElementsByTagName("a"),i=0;i<anchors.length;i++)anchors[i].href.indexOf("redhat-forum.jp")>-1&&-1==anchors[i].href.toLowerCase().indexOf("sc_cid=")&&""!==(updatedLink=window._sdi.util.appendQuery(anchors[i].href,"sc_cid",scCid))&&(anchors[i].href=updatedLink)}
+});</script><script>_satellite["_runScript5"](function(event, target, Promise) {
+window.setTimeout((function(){window.sendCustomEvent&&sendCustomEvent("afterWindowLoaded")}),1e3);
+});</script><script>_satellite["_runScript6"](function(event, target, Promise) {
+"yes"==_satellite.getVar("tagsAllowedFunc")&&"undefined"!=typeof jQuery&&jQuery(document).ajaxSuccess((function(){if("yes"==_satellite.getVar("formSubmitted")){var e={eventInfo:{eventName:"formSubmit",eventAction:"formSubmission",formStep:"success",formId:_satellite.getVar("formID"),formName:_satellite.getVar("formName"),formType:"",offerId:_satellite.getVar("formOfferID"),timeStamp:new Date,processed:{adobeAnalytics:!1}}},t=window.digitalData=window.digitalData||{};t.events=t.events||[],t.events.push(e),window.sendCustomEvent&&sendCustomEvent("formEvent"),_satellite.setVar("formSubmitted","no")}}));
+});</script><script>_satellite["_runScript7"](function(event, target, Promise) {
+if("yes"==_satellite.getVar("tagsAllowedFunc")&&"yes"==_satellite.getVar("rhMarketingLoaded")){var scCid=_satellite.cookie.get("rh_omni_tc");if(""!==scCid&&void 0!==scCid)for(var updatedLink="",anchors=window.document.getElementsByTagName("a"),i=0;i<anchors.length;i++)(anchors[i].href.indexOf("vts.inxpo.com")>-1||anchors[i].href.indexOf("onlinexperiences.com")>-1)&&-1==anchors[i].href.toLowerCase().indexOf("affiliatedata=")&&""!==(updatedLink=window._sdi.util.appendQuery(anchors[i].href,"AffiliateData",scCid))&&(anchors[i].href=updatedLink)}
+});</script><iframe height="0" width="0" style="display: none; visibility: hidden;" src="./El concepto de IDE_files/activityi.html"></iframe><script>
+  window._6si = window._6si || [];
+  window._6si.push(['enableEventTracking', true]);
+  window._6si.push(['setEpsilonKey', 'bed6593c006fdc5b13bf8818540b1889c2cc8aa7']);
+  window._6si.push(['enableCompanyDetails', true]);
+  window._6si.push(['setToken', 'ffd59e72f72673f737d105cd0c81e7e4']);
+  window._6si.push(['setEndpoint', 'b.6sc.co']);
+
+  window._6si.push(['setCustomMetatags', [
+    {name: 'taxonomy-challenge'},
+    {name: 'taxonomy-industry'},
+    {name: 'taxonomy-category'},
+    {name: 'taxonomy-business-challenge'},
+    {name: 'taxonomy-product'},
+    {name: 'taxonomy-product-line'},
+    {name: 'taxonomy-region'},
+    {name: 'taxonomy-resource-type'},
+    {name: 'taxonomy-page-sub-type'},
+    {name: 'taxonomy-topic'},
+    {name: 'taxonomy-meta-hreflang'},
+    {name: 'taxonomy-event-type'},
+    {name: 'taxonomy-services'},
+  ]]);
+
+  if (typeof window.drift == 'function') {
+      window.drift.on("message:sent", function(a) {
+          window._6si.push(["send", "chat",
+              {
+                  event_id: a.conversationId,
+                  event_value: "Drift Message Sent By User"
+              }
+          ])
+      });
+  }
+
+  (function() {
+      var gd = document.createElement('script');
+      gd.type = 'text/javascript';
+      gd.async = true;
+      gd.src = '//j.6sc.co/6si.min.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gd, s);
+  })();
+</script><div style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon213624417713"><img style="width:0px; height:0px; display:none; visibility:hidden;" id="batBeacon138181419362" width="0" height="0" alt="" src="./El concepto de IDE_files/0"></div><script src="./El concepto de IDE_files/adsct" type="text/javascript"></script><div id="consent_blackbar" style="position: fixed;bottom: 0;width: 100%;z-index: 5;padding: 10px;"></div><script>
+  window._6si = window._6si || [];
+  window._6si.push(['enableEventTracking', true]);
+  window._6si.push(['setEpsilonKey', 'bed6593c006fdc5b13bf8818540b1889c2cc8aa7']);
+  window._6si.push(['enableCompanyDetails', true]);
+  window._6si.push(['setToken', 'ffd59e72f72673f737d105cd0c81e7e4']);
+  window._6si.push(['setEndpoint', 'b.6sc.co']);
+
+  window._6si.push(['setCustomMetatags', [
+    {name: 'taxonomy-challenge'},
+    {name: 'taxonomy-industry'},
+    {name: 'taxonomy-category'},
+    {name: 'taxonomy-business-challenge'},
+    {name: 'taxonomy-product'},
+    {name: 'taxonomy-product-line'},
+    {name: 'taxonomy-region'},
+    {name: 'taxonomy-resource-type'},
+    {name: 'taxonomy-page-sub-type'},
+    {name: 'taxonomy-topic'},
+    {name: 'taxonomy-meta-hreflang'},
+    {name: 'taxonomy-event-type'},
+    {name: 'taxonomy-services'},
+  ]]);
+
+  if (typeof window.drift == 'function') {
+      window.drift.on("message:sent", function(a) {
+          window._6si.push(["send", "chat",
+              {
+                  event_id: a.conversationId,
+                  event_value: "Drift Message Sent By User"
+              }
+          ])
+      });
+  }
+
+  (function() {
+      var gd = document.createElement('script');
+      gd.type = 'text/javascript';
+      gd.async = true;
+      gd.src = '//j.6sc.co/6si.min.js';
+      var s = document.getElementsByTagName('script')[0];
+      s.parentNode.insertBefore(gd, s);
+  })();
+</script><iframe height="0" width="0" style="display: none; visibility: hidden;" src="./El concepto de IDE_files/activityi(1).html"></iframe><script src="./El concepto de IDE_files/adsct(1)" type="text/javascript"></script><script src="./El concepto de IDE_files/adsct(2)" type="text/javascript"></script><script src="./El concepto de IDE_files/adsct(3)" type="text/javascript"></script><iframe name="_hjRemoteVarsFrame" title="_hjRemoteVarsFrame" id="_hjRemoteVarsFrame" src="./El concepto de IDE_files/box-acca23410e696f2ca3087d947271c3d0.html" style="display: none !important; width: 1px !important; height: 1px !important; opacity: 0 !important; pointer-events: none !important;"></iframe><div id="drift-frame-chat" class="drift-conductor-item drift-frame-chat drift-frame-chat-align-right with-transition drift-has-chat" style="right: 12px; width: 400px !important; max-width: none; position: fixed; z-index: 2147483647; max-height: 0px; bottom: 88px; visibility: hidden; min-width: 320px; height: 100% !important; opacity: 0;" aria-hidden="true" tabindex="-1"><iframe class="drift-frame-chat" scrolling="no" title="Drift Widget Chat Window" allow="autoplay; encrypted-media; fullscreen;" frameborder="0" src="./El concepto de IDE_files/chat.html" style="background: transparent; width: 400px !important; max-width: 100%; height: 100%; border: none;" aria-hidden="true" tabindex="-1"></iframe></div><div id="drift-frame-controller" class="drift-conductor-item drift-frame-controller drift-frame-controller-align-right drift-has-chat" style="right: 24px; width: 356.109px; max-width: none; position: fixed; z-index: 2147483647; height: 80px; bottom: 24px;"><iframe class="drift-frame-controller" scrolling="no" title="Drift Widget Icon" allow="autoplay; encrypted-media; fullscreen;" frameborder="0" src="./El concepto de IDE_files/core.html" style="background: transparent; width: 356.109px; max-width: 100%; height: 80px; border: none;"></iframe></div></body></html>
